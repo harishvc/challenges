@@ -19,7 +19,7 @@
 #5. Reference:
 #http://www.purplemath.com/modules/factzero.htm
 #http://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/
-#6. Code:
+#6. Code: Python 3.4.3
 
 #Source: http://stackoverflow.com/questions/1174505/counting-trailing-zeros-of-numbers-resulted-from-factorial
 def countFives(n):
@@ -27,7 +27,7 @@ def countFives(n):
     m = 5  
     while m <= n: 
         fives = fives + int (n/m)
-        m = m*5  #multiple of 5
+        m = m*5  #handle extra 5's in 25, 125
     return fives
 
 #Iterative
