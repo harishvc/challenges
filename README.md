@@ -3,9 +3,9 @@ Technical challenges
 
 Questions from numerous Computer Science topics. Solutions are in Python version 3.4.3
 
-#Table of Contents 
+##Table of Contents 
 
-## Arrays
+### Arrays
 1. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py)
 
 ## Basics
@@ -16,24 +16,24 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 5. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
 
 
-## Binary Trees
+### Binary Trees
 1. [DFT](https://github.com/harishvc/challenges/blob/master/tree-traversal.py)
 
-## Linked Lists
+### Linked Lists
 1. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
 
-## Primitives
+### Primitives
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
 
-## Sorting
+### Sorting
 1. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
 
-## Strings
+### Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
 2. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
 
 
-#Related Links
+##Related Links
 * [How to avoid and outlive layoffs as a programmer?](http://www.coderust.com/blog/2014/07/20/avoid_outlive_programmer_layoffs/)
 * [Andrei Simionescu GitHub Respository with code and numerous online resources](https://github.com/andreis/interview)
 * [Recent interview questions@Career Cup](http://www.careercup.com/page)
