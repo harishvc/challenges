@@ -19,8 +19,9 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 ### Binary Trees
 1. [DFT](https://github.com/harishvc/challenges/blob/master/tree-traversal.py)
 
-### Linked Lists
+### Linked Lists, Stacks and Queues
 1. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
+2. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
 
 ### Primitives
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
