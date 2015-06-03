@@ -15,6 +15,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 4. [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
 5. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
 6. [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+7. [Matrix introduction](https://github.com/harishvc/challenges/blob/master/matrix-introduction.py)
 
 ### Binary Trees
 1. [DFT](https://github.com/harishvc/challenges/blob/master/tree-traversal.py)
