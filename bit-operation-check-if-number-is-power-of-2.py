@@ -6,8 +6,8 @@
 input = [8,16,24,25,30,100]
 for n in input:
     if (n & n-1 == 0):
-        print(n,":",True)
+        print(n,True)
     else:
-        print(n,":",False)
+        print(n,False)
 
 
