@@ -14,7 +14,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 3. [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
 4. [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
 5. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
-
+6. [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 
 ### Binary Trees
 1. [DFT](https://github.com/harishvc/challenges/blob/master/tree-traversal.py)
@@ -23,8 +23,12 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 1. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
 2. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
 
-### Primitives
+### Bitwise operations
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
+2. [Bitwise addition](https://github.com/harishvc/challenges/blob/master/bit-operation-add.py)
+3. [Bitwise subtraction](https://github.com/harishvc/challenges/blob/master/bit-operation-subtract.py)
+4. [Given a number n, check whether the number is a power of 2](https://github.com/harishvc/challenges/blob/master/bit-operation-check-if-number-is-power-of-2.py)
+5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)
 
 ### Sorting
 1. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
