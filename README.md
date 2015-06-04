@@ -38,6 +38,9 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
 2. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
 
+###Algorithms
+1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py)
+
 
 ##Related Links
 * [How to avoid and outlive layoffs as a programmer?](http://www.coderust.com/blog/2014/07/20/avoid_outlive_programmer_layoffs/)
