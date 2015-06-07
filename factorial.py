@@ -13,13 +13,13 @@ def IFactorial(n):
 def RFactorial(n):
 	return 1 if (n < 1) else n * RFactorial(n-1)
 	
-print "### Find factorial ###"
+print("### Find factorial ###")
 while True:
 	try:
-		x = int(raw_input("Enter number: ")) 
+		x = int(input("Enter number: ")) 
 		break
 	except:
-		print "Invalid number, please try again"
+		print ("Invalid number, please try again")
 
 #Solution 1: Iterative
 print ("%d!=%s" % (x,"{:,}".format(IFactorial(x))))

@@ -18,6 +18,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 10. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
 11. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 12. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
+13. [Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
 
 ### Binary Trees, BST and Heaps
 1.  [Binary Trees DF & BF traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
@@ -37,6 +38,13 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 ### Linked Lists, Stacks and Queues
 1. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
 2. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
+3. [Stack implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
+4. [Stack implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
+5. [Stack implementation using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
+6. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
+7. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
+8. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
+
 
 ### Sorting
 1. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
