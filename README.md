@@ -19,8 +19,8 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 11. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
 12. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 13. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
-14. [Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
-15. [Sum of range of numbers](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)
+14. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
+15. [Sum of numbers](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)
 
 ### Binary Trees, BST and Heaps
 1.  [Binary Trees DF & BF traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
@@ -36,6 +36,8 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 11. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py)
 12. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)
 13. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
+14. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)
+
 
 ### Linked Lists, Stacks and Queues
 1. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
@@ -68,7 +70,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 
 ###Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py)
-2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)]
+2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
 3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
 4. [Sort Algorithms](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
 5  [Given a dictionary and two words find path from one word to another such that all intermediate words are also in the dictionary. At each time only one character can change](https://github.com/harishvc/challenges/blob/master/transform-word.py)
