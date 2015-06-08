@@ -73,7 +73,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
 3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
 4. [Sort Algorithms](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
-5  [Given a dictionary and two words find path from one word to another such that all intermediate words are also in the dictionary. At each time only one character can change](https://github.com/harishvc/challenges/blob/master/transform-word.py)
+5. [Given a dictionary and two words find path from one word to another such that all intermediate words are also in the dictionary. At each time only one character can change](https://github.com/harishvc/challenges/blob/master/transform-word.py)
 6. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
 
 
