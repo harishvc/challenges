@@ -11,14 +11,16 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 3.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
 4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
 5.  [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
-6.  [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-7.  [Matrix Introduction](https://github.com/harishvc/challenges/blob/master/matrix-introduction.py)
-8.  [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
-9.  [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
-10. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
-11. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-12. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
-13. [Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
+6.  [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py)
+7.  [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+8.  [Matrix Introduction](https://github.com/harishvc/challenges/blob/master/matrix-introduction.py)
+9.  [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
+10. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
+11. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
+12. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+13. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
+14. [Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
+15. [Sum of range of numbers](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)
 
 ### Binary Trees, BST and Heaps
 1.  [Binary Trees DF & BF traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
@@ -59,10 +61,19 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 6. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py)
 7. [Rotate array](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
 8. [Two dimentional array introduction](https://github.com/harishvc/challenges/blob/master/two-dimensional-array.py)
+9. [Randomize array elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
+10. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
+11. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
+
 
 ###Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py)
-2. [Sort Algorithms](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
+2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)]
+3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
+4. [Sort Algorithms](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
+5  [Given a dictionary and two words find path from one word to another such that all intermediate words are also in the dictionary. At each time only one character can change](https://github.com/harishvc/challenges/blob/master/transform-word.py)
+6. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
+
 
 ### Bitwise operations
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
@@ -79,3 +90,5 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 * Data Structure and Algorithmic Thinking with Python: [Book@Amazon](http://www.amazon.com/dp/8192107590/ref=as_li_ss_til?tag=caree0ea-20&camp=213381&creative=390973&linkCode=as4&creativeASIN=819210754X&adid=1PJGG64MJE0JQ00FTD4E&&ref-refURL=http://careermonk.com/?qa=buy),
   [GitHub Repository](https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython)
 * [The Python Tutorial (version 3.4)](https://docs.python.org/3.4/tutorial/index.html)
+* [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)
+* [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)
