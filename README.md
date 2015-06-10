@@ -66,7 +66,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 9. [Randomize array elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
 10. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
 11. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
-
+12. [Find distinct elements in a list](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py)
 
 ###Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py)
