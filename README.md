@@ -6,7 +6,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 ##Table of Contents 
 
 ## Basics
-1.  [Fibonacci series](https://github.com/harishvc/challenges/blob/master/fibonacci.py)
+1.  [Given a list of integers return a list of integers that only occurred once in the argument (or print them)](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py)
 2.  [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/check-matching-parenthesis.py)
 3.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
 4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
@@ -21,6 +21,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 13. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
 14. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
 15. [Sum of numbers](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)
+16.  [Fibonacci series](https://github.com/harishvc/challenges/blob/master/fibonacci.py)
 
 ### Binary Trees, BST and Heaps
 1.  [Binary Trees DF & BF traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
@@ -66,7 +67,6 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 9. [Randomize array elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
 10. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
 11. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
-12. [Find distinct elements in a list](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py)
 
 ###Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py)
@@ -86,6 +86,8 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 
 ##Related Links
 * [How to avoid and outlive layoffs as a programmer?](http://www.coderust.com/blog/2014/07/20/avoid_outlive_programmer_layoffs/)
+* [How do I prepare for a software engineering job interview? - Discussion on Quora](http://www.quora.com/How-do-I-prepare-for-a-software-engineering-job-interview)
+* [Data Structure tutorials from Eternally Confuzzled](http://eternallyconfuzzled.com/Tutorials.aspx)
 * [Andrei Simionescu GitHub Respository with code and numerous online resources](https://github.com/andreis/interview)
 * [Recent interview questions@Career Cup](http://www.careercup.com/page)
 * [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
