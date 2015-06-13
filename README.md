@@ -6,7 +6,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 ##Table of Contents 
 
 ## Basics
-1.  [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb:
+1.  [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup>
 2.  [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/check-matching-parenthesis.py)
 3.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
 4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
@@ -41,17 +41,17 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 3.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
 4.  [Maximum depth of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
 5.  [Find # of leaves, half nodes and nodes in a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
-6.  [Level order &amp; reverse level order](https://github.com/harishvc/challenges/blob/master/binary-tree-level-order-reverse.py) :clap:
+6.  [Level order &amp; reverse level order](https://github.com/harishvc/challenges/blob/master/binary-tree-level-order-reverse.py) <sup>:clap:</sup>
 7.  [Find diameter (width) of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py) :clap:
 8.  [Find the deepest node in Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
-10. [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :clap:
-11. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :clap:
+10. [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
+11. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
 12. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
-13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :clap:
+13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
 14. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
 15. [Binary Search Tree (BST) Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)
 16. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:
-17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) :clap:
+17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>
 18. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
 19. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)
 
