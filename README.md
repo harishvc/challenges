@@ -6,7 +6,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 ##Table of Contents 
 
 ## Basics
-1.  [Given a list of integers return a list of integers that only occurred once in the argument (or print them)](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :idea:
+1.  [Given a list of integers return a list of integers that only occurred once in the argument (or print them)](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb:
 2.  [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/check-matching-parenthesis.py)
 3.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
 4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
