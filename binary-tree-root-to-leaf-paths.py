@@ -1,48 +1,11 @@
-#Question: Print all paths from root to leaf , given sum check if path exists
+#Question: Print all paths & path sum from root to leaf
 
-#Source: https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython/blob/master/src/chapter06trees/BinaryTree.py
-class BinaryTree:
-	def __init__(self, data):
-		self.data = data  # root node
-		self.left = None  # left child
-		self.right = None  # right child
-	# set data
-	def setData(self, data):
-		self.data = data
-	# get data   
-	def getData(self):
-		return self.data	
-	# get left child of a node
-	def getLeft(self):
-		return self.left
-	# get right child of a node
-	def getRight(self):
-		return self.right
-	# get left child of a node
-	def setLeft(self, left):
-		self.left = left
-	# get right child of a node
-	def setRight(self, right):
-		self.right = right
-	def insertLeft(self, newNode):
-		if self.left == None:
-			self.left = BinaryTree(newNode)
-		else:
-			temp = BinaryTree(newNode)
-			temp.left = self.left
-			self.left = temp
-
-	def insertRight(self, newNode):
-		if self.right == None:
-			self.right = BinaryTree(newNode)
-		else:
-			temp = BinaryTree(newNode)
-			temp.right = self.right
-			self.right = temp
-
+import sys
+sys.path.append("./mylib")
+import Tree
 
 #Source: http://stackoverflow.com/questions/11045399/print-every-leaf-path-of-a-tree-without-recursive
-class Stack(object): # just for reference
+class Stack(object): 
     def __init__(self):
         self.a = []
 
@@ -61,7 +24,7 @@ class Stack(object): # just for reference
     def show(self):
         return self.a
        
-def RLpaths(troot): # you should create your own Tree and supply the root
+def RLpaths(troot):
     current = troot
     s = Stack()
     s.push(current)
@@ -90,24 +53,7 @@ def RLpaths(troot): # you should create your own Tree and supply the root
             s.push(leftstr)
             s.push(leftpathsum)
  
-def pathFinder(root, val, path, paths):
-	if not root:
-		return False    
-	if not root.left and not root.right:
-		if root.data == val:
-			path.append(root.data)
-			paths.append(path)
-			#print(path)
-			return True
-		else:
-			return False
-	left = pathFinder(root.left, val - root.data, path + [root.data], paths)
-	right = pathFinder(root.right, val - root.data, path + [root.data], paths)  
-	return left or right
-    #return paths
-     	
-######## Get Started!!!!!
-root = BinaryTree(1)
+root = Tree.BinaryTree(1)
 root.insertLeft(2)
 root.insertRight(3)
 root.getLeft().insertLeft(4)
@@ -118,10 +64,5 @@ root.getLeft().getLeft().insertLeft(8)
 root.getLeft().getRight().insertRight(9)
 root.getLeft().getRight().getRight().insertRight(10)
 root.getLeft().getRight().getRight().getRight().insertRight(11)
-
-print("Printing all paths from root to leaf")
+print("Printing all paths & path sum from root to leaf")
 RLpaths(root)
-
-print ("Is 10 valid sum?",pathFinder(root,10,[],[]) )
-print ("Is 15 valid sum?",pathFinder(root,15,[],[]) )
-print ("Is 9 valid sum?",pathFinder(root,9,[],[]) )
