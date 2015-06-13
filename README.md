@@ -6,7 +6,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 ##Table of Contents 
 
 ## Basics
-1.  [Given a list of integers return a list of integers that only occurred once in the argument (or print them)](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py)
+1.  [Given a list of integers return a list of integers that only occurred once in the argument (or print them)](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :idea:
 2.  [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/check-matching-parenthesis.py)
 3.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
 4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
@@ -47,11 +47,11 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 10. [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :clap:
 11. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :clap:
 12. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
-13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py)
+13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :clap:
 14. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
 15. [Binary Search Tree (BST) Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)
 16. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:
-17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)
+17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) :clap:
 18. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
 19. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)
 
@@ -75,7 +75,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 11. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
 
 ###Algorithms
-1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py)
+1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
 2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
 3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
 4. [Sort Algorithms](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
