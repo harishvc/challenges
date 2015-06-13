@@ -23,22 +23,6 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 15. [Sum of numbers](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)
 16.  [Fibonacci series](https://github.com/harishvc/challenges/blob/master/fibonacci.py)
 
-### Binary Trees, BST and Heaps
-1.  [Binary Trees DF & BF traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
-2.  [DFT Traversal](https://github.com/harishvc/challenges/blob/master/tree-traversal.py)
-3.  [Print all root to leaf paths in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
-4.  [Maximum dept of Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
-5.  [Find leaves,half nodes and nodes in Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
-6.  [Level order &amp; Revese Level order](https://github.com/harishvc/challenges/blob/master/binary-tree-level-order-reverse.py)
-7.  [Binary Tree diameter](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py)
-8.  [Deepest node in Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py))
-9.  [Binary Search Tree (BST) Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)
-10. [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py)
-11. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py)
-12. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)
-13. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
-14. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)
-
 
 ### Linked Lists, Stacks and Queues
 1. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
@@ -49,6 +33,28 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 6. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
 7. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
 8. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
+
+
+### Binary Trees, BST and Heaps
+1.  [Binary tree traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
+2.  [Find the size of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
+3.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
+4.  [Maximum depth of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
+5.  [Find # of leaves, half nodes and nodes in a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
+6.  [Level order &amp; reverse level order](https://github.com/harishvc/challenges/blob/master/binary-tree-level-order-reverse.py) :clap:
+7.  [Find diameter (width) of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py) :clap:
+8.  [Find the deepest node in Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
+10. [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :clap:
+11. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :clap:
+12. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
+13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py)
+14. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
+15. [Binary Search Tree (BST) Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)
+16. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:
+17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)
+18. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
+19. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)
+
 
 
 ### Sorting
@@ -96,3 +102,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 * [The Python Tutorial (version 3.4)](https://docs.python.org/3.4/tutorial/index.html)
 * [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)
 * [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)
+* [Github markup preview](http://github-markup.dfilimonov.com/)
+
+##Amazing technical discussions
+* [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
