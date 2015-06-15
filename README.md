@@ -89,6 +89,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 3. [Bitwise subtraction](https://github.com/harishvc/challenges/blob/master/bit-operation-subtract.py)
 4. [Given a number n, check whether the number is a power of 2](https://github.com/harishvc/challenges/blob/master/bit-operation-check-if-number-is-power-of-2.py)
 5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)
+6. [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
 
 ##Related Links
 * [How to avoid and outlive layoffs as a programmer?](http://www.coderust.com/blog/2014/07/20/avoid_outlive_programmer_layoffs/)
@@ -103,6 +104,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 * [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)
 * [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)
 * [Github markup preview](http://github-markup.dfilimonov.com/)
+* [Python debugger cheat sheat](http://www.cheatography.com/ralienpp/cheat-sheets/python-pdb/)
 
 ##Amazing technical discussions
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
