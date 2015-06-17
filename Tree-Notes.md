@@ -6,17 +6,18 @@
 * Leaves should be at h or h-1 level where h is the height of the tree (h > 0) - <b>complete binary tree</b>
 * Maximun number of elements = 2^h+1 -1 . h is the height of the binary tree.
 * Minimum number of nodes = 2^h . h is the height of the binary tree.
-* BINARY HEAPS
+* Binary Heap
   * Each node can have up to two nodes
   * <b>Parent of a node</b>: For a node at ith position, its parent is at  i-1//2 location
   * <b>Child of a node</b>: For a node at ith position its childresn are at 2*i + 1 and 2*i + 2 locations
-* Operations
-  * Heapify - After inserting an element in a heap, the heap may not satisfy the heap property. We'll have to change the location of nodes to satisfy heap properties. This process is called heapify. Also referred to percolate down since we are moving from top to bottom.
-  * Deleting an element uses percolate down
-  * Inserting an element uses percolate up
+* <b>Heapify</b>: After inserting an element in a heap, the heap may not satisfy the heap property. Location of nodes has to be changed to satisfy heap properties. 
+    * Deleting an element uses percolate down
+    * Inserting an element uses percolate up
 * Complexity
   * Time complexity for delete and insert is O(log n), for n elements the complexity is O(nlogn)
-  * Best O(nlog(n)); Average O(nlog(n)); Worst O(nlog(n))
-  * If we start with the entire list the heap can be build in O(n)
+  * Complexity to build a heap from array O(n) - If we start with the entire list the heap can be build in O(n)
+* Heap Sort 
+  * Two steps: Build heap & heapify
+  * complexity: Best O(nlog(n)); Average O(nlog(n)); Worst O(nlog(n))
 * Online Reference
-  *[Heap Sort In Python](http://www.geekviewpoint.com/python/sorting/heapsort)
+  * [Heap Sort In Python](http://www.geekviewpoint.com/python/sorting/heapsort)
