@@ -54,7 +54,9 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>
 18. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
 19. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)
-
+20. [Convert unsorted list to heap](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)
+21. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)
+22. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)
 
 
 ### Sorting
@@ -106,6 +108,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 * [Github markup preview](http://github-markup.dfilimonov.com/)
 * [Python debugger cheat sheat](http://www.cheatography.com/ralienpp/cheat-sheets/python-pdb/)
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
+* [Python Module of the Week](http://pymotw.com/2/contents.html)
 
 ##Amazing technical discussions
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)

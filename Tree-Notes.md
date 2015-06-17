@@ -16,4 +16,7 @@
   * Inserting an element uses percolate up
 * Complexity
   * Time complexity for delete and insert is O(log n), for n elements the complexity is O(nlogn)
-  * If we start with the entire list theheap can be build in O(n)
+  * Best O(nlog(n)); Average O(nlog(n)); Worst O(nlog(n))
+  * If we start with the entire list the heap can be build in O(n)
+* Online Reference
+  *[Heap Sort In Python](http://www.geekviewpoint.com/python/sorting/heapsort)
