@@ -1,4 +1,5 @@
-#Question: Compute all permutations of a string
+#Question: Compute all permutations (anagrams) of a string 
+#Time complexity: O(2^n), n is # elements
 
 input='abc'
 print("input >>>",input)
@@ -10,7 +11,7 @@ perms = [''.join(p) for p in permutations(input)]
 print("Permutations (solution 1) >>>>", perms)
 
     
-#Solution: http://www.jeremy-boyd.com/2010/10/18/compute-all-permutations-of-a-string-in-python/    
+#Source: http://www.jeremy-boyd.com/2010/10/18/compute-all-permutations-of-a-string-in-python/    
 #Solution 2: Using recursion
 def permute2(s):
     res = []
@@ -18,9 +19,8 @@ def permute2(s):
         res = [s]
     else:
         for i, c in enumerate(s):
-            for perm in permute2(s[:i] + s[i+1:]):
+            for perm in permute2(s[:i] + s[i+1:]):  #send characters on the left and right of i
                 res += [c + perm]
-
     return res
 print("Permutations (solution 2) >>>>",permute2('abc'))
 
