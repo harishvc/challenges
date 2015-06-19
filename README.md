@@ -75,7 +75,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 9. [Randomize array elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
 10. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
 11. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
-
+12. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
 ###Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
 2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
