@@ -57,6 +57,9 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 20. [Convert unsorted list to heap](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)
 21. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)
 22. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)
+23. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
+     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
+     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py)
 
 
 ### Sorting
@@ -83,8 +86,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
 3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
 4. [Sort Algorithms](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
-5. [Given a dictionary and two words find path from one word to another such that all intermediate words are also in the dictionary. At each time only one character can change](https://github.com/harishvc/challenges/blob/master/transform-word.py)
-6. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
+5. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
 
 
 ### Bitwise operations
