@@ -11,8 +11,8 @@
   * <b>Parent of a node</b>: For a node at ith position, parent is at  i-1/2 location (math.floor)
   * <b>Child of a node</b>: For a node at ith position childrens are at 2*i + 1 and 2*i + 2 locations
 * <b>Heapify</b>: After inserting an element in a heap, the heap may not satisfy the heap property. Location of nodes has to be changed to satisfy heap properties. 
-    * Deleting an element uses percolate down
-    * Inserting an element uses percolate up
+    * Delete an element: Copy root node (max value if max heap) to temp variable, copy last node to root, pop ,reduce heap size and percolate down by checking with child node value
+    * Insert an element: Insert new node at end, increase heap size and percolate up by checking with parent node value
 * Complexity
   * Time complexity for delete and insert is O(log n), for n elements the complexity is O(nlogn)
   * Complexity to build a heap from array O(n) - If we start with the entire list the heap can be build in O(n)
