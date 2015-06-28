@@ -3,7 +3,8 @@
 * Basic requirements of a heap is that the value of the node must the >= or <= its children - <i>heap property</i>
   * min heap - value of node is <strong>less than or equal to</strong> value of children. Root of the heap has maximum value
   * max heap - value of node is <strong>greater than or equal to</strong> value of children.  Root of the heap has maximum value
-* Leaves should be at h or h-1 level where h is the height of the tree (h > 0) - <b>complete binary tree</b>
+* A leaf node at depth k>0 can exist only if all 2k-1 nodes at depth k-1 exist. Additionally, nodes at a partially filled level must be added from left to right.
+  ** At each level k, there are 2^k-1 nodes
 * Maximum number of elements = 2^h+1 -1 . h is the height of the binary tree.
 * Minimum number of nodes = 2^h . h is the height of the binary tree.
 * Binary Heap
@@ -21,3 +22,4 @@
   * complexity: Best O(nlog(n)); Average O(nlog(n)); Worst O(nlog(n))
 * Online Reference
   * [Heap Sort In Python](http://www.geekviewpoint.com/python/sorting/heapsort)
+  * [Heap Sort on Bogotobogo](http://www.bogotobogo.com/Algorithms/heapsort.php)
