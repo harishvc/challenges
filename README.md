@@ -79,6 +79,7 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 10. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
 11. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
 12. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
+13. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
 
 
 ###Algorithms
