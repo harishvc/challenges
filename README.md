@@ -52,14 +52,12 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 15. [Binary Search Tree (BST) Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)
 16. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:
 17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>
-18. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
-19. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)
-20. [Convert unsorted list to heap](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)
-21. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)
-22. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)
-23. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
-     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
-     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py)
+18. Heaps
+    a. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
+    b. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)
+    c. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)
+    d. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)
+    e. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)
 
 
 ### Sorting
@@ -82,12 +80,15 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 13. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
 
 
-###Algorithms
+###Design &amp; Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
 2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
 3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
 4. [Sort Algorithms](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
 5. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
+6. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
+    while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
+    intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py)
 
 
 ### Bitwise operations
