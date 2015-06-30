@@ -1,29 +1,32 @@
 '''
-Question: Given an unsorted list, convert to max heap
+Question: Given an unsorted list of length n, build max heap in linear time O(n) 
 '''
-
 #Source:https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython/blob/master/src/chapter07priorityqueues/HeapSort.py
+#Time Complexity: O(n)
 
 def BuildMaxHeap(A):
     length = len(A) - 1
-    leastParent = int(length / 2)
-    for i in range (leastParent, -1, -1):
-        percolateDown(A, i, length)
+    lastParent = length // 2
+    #Visit ALL parent nodes
+    for i in range (lastParent, -1, -1):
+        percolateDownMax(A, i, length)
         
 # Modified percolateDown to skip the sorted elements
-def percolateDown(A, first, last):
-  largest = 2 * first + 1
-  while largest <= last:
-    # right child exists and is larger than left child
-    if (largest < last) and (A[largest] < A[largest + 1]):
-        largest += 1
-    # right child is larger than parent
-    if A[largest] > A[first]:
-        swap(A, largest, first)
+def percolateDownMax(A, ParentIndex, Size):
+  MaxChildIndex = 2 * ParentIndex + 1  #child on left
+  while MaxChildIndex <= Size:
+    # right child exists and is value of right child larger than left child
+    if (MaxChildIndex < Size) and (A[MaxChildIndex] < A[MaxChildIndex + 1]):
+        MaxChildIndex += 1
+    # child node has value larger than parent
+    if A[MaxChildIndex] > A[ParentIndex]:
+        swap(A, MaxChildIndex, ParentIndex)
         # move down to largest child
-        first = largest
-        largest = 2 * first + 1
+        ParentIndex = MaxChildIndex
+        MaxChildIndex = 2 * ParentIndex + 1
     else:
+        #parent node has value greater than child node
+        #no need to percolate down - heapify on linear time!
         return  # force exit
   
 def swap(A, x, y):
