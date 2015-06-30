@@ -4,25 +4,25 @@
   * Value of the parent node must the >= or <= of child nodes
     * min heap - value of parent node is <strong>less than or equal to</strong> value of children. Root of the heap has maximum value
     * max heap - value of parent node is <strong>greater than or equal to</strong> value of children.  Root of the heap has maximum value
-  * At each level k (height), there are (2^k)-1 nodes
-    ** A leaf node at depth k (k > 0) can exist only if all (2^k)-1 nodes at depth k-1 exist 
-    ** Nodes at a partially filled level must be added from left to right
+  * At each level k (height), there are (2^k)-1 nodes  
+    * A leaf node at depth k (k > 0) can exist only if all (2^k)-1 nodes at depth k-1 exist 
+    * Nodes at a partially filled level must be added from left to right
   * Binary Heap is a complete Binary tree
   * Maximum number of elements = 2^h+1 -1 . h is the height of the binary tree.
   * Minimum number of nodes = 2^h . h is the height of the binary tree.
-* Heap Operations
-  ** Parent of a node: For a node at ith position, parent is at  i-1//2 location
-  ** Child of a node: For a node at ith position childrens are at 2*i + 1 and 2*i + 2 locations
-  ** Delete: Only removing root node is permitted
-     ** Copy root node (max value if max heap) to temp variable
-     ** Copy last node to root
-     ** Reduce heap size
-     ** Pop (remove last element)
-     ** Percolate down by comparing values
-  ** Insert: 
-     ** Insert new node at end
-     ** Increase heap size
-     ** Percolate up by comparing values
+* Heap Operations  
+  * Parent of a node: For a node at ith position, parent is at  i-1//2 location  
+  * Child of a node: For a node at ith position childrens are at 2*i + 1 and 2*i + 2 locations  
+  * Delete: Only removing root node is permitted    
+     * Copy root node (max value if max heap) to temp variable    
+     * Copy last node to root  
+     * Reduce heap size  
+     * Pop (remove last element)  
+     * Percolate down by comparing values  
+  * Insert:   
+     * Insert new node at end  
+     * Increase heap size  
+     * Percolate up by comparing values  
 * <b>Heapify</b>: After inserting an element in a heap, the heap may not satisfy the heap property. 
   Location of nodes has to be changed to satisfy heap properties. Given a input (example:list) a heap can be built in linear time. 
 * Complexity
