@@ -55,9 +55,13 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 18. Heaps
 
   a. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
+  
   b. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)
+  
   c. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)
+  
   d. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)
+  
   e. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)
 
 
