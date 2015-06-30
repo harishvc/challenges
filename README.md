@@ -51,9 +51,8 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 14. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
 15. [Binary Search Tree (BST) Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)
 16. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:
-17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>
-18. Heaps
-
+17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>  
+18. Heaps  
   a. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
   b. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
   c. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)  
