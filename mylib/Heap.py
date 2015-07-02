@@ -43,8 +43,8 @@ class MaxHeap:
 	
 	#Max Heap	   
 	def percolateDown(self, i):
-		while (i * 2) <= self.size:
-			maxChild = self.maxChild(i)
+		while (i * 2) <= self.size: #left node, since i[0] is not used
+			maxChild = self.maxChild(i) #get index position of max child
 			#print("checking ....", self.heapList[i], self.heapList[maxChild])
 			if self.heapList[i] < self.heapList[maxChild]:
 				tmp = self.heapList[i]
@@ -54,12 +54,15 @@ class MaxHeap:
 	
 	#Max Heap
 	def percolateUp(self,i):
-		while i // 2 > 0:  #Find parent , since i[0]=0 parent node is i//2
+		while i // 2 > 0:  #Find parent , since i[0] is not used, parent node is i//2
+			#print("start i=%d" % (i))
 			if self.heapList[i] > self.heapList[i // 2]:
+				#print("Swapping ....",self.heapList[i],self.heapList[i//2])
 				tmp = self.heapList[i // 2]
 				self.heapList[i // 2] = self.heapList[i]
 				self.heapList[i] = tmp
 			i = i // 2
+			#print("new start i=%d" % (i))
 
 	
 	# Delete an element
@@ -69,7 +72,7 @@ class MaxHeap:
 	#  Percolate down
 	def Delete(self):
 	    retval = self.heapList[1]
-	    self.heapList[1] = self.heapList[self.size]
+	    self.heapList[1] = self.heapList[self.size] #starting in index 1;copy last position to first
 	    self.size = self.size - 1
 	    self.heapList.pop()
 	    self.percolateDown(1) #pass index position of root
@@ -78,7 +81,7 @@ class MaxHeap:
 	def Insert(self, k):
 		self.heapList.append(k)
 		self.size = self.size + 1
-		print("Inserting value=%d at index position=%d" % (k,self.size))
+		#print("Inserting value=%d at index position=%d" % (k,self.size))
 		self.percolateUp(self.size) #pass size of heap
 		
 	def printHeap(self):
