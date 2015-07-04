@@ -11,7 +11,7 @@ def BuildMaxHeap(A):
     for i in range (lastParent, -1, -1):
         percolateDownMax(A, i, length)
         
-# Modified percolateDown to skip the sorted elements
+# Modified percolateDown to skip branch already heapified
 def percolateDownMax(A, ParentIndex, Size):
   MaxChildIndex = 2 * ParentIndex + 1  #child on left
   while MaxChildIndex <= Size:
