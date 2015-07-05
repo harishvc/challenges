@@ -1,21 +1,26 @@
-#Question1: Find the fibonacci series between a given range
-start = 1  #start
-end =  10   #end
+'''
+The Fibonacci Sequence is the series of numbers:
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34 , ....
+F(0) = 0
+F(1) = 1
+F(2) = 1
+F(3) = 2
+F(4) = 3
+
+References:
+1. https://www.mathsisfun.com/numbers/fibonacci-sequence.html
+2. http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibseries.html
+'''
+#Question: Find the Fibonacci series for a given range
 def fib(n):
     if n < 2:
         return n
     return fib(n-2) + fib(n-1) #recursive call
-print "range for fibonacci series:", range(start, end)
-print "fibonacci series:", map(fib, range(start,end+1))
-
-
-#Question 2: Find odd numbers in the fibonacci series
-fib = [0,1,1,2,3,5,8,13,21,34,55]
-result = filter(lambda x: x % 2 , fib)
-print "odd numbers in fibonacci series:", result
-
-
-#Question 3: Find even numbers in the fibonacci series
-fib = [0,1,1,2,3,5,8,13,21,34,55]
-result = filter(lambda x: x % 2 == 0 , fib)
-print "even numbers in fibonacci series:", result
+start = 0  #start
+end =  10   #end
+print("range for fibonacci series:", range(start, end))
+print("fibonacci series:", list(map(fib, range(start,end+1))))
+start = 6  #start
+end =  10   #end
+print("range for fibonacci series:", range(start, end))
+print("fibonacci series:", list(map(fib, range(start,end+1))))
