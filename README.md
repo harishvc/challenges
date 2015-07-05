@@ -20,9 +20,11 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 12. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 13. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
 14. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
-15. [Sum of numbers](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)
-16.  [Fibonacci series](https://github.com/harishvc/challenges/blob/master/fibonacci.py)
-
+15. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)  
+16. [Fibonacci series]  
+  a. [Find the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)  
+  b. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py)   
+  c. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 
 ### Linked Lists, Stacks and Queues
 1. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
