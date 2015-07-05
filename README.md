@@ -21,8 +21,8 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 13. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
 14. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
 15. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)  
-16. [Fibonacci series]  
-  a. [Find the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)  
+16. Fibonacci series 
+  a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)  
   b. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py)   
   c. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 
