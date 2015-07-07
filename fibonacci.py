@@ -13,6 +13,7 @@ References:
 '''
 
 #Question: Find the Fibonacci sequence
+#Complexity: O(2^n)
 def fib(n):
     if n < 2:
         return n
