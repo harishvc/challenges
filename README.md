@@ -22,9 +22,8 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 14. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
 15. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)  
 16. Fibonacci series 
-  a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)  
-  b. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py)   
-  c. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
+  a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
+  b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 
 ### Linked Lists, Stacks and Queues
 1. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
@@ -65,6 +64,9 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 1. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
 2. [Lambda Sort](https://github.com/harishvc/challenges/blob/master/lambda.py)
 
+### Dynamic Programming
+1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
+ 
 ### Lists and Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
 2. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
