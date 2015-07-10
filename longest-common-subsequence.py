@@ -4,7 +4,12 @@
 A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous.
 So a string of length n has 2^n different possible subsequences.
 
-Reference: http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/ 
+References
+1. http://www.geeksforgeeks.org/dynamic-programming-set-4-longest-common-subsequence/ 
+2. Tushar Roy - https://www.youtube.com/watch?v=NnD96abizww
+3. Tushar Roy - https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/LongestCommonSubsequence.java
+4. WSLabs     - https://www.youtube.com/watch?v=RUckZMzqUcw
+5. Lec 15 | MIT 6.046J - https://www.youtube.com/watch?v=V5hZoJ6uK-s
 '''
 
 #Source: https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython/blob/master/src/chapter19dynamicprogramming/LongestCommonSubsequenceWithDP.py
