@@ -66,7 +66,8 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
-2. [Given two sequences find the Longest Common Subsequence (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py)
+2. Given two sequences find all the Longest Common Subsequences (LCS) (next 1/2)
+3. Implement Unix diff command (next 2/2)
  
 ### Lists and Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
@@ -119,6 +120,8 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 * [Python debugger cheat sheat](http://www.cheatography.com/ralienpp/cheat-sheets/python-pdb/)
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
 * [Python Module of the Week](http://pymotw.com/2/contents.html)
+* Tushar Roy's [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki), [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
+
 
 ##Amazing technical discussions
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
