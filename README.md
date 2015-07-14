@@ -66,8 +66,8 @@ Questions from numerous Computer Science topics. Solutions are in Python version
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
-2. Given two sequences find all the Longest Common Subsequences (LCS) (next 1/2)
-3. Implement Unix diff command (next 2/2)
+2. Given two sequences find all the Longest Common Subsequences (LCS) [https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py]
+3. Implement Unix diff command (next 1/1)
  
 ### Lists and Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
