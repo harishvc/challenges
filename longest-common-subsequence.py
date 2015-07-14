@@ -1,4 +1,4 @@
-#Question: Given two sequences, find the length of longest subsequence present in both of them
+#Question: Given two sequences find the length of the Longest Common Subsequence (LCS), all LCS's, one LCS
 
 '''
 A subsequence is a sequence that appears in the same relative order, but not necessarily contiguous.
@@ -13,48 +13,79 @@ References
 '''
 
 #Source: https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython/blob/master/src/chapter19dynamicprogramming/LongestCommonSubsequenceWithDP.py
+
+#Find length of the LCS
+def LCSLength(X, Y):
+    m = len(X)
+    n = len(Y)
+    C = [[0 for j in range(n+1)] for i in range(m+1)]
+    longest = 0
+    for i in range(1, m+1):
+        for j in range(1, n+1):
+            if X[i-1] == Y[j-1]: 
+                tmp = C[i-1][j-1] + 1
+                C[i][j] = tmp
+                if (tmp > longest):
+                        longest = tmp
+            else:
+                C[i][j] = max(C[i][j-1], C[i-1][j])
+    return longest
+
+#Print two dimensional matrix        
+def PrintMatrix(Table):
+    for row in range(0,len(Table)):
+        for col in range(0,len(Table[row])):
+            print("%d" % (Table[row][col]),end=" ")
+        print("")
+
 #Time Complexity: O(mn), Space Complexity: O(mn)
 def LCS(X, Y):
-    Table = [[0 for j in range(len(Y) + 1)] for i in range(len(X) + 1)]
-    
-    #Step 1: 
-    # a. Build a matrix by iterating X & Y
-    # b. if X[i] = Y[j] then increment else get max value of row-1 or col-1
-    # row 0 and column 0 are initialized to 0 already
-    for i, x in enumerate(X):
-        for j, y in enumerate(Y):
-            if x == y:
-                #print("Match .... %s at i=%d j=%d" % (x,i,j))
-                Table[i + 1][j + 1] = Table[i][j] + 1
+    m = len(X)
+    n = len(Y)
+    # An (m+1) times (n+1) matrix
+    C = [[0 for j in range(n+1)] for i in range(m+1)]
+    for i in range(1, m+1):
+        for j in range(1, n+1):
+            if X[i-1] == Y[j-1]: 
+                C[i][j] = C[i-1][j-1] + 1
             else:
-                Table[i + 1][j + 1] = max(Table[i + 1][j], Table[i][j + 1])
-    
-    
-    #Print Matrix 
-    #for row in range(0,len(Table)):
-        #for col in range(0,len(Table[row])):
-            #print("%d" % (Table[row][col]),end=" ")
-        #print("")
-    
-    #Step 2:
-    # a. check if the value at location in matrix is eaual to row-1 or col-1
-    # b. if not equal then letters match, add to result!
-    # c. else ie equal to row than row-1 or col-1
-    result = ""
-    x, y = len(X), len(Y)
-    while x != 0 and y != 0:
-        if Table[x][y] == Table[x - 1][y]:
-            x -= 1
-        elif Table[x][y] == Table[x][y - 1]:
-            y -= 1
-        else:
-            assert X[x - 1] == Y[y - 1]
-            #print("Substring match .... %s at position A[%d] = B[%d]" %(X[x - 1],x-1,y-1))
-            result = X[x - 1] + result
-            x -= 1
-            y -= 1
-    return result
+                C[i][j] = max(C[i][j-1], C[i-1][j])
+    return C
 
-A= "AGGTAB"
-B = "GXTXAYB"
-print ("string1=%s \nstring2=%s \nlongest common substring=%s" % (A, B, LCS(A,B)))    
+#Traverse the two dimensional matrix to find one LCS
+def backTrack(C, X, Y, i, j):
+    if i == 0 or j == 0:
+        return ""
+    elif X[i-1] == Y[j-1]:
+        return backTrack(C, X, Y, i-1, j-1) + X[i-1]
+    else:
+        if C[i][j-1] > C[i-1][j]:
+            return backTrack(C, X, Y, i, j-1)
+        else:
+            return backTrack(C, X, Y, i-1, j)
+        
+
+#Traverse the two dimensional matrix to find all LCS
+def backTrackAll(C, X, Y, i, j):
+    if i == 0 or j == 0:
+        return set([""])
+    elif X[i-1] == Y[j-1]:
+        return set([Z + X[i-1] for Z in backTrackAll(C, X, Y, i-1, j-1)])
+    else:
+        R = set()
+        if C[i][j-1] >= C[i-1][j]:
+            R.update(backTrackAll(C, X, Y, i, j-1))
+        if C[i-1][j] >= C[i][j-1]:
+            R.update(backTrackAll(C, X, Y, i-1, j))
+        return R
+    
+X = "ABCBDAB"
+Y = "BDCABA"
+
+m = len(X)
+n = len(Y)
+C = LCS(X, Y)
+print("Input strings => %s  %s" % (X,Y))
+print("Max LCS: %d" % LCSLength(X, Y)) 
+print("Some LCS: '%s'" % backTrack(C, X, Y, m, n))
+print("All LCSs: %s" % backTrackAll(C, X, Y, m, n))
