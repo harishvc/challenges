@@ -1,4 +1,4 @@
-#Question: Find sum of all even numbers from 1 to 100
+#Question: Find sum of all even numbers for a given range
 
 def numformat(value):
     return "{:,}".format(value)
