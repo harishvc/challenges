@@ -1,7 +1,7 @@
 Technical challenges
 ====================
 
-Data Structures, Algorithms and Analysis. Solutions are in Python version 3.4.3
+Collection of interesting questions and solutions that involve data structures, algorithms, design and time complexity. Solutions are in Python version 3.4.3
 
 ##Table of Contents 
 
