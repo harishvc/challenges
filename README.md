@@ -1,7 +1,7 @@
 Technical challenges
 ====================
 
-Questions from numerous Computer Science topics. Solutions are in Python version 3.4.3
+Data Structures, Algorithms and Analysis. Solutions are in Python version 3.4.3
 
 ##Table of Contents 
 
