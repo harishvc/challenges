@@ -1,4 +1,4 @@
-#Question: Given two sequences find the length of the Longest Common Substring
+#Question: Given two sequences find the longest common substring
 
 '''
 References
@@ -46,5 +46,3 @@ n = len(Y)
 C = LCS(X, Y)
 print("Input strings => %s  %s" % (X,Y))
 print("Longest common substring => %s" % (C))
-
-#print("Some LCS (recursive): '%s'" % backTrackRecursive(C, X, Y, m, n))
