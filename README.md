@@ -67,7 +67,8 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
 2. [Given two sequences find all the Longest Common Subsequences (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py)
-3. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
+3. [Given two sequences find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)
+4. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
  
 ### Lists and Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
