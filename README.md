@@ -22,7 +22,7 @@ Collection of interesting questions and solutions that involve data structures, 
 14. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
 15. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
 16. [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
-17. Fibonacci series 
+17. Fibonacci series    
   a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 
