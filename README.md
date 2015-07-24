@@ -20,8 +20,9 @@ Collection of interesting questions and solutions that involve data structures, 
 12. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 13. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
 14. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
-15. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py)  
-16. Fibonacci series 
+15. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
+16. [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
+17. Fibonacci series 
   a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 
@@ -111,6 +112,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Data Structure tutorials from Eternally Confuzzled](http://eternallyconfuzzled.com/Tutorials.aspx)
 * [Andrei Simionescu GitHub Respository with code and numerous online resources](https://github.com/andreis/interview)
 * [Recent interview questions@Career Cup](http://www.careercup.com/page)
+* [Interview questions on reddit](https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/)
 * [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 * Data Structure and Algorithmic Thinking with Python: [Book@Amazon](http://www.amazon.com/dp/8192107590/ref=as_li_ss_til?tag=caree0ea-20&camp=213381&creative=390973&linkCode=as4&creativeASIN=819210754X&adid=1PJGG64MJE0JQ00FTD4E&&ref-refURL=http://careermonk.com/?qa=buy),
   [GitHub Repository](https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython)
