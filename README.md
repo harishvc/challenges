@@ -27,14 +27,15 @@ Collection of interesting questions and solutions that involve data structures, 
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 
 ### Linked Lists, Stacks and Queues
-1. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
-2. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
-3. [Stack implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
-4. [Stack implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
-5. [Stack implementation using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
-6. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
-7. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
-8. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
+1. [Find the nth node from the end in the linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
+2. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
+3. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
+4. [Stack implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
+5. [Stack implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
+6. [Stack implementation using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
+7. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
+8. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
+9. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
 
 
 ### Binary Trees, BST and Heaps
