@@ -56,9 +56,9 @@ Collection of interesting questions and solutions that involve data structures, 
 15. Binary Search Tree (BST)  
     a. [BST Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)     
     b. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
-    c. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>  
-    d. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>  
-    e. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>    
+    c. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)     
+    d. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/find-first-element-greater-than-number-K-in-BST.py)     
+    e. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/find-element-in-BST.py)      
 16. Heaps  
   a. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
   b. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
