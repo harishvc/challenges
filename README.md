@@ -53,12 +53,12 @@ Collection of interesting questions and solutions that involve data structures, 
 12. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
 13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
 14. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
-15. BST  
-    a. [Binary Search Tree (BST) Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py) 
-    b. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:
+15. Binary Search Tree (BST)  
+    a. [BST Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)     
+    b. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
     c. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>  
-    d. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>
-    e. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>  
+    d. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>  
+    e. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>    
 16. Heaps  
   a. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
   b. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
