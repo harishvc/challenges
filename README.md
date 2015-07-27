@@ -25,9 +25,10 @@ Collection of interesting questions and solutions that involve data structures, 
 17. Fibonacci series    
   a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
+18. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
 
 ### Linked Lists, Stacks and Queues
-1. [Find the nth node from the end in the linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
+1. [Given a linked list. Find the nth node from the end](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
 2. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
 3. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
 4. [Stack implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
@@ -52,10 +53,13 @@ Collection of interesting questions and solutions that involve data structures, 
 12. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
 13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
 14. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
-15. [Binary Search Tree (BST) Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)
-16. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:
-17. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>  
-18. Heaps  
+15. BST  
+    a. [Binary Search Tree (BST) Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py) 
+    b. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:
+    c. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>  
+    d. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>
+    e. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py) <sup>:clap:</sup>  
+16. Heaps  
   a. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
   b. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
   c. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)  
