@@ -1,4 +1,4 @@
-#Question: Find the nth node from the end in the linked list
+#Question: Given a linked list. Find the nth node from the end.
 
 #Reference:http://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
 #Algorithm:
