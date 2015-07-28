@@ -31,15 +31,18 @@ Collection of interesting questions and solutions that involve data structures, 
 1. [Given a linked list. Find the nth node from the end](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
 2. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
 3. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
-4. [Stack implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
-5. [Stack implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
-6. [Stack implementation using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
-7. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
-8. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
-9. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
+4. Implement stack using queue [TODO]
+5. [Stack implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
+6. [Stack implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
+7. [Stack implementation using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
+8. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
+9. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
+10. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
+11. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
+    same color should change the color to the second color  [TODO]
+12. Validate Sudoku solution [TODO]     
 
-
-### Binary Trees, BST and Heaps
+### Binary Trees
 1.  [Binary tree traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
 2.  [Find the size of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
 3.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
@@ -48,23 +51,25 @@ Collection of interesting questions and solutions that involve data structures, 
 6.  [Level order &amp; reverse level order](https://github.com/harishvc/challenges/blob/master/binary-tree-level-order-reverse.py) <sup>:clap:</sup>
 7.  [Find diameter (width) of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py) :clap:
 8.  [Find the deepest node in Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
-10. [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
-11. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
-12. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
-13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
-14. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
-15. Binary Search Tree (BST)  
-    a. [BST Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)     
-    b. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
-    c. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)     
-    d. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/find-first-element-greater-than-number-K-in-BST.py)     
-    e. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/find-element-in-BST.py)      
-16. Heaps  
-  a. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
-  b. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
-  c. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)  
-  d. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
-  e. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
+9. [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
+10. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
+11. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
+12. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
+13. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
+
+### Binary Search Tree (BST)  
+1. [BST Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)     
+2. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
+3. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)     
+4. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/find-first-element-greater-than-number-K-in-BST.py)     
+5. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/find-element-in-BST.py)      
+
+### Heaps  
+1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
+2. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
+3. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)  
+4. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
+5. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
 
 ### Sorting
 1. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
