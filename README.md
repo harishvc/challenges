@@ -31,7 +31,7 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Linked Lists
 1. [Given a linked list. Find the nth node from the end](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
 2. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
-3. Find if elements in a linked list are palindrome [TODO]
+3. Check if a Linked List is a Palindrome [TODO]
 
 ###Stacks and Queues
 1. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
