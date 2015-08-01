@@ -26,12 +26,13 @@ Collection of interesting questions and solutions that involve data structures, 
   a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 18. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
-
+19. Find the first n prime numbers [TODO]
 
 ### Linked Lists
 1. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
 2. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
-3. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
+3. Reverse a linked list [TODO] 
+4. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 
 ###Stacks and Queues
 1. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
@@ -67,6 +68,7 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)     
 4. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/find-first-element-greater-than-number-K-in-BST.py)     
 5. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/find-element-in-BST.py)      
+6. Find mean of two lists [TODO]
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
@@ -81,9 +83,10 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
-2. [Given two sequences find all the Longest Common Subsequences (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py)
+2. [Given two sequences find the Longest Common Subsequences (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py)
 3. [Given two sequences find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)
-4. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
+4. Given two sequences find the longest palindrome [TODO]
+5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
  
 ### Lists and Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
@@ -139,6 +142,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
 * [Python Module of the Week](http://pymotw.com/2/contents.html)
 * Tushar Roy's [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki), [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
+
 
 
 ##Amazing technical discussions
