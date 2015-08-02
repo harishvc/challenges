@@ -5,7 +5,7 @@
 * Terminology  
     * <bold>Depth</bold> of a node is the length of the path from the <bold>root</bold> to the node
     * <bold>Height</bold> of a node is the length of the path from the node to the <bold>deepest</bold> node
-    * <bold>Leaf</bold> is a node with no children.
+    * <bold>Leaf</bold> is a node with no children.  
 ##BINARY TREES
 * A tree is a binary tree if <bold>each node has zero,one or two child nodes</bold>
 * #Nodes at level h is 2^h
@@ -17,7 +17,7 @@
 	* Pre-order-Traversal: current node data ->left subtree -> right subtree
 	* In-order-Traversal: <bold>Ascending order</bold> left subtree > current node data > right subtree
 	* Post-order-Traversal:  left subtree > right subtree > current node data
-* Breadth First Traversal (BFT): Visit nodes at each level starting with root.
+* Breadth First Traversal (BFT): Visit nodes at each level starting with root.  
 ###BINARY SEARCH TREE (BST)
 * left sub-tree elements are less than root
 * right sub-tree elements are greater than root
@@ -32,7 +32,7 @@
     * BST iterates through the contents in sorted order (in-order traversal)
     * BST are memory-efficient, reserve more memory than they need to.
     * BST allows you to do range searches efficiently. 
-    * Dictionary provides constant lookup time
+    * Dictionary provides constant lookup time  
 ##HEAP
 * Special properties of a heap are
   * Each node can have up to two child nodes
