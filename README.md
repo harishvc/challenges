@@ -142,7 +142,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
 * [Python Module of the Week](http://pymotw.com/2/contents.html)
 * Tushar Roy's [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki), [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
-
+* [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 
 ##Amazing technical discussions
