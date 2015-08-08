@@ -27,6 +27,7 @@ Collection of interesting questions and solutions that involve data structures, 
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 18. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
 19. Find the first n prime numbers [TODO]
+20. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py)
 
 ### Linked Lists
 1. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
