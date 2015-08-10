@@ -88,6 +88,7 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Given two sequences find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)
 4. Given two sequences find the longest palindrome [TODO]
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
+6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py)
  
 ### Lists and Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
