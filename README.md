@@ -44,9 +44,11 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
 7. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
 8. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
+9. [Design an algorithm to sort a stack in descending order] (https://github.com/harishvc/challenges/blob/master/sort-stack-in-descending-order.py)
 9. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
     same color should change the color to the second color  [TODO]
-10. Validate Sudoku solution [TODO]     
+10. Validate Sudoku solution [TODO]
+     
 
 ### Binary Trees
 1.  [Binary tree traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
