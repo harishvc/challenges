@@ -3,13 +3,12 @@ Stack:
 1. Stack uses LIFO (Last in First Out) ordering
 2. Constant time to add and remove elements since no internal shifting around
 3. Does not offer constant time to access elements at position i unlike list/array
-4. Operations -
-   push() - 
+4. Operations in constant time
+   push() 
    pop()
    peek()
    isEmpty()
-   size() returns in constant time
-3. 
+   size()  
 '''
 #Stack Implementation using list/array
 class Stack(object):
