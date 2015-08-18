@@ -11,7 +11,7 @@ Stack:
    size() returns in constant time
 3. 
 '''
-#Stack Implementation
+#Stack Implementation using list/array
 class Stack(object):
 
     def __init__(self):
