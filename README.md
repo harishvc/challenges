@@ -7,7 +7,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ## Basics
 1.  [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup>
-2.  [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/check-matching-parenthesis.py)
+2. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py)
 3.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
 4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
 5.  [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
@@ -27,8 +27,7 @@ Collection of interesting questions and solutions that involve data structures, 
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 18. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
 19. Find the first n prime numbers [TODO]
-20. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py)
-21. Validate Sudoku solution [TODO]
+20. Validate Sudoku solution [TODO]
 
 ### Linked Lists
 1. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
@@ -37,18 +36,22 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 
 ###Stacks
-1. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
-2. Implement stack using queue [TODO]
-3. [Stack implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
-4. [Stack implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
-5. [Stack implementation using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
+1. [Implement stack using array](https://github.com/harishvc/challenges/blob/master/implement-stack.py)
+2. Implement stack with getMax() that operates with time complexity O(1) [TODO]
+3. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/check-matching-parenthesis.py)
+4. Check if a string containing parenthesis, square brackets and curly brackets is balanced [TODO]
+5. Implement stack using queue [TODO]
+6. [Implement stack using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
+7. [Implement stack using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
+8. [Implement stack using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
 
 ###Queues
-1. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
-2. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
-3. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
-4. [Design an algorithm to sort a stack in descending order] (https://github.com/harishvc/challenges/blob/master/sort-stack-in-descending-order.py)
-5. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
+1. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
+2. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
+3. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
+4. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
+5. [Design an algorithm to sort a stack in descending order] (https://github.com/harishvc/challenges/blob/master/sort-stack-in-descending-order.py)
+6. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
     same color should change the color to the second color  [TODO]
      
 ### Binary Trees
