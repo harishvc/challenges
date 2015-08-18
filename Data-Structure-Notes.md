@@ -1,3 +1,8 @@
+#STACK 
+* Stack uses LIFO (Last in First Out) ordering
+* Constant time to add and remove elements since no internal shifting around
+* Does not offer constant time to access elements at position i unlike list/array
+* Operations in constant time: push(), pop(), peek(), isEmpty(), size()  
 
 #TREES
 * In computer science, a tree is a widely used abstract data type (ADT).
