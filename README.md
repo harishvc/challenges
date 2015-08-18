@@ -36,8 +36,8 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 
 ###Stacks
-1. [Implement stack using array](https://github.com/harishvc/challenges/blob/master/implement-stack.py)
-2. Implement stack with getMax() that operates with time complexity O(1) [TODO]
+1. [Implement stack using array](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
+2. Implement stack with getMax() that operates in constant time [TODO]
 3. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/check-matching-parenthesis.py)
 4. Check if a string containing parenthesis, square brackets and curly brackets is balanced [TODO]
 5. Implement stack using queue [TODO]
