@@ -6,7 +6,7 @@ Collection of interesting questions and solutions that involve data structures, 
 ##Table of Contents 
 
 ### Python Intro
-1. [Python intro](https://github.com/harishvc/challenges/blob/master/python-intro.py)
+1. [Python standard library](https://github.com/harishvc/challenges/blob/master/python-intro.py)
 2. Python interview questions [TODO]
 
 ### Basics
