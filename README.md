@@ -3,8 +3,8 @@ Technical challenges
 
 Collection of interesting questions and solutions that involve data structures, algorithms, design and time complexity. Solutions are in Python version 3.4.3
 
-##Table of Contents 
-    * [Python Intro](#python-intro)
+* [Table of Contents](#table-of-contents)
+    * [Python Intro](#python-intro) 
     * [Basics](#basics)
     * [Linked Lists](#linked-lists)
     * [Stacks](#stacks)
@@ -151,7 +151,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)
 7. [Swap two variable values without additional space](https://github.com/harishvc/challenges/blob/master/swap-two-variable-values-without-additional-space.py)
 
-##Related Links
+###Related Links
 * [How to avoid and outlive layoffs as a programmer?](http://www.coderust.com/blog/2014/07/20/avoid_outlive_programmer_layoffs/)
 * [How do I prepare for a software engineering job interview? - Discussion on Quora](http://www.quora.com/How-do-I-prepare-for-a-software-engineering-job-interview)
 * [Data Structure tutorials from Eternally Confuzzled](http://eternallyconfuzzled.com/Tutorials.aspx)
@@ -172,5 +172,5 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 
-##Amazing technical discussions
+###Amazing technical discussions
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
