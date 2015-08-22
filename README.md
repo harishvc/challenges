@@ -5,9 +5,13 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ##Table of Contents 
 
-## Basics
+### Python Intro
+1. [Python intro](https://github.com/harishvc/challenges/blob/master/python-intro.py)
+2. Python interview questions [TODO]
+
+### Basics
 1.  [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup>
-2. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py)
+2.  [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py)
 3.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
 4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
 5.  [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
