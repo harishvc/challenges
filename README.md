@@ -37,7 +37,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ###Stacks
 1. [Implement stack using array](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
-2. Implement stack with getMax() that operates in constant time [TODO]
+2. [Implement stack with getMax() that operates in constant time](https://github.com/harishvc/challenges/blob/master/stack-with-maxvalue.py)
 3. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py)
 4. Check if a string containing parenthesis, square brackets and curly brackets is balanced [TODO]
 5. Implement stack using queue [TODO]
