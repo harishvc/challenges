@@ -1,3 +1,5 @@
+#Data structures, algorithms and concepts
+
 #STACK 
 * Stack uses LIFO (Last in First Out) ordering
 * Implementation can be using linked list or arrays. 
