@@ -27,7 +27,7 @@ Collection of interesting questions and solutions that involve data structures, 
 2. Python interview questions [TODO]
 
 ### Data Structures, Algorithms &amp; Concepts
-* Data structures, alogorithms and concepts notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
+* [Data structures, alogorithms and concepts notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
 
 ### Basics
 1.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
