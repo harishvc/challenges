@@ -24,7 +24,9 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Python Standard Library
 1. [Python standard library reference](https://github.com/harishvc/challenges/blob/master/python-intro.py)
-2. Python interview questions [TODO]
+2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
+3. [Dictionary & List Comprehensions intro](https://github.com/harishvc/challenges/blob/master/dictionary-intro.py)
+4. Python interview questions [TODO]
 
 ### Data Structures, Algorithms &amp; Concepts
 * [Data structures, alogorithms and concepts notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
@@ -73,10 +75,6 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 10. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
 10. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
 11. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
-
-###Dictionary
-1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
-2. [Dictionary & List Comprehensions intro](https://github.com/harishvc/challenges/blob/master/dictionary-intro.py)
 
 ### Linked Lists
 1. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
