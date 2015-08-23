@@ -143,6 +143,8 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 ### Sorting
 1. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
 2. [Lambda Sort](https://github.com/harishvc/challenges/blob/master/lambda.py)
+3. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
+
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
@@ -157,10 +159,9 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
 2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
 3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
-4. [Sort Algorithms](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
-5. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
-6. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
-7. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
+4. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
+5. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
+6. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py)
 
