@@ -92,7 +92,7 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 8. Implement stack using queue [TODO]
 
 ###Queues
-1. Implement queue using list [TODO]
+1. [Implement queue using list](https://github.com/harishvc/challenges/blob/master/queue-implement.py)
 2. [Implement queue using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
 3. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
 4. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
