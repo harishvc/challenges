@@ -1,8 +1,18 @@
 #STACK 
 * Stack uses LIFO (Last in First Out) ordering
+* Implementation can be using linked list or arrays. 
 * Constant time to add and remove elements since no internal shifting around
 * Does not offer constant time to access elements at position i unlike list/array
 * Operations in constant time: push(), pop(), peek(), isEmpty(), size()  
+
+#QUEUE 
+* Queue uses FIFO (First in First Out) ordering
+* Implementation can be using linked list or arrays. Linked Lists are preferred since access time can be kept constant. 
+   All array elements need to get shifted after removing the first element.
+* Constant time to add and remove elements since no internal shifting around
+* Does not offer constant time to access elements at position i unlike list/array
+* Operations in constant time: add(), remove(), peek(), isEmpty(), size()  
+
 
 #TREES
 * In computer science, a tree is a widely used abstract data type (ADT).
