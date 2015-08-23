@@ -105,8 +105,12 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
      
 ### Binary Trees
 1.  [Binary tree traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
+    a. [Pre-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-pre-order.py)
+    b. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)
+    c. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)
+    d. [Level-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)
 2.  [Check if a binary tree is symmetric](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)[TODO]
-3. [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
+3.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
 4.  [Find the size of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
 5.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
 6.  [Maximum depth of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)

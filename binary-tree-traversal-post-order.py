@@ -1,11 +1,3 @@
-#import sys
-#sys.path.append("./mylib")
-#import Tree
-
-#Source: https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython/blob/master/src/chapter06trees/BinaryTree.py
-
-
-
 '''Binary Tree Class and its methods'''
 class BinaryTree:
 	def __init__(self, data):
@@ -45,23 +37,6 @@ class BinaryTree:
 			temp.right = self.right
 			self.right = temp
 				    
-# Pre-order recursive traversal. The nodes' values are appended to the result list in traversal order
-def preorderRecursive(root, result):
-    if not root:
-        return
-    
-    result.append(root.data)
-    preorderRecursive(root.left, result)
-    preorderRecursive(root.right, result)
-
-# In-order recursive traversal. The nodes' values are appended to the result list in traversal order
-def inorderRecursive(root, result):
-	if not root:
-		return
-
-	inorderRecursive(root.left, result)
-	result.append(root.data)
-	inorderRecursive(root.right, result)
 
 # Post-order recursive traversal. The nodes' values are appended to the result list in traversal order
 def postorderRecursive(root, result):
@@ -72,32 +47,6 @@ def postorderRecursive(root, result):
     postorderRecursive(root.right, result)
     result.append(root.data)
 
-# Pre-order iterative traversal. The nodes' values are appended to the result list in traversal order
-def preorderIterative(root, result):
-	if not root:
-		return
-	stack = []
-	stack.append(root)
-	while stack:
-		node = stack.pop()
-		result.append(node.data)
-		if node.right: stack.append(node.right) #right first - stack pop!
-		if node.left:  stack.append(node.left)	
-		
-# In-order iterative traversal. The nodes' values are appended to the result list in traversal order
-def inorderIterative(root, result):
-	if not root:
-		return
-	stack = []
-	node = root
-	while stack or node:
-		if node: #node first then stack
-			stack.append(node)
-			node = node.left   #Go all the way to the left!!!!
-		else:
-			node = stack.pop()
-			result.append(node.data)
-			node = node.right
 
 # Post-order iterative traversal. The nodes' values are appended to the result list in traversal order
 def postorderIterative(root, result):
@@ -121,23 +70,6 @@ def postorderIterative(root, result):
                 node = None #no right, so set to none to stop iteration
 
 
-import queue
-def levelOrder(root, result):
-	if root is None: 
-		return
-	q = queue.Queue()       
-	q.put(root)
-	n = None
-	while not q.empty():
-		n = q.get()  #dequeue FIFO
-		#print(n.getData())
-		result.append(n.getData())
-		if n.left is not None:
-			#print("traversing left ..",n.left.getData())
-			q.put(n.left)
-		if n.right is not None:
-			#print("traversing right ..",n.right.getData())
-			q.put(n.right)  
 			
 #Initialize Binary Tree
 root = BinaryTree(1)
@@ -150,14 +82,5 @@ root.getRight().insertRight(7)
 
 #Traverse
 result = []
-preorderRecursive(root, result)
-print("PreOrder traversal (recursive): %s" % (result))
-del result[:]
-inorderRecursive(root, result)
-print("InOrder traversal (recursive): %s" % (result))
-del result[:]
 postorderRecursive(root, result)
 print("PostOrder traversal (recursive): %s" % (result))
-del result[:]
-levelOrder(root, result)
-print("LevelOrder traversal: %s" % (result))
