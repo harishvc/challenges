@@ -74,6 +74,9 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 10. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
 11. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
 
+###Dictionary
+1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
+2. [Dictionary & List Comprehensions intro](https://github.com/harishvc/challenges/blob/master/dictionary-intro.py)
 
 ### Linked Lists
 1. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
@@ -141,9 +144,10 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 
 
 ### Sorting
-1. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
-2. [Lambda Sort](https://github.com/harishvc/challenges/blob/master/lambda.py)
-3. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
+1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
+2. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
+3. [Lambda Sort](https://github.com/harishvc/challenges/blob/master/lambda.py)
+4. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
 
 
 ### Dynamic Programming
