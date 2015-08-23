@@ -1,10 +1,11 @@
-Technical challenges
-====================
+Cracking the coding interview
+=============================
 
-Collection of interesting questions and solutions that involve data structures, algorithms, design and time complexity. Solutions are in Python version 3.4.3
+Collection of interesting questions and solutions that involve data structures, algorithms and concepts. Solutions are in Python version 3.4.3
 
 * [Table of Contents](#table-of-contents)
     * [Python Intro](#python-intro) 
+    * [Data Structures](#Data-Structures)
     * [Basics](#basics)
     * [Linked Lists](#linked-lists)
     * [Stacks](#stacks)
@@ -24,29 +25,54 @@ Collection of interesting questions and solutions that involve data structures, 
 1. [Python standard library](https://github.com/harishvc/challenges/blob/master/python-intro.py)
 2. Python interview questions [TODO]
 
+### Data Structures, Algorithms &amp; Concepts
+1. [Data structures, alogorithms and concepts notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
+
 ### Basics
-1.  [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup>
-2.  [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py)
-3.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
-4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
-5.  [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
-6.  [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py)
-7.  [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-8.  [Matrix Introduction](https://github.com/harishvc/challenges/blob/master/matrix-introduction.py)
-9.  [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
-10. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
-11. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
-12. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-13. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
-14. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
-15. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
-16. [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
-17. Fibonacci series    
+1.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
+2.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
+3.  [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
+4.  [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py)
+5.  [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+6.  [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
+7. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+8. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
+9. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
+10. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
+11. [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
+12. Fibonacci series    
   a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
-18. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
-19. Find the first n prime numbers [TODO]
-20. Validate Sudoku solution [TODO]
+13. Find the first n prime numbers [TODO]
+14. Validate Sudoku solution [TODO]
+
+###Lists
+1. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py)
+2. [Rotate lists](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
+3. [Two dimentional list introduction](https://github.com/harishvc/challenges/blob/master/two-dimensional-array.py)
+4. [Matrix Introduction](https://github.com/harishvc/challenges/blob/master/matrix-introduction.py)
+5. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
+6. [Given two arrays of integers, find a pair of values (one from each array) such that
+you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)[TODO]
+7. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup>
+8. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py)
+9. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py)[TODO]
+
+ 
+### Strings
+1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
+2. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
+3. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
+4. [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)
+5. [Check if a string is a palindrome](https://github.com/harishvc/challenges/blob/master/palindrome.py)
+6. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py)
+7. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
+8. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
+9. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
+10. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
+10. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
+11. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
+
 
 ### Linked Lists
 1. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
@@ -55,38 +81,42 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 
 ###Stacks
-1. [Implement stack using array](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
-2. [Implement stack with getMax() that operates in constant time](https://github.com/harishvc/challenges/blob/master/stack-with-maxvalue.py)
-3. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py)
-4. Check if a string containing parenthesis, square brackets and curly brackets is balanced [TODO]
-5. Implement stack using queue [TODO]
-6. [Implement stack using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
-7. [Implement stack using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
-8. [Implement stack using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
+1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
+2. [Implement stack using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
+3. [Implement stack using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
+4. [Implement stack using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
+5. [Implement stack with getMax() that operates in constant time](https://github.com/harishvc/challenges/blob/master/stack-with-maxvalue.py)
+6. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py)
+7. Check if a string containing parenthesis, square brackets and curly brackets is balanced [TODO]
+8. Implement stack using queue [TODO]
 
 ###Queues
-1. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
-2. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
-3. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
-4. [Queue implementation using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
-5. [Design an algorithm to sort a stack in descending order] (https://github.com/harishvc/challenges/blob/master/sort-stack-in-descending-order.py)
-6. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
+1. Implement queue using list [TODO]
+2. [Implement queue using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
+3. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
+4. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
+5. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
+6. [Design an algorithm to sort a stack in descending order] (https://github.com/harishvc/challenges/blob/master/sort-stack-in-descending-order.py)
+7. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
     same color should change the color to the second color  [TODO]
+8. Implement blocking queue [TODO]
+9. Implement non-blocking queue [TODO]
      
 ### Binary Trees
 1.  [Binary tree traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)
-2.  [Find the size of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
-3.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
-4.  [Maximum depth of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
-5.  [Find # of leaves, half nodes and nodes in a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
-6.  [Level order &amp; reverse level order](https://github.com/harishvc/challenges/blob/master/binary-tree-level-order-reverse.py) <sup>:clap:</sup>
-7.  [Find diameter (width) of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py) :clap:
-8.  [Find the deepest node in Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
-9.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
-10. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
-11. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
-12. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
-13. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
+2.  [Check if a binary tree is symmetric](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)[TODO]
+3. [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
+4.  [Find the size of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
+5.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
+6.  [Maximum depth of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
+7.  [Find # of leaves, half nodes and nodes in a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
+8.  [Level order &amp; reverse level order](https://github.com/harishvc/challenges/blob/master/binary-tree-level-order-reverse.py) <sup>:clap:</sup>
+9.  [Find diameter (width) of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py) :clap:
+10.  [Find the deepest node in Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
+11. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
+12. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
+13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
+14. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
 
 ### Binary Search Tree (BST)  
 1. [BST Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)     
@@ -102,6 +132,8 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py)  
 4. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
 5. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
+6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
+
 
 ### Sorting
 1. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
@@ -114,22 +146,6 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Given two sequences find the longest palindrome [TODO]
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py)
- 
-### Lists and Strings
-1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
-2. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
-3. [Find the intersection of two sorted arrays](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py)
-4. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
-5. [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)
-6. [Check if a string is a palindrome](https://github.com/harishvc/challenges/blob/master/palindrome.py)
-7. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py)
-8. [Rotate array](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
-9. [Two dimentional array introduction](https://github.com/harishvc/challenges/blob/master/two-dimensional-array.py)
-10. [Randomize array elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
-11. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
-12. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
-13. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
-14. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
 
 
 ###Design &amp; Algorithms
@@ -138,7 +154,8 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
 4. [Sort Algorithms](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
 5. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
-6. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
+6. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
+7. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py)
 
