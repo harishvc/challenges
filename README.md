@@ -4,9 +4,11 @@ Cracking the coding interview
 Collection of interesting questions and solutions that involve data structures, algorithms and concepts. Solutions are in Python version 3.4.3
 
 * [Table of Contents](#table-of-contents)
-    * [Python Intro](#python-intro) 
-    * [Data Structures](#Data-Structures)
+    * [Python Standard Library](#python-standard-library) 
+    * [Data Structures, Algorithms &amp; Concepts](#data-structures-algorithms--concepts)
     * [Basics](#basics)
+    * [Lists](#lists)
+    * [Strings](#strings)
     * [Linked Lists](#linked-lists)
     * [Stacks](#stacks)
     * [Queues](#queues)
@@ -15,18 +17,17 @@ Collection of interesting questions and solutions that involve data structures, 
     * [Heaps](#heaps)
     * [Sorting](#sorting)
     * [Dynamic Programming](#dynamic-programming)
-    * [Lists and Strings](#lists-and-strings)
     * [Design &amp; Algorithms](#design--algorithms)
     * [Bitwise operations](#bitwise-operations)
     * [Related Links](#related-links)
     * [Amazing technical discussions](#amazing-technical-discussions)
 
-### Python Intro
-1. [Python standard library](https://github.com/harishvc/challenges/blob/master/python-intro.py)
+### Python Standard Library
+1. [Python standard library reference](https://github.com/harishvc/challenges/blob/master/python-intro.py)
 2. Python interview questions [TODO]
 
 ### Data Structures, Algorithms &amp; Concepts
-1. [Data structures, alogorithms and concepts notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
+* Data structures, alogorithms and concepts notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
 
 ### Basics
 1.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
