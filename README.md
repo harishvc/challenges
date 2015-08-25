@@ -24,9 +24,14 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Python Standard Library
 1. [Python standard library reference](https://github.com/harishvc/challenges/blob/master/python-intro.py)
-2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
-3. [Dictionary & List Comprehensions intro](https://github.com/harishvc/challenges/blob/master/dictionary-intro.py)
-4. Python interview questions [TODO]
+2. [Sort lists, lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
+3. [Dictionary, Tuples, List and List Comprehensions intro](https://github.com/harishvc/challenges/blob/master/python-intro2.py)
+4. [Python interview questions](http://www.ilian.io/python-interview-question-and-answers/)
+    - "pass by objects", mutable vs immutable, PEP8, python v3, 
+      "Unicode was a brave effort to create a single character set that included every reasonable writing system on the planet",
+      "decorators allow you to wrap a function or class method call and execute some code before or after the execution of the original code",
+      "with keyword is used when working with unmanaged resources (like file streams). It allows you to ensure that a resource is "cleaned up" when the code that uses it finishes running, even if exceptions are thrown",
+      
 
 ### Data Structures, Algorithms &amp; Concepts
 * [Data structures, alogorithms and concepts notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
