@@ -68,20 +68,22 @@ def IsBST3(root):
         return True
     
     # false if the max of the left is > than root 
-    if(root.left != None and (FindMax(root.left).data > root.data)):
+    elif(root.left != None and (root.left.data > root.data)):
        return False
 
     # false if the min of the right is <= than root 
-    if(root.right != None and (FindMin(root.right).data < root.data)):
+    elif(root.right != None and (root.right.data < root.data)):
        return False
 
     # false if, recursively, the left or right is not a BST 
-    if(not IsBST3(root.left) or not IsBST3(root.right)): 
-       return False
+    #if(not IsBST3(root.left) or not IsBST3(root.right)): 
+       #return False
 
+    
     # passing all that, it's a BST 
-    return True
-
+    #return True
+    else:
+        return (IsBST3(root.left) and IsBST3(root.right))
 
 #Create BST
 root = BSTNode(4)
