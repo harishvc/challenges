@@ -23,36 +23,31 @@ Collection of interesting questions and solutions that involve data structures, 
     * [Amazing technical discussions](#amazing-technical-discussions)
 
 ### Python Standard Library
-1. [Python standard library reference](https://github.com/harishvc/challenges/blob/master/python-intro.py)
-2. [Sort lists, lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
-3. [Dictionary, Tuples, List and List Comprehensions intro](https://github.com/harishvc/challenges/blob/master/python-intro2.py)
-4. [Python interview questions](http://www.ilian.io/python-interview-question-and-answers/)
-    - "pass by objects", mutable vs immutable, PEP8, python v3, 
-      "Unicode was a brave effort to create a single character set that included every reasonable writing system on the planet",
-      "decorators allow you to wrap a function or class method call and execute some code before or after the execution of the original code",
-      "with keyword is used when working with unmanaged resources (like file streams). It allows you to ensure that a resource is "cleaned up" when the code that uses it finishes running, even if exceptions are thrown",
-      
-
+1. [Python standard library reference (part 1/4)](https://github.com/harishvc/challenges/blob/master/python-intro.py)
+2. [Dictionary, Tuples, List and List comprehension (part 2/4)](https://github.com/harishvc/challenges/blob/master/python-intro2.py)
+3. [Sort >>> lists, lists of lists and list of dictionaries (part 3/4)](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
+4. [Notes: Python 3.x (part 4/4)](https://github.com/harishvc/challenges/blob/master/python-intro4.py)
+5. [Python interview questions](http://www.ilian.io/python-interview-question-and-answers/)
+ 
 ### Data Structures, Algorithms &amp; Concepts
-* [Data structures, alogorithms and concepts notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
+* [Notes: Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
 
 ### Basics
-1.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
-2.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
-3.  [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
-4.  [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py)
-5.  [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-6.  [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
-7. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-8. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
-9. [Find Factorial](https://github.com/harishvc/challenges/blob/master/factorial.py)
-10. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
-11. [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
-12. Fibonacci series    
+1.  [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
+2.  [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
+3.  [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
+4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
+5.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py)
+6.  [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+7.  [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+8.  [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
+9.  [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
+10. [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py)
+11. Fibonacci series    
   a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
-13. Find the first n prime numbers [TODO]
-14. Validate Sudoku solution [TODO]
+12. Find the first n prime numbers [TODO]
+13. Validate Sudoku solution [TODO]
 
 ###Lists
 1. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py)
@@ -65,7 +60,6 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 7. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup>
 8. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py)
 9. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py)[TODO]
-
  
 ### Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
@@ -78,8 +72,8 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 8. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
 9. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
 10. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
-10. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
-11. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
+11. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
+12. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
 
 ### Linked Lists
 1. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
@@ -145,13 +139,11 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 5. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
 
-
 ### Sorting
 1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
 2. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py)
 3. [Lambda Sort](https://github.com/harishvc/challenges/blob/master/lambda.py)
 4. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
-
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
@@ -160,7 +152,6 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 4. Given two sequences find the longest palindrome [TODO]
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py)
-
 
 ###Design &amp; Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
@@ -171,7 +162,6 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 6. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py)
-
 
 ### Bitwise operations
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
@@ -200,7 +190,6 @@ you can swap so that both arrays sume to the same value](https://github.com/hari
 * [Python Module of the Week](http://pymotw.com/2/contents.html)
 * Tushar Roy's [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki), [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
-
 
 ###Amazing technical discussions
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
