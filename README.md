@@ -4,23 +4,23 @@ Cracking the coding interview
 Collection of interesting questions and solutions that involve data structures, algorithms and concepts. Solutions are in Python version 3.4.3
 
 ## [Table of Contents](#table-of-contents)
-    * [Python Standard Library](#python-standard-library) 
-    * [Data Structures, Algorithms &amp; Concepts](#data-structures-algorithms--concepts)
-    * [Basics](#basics)
-    * [Lists](#lists)
-    * [Strings](#strings)
-    * [Linked Lists](#linked-lists)
-    * [Stacks](#stacks)
-    * [Queues](#queues)
-    * [Binary Trees](#binary-trees)
-    * [Binary Search Tree (BST)](#binary-search-tree-bst)
-    * [Heaps](#heaps)
-    * [Sorting](#sorting)
-    * [Dynamic Programming](#dynamic-programming)
-    * [Design &amp; Algorithms](#design--algorithms)
-    * [Bitwise operations](#bitwise-operations)
-    * [Related Links](#related-links)
-    * [Amazing technical discussions](#amazing-technical-discussions)
+* [Python Standard Library](#python-standard-library) 
+* [Data Structures, Algorithms &amp; Concepts](#data-structures-algorithms--concepts)
+* [Basics](#basics)
+* [Lists](#lists)
+* [Strings](#strings)
+* [Linked Lists](#linked-lists)
+* [Stacks](#stacks)
+* [Queues](#queues)
+* [Binary Trees](#binary-trees)
+* [Binary Search Tree (BST)](#binary-search-tree-bst)
+* [Heaps](#heaps)
+* [Sorting](#sorting)
+* [Dynamic Programming](#dynamic-programming)
+* [Design &amp; Algorithms](#design--algorithms)
+* [Bitwise operations](#bitwise-operations)
+* [Related Links](#related-links)
+* [Amazing technical discussions](#amazing-technical-discussions)
 
 ### Python Standard Library
 1. [Python standard library reference (part 1/5)](https://github.com/harishvc/challenges/blob/master/python-intro.py)
@@ -113,13 +113,13 @@ Collection of interesting questions and solutions that involve data structures, 
 5.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
 6.  [Maximum depth of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
 7.  [Find # of leaves, half nodes and nodes in a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
-8.  [Level order &amp; reverse level order](https://github.com/harishvc/challenges/blob/master/binary-tree-level-order-reverse.py) <sup>:clap:</sup>
-9.  [Find diameter (width) of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py) :clap:
-10.  [Find the deepest node in Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
-11. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
-12. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
-13. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
-14. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
+8.  [Find diameter (width) of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py) :clap:
+9.  [Find the deepest node in Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
+10. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
+11. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
+12. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
+13. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
+14. Print binary tree [TODO]
 
 ### Binary Search Tree (BST)  
 1. [BST Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)     
@@ -138,8 +138,8 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
 
 ### Sorting
-1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
-2. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py):memo:
+1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
+2. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo:
 4. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
 
 ### Dynamic Programming
