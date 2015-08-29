@@ -3,7 +3,7 @@ Cracking the coding interview
 
 Collection of interesting questions and solutions that involve data structures, algorithms and concepts. Solutions are in Python version 3.4.3
 
-* [Table of Contents](#table-of-contents)
+## [Table of Contents](#table-of-contents)
     * [Python Standard Library](#python-standard-library) 
     * [Data Structures, Algorithms &amp; Concepts](#data-structures-algorithms--concepts)
     * [Basics](#basics)
@@ -24,7 +24,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Python Standard Library
 1. [Python standard library reference (part 1/5)](https://github.com/harishvc/challenges/blob/master/python-intro.py)
-2. [Dictionary, Tuples, List and List comprehension (part 2/5)](https://github.com/harishvc/challenges/blob/master/python-intro2.py)
+2. [Dictionary, tuples, list and list comprehension, two dimensional list and file read (part 2/5)](https://github.com/harishvc/challenges/blob/master/python-intro2.py)
 3. [Sort >>> lists, lists of lists and list of dictionaries (part 3/5)](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
 4. [Lambda >>> sort variations (part 4/5)](https://github.com/harishvc/challenges/blob/master/lambda.py)
 5. [Notes: Python 3.x (part 5/5)](https://github.com/harishvc/challenges/blob/master/python-intro4.py)
@@ -38,43 +38,40 @@ Collection of interesting questions and solutions that involve data structures, 
 2.  [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
 3.  [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
 4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
-5.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: :target:
+5.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
 6.  [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 7.  [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 8.  [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
 9.  [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:
 10. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
 11. Fibonacci series    
-  a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
+  a. [ Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 12. Find the first n prime numbers [TODO] :memo:
 13. Validate Sudoku solution [TODO] 
 
 ###Lists
-1. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py)
-2. [Rotate lists](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
-3. [Two dimentional list introduction](https://github.com/harishvc/challenges/blob/master/two-dimensional-array.py)
-4. [Matrix Introduction](https://github.com/harishvc/challenges/blob/master/matrix-introduction.py)
-5. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
+1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
+2. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
+3. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
+4. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
+6. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup> :memo:
 6. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
-7. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup> :memo:
-8. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: :target:
-9. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py)[TODO]
+7. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py) [TODO]
  
 ### Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
 2. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
 3. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
 4. [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)
-5. [Check if a string is a palindrome](https://github.com/harishvc/challenges/blob/master/palindrome.py)
-6. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py)
-7. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
-8. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
-9. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
-10. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
-11. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
-12. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
+5. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
+6. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
+7. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
+8. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
+9. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
+10. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
+11. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
 
 ### Linked Lists
 1. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
@@ -88,7 +85,7 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Implement stack using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
 4. [Implement stack using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
 5. [Implement stack with getMax() that operates in constant time](https://github.com/harishvc/challenges/blob/master/stack-with-maxvalue.py) :memo:
-6. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py) :memo: :target:
+6. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py) :memo: 
 7. Check if a string containing parenthesis, square brackets and curly brackets is balanced [TODO]
 8. Implement stack using queue [TODO]
 

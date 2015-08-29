@@ -1,7 +1,17 @@
-#Question: Find pairs in an integer array whose sum is equal to a given value
+'''
+Question: Find pairs in an integer array whose sum is equal to a given value
 
-#Time complexity: O(n)
-#Space complexity: O(n)
+Test Case:
+input >>> [5, 7, 8, 2, 3, 0]
+Listing pairs that add up to  10
+[7,3]
+[8,2]
+[2,8]
+[3,7]
+
+Time complexity: O(n)
+Space complexity: O(n)
+'''
 
 input = [5,7,8,2,3,0]
 mydict = {}

@@ -1,8 +1,17 @@
+'''
+Question: Rotate a list to the right or left by n places
+
 #Reference: http://programmingpraxis.com/2010/10/12/rotate-an-array/
-
-#Question: Rotate single dimension array
-
 #Source:http://stackoverflow.com/questions/17350330/python-array-rotation
+
+Output:
+[1,2,3,4,5] rotated by 0 ===>  [1, 2, 3, 4, 5]
+[1,2,3,4,5] rotated by 2 ===>  [4, 5, 1, 2, 3]
+[1,2,3,4,5] rotated by -2 ===>  [3, 4, 5, 1, 2]
+[1,2,3,4,5] rotated by 7 ===>  [4, 5, 1, 2, 3]
+abcdefghijk rotated by 4 ===>  hijkabcdefg
+'''
+
 def rotate(l, y=1):
    if len(l) == 0:
       return l
