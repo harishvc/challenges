@@ -38,17 +38,17 @@ Collection of interesting questions and solutions that involve data structures, 
 2.  [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
 3.  [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
 4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
-5.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py):clipboard:
+5.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: :target:
 6.  [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 7.  [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 8.  [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
-9. [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py):clipboard:
-10.  [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
+9.  [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:
+10. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
 11. Fibonacci series    
   a. [Find the Fibonacci sequence](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
-12. Find the first n prime numbers [TODO]:clipboard:
-13. Validate Sudoku solution [TODO]:clipboard:
+12. Find the first n prime numbers [TODO] :memo:
+13. Validate Sudoku solution [TODO] 
 
 ###Lists
 1. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py)
@@ -57,9 +57,9 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Matrix Introduction](https://github.com/harishvc/challenges/blob/master/matrix-introduction.py)
 5. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
 6. [Given two arrays of integers, find a pair of values (one from each array) such that
-    you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)[TODO]
-7. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup> :clipboard:
-8. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py):clipboard:
+    you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
+7. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup> :memo:
+8. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: :target:
 9. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py)[TODO]
  
 ### Strings
@@ -87,8 +87,8 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [Implement stack using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
 3. [Implement stack using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
 4. [Implement stack using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
-5. [Implement stack with getMax() that operates in constant time](https://github.com/harishvc/challenges/blob/master/stack-with-maxvalue.py):clipboard:
-6. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py):clipboard:
+5. [Implement stack with getMax() that operates in constant time](https://github.com/harishvc/challenges/blob/master/stack-with-maxvalue.py) :memo:
+6. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py) :memo: :target:
 7. Check if a string containing parenthesis, square brackets and curly brackets is balanced [TODO]
 8. Implement stack using queue [TODO]
 
@@ -128,21 +128,21 @@ Collection of interesting questions and solutions that involve data structures, 
 1. [BST Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)     
 2. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
 3. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)     
-4. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/find-first-element-greater-than-number-K-in-BST.py):clipboard:     
-5. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/find-element-in-BST.py):clipboard:      
+4. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/find-first-element-greater-than-number-K-in-BST.py) :memo:     
+5. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/find-element-in-BST.py):memo:      
 6. Find mean of two lists [TODO]
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
 2. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
-3. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py):clipboard:  
+3. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py):memo:  
 4. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
 5. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
 
 ### Sorting
 1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/sort-intro.py)
-2. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py):clipboard:
+2. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py):memo:
 4. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
 
 ### Dynamic Programming
@@ -151,7 +151,7 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Given two sequences find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)
 4. Given two sequences find the longest palindrome [TODO]
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
-6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py):clipboard:
+6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
 ###Design &amp; Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
