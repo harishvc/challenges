@@ -1,5 +1,21 @@
 #Data structures, algorithms and concepts
 
+#LINKED LIST & LISTS
+* List of advantages
+  * Linked List is Dynamic data Structure, can grow and shrink during run time.
+  * Insertion and deletion operations are easier
+  * Efficient Memory Utilization - no need to pre-allocate memory
+  * Faster access time and can be expanded in constant time without memory overhead
+  * linear data structures such as Stack,Queue can be easily implemeted using Linked list
+* Linked lists have following drawbacks
+  * Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
+  * Extra memory space for a pointer is required with each element of the list.
+  * Reverse traversing is difficult
+  * Memory is allocated to Linked List at run time if and only if there is space available in heap  
+* Lists stores elements in successive order in memory.
+  * Constant time for accessing an element at a specific index and adding new element at end
+
+
 #STACK 
 * Stack uses LIFO (Last in First Out) ordering
 * Implementation can be using linked list or arrays. 

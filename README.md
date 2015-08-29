@@ -3,7 +3,7 @@ Cracking the coding interview
 
 Collection of interesting questions and solutions that involve data structures, algorithms and concepts. Solutions are in Python version 3.4.3
 
-## [Table of Contents](#table-of-contents)
+## [Table of Contents]
 * [Python Standard Library](#python-standard-library) 
 * [Data Structures, Algorithms &amp; Concepts](#data-structures-algorithms--concepts)
 * [Basics](#basics)
@@ -88,6 +88,10 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py) :memo: 
 7. Check if a string containing parenthesis, square brackets and curly brackets is balanced [TODO]
 8. Implement stack using queue [TODO]
+9. [Design an algorithm for computing the k-th largest element in a sequence of elements.
+   It should run in O(n) expected time where n is the length of the sequence, which is not known in advnance.
+   The value of K is known in advance. Your algorithm should print the k-th largest element after the sequence has ended.
+   It should use O(k) additional storage](https://github.com/harishvc/challenges/blob/master/k-largest-element.py ) [TODO]
 
 ###Queues
 1. [Implement queue using list](https://github.com/harishvc/challenges/blob/master/queue-implement.py)
@@ -152,13 +156,13 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ###Design &amp; Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
-2. [Given a million points (x, y), give an O(n) solution to find the 100 points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
+2. [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
 3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
 4. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
 5. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
 6. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
-    intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py)
+    intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py) :memo:
 
 ### Bitwise operations
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
