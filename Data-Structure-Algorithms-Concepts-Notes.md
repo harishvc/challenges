@@ -35,18 +35,24 @@
 #TREES
 * In computer science, a tree is a widely used abstract data type (ADT).
   A tree is a hierarchy (non-linear) data structure made up of nodes and edges where all nodes are connected without having any cycle
+* A tree is a <bold>connected graph without the cycles</bold>
 * Terminology  
     * <bold>Depth</bold> of a node is the length of the path from the <bold>root</bold> to the node
     * <bold>Height</bold> of a node is the length of the path from the node to the <bold>deepest</bold> node
     * <bold>Leaf</bold> is a node with no children.  
 
+## TRIES (Prefix trees)
+* Variation of n-ary tree in which characters are stored in each node. Each <bold>path down the tree</bold> may represent a word.
+* A trie can check if a string is a valid prefix in O(K) time where K is the length of the string
+
 ##BINARY TREES
 * A tree is a binary tree if <bold>each node has zero,one or two child nodes</bold>
 * #Nodes at level h is 2^h
 * #Total nodes is 2^h+1 - 1
-* <bold>Strict Binary Tree:</bold> Each node has <bold>exactly</bold>  <bold>2 child nodes</bold> or <bold>0</bold> child nodes 
-* <bold>Full Binary Tree:</bold> Each node has <bold>exactly</bold> two child nodes
-* <bold>Complete Binary Tree:<bold> All child nodes are height h or h-1      
+* <bold>Complete Binary Tree:<bold> Each level is fully filled except perhaps for the last level. Example <bold>heap</bold>.
+  Last level is filled left to right. All child nodes are height h or h-1      
+* <bold>Full Binary Tree:</bold> Each node has <bold>exactly 2 child nodes</bold> or <bold>0</bold> child nodes 
+* <bold>Perfect Binary Tree:</bold> <bold>Full and complete</bold>. Rare in real life and interviews.
 * Depth First Traversal (DFT):  
 	* Pre-order-Traversal: current node data ->left subtree -> right subtree
 	* In-order-Traversal: <bold>Ascending order</bold> left subtree > current node data > right subtree
@@ -57,11 +63,8 @@
 * left sub-tree elements are less than root
 * right sub-tree elements are greater than root
 * each node should satisfy this property
-* <quote>The definition of BST is that it is a ordered set, thus duplicates are not allowed to be inserted. 
-  This is usually due to more complex structures being built atop the BST. Depending on the desired behavior, 
-  you may want to throw an exception, error or silently ignore when duplicates are inserted. However, depending 
-  on your comparison function you can store duplicates on the left or right subtree, but remember to keep your 
-  traversals and insertion sides consistent.</quote>
+* The definition of BST can <bold>vary with respect to equality</bold>. Duplicates are not allowed by some definition. 
+  In others, duplicate values will be on right or can be on eith side, <bold>clarify with your interviewer.</bold> 
 * Compare BST vs Dictionary
     * BST finds elements closest to (not necessarily equal to) some arbitrary key value
     * BST iterates through the contents in sorted order (in-order traversal)
@@ -70,6 +73,7 @@
     * Dictionary provides constant lookup time  
 
 ##HEAP
+* Heap is a <bold>complete binary search tree</bold>
 * Special properties of a heap are
   * Each node can have up to two child nodes
   * Value of the parent node must the >= or <= of child nodes
@@ -108,3 +112,12 @@
   * [Heaps &amp; Binary Search Tree @Univ of Washington](http://courses.cs.washington.edu/courses/cse373/02au/lectures/lecture11l.pdf)
   * [Heaps Tutorial @Univ of Toronto](http://www.cs.toronto.edu/~krueger/cscB63h/w07/lectures/tut02.txt)
   * [Know Thy Complexities!](http://bigocheatsheet.com/)
+
+#GRAPHS
+* <bold>Connected Graph</bold> There is a path between every pair of vertex (nodes)
+* <bold>Path</bold> in a graph is a finite or infinite sequence of edges which connect a sequence of vertices. 
+  No <bold>vertices</bold> are repeated in a simple path.
+* A cycle is a <bold>closed path</bold>. That is, we start and end at the same vertex and do not travel to any vertex twice  
+* <bold>Acyclic graph</bold> is one without cycles (example: tree)
+* Trail refer to a path where <bold>no edge</bold> is repeated
+* Circuits refer to the <bold>closed trail</bold>, meaning we start and end at the same vertex
