@@ -3,7 +3,7 @@ Cracking the coding interview
 
 Collection of interesting questions and solutions that involve data structures, algorithms and concepts. Solutions are in Python version 3.4.3
 
-## [Table of Contents]
+## Table of Contents
 * [Python Standard Library](#python-standard-library) 
 * [Data Structures, Algorithms &amp; Concepts](#data-structures-algorithms--concepts)
 * [Basics](#basics)
@@ -111,7 +111,7 @@ Collection of interesting questions and solutions that involve data structures, 
     b. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
     c. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
     d. [Level-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)   
-2.  [Check if a binary tree is symmetric](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py) [TODO]
+2.  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)
 3.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
 4.  [Find the size of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
 5.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
