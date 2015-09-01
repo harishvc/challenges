@@ -1,5 +1,7 @@
 #Question: Find the size of the binary tree
 
+#Size of binary tree is size of left subtree + 1 + size of right subtree
+
 import sys
 sys.path.append("./mylib")
 import Tree
