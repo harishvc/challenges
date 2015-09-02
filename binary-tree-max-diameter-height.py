@@ -1,9 +1,11 @@
 '''
 Question: Find max diameter (width) and height of a binary tree
 
-The diameter of a tree (sometimes called the width) is the number of nodes on the longest path between two leaves in the tree. 
+Diameter of a tree (sometimes called the width) is the number of nodes on the 
+longest path between two leaves in the tree. 
 
-Height is the number of nodes along  the longest path from the root node down to the farthest leaf node.
+Height is the number of nodes along the longest path from the root node down 
+to the farthest leaf node.
 '''
 
 
@@ -11,6 +13,7 @@ import sys
 sys.path.append("./mylib")
 import Tree
 	
+#source:http://www.careercup.com/question?id=1767700
 def diameter_height(tree):	
 	if tree is None: 
 		return (0,0)
