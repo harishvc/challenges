@@ -114,16 +114,17 @@ Collection of interesting questions and solutions that involve data structures, 
 2.  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)
 3.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
 4.  [Find the size of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
-5.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
-6.  [Maximum depth of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
-7.  [Find # of leaves, half nodes and nodes in a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
-8.  [Find diameter (width) of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py) :clap:
-9.  [Find the deepest node in Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
-10. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
-11. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
-12. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
-13. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
-14. Print binary tree [TODO]
+5.  [Maximum depth of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
+6.  [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
+7.  [Find the height of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)
+8.  [Find maximum diameter (width) and height of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :clap:
+9.  [Print all paths & path sum from root to leaf in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
+10. [Find # of leaves, half nodes and nodes in a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
+11. [Find diameter (width) of a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-diameter.py) :clap:
+12. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
+13. [Find all edge nodes in the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py)
+14. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
+15. [Find the max value of the Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
 
 ### Binary Search Tree (BST)  
 1. [BST Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)     
