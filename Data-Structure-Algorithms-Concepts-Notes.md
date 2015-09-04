@@ -37,8 +37,14 @@
   A tree is a hierarchy (non-linear) data structure made up of nodes and edges where all nodes are connected without having any cycle
 * A tree is a <bold>connected graph without the cycles</bold>
 * Terminology  
-    * <bold>Depth</bold> of a node is the length of the path from the <bold>root</bold> to the node
-    * <bold>Height</bold> of a node is the length of the path from the node to the <bold>deepest</bold> node
+    * <bold>Depth</bold> of a node is the length of the path (#nodes) from the <bold>root</bold> to the node
+    * <bold>Height</bold> of a node is the length of the path (#nodes) from the node to the <bold>deepest</bold> node
+       * Root node has a depth of zero
+       * Leaf nodes have height one
+       * Height of a tree is height of the root  
+    * <bold>Size</bold> of binary tree is size of left subtree + 1 + size of right subtree
+    * <bold>Diameter/width</bold>The diameter of a tree (sometimes called the width) is the number of nodes on the 
+      longest path between two leaves in the tree 
     * <bold>Leaf</bold> is a node with no children.  
 
 ## TRIES (Prefix trees)
