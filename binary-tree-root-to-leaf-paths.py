@@ -4,55 +4,31 @@ import sys
 sys.path.append("./mylib")
 import Tree
 
-#Source: http://stackoverflow.com/questions/11045399/print-every-leaf-path-of-a-tree-without-recursive
-class Stack(object): 
-    def __init__(self):
-        self.a = []
+#Time complexity: O(n)
+#Space complexity: O(n)
+#Design: Iterate the binary tree level by level and store node, path and path sum in a stack
+def Root2LeafPaths(root):
+    nodes = []
+    nodes.append(root)         #node
+    nodes.append(root.data)    #path
+    nodes.append(root.data)    #pathsum
+    while (len(nodes) > 0):
+        pathsum = nodes.pop()
+        path = nodes.pop()
+        next = nodes.pop()
+        if(next.getRight() is not None):
+            nodes.append(next.getRight())
+            nodes.append(str(path) + "->" + str(next.getRight().data))
+            nodes.append((pathsum + next.getRight().data))
+        if(next.getLeft() is not None):    
+            nodes.append(next.getLeft())
+            nodes.append(str(path) + "->" + str(next.getLeft().data))
+            nodes.append((pathsum + next.getLeft().data))
+        if(next.getLeft() is None and next.getRight() is None):
+            print("path:%s path sum:%d" % (path,pathsum))
+            
 
-    def push(self, b):
-        self.a.append(b)
-
-    def peek(self):
-        return self.a[-1]
-
-    def pop(self):
-        return self.a.pop()
-
-    def isEmpty(self):
-        return len(self.a) == 0
-
-    def show(self):
-        return self.a
-       
-def RLpaths(troot):
-    current = troot
-    s = Stack()
-    s.push(current)
-    s.push(str(current.data))
-    s.push(current.data)
-
-    while not s.isEmpty():
-        pathsum = s.pop()
-        path = s.pop()
-        current = s.pop()
-
-        if not current.left and not current.right:
-            print('path: %s, pathsum: %d' % (path, pathsum))
-
-        if current.right:
-            rightstr = path + "->" + str(current.right.data)
-            rightpathsum = pathsum * 10 + current.right.data
-            s.push(current.right)
-            s.push(rightstr)
-            s.push(rightpathsum)
-
-        if current.left:
-            leftstr = path + "->" + str(current.left.data)
-            leftpathsum = pathsum * 10 + current.left.data
-            s.push(current.left)
-            s.push(leftstr)
-            s.push(leftpathsum)
- 
+#Build binary tree 
 root = Tree.BinaryTree(1)
 root.insertLeft(2)
 root.insertRight(3)
@@ -64,5 +40,5 @@ root.getLeft().getLeft().insertLeft(8)
 root.getLeft().getRight().insertRight(9)
 root.getLeft().getRight().getRight().insertRight(10)
 root.getLeft().getRight().getRight().getRight().insertRight(11)
-print("Printing all paths & path sum from root to leaf")
-RLpaths(root)
+
+Root2LeafPaths(root)
