@@ -126,12 +126,15 @@ Collection of interesting questions and solutions that involve data structures, 
 14. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
 
 ### Binary Search Tree (BST)  
-1. [BST Introduction](https://github.com/harishvc/challenges/blob/master/binary-search-tree-introduction.py)     
-2. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
-3. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)     
-4. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/find-first-element-greater-than-number-K-in-BST.py) :memo:     
-5. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/find-element-in-BST.py):memo:      
-6. Find mean of two lists [TODO]
+1. [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
+2. [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py)     
+3. [Find max value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-max-value.py)     
+4. [Find min value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-min-value.py)     
+5. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
+6. [Find smallestK and largestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK-largestK.py)     
+7. [Find first element greater than number K in BST](https://github.com/harishvc/challenges/blob/master/find-first-element-greater-than-number-K-in-BST.py) :memo:     
+8. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/find-element-in-BST.py):memo:      
+9. Find mean of two lists [TODO]
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
