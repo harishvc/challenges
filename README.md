@@ -127,7 +127,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Binary Search Tree (BST)  
 1. [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
-2. [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py)     
+2. [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py) :clap:     
 3. [Find max value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-max-value.py)     
 4. [Find min value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-min-value.py)     
 5. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
