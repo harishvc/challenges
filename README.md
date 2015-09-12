@@ -111,29 +111,29 @@ Collection of interesting questions and solutions that involve data structures, 
     b. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
     c. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
     d. [Level-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)   
-2.  [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:clap:</sup>
+2.  [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:thumbsup:</sup>
 3.  [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
 4.  [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
 5.  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)
-6.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:clap:</sup>
-7.  [Find all edge nodes (boundary) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) <sup>:clap:</sup>
+6.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:thumbsup:</sup>
+7.  [Find all edge nodes (boundary) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) <sup>:thumbsup:</sup>
 8.  [Find the size of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
 9.  [Find maximum depth of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
 10. [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
 11. [Find the height of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)
-12. [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :clap:
+12. [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:
 13. [Print all paths & path sum from root to leaf in a binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
-14. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:clap:</sup>
+14. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:thumbsup:</sup>
 
 ### Binary Search Tree (BST)  
 1. [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
-2. [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py) :clap:     
+2. [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py) :thumbsup:     
 3. [Find max value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-max-value.py)     
 4. [Find min value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-min-value.py)     
 5. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-value.py)      
-6. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
+6. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :thumbsup:  
 7. [Find first value greater than K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
-8. [Find smallestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :clap:    
+8. [Find smallestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup:    
 9. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
 9. Find mean of a BST [TODO]
 
