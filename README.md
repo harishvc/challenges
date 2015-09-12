@@ -133,8 +133,9 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-value.py)      
 6. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :clap:  
 7. [Find first value greater than K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
-8. [Find smallestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :clap:     
-9. Find mean of two lists [TODO]
+8. [Find smallestK in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :clap:    
+9. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
+9. Find mean of a BST [TODO]
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
@@ -143,6 +144,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
 5. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
+7. Running mean [TODO]
 
 ### Sorting
 1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
