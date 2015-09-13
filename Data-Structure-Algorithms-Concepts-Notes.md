@@ -35,33 +35,33 @@
 #TREES
 * In computer science, a tree is a widely used abstract data type (ADT).
   A tree is a hierarchy (non-linear) data structure made up of nodes and edges where all nodes are connected without having any cycle
-* A tree is a <bold>connected graph without the cycles</bold>
+* A tree is a <strong>connected graph without the cycles</strong>
 * Terminology  
-    * <bold>Depth</bold> of a node is the length of the path (#nodes) from the <bold>root</bold> to the node
-    * <bold>Height</bold> of a node is the length of the path (#nodes) from the node to the <bold>deepest</bold> node
+    * <strong>Depth</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node
+    * <strong>Height</strong> of a node is the length of the path (#nodes) from the node to the <strong>deepest</strong> node
        * Root node has a depth of zero
        * Leaf nodes have height one
        * Height of a tree is height of the root  
-    * <bold>Size</bold> of binary tree is size of left subtree + 1 + size of right subtree
-    * <bold>Diameter/width</bold>The diameter of a tree (sometimes called the width) is the number of nodes on the 
+    * <strong>Size</strong> of binary tree is size of left subtree + 1 + size of right subtree
+    * <strong>Diameter/width</strong>The diameter of a tree (sometimes called the width) is the number of nodes on the 
       longest path between two leaves in the tree 
-    * <bold>Leaf</bold> is a node with no children.  
+    * <strong>Leaf</strong> is a node with no children.  
 
 ## TRIES (Prefix trees)
-* Variation of n-ary tree in which characters are stored in each node. Each <bold>path down the tree</bold> may represent a word.
+* Variation of n-ary tree in which characters are stored in each node. Each <strong>path down the tree</strong> may represent a word.
 * A trie can check if a string is a valid prefix in O(K) time where K is the length of the string
 
 ##BINARY TREES
-* A tree is a binary tree if <bold>each node has zero,one or two child nodes</bold>
+* A tree is a binary tree if <strong>each node has zero,one or two child nodes</strong>
 * #Nodes at level h is 2^h
 * #Total nodes is 2^h+1 - 1
-* <bold>Complete Binary Tree:<bold> Each level is fully filled except perhaps for the last level. Example <bold>heap</bold>.
-  Last level is filled left to right. All child nodes are height h or h-1      
-* <bold>Full Binary Tree:</bold> Each node has <bold>exactly 2 child nodes</bold> or <bold>0</bold> child nodes 
-* <bold>Perfect Binary Tree:</bold> <bold>Full and complete</bold>. Rare in real life and interviews.
+* <strong>Complete Binary Tree:</strong> Each level is fully filled except perhaps for the last level.
+  Last level is filled left to right. All child nodes are height h or h-1. Example <strong>Heap</strong>.       
+* <strong>Full Binary Tree:</strong> Each node has <strong>exactly 2 child nodes</strong> or <strong>0</strong> child nodes 
+* <strong>Perfect Binary Tree:</strong> <strong>Full and complete</strong>. Rare in real life and interviews.
 * Depth First Traversal (DFT):  
 	* Pre-order-Traversal: current node data ->left subtree -> right subtree
-	* In-order-Traversal: <bold>Ascending order</bold> left subtree > current node data > right subtree
+	* In-order-Traversal: <strong>Ascending order</strong> left subtree > current node data > right subtree
 	* Post-order-Traversal:  left subtree > right subtree > current node data
 * Breadth First Traversal (BFT): Visit nodes at each level starting with root.  
 
@@ -69,8 +69,8 @@
 * left sub-tree elements are less than root
 * right sub-tree elements are greater than root
 * each node should satisfy this property
-* The definition of BST can <bold>vary with respect to equality</bold>. Duplicates are not allowed by some definition. 
-  In others, duplicate values will be on right or can be on eith side, <bold>clarify with your interviewer.</bold> 
+* The definition of BST can <strong>vary with respect to equality</strong>. Duplicates are not allowed by some definition. 
+  In others, duplicate values will be on right or can be on eith side, <strong>clarify with your interviewer.</strong> 
 * Compare BST vs Dictionary
     * BST finds elements closest to (not necessarily equal to) some arbitrary key value
     * BST iterates through the contents in sorted order (in-order traversal)
@@ -79,11 +79,11 @@
     * Dictionary provides constant lookup time  
 
 ##HEAP
-* Heap is a <bold>complete binary search tree</bold>
+* Heap is a <strong>complete binary search tree</strong>
 * Special properties of a heap are
   * Each node can have up to two child nodes
   * Value of the parent node must the >= or <= of child nodes
-    * min heap - value of parent node is <strong>less than or equal to</strong> value of children. Root of the heap has maximum value
+    * min heap - value of parent node is <strong>less than or equal to</strong> value of children. Root of the heap has minimum value
     * max heap - value of parent node is <strong>greater than or equal to</strong> value of children.  Root of the heap has maximum value
   * At level k (height, k > 0), there are a total of 2^k-1 nodes  
     * A leaf node at depth k (k > 0) can exist only if all nodes at depth k-1 exist 
@@ -99,11 +99,11 @@
      * Copy last node to root  
      * Reduce heap size  
      * Pop (remove last element)  
-     * Percolate down by comparing values  
+     * <strong>Percolate down</strong> by comparing values  
   * Insert:   
      * Insert new node at end  
      * Increase heap size  
-     * Percolate up by comparing values  
+     * <strong>Percolate up</strong> by comparing values  
 * <b>Heapify</b>: After inserting an element in a heap, the heap may not satisfy the heap property. 
   Location of nodes has to be changed to satisfy heap properties. Given a input (example:list) a heap can be built in linear time. 
 * Complexity
@@ -120,10 +120,10 @@
   * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 #GRAPHS
-* <bold>Connected Graph</bold> There is a path between every pair of vertex (nodes)
-* <bold>Path</bold> in a graph is a finite or infinite sequence of edges which connect a sequence of vertices. 
-  No <bold>vertices</bold> are repeated in a simple path.
-* A cycle is a <bold>closed path</bold>. That is, we start and end at the same vertex and do not travel to any vertex twice  
-* <bold>Acyclic graph</bold> is one without cycles (example: tree)
-* Trail refer to a path where <bold>no edge</bold> is repeated
-* Circuits refer to the <bold>closed trail</bold>, meaning we start and end at the same vertex
+* <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
+* <strong>Path</strong> in a graph is a finite or infinite sequence of edges which connect a sequence of vertices. 
+  No <strong>vertices</strong> are repeated in a simple path.
+* A cycle is a <strong>closed path</strong>. That is, we start and end at the same vertex and do not travel to any vertex twice  
+* <strong>Acyclic graph</strong> is one without cycles (example: tree)
+* Trail refer to a path where <strong>no edge</strong> is repeated
+* Circuits refer to the <strong>closed trail</strong>, meaning we start and end at the same vertex
