@@ -4,31 +4,29 @@ import sys
 sys.path.append("./mylib")
 import Tree
 
-#Source: http://jelices.blogspot.com/2014/05/leetcode-python-maximum-depth-of-binary.html
-def DeepestNode(root):
-	if root == None:
-		return 0
-	nodeStack = [root]  #Store nodes in array
-	depthStack = [1]    #Store depth of each level in array
-	maxDepth = 0        #Default max depth
-	DeepestNodeValue = float("-infinity")
-	DeepestNodedDepth = 0
-	#while len(nodeStack)>0:
-	while nodeStack:	
-		node = nodeStack.pop()
-		depth = depthStack.pop()
-		#maxDepth = max (maxDepth, depth)
-		if depth > maxDepth:
-			maxDepth = depth
-			DeepestNodeValue = node.data
-			DeepestNodedDepth = depth
-		if node.left != None:
-		 	nodeStack.append(node.left) #append left node
-		 	depthStack.append(depth+1)  #append depth of left node
-		if node.right != None:
-			nodeStack.append(node.right) #append right node
-			depthStack.append(depth+1)   #appaend right node depth
-	return (DeepestNodeValue,DeepestNodedDepth,maxDepth)
+def MaxDepthNode(root):
+	maxDepth = 0
+	if root is None:
+		return maxDepth
+	nodes = []
+	depth = []
+	nodes.append(root) 
+	depth.append(1) #root node at depth 1
+	MaxDepthNode = None
+	while nodes:  
+		newNode =  nodes.pop()
+		newDepth = depth.pop()
+		if newDepth > maxDepth:
+			maxDepth = newDepth
+			MaxDepthNode = newNode.data
+		if(newNode.left is not None):
+			nodes.append(newNode.left)   #Add new node to stack
+			depth.append(newDepth + 1)   #Add height of new node in stack
+		if(newNode.right is not None):
+			nodes.append(newNode.right)  #Add new node to stack
+			depth.append(newDepth + 1)   #Add height of new node in stack
+	return MaxDepthNode
+
 
 root = Tree.BinaryTree(1)
 root.insertLeft(2)
@@ -41,7 +39,5 @@ root.getLeft().getLeft().insertLeft(8)
 root.getLeft().getRight().insertRight(9)
 root.getLeft().getRight().getRight().insertRight(10)
 root.getLeft().getRight().getRight().getRight().insertRight(11)
-data,depth,maxdepth = DeepestNode(root)
-print("deepest node=%d is at depth=%d, max depth of the tree=%d" % (data,depth,maxdepth))
-
+print("deepest node=%d" % (MaxDepthNode(root)))
  
