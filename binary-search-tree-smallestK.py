@@ -1,5 +1,7 @@
 #Question: Find smallestK in BST
 
+#Observation: A median is a special case of Kth smallest element
+
 import sys
 sys.path.append("./mylib")
 import BST
