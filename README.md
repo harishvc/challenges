@@ -124,6 +124,10 @@ Collection of interesting questions and solutions that involve data structures, 
 12. [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:
 13. [Print all paths & path sum from root to leaf in a binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
 14. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:thumbsup:</sup>
+15. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path 
+     represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo:
+
+
 
 ### Binary Search Tree (BST)  
 1. [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
