@@ -33,7 +33,7 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Data Structures, Algorithms &amp; Concepts
 * [Notes: Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
 
-### Basics
+### Brain Teasers
 1.  [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
 2.  [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
 3.  [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
@@ -50,7 +50,7 @@ Collection of interesting questions and solutions that involve data structures, 
 12. Find the first n prime numbers [TODO] :memo:
 13. Validate Sudoku solution [TODO] 
 
-###Lists
+### Lists
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
 2. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
 3. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
@@ -66,12 +66,14 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
 4. [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)
 5. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
-6. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
-7. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
-8. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
-9. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
-10. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
-11. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
+
+### Permutations and Combinations
+1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
+2. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
+3. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
+4. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
+5. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
+6. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
 
 ### Linked Lists
 1. [Linked Lists Introduction](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)
@@ -80,7 +82,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Reverse a linked list [TODO] 
 5. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 
-###Stacks
+### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
 2. [Implement stack using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
 3. [Implement stack using dynamic array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-dynamic-array.py)
@@ -94,7 +96,7 @@ Collection of interesting questions and solutions that involve data structures, 
    The value of K is known in advance. Your algorithm should print the k-th largest element after the sequence has ended.
    It should use O(k) additional storage](https://github.com/harishvc/challenges/blob/master/k-largest-element.py ) [TODO]
 
-###Queues
+### Queues
 1. [Implement queue using list](https://github.com/harishvc/challenges/blob/master/queue-implement.py)
 2. [Implement queue using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
 3. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
@@ -128,8 +130,6 @@ Collection of interesting questions and solutions that involve data structures, 
 15. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path 
      represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo:
 
-
-
 ### Binary Search Tree (BST)  
 1. [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
 2. [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py) :thumbsup:     
@@ -141,6 +141,7 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:    
 9. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
 9. Find mean of a BST [TODO]
+10. find depth of binary search tree without using recursion [todo]
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
@@ -164,7 +165,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
-###Design &amp; Algorithms
+### Design &amp; Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
 2. [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
 3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
@@ -174,7 +175,7 @@ Collection of interesting questions and solutions that involve data structures, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py) :memo:
 
-### Bitwise operations
+### Bitwise Operations
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
 2. [Bitwise addition](https://github.com/harishvc/challenges/blob/master/bit-operation-add.py)
 3. [Bitwise subtraction](https://github.com/harishvc/challenges/blob/master/bit-operation-subtract.py)
@@ -182,13 +183,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)
 7. [Swap two variable values without additional space](https://github.com/harishvc/challenges/blob/master/swap-two-variable-values-without-additional-space.py)
 
-###Related Links
-* [How to avoid and outlive layoffs as a programmer?](http://www.coderust.com/blog/2014/07/20/avoid_outlive_programmer_layoffs/)
-* [How do I prepare for a software engineering job interview? - Discussion on Quora](http://www.quora.com/How-do-I-prepare-for-a-software-engineering-job-interview)
-* [Data Structure tutorials from Eternally Confuzzled](http://eternallyconfuzzled.com/Tutorials.aspx)
-* [Andrei Simionescu GitHub Respository with code and numerous online resources](https://github.com/andreis/interview)
-* [Recent interview questions@Career Cup](http://www.careercup.com/page)
-* [Interview questions on reddit](https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/)
+### Online Resources
 * [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 * Data Structure and Algorithmic Thinking with Python: [Book@Amazon](http://www.amazon.com/dp/8192107590/ref=as_li_ss_til?tag=caree0ea-20&camp=213381&creative=390973&linkCode=as4&creativeASIN=819210754X&adid=1PJGG64MJE0JQ00FTD4E&&ref-refURL=http://careermonk.com/?qa=buy),
   [GitHub Repository](https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython)
@@ -202,5 +197,18 @@ Collection of interesting questions and solutions that involve data structures, 
 * Tushar Roy's [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki), [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
-###Amazing technical discussions
+### Interview Resources
+* [Google interview questions - Product & Software Engineer](https://gist.github.com/amaxwell01/3728155)
+* [How to avoid and outlive layoffs as a programmer?](http://www.coderust.com/blog/2014/07/20/avoid_outlive_programmer_layoffs/)
+* [How do I prepare for a software engineering job interview? - Discussion on Quora](http://www.quora.com/How-do-I-prepare-for-a-software-engineering-job-interview)
+* [Data Structure tutorials from Eternally Confuzzled](http://eternallyconfuzzled.com/Tutorials.aspx)
+* [Andrei Simionescu GitHub Respository with code and numerous online resources](https://github.com/andreis/interview)
+* [Recent interview questions@Career Cup](http://www.careercup.com/page)
+* [Interview questions on reddit](https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/)
+
+### Amazing Technical Discussions
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
+
+### Emoji
+* [List of emoji for git commits](https://gist.github.com/pocotan001/68f96bf86891db316f20)
+* [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
