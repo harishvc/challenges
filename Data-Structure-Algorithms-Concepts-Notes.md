@@ -1,19 +1,21 @@
 # Data structures, algorithms and concepts
 
 # TIME COMPLEXITY
-* Dictionary: O(1) for insert, delete, lookup 
+* Dictionary: O(1) for insert, delete and lookup 
 * Linked List: O(1) insert/delete and O(n) lookup
 * List: O(1) insert, O(n) delete, and O(n) lookup
 * Tree/Heap: O(logN) insert/delete/lookup 
+* Reference
+  * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 # LINKED LIST & LISTS
-* List of advantages
+* Linked List advantages :notes:
   * Linked List is Dynamic data Structure, can grow and shrink during run time.
   * Insertion and deletion operations are from the beginning of the list in <strong>constant time</strong>
   * Efficient Memory Utilization - no need to pre-allocate memory
   * Faster access time and can be expanded in constant time without memory overhead
   * Linear data structures such as Stack,Queue can be easily implemeted using Linked list
-* Linked lists have following drawbacks
+* Linked List drawbacks :notes:
   * Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
   * Extra memory space for a pointer is required with each element of the list.
   * Reverse traversing is difficult
@@ -129,7 +131,6 @@
   * [Heap Sort on Bogotobogo](http://www.bogotobogo.com/Algorithms/heapsort.php)
   * [Heaps &amp; Binary Search Tree @Univ of Washington](http://courses.cs.washington.edu/courses/cse373/02au/lectures/lecture11l.pdf)
   * [Heaps Tutorial @Univ of Toronto](http://www.cs.toronto.edu/~krueger/cscB63h/w07/lectures/tut02.txt)
-  * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 # GRAPHS
 * <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
