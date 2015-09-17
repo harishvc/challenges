@@ -1,12 +1,18 @@
 #Data structures, algorithms and concepts
 
+#DATA STRUCTURES & TIME COMPLEXITY
+* Dictionary: O(1) for insert, delete, lookup 
+* Linked List: O(1) insert/delete and O(n) lookup
+* List: O(1) insert, O(n) delete, and O(n) lookup
+* Tree/Heap: O(logN) insert/delete/lookup 
+
 #LINKED LIST & LISTS
 * List of advantages
   * Linked List is Dynamic data Structure, can grow and shrink during run time.
-  * Insertion and deletion operations are easier
+  * Insertion and deletion operations are from the beginning of the list in <strong>constant time</strong>
   * Efficient Memory Utilization - no need to pre-allocate memory
   * Faster access time and can be expanded in constant time without memory overhead
-  * linear data structures such as Stack,Queue can be easily implemeted using Linked list
+  * Linear data structures such as Stack,Queue can be easily implemeted using Linked list
 * Linked lists have following drawbacks
   * Random access is not allowed. We have to access elements sequentially starting from the first node. So we cannot do binary search with linked lists.
   * Extra memory space for a pointer is required with each element of the list.
@@ -127,3 +133,5 @@
 * <strong>Acyclic graph</strong> is one without cycles (example: tree)
 * Trail refer to a path where <strong>no edge</strong> is repeated
 * Circuits refer to the <strong>closed trail</strong>, meaning we start and end at the same vertex
+
+
