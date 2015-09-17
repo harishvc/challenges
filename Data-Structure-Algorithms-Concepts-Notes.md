@@ -1,12 +1,12 @@
-#Data structures, algorithms and concepts
+# Data structures, algorithms and concepts
 
-#DATA STRUCTURES & TIME COMPLEXITY
+# TIME COMPLEXITY
 * Dictionary: O(1) for insert, delete, lookup 
 * Linked List: O(1) insert/delete and O(n) lookup
 * List: O(1) insert, O(n) delete, and O(n) lookup
 * Tree/Heap: O(logN) insert/delete/lookup 
 
-#LINKED LIST & LISTS
+# LINKED LIST & LISTS
 * List of advantages
   * Linked List is Dynamic data Structure, can grow and shrink during run time.
   * Insertion and deletion operations are from the beginning of the list in <strong>constant time</strong>
@@ -21,15 +21,14 @@
 * Lists stores elements in successive order in memory.
   * Constant time for accessing an element at a specific index and adding new element at end
 
-
-#STACK 
+# STACK 
 * Stack uses LIFO (Last in First Out) ordering
 * Implementation can be using linked list or arrays. 
 * Constant time to add and remove elements since no internal shifting around
 * Does not offer constant time to access elements at position i unlike list/array
 * Operations in constant time: push(), pop(), peek(), isEmpty(), size()  
 
-#QUEUE 
+# QUEUE 
 * Queue uses FIFO (First in First Out) ordering
 * Implementation can be using linked list or arrays. Linked Lists are preferred since access time can be kept constant. 
    All array elements need to get shifted after removing the first element.
@@ -37,8 +36,7 @@
 * Does not offer constant time to access elements at position i unlike list/array
 * Operations in constant time: add(), remove(), peek(), isEmpty(), size()  
 
-
-#TREES
+# TREES
 * In computer science, a tree is a widely used abstract data type (ADT).
   A tree is a hierarchy (non-linear) data structure made up of nodes and edges where all nodes are connected without having any cycle
 * A tree is a <strong>connected graph without the cycles</strong>
@@ -57,7 +55,7 @@
 * Variation of n-ary tree in which characters are stored in each node. Each <strong>path down the tree</strong> may represent a word.
 * A trie can check if a string is a valid prefix in O(K) time where K is the length of the string
 
-##BINARY TREES
+## BINARY TREES
 * A tree is a binary tree if <strong>each node has zero,one or two child nodes</strong>
 * #Nodes at level h is 2^h
 * #Total nodes is 2^h+1 - 1
@@ -71,20 +69,28 @@
 	* Post-order-Traversal:  left subtree > right subtree > current node data
 * Breadth First Traversal (BFT): Visit nodes at each level starting with root.  
 
-###BINARY SEARCH TREE (BST)
+### BINARY SEARCH TREE (BST)
 * left sub-tree elements are less than root
 * right sub-tree elements are greater than root
 * each node should satisfy this property
 * The definition of BST can <strong>vary with respect to equality</strong>. Duplicates are not allowed by some definition. 
   In others, duplicate values will be on right or can be on eith side, <strong>clarify with your interviewer.</strong> 
-* Compare BST vs Dictionary
+* Compare BST vs Dictionary  :notes:
     * BST finds elements closest to (not necessarily equal to) some arbitrary key value
     * BST iterates through the contents in sorted order (in-order traversal)
     * BST are memory-efficient, reserve more memory than they need to.
     * BST allows you to do range searches efficiently. 
     * Dictionary provides constant lookup time  
 
-##HEAP
+### RED AND BLACK TREES
+* Red and Black trees vs Dictionary :notes:
+  * Simple memory management - simplifies error handling in concurrent code, less I/O hits, 
+  * Consistent performance because rehashing (expanding the hash table's array) happens on some insertions.
+    This is important in real-time systems where you want to provide bounds on how long each operation takes
+  * Keys are sorted
+  * Reference: http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly 
+
+## HEAP
 * Heap is a <strong>complete binary search tree</strong>
 * Special properties of a heap are
   * Each node can have up to two child nodes
@@ -125,7 +131,7 @@
   * [Heaps Tutorial @Univ of Toronto](http://www.cs.toronto.edu/~krueger/cscB63h/w07/lectures/tut02.txt)
   * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
-#GRAPHS
+# GRAPHS
 * <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
 * <strong>Path</strong> in a graph is a finite or infinite sequence of edges which connect a sequence of vertices. 
   No <strong>vertices</strong> are repeated in a simple path.
