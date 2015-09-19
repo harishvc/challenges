@@ -41,7 +41,7 @@
 # TREES
 * In computer science, a tree is a widely used abstract data type (ADT).
   A tree is a hierarchy (non-linear) data structure made up of nodes and edges where all nodes are connected without having any cycle
-* A tree is a <strong>connected graph without the cycles</strong>
+* A tree is a <strong>connected graph without the cycles</strong> - acyclic connected graph
 * Terminology  
     * <strong>Depth</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node
     * <strong>Height</strong> of a node is the length of the path (#nodes) from the node to the <strong>deepest</strong> node
