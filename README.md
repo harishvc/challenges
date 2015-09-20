@@ -187,6 +187,8 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 * Data Structure and Algorithmic Thinking with Python: [Book@Amazon](http://www.amazon.com/dp/8192107590/ref=as_li_ss_til?tag=caree0ea-20&camp=213381&creative=390973&linkCode=as4&creativeASIN=819210754X&adid=1PJGG64MJE0JQ00FTD4E&&ref-refURL=http://careermonk.com/?qa=buy),
   [GitHub Repository](https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython)
+* Cracking the Coding Interview (6th Edition): [Book@Amazon](http://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/ref=as_li_ss_tl),
+  [GitHub Repository](https://github.com/gaylemcd/CtCI-6th-Edition)
 * [The Python Tutorial (version 3.4)](https://docs.python.org/3.4/tutorial/index.html)
 * [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)
 * [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)
