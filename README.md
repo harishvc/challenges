@@ -79,7 +79,7 @@ Collection of interesting questions and solutions that involve data structures, 
 1. [Linked Lists Introduction](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)
 2. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
 3. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
-4. [Reverse a linked list]((https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:
+4. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:
 5. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 
 ### Stacks
