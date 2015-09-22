@@ -50,15 +50,18 @@ Collection of interesting questions and solutions that involve data structures, 
 12. Find the first n prime numbers [TODO] :memo:
 13. Validate Sudoku solution [TODO] 
 
-### Lists
+### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
-2. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
-3. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
-4. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
+2. Given two numbers as list add them and return result as list [TODO]
+3. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
+4. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
+5. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
 6. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup> :memo:
-6. [Given two arrays of integers, find a pair of values (one from each array) such that
+7. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
-7. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py) [TODO]
+8. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py) [TODO]
+9. Design a data structure that provides insert, remove, contains and get random operations in O(1) time [TODO]
+
  
 ### Strings
 1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
@@ -164,6 +167,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Given two sequences find the longest palindrome [TODO]
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+7. Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2 [TODO]
 
 ### Design &amp; Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
@@ -210,6 +214,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Amazing Technical Discussions
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
+* [Beating Binary Search @ LinkedIn Blogs - using interpolation search](http://data.linkedin.com/blog/2010/06/beating-binary-search) :bulb:
 
 ### Emoji
 * [List of emoji for git commits](https://gist.github.com/pocotan001/68f96bf86891db316f20)
