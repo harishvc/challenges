@@ -47,10 +47,11 @@ Collection of interesting questions and solutions that involve data structures, 
 11. Fibonacci series    
   a. [ Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
-12. Given sorted list find median [TODO]
-13. Find median of two sorted arrays [TODO]
-14. Find the first n prime numbers [TODO] :memo:
-15. Validate Sudoku solution [TODO] 
+12. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)
+13. Find median of two sorted list [TODO]
+14. Find median of un sorted list [TODO]
+15. Find the first n prime numbers [TODO] :memo:
+16. Validate Sudoku solution [TODO] 
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
