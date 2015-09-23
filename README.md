@@ -47,8 +47,10 @@ Collection of interesting questions and solutions that involve data structures, 
 11. Fibonacci series    
   a. [ Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
-12. Find the first n prime numbers [TODO] :memo:
-13. Validate Sudoku solution [TODO] 
+12. Given sorted list find median [TODO]
+13. Find median of two sorted arrays [TODO]
+14. Find the first n prime numbers [TODO] :memo:
+15. Validate Sudoku solution [TODO] 
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
@@ -60,7 +62,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
 8. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py) [TODO]
-9. Design a data structure that provides insert, remove, contains and get random operations in O(1) time [TODO]
+9. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
 
  
 ### Strings
@@ -143,8 +145,9 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Find first value greater than K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
 8. [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:    
 9. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
-9. Find mean of a BST [TODO]
-10. find depth of binary search tree without using recursion [todo]
+10. Search in sorted list X for index i such that X[i] = i [TODO]
+11. Find mean of a BST [TODO]
+13. Find depth of a binary search tree without using recursion [TODO]
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
