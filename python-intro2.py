@@ -17,6 +17,7 @@ for key in sorted(d, key=d.get, reverse=False):
 
 
 ###Use list comprehension to initialize list
+#[<expression> for <element> in <sequence> if <conditional>]
 #Initialize x with all even numbers between 1 ... 11
 x = [i for i in range(11) if i%2 == 0]
 print(x) #[0, 2, 4, 6, 8, 10]
@@ -64,3 +65,30 @@ print(xyz)
 test="Hello"
 for x in test:
     print(x)
+    
+
+#Initialize matrix with random values
+def Initialize(matrix):
+    from random import randint
+    for row in range(0,len(matrix)):
+        for col in range(0,len(matrix[row])):
+            matrix[row][col] = randint(1,26)
+
+#Print Matrix
+def PrintMatrix(matrix): 
+    for row in range(0,len(matrix)):
+        for col in range(0,len(matrix[row])):
+            print("%d" % (matrix[row][col]),end=" ")
+        print("")
+    
+
+# Creates nxm matrix
+n = 5 #rows
+m = 3 #cols
+matrix = [[0 for x in range(n)] for x in range(m)]
+
+print("~~~~~~")
+Initialize(matrix)
+print ("%dx%d matrix >>>" % (m,n))
+PrintMatrix(matrix)
+    

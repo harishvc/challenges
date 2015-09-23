@@ -1,4 +1,18 @@
-####
+####LIST INTRO
+x = [1, 2, 3, 4]
+print(x[3])
+print(x[-1])
+print(x[-3])
+print(x[1:3])
+print(x[:2])
+print(x[1:])
+print(x[-2:3])
+print(x[::2])
+print(x[::-1]) #reverse
+print(x[-1:0:-1])
+
+
+####Sort List
 lucky = ['22', '11', '31']
 print(lucky)
 lucky.sort(reverse=True)
