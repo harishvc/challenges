@@ -48,8 +48,8 @@ Collection of interesting questions and solutions that involve data structures, 
   a. [ Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 12. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)
-13. Find median of two sorted list [TODO]
-14. Find median of un sorted list [TODO]
+13. [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:
+14. Find median of unsorted list [TODO]
 15. Find the first n prime numbers [TODO] :memo:
 16. Validate Sudoku solution [TODO] 
 
