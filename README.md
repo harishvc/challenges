@@ -26,7 +26,7 @@ Collection of interesting questions and solutions that involve data structures, 
 1. [Python standard library reference (part 1/5)](https://github.com/harishvc/challenges/blob/master/python-intro.py)
 2. [Dictionary, tuples, list and list comprehension, two dimensional list and file read (part 2/5)](https://github.com/harishvc/challenges/blob/master/python-intro2.py)
 3. [Sort >>> lists, lists of lists and list of dictionaries (part 3/5)](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
-4. [Lambda >>> sort variations (part 4/5)](https://github.com/harishvc/challenges/blob/master/lambda.py)
+4. [Lambda >>> intro, sort variations (part 4/5)](https://github.com/harishvc/challenges/blob/master/lambda.py)
 5. [Notes: Python 3.x (part 5/5)](https://github.com/harishvc/challenges/blob/master/python-intro4.py)
 6. [Python interview questions and answers](http://www.ilian.io/python-interview-question-and-answers/)
  
@@ -59,7 +59,7 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
 4. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
 5. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
-6. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) <sup>:bulb:</sup> :memo:
+6. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:
 7. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
 8. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py) [TODO]
@@ -120,33 +120,33 @@ Collection of interesting questions and solutions that involve data structures, 
     b. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
     c. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
     d. [Level-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)   
-2.  [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) <sup>:thumbsup:</sup>
+2.  [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:
 3.  [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
 4.  [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
 5.  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)
-6.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) <sup>:thumbsup:</sup>
-7.  [Find all edge nodes (boundary) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) <sup>:thumbsup:</sup>
+6.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:
+7.  [Find all edge nodes (boundary) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:
 8.  [Find the size of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
 9.  [Find maximum depth of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
 10. [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
 11. [Find the height of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)
 12. [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:
 13. [Print all paths & path sum from root to leaf in a binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
-14. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) <sup>:thumbsup:</sup>
+14. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:
 15. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path 
      represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo:
 
 ### Binary Search Tree (BST)  
-1. [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
-2. [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py) :thumbsup:     
-3. [Find max value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-max-value.py)     
-4. [Find min value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-min-value.py)     
-5. [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-value.py)      
-6. [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :thumbsup:  
-7. [Find first value greater than K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
-8. [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:    
-9. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
-10. Search in sorted list X for index i such that X[i] = i [TODO]
+1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
+2.  [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py) :thumbsup:     
+3.  [Find max value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-max-value.py)     
+4.  [Find min value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-min-value.py)     
+5.  [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-value.py)      
+6.  [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :thumbsup:  
+7.  [Find first value greater than K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
+8.  [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:    
+9.  [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
+10. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
 11. Find mean of a BST [TODO]
 13. Find depth of a binary search tree without using recursion [TODO]
 
