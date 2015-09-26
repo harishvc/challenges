@@ -72,6 +72,7 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
 4. [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)
 5. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
+6. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:
 
 ### Permutations and Combinations
 1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
