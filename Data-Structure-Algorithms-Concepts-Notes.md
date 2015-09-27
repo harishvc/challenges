@@ -52,12 +52,12 @@
     * <strong>Diameter/width</strong>The diameter of a tree (sometimes called the width) is the number of nodes on the 
       longest path between two leaves in the tree 
     * <strong>Leaf</strong> is a node with no children.
-* Definitions (there a subjective elements, ask for clarification)
-    *<strong>Balanced binary tree</strong> is defined as a tree such that the height of the two subtrees of 
+* Definitions (there a subjective elements, ask for clarification)   
+    * <strong>Balanced binary tree</strong> is defined as a tree such that the height of the two subtrees of 
      any node <strong>never differ by more than one</strong>.
-    *<strong>Structurally symmetric binary tree</strong> is defined as a tree where if you draw a vertical line passing through 
+    * <strong>Structurally symmetric binary tree</strong> is defined as a tree where if you draw a vertical line passing through 
      the root node then the left half should be the mirror image of the right half.
-    *<strong>Structurally identical binary tree</strong> is defined as a tree where left and right sub-nodes have exactly the same number 
+    * <strong>Structurally identical binary tree</strong> is defined as a tree where left and right sub-nodes have exactly the same number 
      of nodes, arranged in the exactly same way. It is <bold>not necessary that the value of each node should also be the same</bold>.
 
 ## TRIES (Prefix trees)
