@@ -44,14 +44,21 @@
 * A tree is a <strong>connected graph without the cycles</strong> - acyclic connected graph
 * Terminology  
     * <strong>Depth</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node
-    * <strong>Height</strong> of a node is the length of the path (#nodes) from the node to the <strong>deepest</strong> node
        * Root node has a depth of zero
+    * <strong>Height</strong> of a node is the length of the path (#nodes) from the node to the <strong>deepest</strong> node
        * Leaf nodes have height one
        * Height of a tree is height of the root  
     * <strong>Size</strong> of binary tree is size of left subtree + 1 + size of right subtree
     * <strong>Diameter/width</strong>The diameter of a tree (sometimes called the width) is the number of nodes on the 
       longest path between two leaves in the tree 
-    * <strong>Leaf</strong> is a node with no children.  
+    * <strong>Leaf</strong> is a node with no children.
+* Definitions (there a subjective elements, ask for clarification)
+    *<strong>Balanced binary tree</strong> is defined as a tree such that the height of the two subtrees of 
+     any node <strong>never differ by more than one</strong>.
+    *<strong>Structurally symmetric binary tree</strong> is defined as a tree where if you draw a vertical line passing through 
+     the root node then the left half should be the mirror image of the right half.
+    *<strong>Structurally identical binary tree</strong> is defined as a tree where left and right sub-nodes have exactly the same number 
+     of nodes, arranged in the exactly same way. It is <bold>not necessary that the value of each node should also be the same</bold>.
 
 ## TRIES (Prefix trees)
 * Variation of n-ary tree in which characters are stored in each node. Each <strong>path down the tree</strong> may represent a word.
