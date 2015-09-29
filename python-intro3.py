@@ -12,19 +12,23 @@ print(x[:-2])      #elements in index 0,1
 print(x[-2:])      #elements in index 2,3
 print(x[::-1])     #reverse
 print(x[-1:0:-1])  #elements in index position 3 (last, -1) and index position 1 going left
-x.insert(0,0)      #insert 0 in index position 0
-x.append(5)        #append 5 at the end
-del x[0:1]         #delete elements in index 0
-del x[:]           #delete ALL elements inside x
 
 ###LIST & INSERT
 a = []             # []
+x.insert(0,0)      #insert 0 in index position 0
 a.insert(0,1)      # [1]
 a.insert(0,2)      # [2,1]
 a.insert(0,3)      # [3,2,1]
 y = []             # []
 y.insert(5,100)    # [100]
 print(len(y))      # 1
+
+###LIST & APPEND
+x.append(5)        #append 5 at the end
+
+###LIST & DELETE
+del x[0:1]         #delete elements in index 0
+del x[:]           #delete ALL elements inside x
 
 ####Sort List
 lucky = ['22', '11', '31']
