@@ -145,7 +145,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4.  [Find min value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-min-value.py)     
 5.  [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-value.py)      
 6.  [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :thumbsup:  
-7.  [Find first value greater than K in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
+7.  [In a BST find first value greater than K or given node K find the next node](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
 8.  [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:    
 9.  [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
 10. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
@@ -161,6 +161,11 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
 7. Running mean [TODO]
+
+###GRAPHS
+1. [Directed Acyclic Graph (DAG) introduction](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
+2. Topological sort introduction
+
 
 ### Sorting
 1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
