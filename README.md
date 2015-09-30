@@ -164,7 +164,8 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ###GRAPHS
 1. [Directed Acyclic Graph (DAG) introduction](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
-2. Topological sort introduction
+2. [Topological sort introduction](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)
+3. Topological sort using DFS [TODO] 
 
 
 ### Sorting
