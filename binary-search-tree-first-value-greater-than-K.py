@@ -1,5 +1,5 @@
 '''
-Question: Find first value greater than K in BST
+Question: In a BST find first value greater than K or given node K find the next node
 
 Observation:
 When root.data > K we have a greater value. We then need to traverse left to first the first greater value.
