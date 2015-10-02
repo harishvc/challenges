@@ -1,3 +1,20 @@
+#HASH/DICTIONARY INTRO
+a = {}               #initialize
+a[1] = 1             #assign
+a[2] = 2
+print(a[2])          #2
+del a[3]             #delete key 3    
+z = a.get(3,None)    #find key else initialize
+print(z)             #None
+print(len(a))        #2 , # of keys in dictionary
+print(list(a.keys()))   #ALL keys as list
+print(list(a.values())) #ALL values as list
+if key in list(a.keys()):        #Check if key exists
+    print("key exists")
+if value in list(a.value()):        #Check if value exists
+    print("value exists")
+    
+
 #Find max value in dictionary
 d= {'a':2,'b':5,'c':3}
 print(d)
