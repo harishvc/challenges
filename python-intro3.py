@@ -30,6 +30,14 @@ x.append(5)        #append 5 at the end
 del x[0:1]         #delete elements in index 0
 del x[:]           #delete ALL elements inside x
 
+###SETS
+s = set([1,2,3,4])
+print(s)   #[1,2,3,4]
+s.discard(3)
+print(s) #[1,2,4]
+
+
+
 ####Sort List
 lucky = ['22', '11', '31']
 print(lucky)
