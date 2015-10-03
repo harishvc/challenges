@@ -136,7 +136,7 @@ Collection of interesting questions and solutions that involve data structures, 
 14. [Print all paths & path sum from root to leaf in a binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
 15. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:
 16. [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:
-17. [Find the first Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:
+17. [Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:
 18. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path 
      represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo:
  
@@ -167,8 +167,7 @@ Collection of interesting questions and solutions that involve data structures, 
 ###GRAPHS
 1. [Directed Acyclic Graph (DAG) introduction](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
 2. [Topological sort introduction](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)
-3. Topological sort using DFS [TODO] 
-
+3. [Topological sort using DFS](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-using-DFS.py) :bulb: :thumbsup: :notes: :rocket:
 
 ### Sorting
 1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
