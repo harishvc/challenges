@@ -135,9 +135,10 @@ Collection of interesting questions and solutions that involve data structures, 
 13. [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:
 14. [Print all paths & path sum from root to leaf in a binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
 15. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:
-16. [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:
-17. [Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:
-18. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path 
+16. [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:
+17. [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:
+18. [Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:
+19. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path 
      represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo:
  
 ### Binary Search Tree (BST)  
