@@ -138,9 +138,9 @@ Collection of interesting questions and solutions that involve data structures, 
 16. [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:
 17. [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:
 18. [Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:
-19. Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket: 
-    a. solution 1: Using LCA  
-    b. [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py) 
+19. Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:  
+     a. solution 1: Using LCA  
+     b. [solution 2: Using root to node path]  (https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)
 20. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path 
      represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo:
  
