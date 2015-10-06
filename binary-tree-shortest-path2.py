@@ -1,5 +1,5 @@
 '''
-Question: Find the shortest path between two nodes (n1 & n2) in a binary tree
+Question: Find the shortest path between two nodes in a binary tree
 
 Solution 2:
 Algorithm: http://stackoverflow.com/questions/2134583/looking-for-fast-algorithm-to-find-distance-between-two-nodes-in-binary-tree
@@ -7,7 +7,7 @@ Algorithm: http://stackoverflow.com/questions/2134583/looking-for-fast-algorithm
 2. Find depth of n2 and the path from root as p2
 3. Iterate through p1 and p2 until they are not equal
 
-Notes: Store paths from room in a linked list with length instead of list
+Notes: Store paths from root in a linked list with length instead of list
 '''
 
 import sys
@@ -19,7 +19,6 @@ def NodeDepthandPath(node,n1,depth,path):
 	if (node is None):
 		return 0 #IMPORTANT!!!
 	if (node.data == n1):
-		#print("Found ,,,,", n1)
 		path.append(node.data)
 		return depth
 	ldepth  = NodeDepthandPath(node.left, n1, depth+1,path)
