@@ -32,7 +32,7 @@ def NodeDepthandPath(node,n1,depth,path):
 	
 #Prune paths to remove all ancestor nodes	
 #Smallest path = left path + LCA + reverse(right path)
-def FindSmallestPath(p1,p2):
+def FindShortestPath(p1,p2):
 	i = len(p1)-1
 	j = len(p2)-1
 	LCA = []
@@ -66,5 +66,5 @@ for input in nodes:
 	NodeDepthandPath(root,input[0],0,path1)
 	path2 = []
 	NodeDepthandPath(root,input[1],0,path2)
-	result = FindSmallestPath(path1,path2)
+	result = FindShortestPath(path1,path2)
 	print("Shortest path from %d to %d = %s" %(input[0],input[1],result))	
