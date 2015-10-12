@@ -174,7 +174,7 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [Topological sort introduction](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)
 3. [Topological sort using DFS](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-using-DFS.py) :bulb: :thumbsup: :notes: :rocket:
 4. [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)
-
+5. [In a directed graph find path between two nodes](https://github.com/harishvc/challenges/blob/master/graph-find-path-between-nodes.py) :notes:
 
 
 ### Sorting
