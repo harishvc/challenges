@@ -143,6 +143,8 @@ Collection of interesting questions and solutions that involve data structures, 
      b. [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)
 20. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path 
      represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo:
+
+21. Given two binary trees T1 and T2, check if T2  is a subset of T1 [TODO]
  
 ### Binary Search Tree (BST)  
 1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
