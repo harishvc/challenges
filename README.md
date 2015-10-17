@@ -135,8 +135,8 @@ Collection of interesting questions and solutions that involve data structures, 
 13. [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:
 14. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:
 15. Print all paths & path sum from root to leaf in a binary Tree :thumbsup:  
-	a. [Iterative] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)
-	b. [Recursive] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)
+	a. [Iterative] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
+	b. [Recursive] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
 16. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path
      represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:
 17. [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:
@@ -146,7 +146,7 @@ Collection of interesting questions and solutions that involve data structures, 
      a. [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
      b. [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)
 21. [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:
- 
+22. [Count # path that add up to a given value. Path are from parent node to child node, root and leaf can be excluded in the path](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup: 
  
 ### Binary Search Tree (BST)  
 1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
