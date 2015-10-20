@@ -146,7 +146,9 @@ Collection of interesting questions and solutions that involve data structures, 
      a. [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
      b. [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)
 21. [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:
-22. [Count # path that add up to a given value. Path are from parent node to child node, root and leaf can be excluded in the path](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup: 
+22. Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
+	a. [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup: 
+	b. [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
  
 ### Binary Search Tree (BST)  
 1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
