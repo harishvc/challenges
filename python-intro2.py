@@ -11,7 +11,7 @@ print(list(a.keys()))   #ALL keys as list
 print(list(a.values())) #ALL values as list
 if key in a.keys():     #Check if key exists
     print("key exists")
-if value in a.value():  #Check if value exists
+if value in a.values():  #Check if value exists
     print("value exists")
     
 
