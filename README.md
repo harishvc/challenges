@@ -186,7 +186,8 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Sorting
 1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
 2. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo:
-4. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
+3. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
+4. Sort a list of ones, twos and threes [TODO]
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
@@ -240,6 +241,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Andrei Simionescu GitHub Respository with code and numerous online resources](https://github.com/andreis/interview)
 * [Recent interview questions@Career Cup](http://www.careercup.com/page)
 * [Interview questions on reddit](https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/)
+* [JavaScript interview questions](http://rileyh.com/ui-developer-interview-questions-answers/)
 
 ### Amazing Technical Discussions
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
