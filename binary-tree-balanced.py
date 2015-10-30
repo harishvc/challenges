@@ -1,7 +1,7 @@
 '''
-Question: Check if a binary tree is balanced
+Question: Check if a binary tree is a fully balanced binary tree
 
-Balanced tree is defined as a tree such that the height of the two subtrees of any node never differ by more than one.
+Fully balanced tree is defined as a tree such that the height of the two subtrees of any node never differ by more than one.
 
 '''
 '''
