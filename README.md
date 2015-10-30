@@ -88,7 +88,7 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
 4. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:
 5. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
-
+6. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py)
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
 2. [Implement stack using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
