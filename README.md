@@ -150,6 +150,7 @@ Collection of interesting questions and solutions that involve data structures, 
 22. Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
 	a. [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
 	b. [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
+23. Given a linked list, construct a balanced tree with the same in-order traversal [TODO]
  
 ### Binary Search Tree (BST)  
 1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
