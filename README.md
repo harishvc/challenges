@@ -52,6 +52,7 @@ Collection of interesting questions and solutions that involve data structures, 
 14. Find median of unsorted list [TODO]
 15. Find the first n prime numbers [TODO] :memo:
 16. Validate Sudoku solution [TODO] 
+17. Given a list and sum. Find 3 numbers in the list that add up to the given sum [TODO]
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
