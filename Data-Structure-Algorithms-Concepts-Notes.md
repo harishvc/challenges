@@ -1,5 +1,23 @@
 # Data structures, algorithms and concepts
 
+#Built-in Data Types (Primitive)
+ * Lists
+ * Sets
+ * Tuples
+ * Dictionary
+ * Selecting the right data type
+   ** Dictionary when you have a set of unique keys that map to values
+   ** List if you have an ordered collection of items
+   ** Set to store an unordered set of items and ignore deplicates
+ 
+ 
+#User Built-in Data Types (Abstract Data Types) 
+  * Linked List
+  * Stack
+  * Queue
+  * Tree
+  * Graph
+  
 # TIME COMPLEXITY
 * Dictionary: O(1) for insert, delete and lookup 
 * Linked List: O(1) insert/delete and O(n) lookup
@@ -53,7 +71,7 @@
       longest path between two leaves in the tree 
     * <strong>Leaf</strong> is a node with no children.
 * Definitions (there a subjective elements, ask for clarification)   
-    * <strong>Balanced binary tree</strong> is defined as a tree such that the height of the two subtrees of 
+    * <strong>Fully balanced binary tree</strong> is defined as a tree such that the height of the two subtrees of 
      any node <strong>never differ by more than one</strong>.
     * <strong>Structurally symmetric binary tree</strong> is defined as a tree where if you draw a vertical line passing through 
      the root node then the left half should be the mirror image of the right half.
@@ -139,12 +157,14 @@
   * [Heaps &amp; Binary Search Tree @Univ of Washington](http://courses.cs.washington.edu/courses/cse373/02au/lectures/lecture11l.pdf)
   * [Heaps Tutorial @Univ of Toronto](http://www.cs.toronto.edu/~krueger/cscB63h/w07/lectures/tut02.txt)
 
-# GRAPHS
+# Graphs
 * <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
 * <strong>Path</strong> in a graph is a finite or infinite sequence of edges which connect a sequence of vertices. 
   No <strong>vertices</strong> are repeated in a simple path.
 * A cycle is a <strong>closed path</strong>. That is, we start and end at the same vertex and do not travel to any vertex twice  
 * <strong>Acyclic graph</strong> is one without cycles (example: tree)
+* <strong>Topological sort</strong> is ordering of the vertex in a directed acyclic graph (DAG), such that if there is a edge from vertex u to vertex v, 
+   then v appears after u in the ordering
 * Trail refer to a path where <strong>no edge</strong> is repeated
 * Circuits refer to the <strong>closed trail</strong>, meaning we start and end at the same vertex
 
