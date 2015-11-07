@@ -67,12 +67,14 @@ Collection of interesting questions and solutions that involve data structures, 
 9. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
  
 ### Strings
-1. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
-2. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
-3. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
-4. [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)
-5. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
-6. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:
+1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
+2  Reverse a string recursively [TODO]
+3. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
+4. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
+5. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
+6. [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)
+7. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
+8. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:
 
 ### Permutations and Combinations
 1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
