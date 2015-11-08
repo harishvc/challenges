@@ -68,7 +68,7 @@ Collection of interesting questions and solutions that involve data structures, 
  
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
-2  Reverse a string recursively [TODO]
+2. [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)
 3. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
 4. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
 5. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
