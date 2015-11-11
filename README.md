@@ -213,6 +213,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py) :memo:
+7. [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
 
 ### Bitwise Operations
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
@@ -238,6 +239,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Python Module of the Week](http://pymotw.com/2/contents.html)
 * Tushar Roy's [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki), [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
+* [Popular Python recipes @ ActiveState](http://code.activestate.com/recipes/langs/python/)
 
 ### Interview Resources
 * [Google interview questions - Product & Software Engineer](https://gist.github.com/amaxwell01/3728155)
