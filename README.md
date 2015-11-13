@@ -193,7 +193,7 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo:
 3. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
 4. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)
-5. Given two sorted list merge them [TODO]
+5. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
@@ -224,6 +224,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Swap two variable values without additional space](https://github.com/harishvc/challenges/blob/master/swap-two-variable-values-without-additional-space.py)
 
 ### Online Resources
+* [Top 10 Algorithms for Coding Interview](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/) :boom: :thumbsup:
 * [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 * Data Structure and Algorithmic Thinking with Python: [Book@Amazon](http://www.amazon.com/dp/8192107590/ref=as_li_ss_til?tag=caree0ea-20&camp=213381&creative=390973&linkCode=as4&creativeASIN=819210754X&adid=1PJGG64MJE0JQ00FTD4E&&ref-refURL=http://careermonk.com/?qa=buy),
   [GitHub Repository](https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython)
@@ -240,6 +241,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * Tushar Roy's [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki), [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
 * [Popular Python recipes @ ActiveState](http://code.activestate.com/recipes/langs/python/)
+
 
 ### Interview Resources
 * [Google interview questions - Product & Software Engineer](https://gist.github.com/amaxwell01/3728155)
