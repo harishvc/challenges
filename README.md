@@ -242,6 +242,8 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
 * [Popular Python recipes @ ActiveState](http://code.activestate.com/recipes/langs/python/)
 
+### Debug Resources
+* [dis – Python Bytecode Disassembler](https://pymotw.com/2/dis/)
 
 ### Interview Resources
 * [Google interview questions - Product & Software Engineer](https://gist.github.com/amaxwell01/3728155)
