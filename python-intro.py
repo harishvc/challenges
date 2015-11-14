@@ -1,8 +1,14 @@
-#https://docs.python.org/3.4/tutorial/datastructures.html#more-on-lists
+#swap without using temporary space
+#check performance? 
+#import dis  #Bytecode Disassembler
+a,b = 1,2
+print(a,b) # 1 2
+a,b = b,a
+print(a,b) #2 1
 
+#https://docs.python.org/3.4/tutorial/datastructures.html#more-on-lists
 a = [66.25, 333, 333, 1, 1234.5]
 b = [77,55]
-
 a[0] = 9999
 #Count number of times 333 occurs
 print("333 occurs:%d times" % (a.count(333)))
