@@ -153,16 +153,16 @@
 
 ## Compare data structures
 ### BST vs Dictionary  :notes:
-    * BST finds elements closest to (not necessarily equal to) some arbitrary key value
-    * BST iterates through the contents in sorted order (in-order traversal)
-    * BST are memory-efficient, reserve more memory than they need to
-    * BST allows you to do range searches efficiently 
-    * Dictionary provides constant lookup time  
-### BST vs Heap
-    * Heap provides constant time lookup for min and max value
-    * BST provides O(logn) time complexity for search,insert,delete & access
-    * BST finds elements closest to (not necessarily equal to) some arbitrary key value
-    * BST allows you to do range searches efficiently 
+ * BST finds elements closest to (not necessarily equal to) some arbitrary key value
+ * BST iterates through the contents in sorted order (in-order traversal)
+ * BST are memory-efficient, reserve more memory than they need to
+ * BST allows you to do range searches efficiently 
+ * Dictionary provides constant lookup time  
+### BST vs Heap :notes:
+  * Heap provides constant time lookup for min and max value
+  * BST provides O(logn) time complexity for search,insert,delete & access
+  * BST finds elements closest to (not necessarily equal to) some arbitrary key value
+  * BST allows you to do range searches efficiently 
 
 # Graphs
 * <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
