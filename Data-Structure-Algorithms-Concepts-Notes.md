@@ -97,9 +97,8 @@
 * Breadth First Traversal (BFT): Visit nodes at each level starting with root.  
 
 ### BINARY SEARCH TREE (BST)
-* left sub-tree elements are less than root
-* right sub-tree elements are greater than root
-* each node should satisfy this property
+* BST is also known as an ordered binary tree. Here left sub-tree elements are less than root and right sub-tree 
+  elements are greater than root. This property is satisfied at each node.
 * The definition of BST can <strong>vary with respect to equality</strong>. Duplicates are not allowed by some definition. 
   In others, duplicate values will be on right or can be on eith side, <strong>clarify with your interviewer.</strong> 
 * Compare BST vs Dictionary  :notes:
