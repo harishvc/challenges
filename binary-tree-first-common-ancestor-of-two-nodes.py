@@ -1,7 +1,9 @@
 '''
 Question: Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree
-
+          Each node had child, left and right node(s)  
+           
 Algorithm: :bulb: :rocket:
+0. Traverse down from root to child 
 1. Detailed explanation with picture http://codereview.stackexchange.com/questions/83567/finding-common-ancestor-in-a-binary-tree
 2. Check count (nonlocal variable) at the entry and exit of the recursive function
 3. Only ancestor nodes have the property where count is 0 on entry and 2 on exit!
