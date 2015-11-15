@@ -68,15 +68,8 @@
        * Height of a tree is height of the root  
     * <strong>Size</strong> of binary tree is size of left subtree + 1 + size of right subtree
     * <strong>Diameter/width</strong>The diameter of a tree (sometimes called the width) is the number of nodes on the 
-      longest path between two leaves in the tree 
+      <strong>longest path</strong> between two leaves in the tree 
     * <strong>Leaf</strong> is a node with no children.
-* Definitions (there a subjective elements, ask for clarification)   
-    * <strong>Fully balanced binary tree</strong> is defined as a tree such that the height of the two subtrees of 
-     any node <strong>never differ by more than one</strong>.
-    * <strong>Structurally symmetric binary tree</strong> is defined as a tree where if you draw a vertical line passing through 
-     the root node then the left half should be the mirror image of the right half.
-    * <strong>Structurally identical binary tree</strong> is defined as a tree where left and right sub-nodes have exactly the same number 
-     of nodes, arranged in the exactly same way. It is <bold>not necessary that the value of each node should also be the same</bold>.
 
 ## TRIES (Prefix trees)
 * Variation of n-ary tree in which characters are stored in each node. Each <strong>path down the tree</strong> may represent a word.
@@ -86,10 +79,17 @@
 * A tree is a binary tree if <strong>each node has zero,one or two child nodes</strong>
 * #Nodes at level h is 2^h
 * #Total nodes is 2^h+1 - 1
-* <strong>Complete Binary Tree:</strong> Each level is fully filled except perhaps for the last level.
-  Last level is filled left to right. All child nodes are height h or h-1. Example <strong>Heap</strong>.       
-* <strong>Full Binary Tree:</strong> Each node has <strong>exactly 2 child nodes</strong> or <strong>0</strong> child nodes 
-* <strong>Perfect Binary Tree:</strong> <strong>Full and complete</strong>. Rare in real life and interviews.
+* Definitions (there a subjective elements, ask for clarification)   
+    * <strong>Fully balanced binary tree</strong> is defined as a tree such that the <strong>height</strong> of the two subtrees of 
+     any node <strong>never differ by more than one</strong>.
+    * <strong>Structurally symmetric binary tree</strong> is defined as a tree where if you draw a vertical line passing through 
+     the root node then the left half should be the mirror image of the right half.
+    * <strong>Structurally identical binary tree</strong> is defined as a tree where left and right sub-nodes have exactly the same number 
+     of nodes, arranged in the exactly same way. It is <bold>not necessary that the value of each node should also be the same</bold>.
+    * <strong>Complete Binary Tree:</strong> Each level is fully filled except perhaps for the last level.
+      Last level is filled left to right. All child nodes are height h or h-1. Example <strong>Heap</strong>.       
+    * <strong>Full Binary Tree:</strong> Each node has <strong>exactly 2 child nodes</strong> or <strong>0</strong> child nodes 
+    * <strong>Perfect Binary Tree:</strong> <strong>Full and complete</strong>. Rare in real life and interviews.
 * Depth First Traversal (DFT):  
 	* Pre-order-Traversal: current node data ->left subtree -> right subtree
 	* In-order-Traversal: <strong>Ascending order</strong> left subtree > current node data > right subtree
