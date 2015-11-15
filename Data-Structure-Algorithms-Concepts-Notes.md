@@ -101,12 +101,7 @@
   elements are greater than root. This property is satisfied at each node.
 * The definition of BST can <strong>vary with respect to equality</strong>. Duplicates are not allowed by some definition. 
   In others, duplicate values will be on right or can be on eith side, <strong>clarify with your interviewer.</strong> 
-* Compare BST vs Dictionary  :notes:
-    * BST finds elements closest to (not necessarily equal to) some arbitrary key value
-    * BST iterates through the contents in sorted order (in-order traversal)
-    * BST are memory-efficient, reserve more memory than they need to.
-    * BST allows you to do range searches efficiently. 
-    * Dictionary provides constant lookup time  
+
 
 ### RED AND BLACK TREES
 * Red and Black trees vs Dictionary :notes:
@@ -155,6 +150,19 @@
   * [Heap Sort on Bogotobogo](http://www.bogotobogo.com/Algorithms/heapsort.php)
   * [Heaps &amp; Binary Search Tree @Univ of Washington](http://courses.cs.washington.edu/courses/cse373/02au/lectures/lecture11l.pdf)
   * [Heaps Tutorial @Univ of Toronto](http://www.cs.toronto.edu/~krueger/cscB63h/w07/lectures/tut02.txt)
+
+## Compare data structures
+### BST vs Dictionary  :notes:
+    * BST finds elements closest to (not necessarily equal to) some arbitrary key value
+    * BST iterates through the contents in sorted order (in-order traversal)
+    * BST are memory-efficient, reserve more memory than they need to
+    * BST allows you to do range searches efficiently 
+    * Dictionary provides constant lookup time  
+### BST vs Heap
+    * Heap provides constant time lookup for min and max value
+    * BST provides O(logn) time complexity for search,insert,delete & access
+    * BST finds elements closest to (not necessarily equal to) some arbitrary key value
+    * BST allows you to do range searches efficiently 
 
 # Graphs
 * <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
