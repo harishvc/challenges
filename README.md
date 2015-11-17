@@ -144,7 +144,9 @@ Collection of interesting questions and solutions that involve data structures, 
      represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:
 17. [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:
 18. [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:
-19. [Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:
+19. Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree
+     a. [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:
+     b. [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)
 20. Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:  
      a. [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
      b. [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)
@@ -202,7 +204,11 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Given two sequences find the longest palindrome [TODO]
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
-7. Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2 [TODO]
+7. Given denominations and a total
+    * [Find total #ways to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:
+    * Minimum # coins needs to reach the total
+    * All possible combinations and the most optimal one
+8. Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2 [TODO]
 
 ### Design &amp; Algorithms
 1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
