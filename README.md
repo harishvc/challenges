@@ -33,26 +33,30 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Data Structures, Algorithms &amp; Concepts
 * [Notes: Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
 
-### Brain Teasers
-1.  [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
-2.  [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
-3.  [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
-4.  [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
-5.  [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
-6.  [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-7.  [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-8.  [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
-9.  [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:
-10. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
-11. Fibonacci series    
-  a. [ Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
-  b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
-12. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)
-13. [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:
-14. Find median of unsorted list [TODO]
-15. Find the first n prime numbers [TODO] :memo:
-16. Validate Sudoku solution [TODO] 
-17. [Given a list and sum. Find 3 numbers in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)
+### Brain Teasers (Basic)
+1. [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
+2. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
+3. [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
+4. [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
+5. [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+6. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+7. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
+8. Fibonacci series    
+   a. [ Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
+   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
+
+### Brain Teasers (Moderate)
+1. [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
+2. [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:
+3. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
+4. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)
+5. [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:
+6. Find median of unsorted list
+7. Find the first n prime numbers
+8. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]
+9. [Given a list and sum. Find 3 numbers in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)
+10.Reverse an integer
+
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
@@ -64,7 +68,6 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
 8. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py) [TODO]
-9. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
  
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
@@ -91,6 +94,8 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:
 5. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 6. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
+7. Find the node at which the intersection of two singly linked lists begins
+8. Delete a node in the linked list
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
@@ -144,17 +149,17 @@ Collection of interesting questions and solutions that involve data structures, 
      represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:
 17. [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:
 18. [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:
-19. Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree
+19. Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree  
      a. [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:
      b. [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)
-20. Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:  
+20. Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:    
      a. [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
      b. [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)
 21. [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:
 22. Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
 	a. [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
 	b. [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
-23. Given a linked list, construct a balanced tree with the same in-order traversal [TODO]
+23. Given a linked list, construct a balanced tree with the same in-order traversal
  
 ### Binary Search Tree (BST)  
 1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
@@ -170,8 +175,8 @@ Collection of interesting questions and solutions that involve data structures, 
 11. [Given a sorted list create a BST with minimal height] (https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:
 12. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:
 13. [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb: 
-14. Find mean of a BST [TODO]
-15. Find depth of a binary search tree without using recursion [TODO]
+14. Find mean of a BST
+15. Find depth of a binary search tree without using recursion
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
@@ -180,7 +185,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
 5. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
-7. Running mean [TODO]
+7. Running mean
 
 ###GRAPHS
 1. [Directed Acyclic Graph (DAG) introduction](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
@@ -220,6 +225,7 @@ Collection of interesting questions and solutions that involve data structures, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py) :memo:
 7. [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
+8. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
 
 ### Bitwise Operations
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
