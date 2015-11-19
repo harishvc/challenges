@@ -1,31 +1,22 @@
 # Data structures, algorithms and concepts
 
-#Built-in Data Types (Primitive)
+# Built-in Data Types (Primitive)
  * Lists
  * Sets
  * Tuples
  * Dictionary
- * Selecting the right data type
+ * Selecting the right data type    
    ** Dictionary when you have a set of unique keys that map to values
    ** List if you have an ordered collection of items
    ** Set to store an unordered set of items and ignore deplicates
  
- 
-#User Built-in Data Types (Abstract Data Types) 
+# User Built-in Data Types (Abstract Data Types) 
   * Linked List
   * Stack
   * Queue
   * Tree
   * Graph
   
-# TIME COMPLEXITY
-* Dictionary: O(1) for insert, delete and lookup 
-* Linked List: O(1) insert/delete and O(n) lookup
-* List: O(1) insert, O(n) delete, and O(n) lookup
-* Tree/Heap: O(logN) insert/delete/lookup 
-* Reference
-  * [Know Thy Complexities!](http://bigocheatsheet.com/)
-
 # LINKED LIST & LISTS
 * Linked List advantages :notes:
   * Linked List is Dynamic data Structure, can grow and shrink during run time.
@@ -164,6 +155,15 @@
   * BST provides O(logn) time complexity for search,insert,delete & access
   * BST finds elements closest to (not necessarily equal to) some arbitrary key value
   * BST allows you to do range searches efficiently 
+
+# TIME COMPLEXITY
+* Dictionary: O(1) for insert, delete and lookup 
+* Linked List: O(1) insert/delete and O(n) lookup
+* List: O(1) insert, O(n) delete, and O(n) lookup
+* BST: O(logN) insert/delete/lookup/max/min
+* Binary Heap: O(1) max/min, O(logN) insert/delete, O(n) lookup
+* Reference
+  * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 # Graphs
 * <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
