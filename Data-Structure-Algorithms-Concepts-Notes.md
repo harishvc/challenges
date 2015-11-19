@@ -6,9 +6,9 @@
  * Tuples
  * Dictionary
  * Selecting the right data type    
-   ** Dictionary when you have a set of unique keys that map to values  
-   ** List if you have an ordered collection of items  
-   ** Set to store an unordered set of items and ignore deplicates  
+   * Dictionary when you have a set of unique keys that map to values  
+   * List if you have an ordered collection of items  
+   * Set to store an unordered set of items and ignore deplicates  
  
 # User Built-in Data Types (Abstract Data Types) 
   * Linked List
