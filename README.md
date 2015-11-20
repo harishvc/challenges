@@ -22,12 +22,10 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Dynamic Programming](#dynamic-programming)
 * [Design &amp; Algorithms](#design--algorithms)
 * [Bitwise Operations](#bitwise-operations)
-* [Online Resources](#online-resources)
-* [Debug Resources](#debug-resources)
+* [Online Resources](#algorithms-and-data-structures-resources)
+* [Python Resources](#python-resources)
 * [Interview Resources](#interview-resources)
 * [Amazing Technical Discussions](#amazing-technical-discussions)
-* [Emoji](#emoji)
-
 
 ### Python Standard Library
 1. [Python standard library reference (part 1/5)](https://github.com/harishvc/challenges/blob/master/python-intro.py)
@@ -54,15 +52,18 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Brain Teasers (Moderate)
 1. [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
-2. [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:
-3. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
-4. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)
-5. [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:
-6. Find median of unsorted list
-7. Find the first n prime numbers
-8. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]
-9. [Given a list and sum. Find 3 numbers in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)
-10.Reverse an integer
+2. [Given a list and sum. Find 3 numbers in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)  
+3. Reverse an integer  
+4. Time intervals  
+    a. [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
+    b. [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
+    c. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)  
+5. Median  
+    a. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
+    b. [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
+    c. Find median of unsorted list  
+6. Find the first n prime numbers  
+7. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
 
 
 ### Lists & Dictionaries
@@ -242,27 +243,29 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)
 7. [Swap two variable values without additional space](https://github.com/harishvc/challenges/blob/master/swap-two-variable-values-without-additional-space.py)
 
-### Online Resources
+### Algorithms and Data Structures Resources
 * [Top 10 Algorithms for Coding Interview](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/) :boom: :thumbsup:
 * [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
 * Data Structure and Algorithmic Thinking with Python: [Book@Amazon](http://www.amazon.com/dp/8192107590/ref=as_li_ss_til?tag=caree0ea-20&camp=213381&creative=390973&linkCode=as4&creativeASIN=819210754X&adid=1PJGG64MJE0JQ00FTD4E&&ref-refURL=http://careermonk.com/?qa=buy),
   [GitHub Repository](https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython)
 * Cracking the Coding Interview (6th Edition): [Book@Amazon](http://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/ref=as_li_ss_tl),
   [GitHub Repository](https://github.com/gaylemcd/CtCI-6th-Edition)
-* [The Python Tutorial (version 3.4)](https://docs.python.org/3.4/tutorial/index.html)
-* [Python Programming.Net](http://pythonprogramming.net/dashboard/)
 * [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)
 * [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)
-* [Github markup preview](http://github-markup.dfilimonov.com/)
-* [Python debugger cheat sheat](http://www.cheatography.com/ralienpp/cheat-sheets/python-pdb/)
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
-* [Python Module of the Week](http://pymotw.com/2/contents.html)
 * Tushar Roy's [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki), [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
-* [Popular Python recipes @ ActiveState](http://code.activestate.com/recipes/langs/python/)
 
-### Debug Resources
+### Python Resources
+* [Python Module of the Week](http://pymotw.com/2/contents.html)
 * [dis – Python Bytecode Disassembler](https://pymotw.com/2/dis/)
+* [Python debugger cheat sheat](http://www.cheatography.com/ralienpp/cheat-sheets/python-pdb/)
+* [Python exception handling - try/except/else/finally](http://pythoncentral.io/catching-python-exceptions-the-try-except-else-keywords/)]
+* [Real-World Regular Expressions for Python](http://pythoncentral.io/real-world-regular-expressions-for-python/)
+* [The Python Tutorial (version 3.4)](https://docs.python.org/3.4/tutorial/index.html)
+* [Python Programming.Net](http://pythonprogramming.net/dashboard/)
+* [Popular Python recipes @ ActiveState](http://code.activestate.com/recipes/langs/python/)
+* [Object-oriented concepts in Python](http://zetcode.com/lang/python/oop)
 
 ### Interview Resources
 * [Google interview questions - Product & Software Engineer](https://gist.github.com/amaxwell01/3728155)
@@ -278,6 +281,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
 * [Beating Binary Search @ LinkedIn Blogs - using interpolation search](http://data.linkedin.com/blog/2010/06/beating-binary-search) :bulb:
 
-### Emoji
+### GitHub Resources
 * [List of emoji for git commits](https://gist.github.com/pocotan001/68f96bf86891db316f20)
 * [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
+* [Github markup preview](http://github-markup.dfilimonov.com/)
