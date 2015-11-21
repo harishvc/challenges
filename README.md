@@ -47,32 +47,43 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 7. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
 8. Fibonacci series    
-   a. [ Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
+   a. [Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
    b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 
 ### Brain Teasers (Moderate)
 1. [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
-2. [Given a list and sum. Find 3 numbers in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)  
-3. Reverse an integer  
-4. Time intervals  
-    a. [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
-    b. [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
-    c. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)  
-5. Median  
-    a. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
-    b. [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
-    c. Find median of unsorted list  
-6. Find the first n prime numbers  
-7. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
+2. Reverse an integer  
+3. Check if two given strings are Isomorphic
+4. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
+5. Find the first n prime numbers  
+6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:
+7. Duplicates  
+   a. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
+   b. Given a sorted list, remove the duplicates in place, return modified list and #unique values
+8. Given a list and sum  
+   a. Find all possible 2 numbers in the list that add up to the given sum 
+   b. [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)  
+   c. Find all possible quadruplets in the list that add up to the given sum
+9. Time intervals  
+   a. [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
+   b. [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
+   c. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)  
+10. Median  
+   a. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
+   b. [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
+   c. Find median of unsorted list  
 
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
-2. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py )
-3. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
-4. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
-5. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
-6. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:
+2. Find the majority element in linear time :boom:
+3. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py )
+4. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
+5. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
+6. Rotated list
+   a. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
+   b. Find minimum in a rotated soted list 
+   c. [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb: 
 7. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
 8. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py) [TODO]
@@ -86,6 +97,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)
 7. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
 8. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:
+9. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
 
 ### Permutations and Combinations
 1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
@@ -158,8 +170,8 @@ Collection of interesting questions and solutions that involve data structures, 
 17. [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:
 18. [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:
 19. Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree  
-     a. [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:
-     b. [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)
+     a. [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:  
+     b. [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)  
 20. Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:    
      a. [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
      b. [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)
@@ -182,9 +194,8 @@ Collection of interesting questions and solutions that involve data structures, 
 10. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
 11. [Given a sorted list create a BST with minimal height] (https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:
 12. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:
-13. [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb: 
-14. Find mean of a BST
-15. Find depth of a binary search tree without using recursion
+13. Find mean of a BST
+14. Find depth of a binary search tree without using recursion
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
@@ -205,10 +216,9 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Sorting
 1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
-2. [Implement compare function for version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo:
-3. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
-4. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)
-5. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
+2. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
+3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)
+4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
@@ -246,21 +256,26 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Algorithms and Data Structures Resources
 * [Top 10 Algorithms for Coding Interview](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/) :boom: :thumbsup:
 * [Problem Solving with Algorithms and Data Structures](http://interactivepython.org/runestone/static/pythonds/index.html)
-* Data Structure and Algorithmic Thinking with Python: [Book@Amazon](http://www.amazon.com/dp/8192107590/ref=as_li_ss_til?tag=caree0ea-20&camp=213381&creative=390973&linkCode=as4&creativeASIN=819210754X&adid=1PJGG64MJE0JQ00FTD4E&&ref-refURL=http://careermonk.com/?qa=buy),
-  [GitHub Repository](https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython)
-* Cracking the Coding Interview (6th Edition): [Book@Amazon](http://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/ref=as_li_ss_tl),
-  [GitHub Repository](https://github.com/gaylemcd/CtCI-6th-Edition)
-* [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)
-* [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)
+* Data Structure and Algorithmic Thinking with Python :boom: :thumbsup:  
+   a. [Book@Amazon](http://www.amazon.com/dp/8192107590/ref=as_li_ss_til?tag=caree0ea-20&camp=213381&creative=390973&linkCode=as4&creativeASIN=819210754X&adid=1PJGG64MJE0JQ00FTD4E&&ref-refURL=http://careermonk.com/?qa=buy)  
+   b. [GitHub Repository](https://github.com/careermonk/DataStructureAndAlgorithmicThinkingWithPython)   
+* Cracking the Coding Interview (6th Edition) :boom: :thumbsup:  
+   a. [Book@Amazon](http://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/ref=as_li_ss_tl)    
+   b. [GitHub Repository](https://github.com/gaylemcd/CtCI-6th-Edition)   
+   c. [Resources](http://www.crackingthecodinginterview.com/resources.html)    
+* Tushar Roy :boom: :thumbsup:
+   a. [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki)
+   b. [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
+* [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)  
+* [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)  
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
-* Tushar Roy's [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki), [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 ### Python Resources
 * [Python Module of the Week](http://pymotw.com/2/contents.html)
 * [dis – Python Bytecode Disassembler](https://pymotw.com/2/dis/)
 * [Python debugger cheat sheat](http://www.cheatography.com/ralienpp/cheat-sheets/python-pdb/)
-* [Python exception handling - try/except/else/finally](http://pythoncentral.io/catching-python-exceptions-the-try-except-else-keywords/)]
+* [Python exception handling - try/except/else/finally](http://pythoncentral.io/catching-python-exceptions-the-try-except-else-keywords/)
 * [Real-World Regular Expressions for Python](http://pythoncentral.io/real-world-regular-expressions-for-python/)
 * [The Python Tutorial (version 3.4)](https://docs.python.org/3.4/tutorial/index.html)
 * [Python Programming.Net](http://pythonprogramming.net/dashboard/)
