@@ -65,6 +65,12 @@ people2.sort(key=lambda x: x[2],reverse=True)
 print ("sorted by lucky number in reverse")
 print(people2)
 print("~~~~~~~~~")
+##
+print(input)
+input = [[1,3],[4,6],[10,15],[1,2],[2,9]]
+#sort by key1 and then key2
+input.sort(key=lambda x:(x[0],x[1]))
+print("sorted input ===>", input)
 
 ####List of dictionaries
 people3 = [
