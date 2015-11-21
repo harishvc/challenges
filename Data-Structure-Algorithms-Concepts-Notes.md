@@ -156,6 +156,12 @@
   * BST finds elements closest to (not necessarily equal to) some arbitrary key value
   * BST allows you to do range searches efficiently 
 
+### Red & Black Trees vs Dictionaries  
+   * Simple memory management - simplifies error handling in concurrent code, less I/O hits,    
+   * Consistent performance because rehashing (expanding the hash table's array) happens on some insertions.  
+     This is important in real-time systems where you want to provide bounds on how long each operation takes  
+   * Keys are sorted  
+
 # TIME COMPLEXITY
 * Dictionary: O(1) for insert, delete and lookup 
 * Linked List: O(1) insert/delete and O(n) lookup
