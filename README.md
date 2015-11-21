@@ -36,7 +36,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Python interview questions and answers](http://www.ilian.io/python-interview-question-and-answers/)
  
 ### Data Structures, Algorithms &amp; Concepts
-* [Notes: Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)
+* [Notes: Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)  :thumbsup: :notes:
 
 ### Brain Teasers (Basic)
 1. [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
@@ -227,10 +227,10 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Given two sequences find the longest palindrome [TODO]
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
-7. Given denominations and a total
-    a. [Find total #ways to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:
-    b. Minimum # coins needs to reach the total
-    c. All possible combinations and the most optimal one
+7. Given denominations and a total   
+    a. [Find total #ways to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:   
+    b. Minimum # coins needs to reach the total   
+    c. All possible combinations and the most optimal one   
 8. Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2 [TODO]
 
 ### Design &amp; Algorithms
