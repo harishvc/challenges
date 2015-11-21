@@ -61,8 +61,8 @@ Collection of interesting questions and solutions that involve data structures, 
    a. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
    b. Given a sorted list, remove the duplicates in place, return modified list and #unique values
 8. Given a list and sum  
-   a. Find all possible 2 numbers in the list that add up to the given sum 
-   b. [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)  
+   a. Find all possible 2 numbers in the list that add up to the given sum    
+   b. [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)     
    c. Find all possible quadruplets in the list that add up to the given sum
 9. Time intervals  
    a. [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
@@ -80,10 +80,10 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py )
 4. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
 5. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
-6. Rotated list
-   a. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)
-   b. Find minimum in a rotated soted list 
-   c. [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb: 
+6. Rotated list   
+   a. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
+   b. Find minimum in a rotated soted list     
+   c. [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
 7. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
 8. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py) [TODO]
@@ -228,9 +228,9 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 7. Given denominations and a total
-    * [Find total #ways to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:
-    * Minimum # coins needs to reach the total
-    * All possible combinations and the most optimal one
+    a. [Find total #ways to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:
+    b. Minimum # coins needs to reach the total
+    c. All possible combinations and the most optimal one
 8. Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2 [TODO]
 
 ### Design &amp; Algorithms
@@ -263,9 +263,9 @@ Collection of interesting questions and solutions that involve data structures, 
    a. [Book@Amazon](http://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/ref=as_li_ss_tl)    
    b. [GitHub Repository](https://github.com/gaylemcd/CtCI-6th-Edition)   
    c. [Resources](http://www.crackingthecodinginterview.com/resources.html)    
-* Tushar Roy :boom: :thumbsup:
-   a. [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki)
-   b. [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)
+* Tushar Roy :boom: :thumbsup:   
+   a. [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki)   
+   b. [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)   
 * [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)  
 * [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)  
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
