@@ -51,24 +51,29 @@ Collection of interesting questions and solutions that involve data structures, 
    b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 
 ### Brain Teasers (Moderate)
-1. [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
-2. Reverse an integer  
-3. Check if two given strings are Isomorphic
-4. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
-5. Find the first n prime numbers  
-6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:
-7. Duplicates  
+1. Find the first n prime numbers
+2. [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
+3. Reverse an integer  
+4. Find the Greatest Common Divisior (GCD) of two positive integers
+5. Check if two given strings are Isomorphic   
+6. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
+7. Create a representation to flatten a hash. Example {a:1, b:2, c:{d:3,e:4}} flattens to {a:1,b:2,c.d:3,c.e:4} :boom: :thumbsup:   
+8. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:   
+8. Matrix    
+   a. Print the matrix from outside to inside (Spiral) :boom:   
+   b. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:     
+10. Duplicates  
    a. [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
    b. Given a sorted list, remove the duplicates in place, return modified list and #unique values
-8. Given a list and sum  
+11. Given a list and sum  
    a. Find all possible 2 numbers in the list that add up to the given sum    
    b. [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)     
    c. Find all possible quadruplets in the list that add up to the given sum
-9. Time intervals  
+12. Time intervals  
    a. [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
    b. [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
    c. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)  
-10. Median  
+13. Median  
    a. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
    b. [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
    c. Find median of unsorted list  
@@ -86,7 +91,6 @@ Collection of interesting questions and solutions that involve data structures, 
    c. [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
 7. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
-8. [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exitst.py) [TODO]
  
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
@@ -98,6 +102,9 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
 8. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:
 9. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
+10. Given a long string seperated by space, find how many occurances of another small string 
+
+
 
 ### Permutations and Combinations
 1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
@@ -244,6 +251,7 @@ Collection of interesting questions and solutions that involve data structures, 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py) :memo:
 7. [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
 8. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
+9. Using OOP design a elevator  
 
 ### Bitwise Operations
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
