@@ -231,9 +231,9 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
 2. [Longest Common Subsequences (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:  
-   2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py)  
-   2.2 [Find a LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py)  
-   2.3 [Find all the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :rocket:   
+   2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
+   2.2 [Find a LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
+   2.3 [Find all the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
 3. [Given two sequences find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)
 4. Given two sequences find the longest palindrome [TODO]
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
