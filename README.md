@@ -47,8 +47,8 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
 7. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
 8. Fibonacci series    
-   a. [Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
-   b. [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
+   8.1 [Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
+   8.2 [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 
 ### Brain Teasers (Moderate)
 1. Find the first n prime numbers
@@ -169,8 +169,8 @@ Collection of interesting questions and solutions that involve data structures, 
    3.2 [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:  
    3.3 [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:  
    3.4 Print all paths & path sum from root to leaf in a binary Tree :thumbsup:  
-	   3.4.1 [Iterative] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
-	   3.4.2 [Recursive] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
+   * [Iterative] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
+   * [Recursive] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
    3.5 [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path
        represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:
 4. Moderate Difficulty  
@@ -183,11 +183,11 @@ Collection of interesting questions and solutions that involve data structures, 
         4.6.1 [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:  
         4.6.2 [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)  
    4.7 Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:    
-       4.7.1 [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
-       4.7.2 [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)  
+   * [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
+   * [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)  
    4.8 Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
-	   4.8.1 [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
-	   4.8.2 [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
+   * [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
+   * [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
    4.9 Given a linked list, construct a balanced tree with the same in-order traversal
 
 ### Binary Search Tree (BST)  
