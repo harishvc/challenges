@@ -151,44 +151,48 @@ Collection of interesting questions and solutions that involve data structures, 
      
 ### Binary Trees
 1.  [Traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)  
-    1.1 [Pre-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-pre-order.py)    
-    1.2. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
-    1.3. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
-    1.4. [Level-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)   
+  1.1 [Pre-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-pre-order.py)    
+  1.2. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
+  1.3. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
+  1.4. [Level-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)   
 2. Essentials  
-   2.1 [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)  
-   2.2 [Find the size of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)  
-   2.3 [Find the height of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)  
-   2.4 [Find maximum depth of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)  
-   2.5 [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:  
-   2.6 [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)  
-   2.7 [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:  
-   2.8 [Find all edge nodes (boundary/perimeter) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:  
+  2.1 [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)  
+  2.2 [Find the size of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)  
+  2.3 [Find the height of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)  
+  2.4 [Find maximum depth of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)  
+  2.5 [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:  
+  2.6 [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)  
+  2.7 [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:  
+  2.8 [Find all edge nodes (boundary/perimeter) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:  
 3. Path Sum  
-   3.1 [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)  
-   3.2 [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:  
-   3.3 [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:  
-   3.4 Print all paths & path sum from root to leaf in a binary Tree :thumbsup:  
+  3.1 [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)  
+  3.2 [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:  
+  3.3 [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:  
+  3.4 Print all paths & path sum from root to leaf in a binary Tree :thumbsup:  
    * [Iterative] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
    * [Recursive] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
-   3.5 [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path
+
+  3.5 [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path
        represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:
 4. Moderate Difficulty  
-   4.1  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)  
-   4.2  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
-   4.3  [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
-   4.4  [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:  
-   4.5  [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:  
-   4.6  Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree    
-        4.6.1 [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:  
-        4.6.2 [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)  
-   4.7 Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:    
+  4.1  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)  
+  4.2  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
+  4.3  [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
+  4.4  [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:  
+  4.5  [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:  
+  4.6  Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree    
+   * [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:  
+   * [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)  
+
+  4.7 Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:    
    * [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
    * [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)  
-   4.8 Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
+
+  4.8 Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
    * [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
    * [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
-   4.9 Given a linked list, construct a balanced tree with the same in-order traversal
+
+  4.9 Given a linked list, construct a balanced tree with the same in-order traversal
 
 ### Binary Search Tree (BST)  
 1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
