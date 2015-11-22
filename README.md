@@ -57,7 +57,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Find the Greatest Common Divisior (GCD) of two positive integers
 5. Check if two given strings are Isomorphic   
 6. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
-7. Create a representation to flatten a hash. Example {a:1, b:2, c:{d:3,e:4}} flattens to {a:1,b:2,c.d:3,c.e:4} :boom: :thumbsup:   
+7. Flatten a nested hash. Example {a:1, b:2, c:{d:3,e:4}} flattens to {a:1,b:2,c.d:3,c.e:4} :boom: :thumbsup:   
 8. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:   
 8. Matrix    
    a. Print the matrix from outside to inside (Spiral) :boom:   
@@ -69,11 +69,15 @@ Collection of interesting questions and solutions that involve data structures, 
    a. Find all possible 2 numbers in the list that add up to the given sum    
    b. [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)     
    c. Find all possible quadruplets in the list that add up to the given sum
-12. Time intervals  
+12. Rotated list   
+   a. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
+   b. Find minimum in a rotated soted list     
+   c. [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
+13. Time intervals  
    a. [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
    b. [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
    c. [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)  
-13. Median  
+14. Median  
    a. [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
    b. [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
    c. Find median of unsorted list  
@@ -85,11 +89,7 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py )
 4. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
 5. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
-6. Rotated list   
-   a. [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
-   b. Find minimum in a rotated soted list     
-   c. [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
-7. [Given two arrays of integers, find a pair of values (one from each array) such that
+6. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
  
 ### Strings
@@ -103,7 +103,6 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:
 9. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
 10. Given a long string seperated by space, find how many occurances of another small string 
-
 
 
 ### Permutations and Combinations
@@ -151,43 +150,46 @@ Collection of interesting questions and solutions that involve data structures, 
 9. Implement non-blocking queue [TODO]
      
 ### Binary Trees
-1.  [Binary tree traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)  
+1.  [Traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)  
     a. [Pre-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-pre-order.py)    
     b. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
     c. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
     d. [Level-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)   
-2.  [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:
-3.  [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
-4.  [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
-5.  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)
-6.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:
-7.  [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:
-8.  [Find all edge nodes (boundary) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:
-9.  [Find the size of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
-10. [Find maximum depth of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
-11. [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
-12. [Find the height of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)
-13. [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:
-14. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:
-15. Print all paths & path sum from root to leaf in a binary Tree :thumbsup:  
-	a. [Iterative] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
-	b. [Recursive] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
-16. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path
-     represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:
-17. [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:
-18. [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:
-19. Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree  
-     a. [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:  
-     b. [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)  
-20. Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:    
-     a. [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
-     b. [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)
-21. [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:
-22. Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
-	a. [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
-	b. [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
-23. Given a linked list, construct a balanced tree with the same in-order traversal
- 
+2. Essentials
+   a. [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)
+   b. [Find the size of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)
+   c. [Find the height of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)
+   d. [Find maximum depth of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)
+   e. [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:
+   f. [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)
+   g. [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:
+   h. [Find all edge nodes (boundary/perimeter) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:
+3. Path Sum
+   a. [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)
+   b. [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:
+   c. [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:
+   d. Print all paths & path sum from root to leaf in a binary Tree :thumbsup:  
+	   * [Iterative] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
+	   * [Recursive] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
+   e. [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path
+       represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:
+4. Moderate Difficulty
+   a.  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)
+   b.  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:
+   c.  [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:
+   d.  [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:
+   e.  [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:
+   f.  Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree  
+       * [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:  
+       * [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)  
+   g. Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:    
+       * [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
+       * [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)
+   h. Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
+	   * [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
+	   * [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
+   i. Given a linked list, construct a balanced tree with the same in-order traversal
+
 ### Binary Search Tree (BST)  
 1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
 2.  [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py) :thumbsup:     
@@ -213,13 +215,12 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
 7. Running mean
 
-###GRAPHS
+### Graphs
 1. [Directed Acyclic Graph (DAG) introduction](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
 2. [Topological sort introduction](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)
 3. [Topological sort using DFS](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-using-DFS.py) :bulb: :thumbsup: :notes: :rocket:
 4. [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)
 5. [In a directed graph find path between two nodes](https://github.com/harishvc/challenges/blob/master/graph-find-path-between-nodes.py) :notes:
-
 
 ### Sorting
 1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
