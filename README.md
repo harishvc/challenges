@@ -106,6 +106,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 
 ### Permutations and Combinations
+0. [Introduction to Permutation and Combination](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)
 1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
 2. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
 3. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
@@ -230,12 +231,14 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
-2. [Longest Common Subsequences (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:  
+2. [Longest Common Subsequence (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:  
    2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
    2.2 [Find a LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
    2.3 [Find all the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
-3. [Given two sequences find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)
-4. Given two sequences find the longest palindrome [TODO]
+3. Longest common substring
+   3.1 Length of the longest common substring
+   3.2 [Find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)
+4. Given two sequences find the longest palindrome
 5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 7. Given denominations and a total   
@@ -278,6 +281,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * Tushar Roy :boom: :thumbsup:   
    a. [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki)   
    b. [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)   
+* [The Hitchhiker’s Guide to the Programming Contests (PDF)](http://comscigate.com/Books/contests/icpc.pdf)
 * [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)  
 * [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)  
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
