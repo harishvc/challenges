@@ -21,16 +21,17 @@ versions1 = ['5.10', '3.001.1', '2.5.7', '0.1','0.20.0', '3.01.5', '0.0.11', '3.
 versions2 = ['5.10', '3.001.1', '2.5.7', '0.1','0.20.0', '3.01.5', '0.0.11', '3.5.09' , '3.5.80']
 
 def MySort(self):
-    x = map(int,self.split('.'))   #split on .  and create a new list with versions as integers
+    x = list(map(int,self.split('.')))   #split on .  and create a new list with versions as integers
+    #print(x)
     return x
 
-print "input:", versions1
+print("input:", versions1)
 
 #Solution 1:
 versions1.sort(key=MySort)
-print"solution 1"
-print "sorted versions:", versions1
+print("solution 1")
+print("sorted versions:", versions1)
 
 #Solution 2:
-print"solution 2"
-print "sorted versions:", sorted(versions2,key=lambda x: map(int, x.split('.')))
+#print("solution 2")
+#print("sorted versions:", sorted(versions2,key=lambda x: list(map(int, x.split('.')))))
