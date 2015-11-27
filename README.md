@@ -231,20 +231,20 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Dynamic Programming
 1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
-2. [Longest Common Subsequence (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:  
+2. [Longest Common Subsequence (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:   
    2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
    2.2 [Find a LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
    2.3 [Find all the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
-3. Longest common substring
-   3.1 Length of the longest common substring
-   3.2 [Find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)
-4. Given two sequences find the longest palindrome
-5. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
-6. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
-7. Given denominations and a total   
-    a. [Find total #ways to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:   
-    b. Minimum # coins needs to reach the total   
-    c. All possible combinations and the most optimal one   
+3. Given denominations and a total   
+    3.1 [Find total #ways to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:   
+    3.2. Minimum # coins needs to reach the total   
+    3.3 All possible combinations and the most optimal one   
+4. Longest common substring  
+   4.1 Length of the longest common substring  
+   4.2 [Find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)  
+5. Given two sequences find the longest palindrome
+6. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
+7. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 8. Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2 [TODO]
 
 ### Design &amp; Algorithms
