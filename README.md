@@ -57,7 +57,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Find the Greatest Common Divisior (GCD) of two positive integers
 5. Check if two given strings are Isomorphic   
 6. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
-7. [Flatten a JSON like object representation. Example {a:1, b:2, c:{d:3,e:4}} flattens to {a:1,b:2,c.d:3,c.e:4}](https://github.com/harishvc/challenges/blob/flatten-hash.py) :boom: :thumbsup:   
+7. [Flatten an object representation. Example {a:1, b:2, c:{d:3,e:4}} flattens to {a:1,b:2,c.d:3,c.e:4}](https://github.com/harishvc/challenges/blob/flatten-hash.py) :boom: :thumbsup:   
 8. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:   
 9. Matrix    
    9.1 Print the matrix from outside to inside (Spiral) :boom:   
