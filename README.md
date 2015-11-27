@@ -112,7 +112,8 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
 4. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
 5. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
-6. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)
+6. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)  
+7. [Can you create the given word from the dictionary?](https://github.com/harishvc/challenges/blob/master/create-word-from-dictionary.py) :thumbsup:   
 
 ### Linked Lists
 1. [Linked Lists Introduction](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)
