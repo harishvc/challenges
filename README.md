@@ -237,9 +237,9 @@ Collection of interesting questions and solutions that involve data structures, 
    2.2 [Find a LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
    2.3 [Find all the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
 3. Given denominations and a total   
-    3.1 [Find all possible combinations to reach a total] (https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:   
-    3.1 [Find all possible combinations to reach a total using lookup] (https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:
-    3.2. Minimum # coins needs to reach the total   
+    3.1 [Find all possible combinations to reach a total] (https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:    
+    3.2 [Find all possible combinations to reach a total using lookup] (https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
+    3.3. Minimum # coins needs to reach the total   
 4. Longest common substring  
    4.1 Length of the longest common substring  
    4.2 [Find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)  

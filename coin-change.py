@@ -2,32 +2,36 @@
 Find total #ways to reach a total using given denominations
 '''
 
-#http://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/
-#https://www.youtube.com/watch?v=_fgjrs570YE&index=35&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
-#Time Complexity: O(ij)
-def count(denomination,total):
-    dcount = len(denomination)
-    table = [[0 for x in range(total+1)] for x in range(dcount+1)]
-    for x in range(1,dcount+1):
-        table[x][0] = 1 #initialize
-    for i in range(1,dcount+1):
-        for j in range(1,total+1):
-            #print("i=%d,j=%d" % (i,j))
-            if (denomination[i-1] > j):
-                table[i][j] = table[i-1][j] 
+
+def MyLength(self):
+    return len(self)
+
+
+denominations = [1,2,3,4,5]
+def Combinations(total,result,prefix):
+    global denominations
+    for i in range(len(denominations)):
+        if (denominations[i] <= total):
+            #multiples
+            if ( total % denominations[i] == 0):
+                newcombination = [prefix + [denominations[i] for x in range(int(total/denominations[i]))]]
+                if newcombination not in result:
+                    result += newcombination
             else:
-                table[i][j] = table[i-1][j] + table[i][j-denomination[i-1]]
-    #PrintMatrix(table)
-    return(table[dcount][total])
+                #find combinations
+                new_total = total - denominations[i]
+                tmp = prefix +[denominations[i]]
+                result = Combinations(new_total,result,tmp)
+    #del prefix[:]
+    return result
+
+total = 5
+result = []
+Combinations(total,result,[])
+print("Total=%d denominations=%s" % (total,denominations))
+print("# combinations",len(result))
+print("All possible combinations >>>",result)
+result.sort(key=MyLength)
+print("Most optimal solution:",result[0])
 
 
-def PrintMatrix(Table):
-    for row in range(0,len(Table)):
-        for col in range(0,len(Table[row])):
-            print("%d" % (Table[row][col]),end=" ")
-        print("")
-        
-        
-denominations = [10, 25, 50]
-total = 100
-print("Total #ways to reach total=%d using denominations=%s is %d" % (total,denominations,count(denominations,total)))
