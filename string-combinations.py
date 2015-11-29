@@ -2,32 +2,27 @@
 #Note: Two combinations are same if they contain same characters but may be in different locations
 
 input = "abc"
+#Solution 1: Iterative
+def comb(s,result):
+    for i,v1 in enumerate(s):
+        result.append(v1)
+        inc = 1
+        t1 = s[i+1:]
+        for inc in range(0,len(t1)):
+            for j in range(0,len(t1),inc+1):
+                result.append(v1+t1[j:j+inc+1])
+    return result
+print("solution 1 >>> ", comb(input,[]))
 
-#Solution #1    
+#Solution #2: List generators    
 #Source: http://thecodegalaxy.blogspot.com/2011/11/combinations-permutations-and-python.html
 def combinations(string):
      yield ''
      for i, d in enumerate(string):
              for comb in combinations(string[i+1:]):
-                     yield d + comb
+                    yield d + comb
 
-
-print("combinations of %s (solution 1) >>>" % (input), end =" ")
+print("solution 2 >>> %s" % (input), end="")
 for comb in combinations(input):                
-    print(comb, end =" ")
+    print(comb, end =",")
 print("")    
-    
-#Solution #2    
-from itertools import combinations    
-def combinations2(input):
-    l = len(input)
-    output = []
-    for count in range(l):
-        for combination in combinations(range(l), count+1):
-            toutput = []
-            input_as_list = list(input)  #convert string to list of characters
-            for value in combination:
-                toutput += str(input_as_list[value]) #convert character to string
-            output.append("".join(toutput))  #convert list of characters to list of strings
-    return output       
-print("combinations of %s (solution 2) >>>" % (input), combinations2(input))
