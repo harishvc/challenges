@@ -1,5 +1,9 @@
 '''
-Construct Binary tree from preorder and inorder traversal
+Question: Serialize and Deserialize a binary tree
+                 OR 
+          Construct Binary tree from 
+           a. preorder  and inorder traversal
+           b. postorder and inorder traversal
 '''
 
 
@@ -58,17 +62,34 @@ def inorderRecursive(root, result):
 	result.append(root.data)
 	inorderRecursive(root.right, result)
 	
+def postorderRecursive(root,result):
+	if not root:
+		return
+	postorderRecursive(root.left, result)
+	postorderRecursive(root.right, result)
+	result.append(root.data)
+	
+		
 #Construct Binary tree from pre-order and in-order traversal
 #http://chaoren.is-programmer.com/posts/44859.html
 def buildTree(preorder, inorder):
 	if not inorder: return None # inorder is empty
 	root = BinaryTree(preorder[0])
 	rootPos = inorder.index(preorder[0])
-	root.left = buildTree(preorder[1 : 1 + rootPos], inorder[ : rootPos])
-	root.right = buildTree(preorder[rootPos + 1 : ], inorder[rootPos + 1 : ])
+	root.left = buildTree(preorder[1:1+rootPos], inorder[:rootPos])
+	root.right = buildTree(preorder[rootPos+1:], inorder[rootPos+1:])
 	return root	
 	
-	
+#Construct Binary tree from post-order and in-order traversal
+def buildTree2(postorder, inorder):
+	if not inorder: return None # inorder is empty
+	root = BinaryTree(postorder[-1])
+	rootPos = inorder.index(postorder[-1])
+	root.left = buildTree2(postorder[:rootPos], inorder[:rootPos])
+	root.right = buildTree2(postorder[rootPos:-1], inorder[rootPos+1:])
+	return root	
+
+
 			
 #Initialize Binary Tree
 root = BinaryTree(1)
@@ -87,13 +108,33 @@ print("PreOrder traversal (recursive): %s" % (preorder))
 inorder = []
 inorderRecursive(root, inorder)
 print("InOrder traversal (recursive): %s" % (inorder))
-#
-#Build Tree
-print("Binary Tree 2")
+postorder=[]
+postorderRecursive(root, postorder)
+print("PostOrder traversal (recursive): %s" % (postorder))
+
+#######################
+#Build Tree from inorder and preorder
+print("Binary Tree 2 from preorder and inorder traversal")
+#Build tree from preorder and inorder traversal values
 root2 = buildTree(preorder,inorder)
+#Validate new tree
 preorder = []
 preorderRecursive(root2, preorder)
 print("PreOrder traversal (recursive): %s" % (preorder))
 inorder = []
 inorderRecursive(root2, inorder)
+print("InOrder traversal (recursive): %s" % (inorder))
+
+
+#########################
+#Build Tree from inorder and postorder
+print("Binary Tree 3 from postorder and inorder traversal")
+#Build tree from postorder and inorder traversal values
+root3 = buildTree2(postorder,inorder)
+#Validate new tree
+postorder = []
+postorderRecursive(root3, postorder)
+print("PostOrder traversal (recursive): %s" % (postorder))
+inorder = []
+inorderRecursive(root3, inorder)
 print("InOrder traversal (recursive): %s" % (inorder))
