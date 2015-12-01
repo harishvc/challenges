@@ -1,4 +1,24 @@
-#HASH/DICTIONARY INTRO
+###QUICK INTRO  
+#Declare, initialize, update, delete
+#
+#LIST - MUTABLE (inexpensive operation to make changes)
+a = []
+a = [1]
+print(a.index(1)) #0 , print index position of element 1
+a.append(2)
+a.pop()
+a.insert(3,0)   #insert at position 3 or append 
+del a[:]        #remove all values in a list 
+#
+#SET - MUTABLE
+ab = set([1,2,3]) #initialize may elements at once
+a = set() #declare!
+a.add(1)
+a.add(2)
+a.add(3)
+a.discard(3)
+# 
+#DICTIONARY INTRO - MUTABLE
 a = {}               #initialize
 a[1] = 1             #assign
 a[2] = 2
@@ -14,6 +34,29 @@ if key in a.keys():     #Check if key exists
 if value in a.values():  #Check if value exists
     print("value exists")
     
+#SPRINTF
+a = "Hello %s" % ("Harish")
+print(a)  #Hello Harish
+
+#FOR LOOP
+for i in range(5):
+    print(i)         #0 1 2 3 4
+#    
+for i in range(0,5,2): #increment by 2
+    print(i)         #0 2 4
+#
+for i in range(5,0,-2): #decrement by 2
+    print(i)        #5,3,1
+
+for i in range(0,5)[::-1]:
+    print(i)        #4,3,2,1,0
+
+#convert string to list
+a = input()      #1,2,3,4,5
+print(type(a),a)
+b = list(map(int,a.split(",")))
+print(type(b),b)  #[1,2,3,4,5]
+
 
 #Find max value in dictionary
 d= {'a':2,'b':5,'c':3}
