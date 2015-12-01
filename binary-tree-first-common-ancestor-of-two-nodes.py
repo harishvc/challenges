@@ -19,6 +19,9 @@ sys.path.append("./mylib")
 import Tree
 
 #Source: http://codereview.stackexchange.com/questions/83567/finding-common-ancestor-in-a-binary-tree
+#Notes :notes:
+#if we keeps track of how many of n1 and n2 have been visited so far on entry and and exit of each node
+#Common ancestors of the two nodes have count = 0 on entry and count = 2 on exit
 def common_ancestor(n1, n2, head):
 	count = 0   # How many nodes in {n1, n2} have been visited so far?
 	ancestor = None
