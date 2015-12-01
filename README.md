@@ -114,6 +114,8 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
 6. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)  
 7. [Can you create the given word from the dictionary?](https://github.com/harishvc/challenges/blob/master/create-word-from-dictionary.py) :thumbsup:   
+8. [Given a set of characters and a positive integer k, print all possible strings of length k that can be formed](https://github.com/harishvc/challenges/blob/master/string-combinations-length-k.py) :thumbsup:
+
 
 ### Linked Lists
 1. [Linked Lists Introduction](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)
@@ -190,8 +192,9 @@ Collection of interesting questions and solutions that involve data structures, 
   4.8 Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.8.1 [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.8.2 [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
-  4.9 [Construct Binary tree from preorder and inorder traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py) :thumbsup:  
-  4.10 Given a linked list, construct a balanced tree with the same in-order traversal
+  4.9 [Serialize and Deserialize a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py) :thumbsup:  
+  4.10 Given preorder and inorder traversal construct postorder traversal
+  4.11 Given a linked list, construct a balanced tree with the same in-order traversal
 
 ### Binary Search Tree (BST)  
 1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
@@ -205,6 +208,7 @@ Collection of interesting questions and solutions that involve data structures, 
 9.  [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
 10. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
 11. [Given a sorted list create a BST with minimal height] (https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:
+12. 
 12. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:
 13. Find mean of a BST
 14. Find depth of a binary search tree without using recursion
