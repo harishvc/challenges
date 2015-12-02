@@ -60,7 +60,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Flatten an object representation. Example {a:1, b:2, c:{d:3}} flattens to {a:1,b:2,c.d:3}](https://github.com/harishvc/challenges/blob/master/flatten-hash.py) :boom: :thumbsup:   
 8. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:   
 9. Matrix    
-   9.1 Print the matrix from outside to inside (Spiral) :boom:   
+   9.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/matrix-spiral-print.py) :boom:   
    9.2 [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:     
 10. Duplicates  
    10.1 [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
