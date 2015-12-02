@@ -55,7 +55,7 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
 3. [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  
 4. [Find the Greatest Common Divisior (GCD) of two positive integers](https://github.com/harishvc/challenges/blob/master/find-greatest-common-divisor.py)
-5. Check if two given strings are Isomorphic   
+5. [Check if two given strings are Isomorphic](https://github.com/harishvc/challenges/blob/master/check-if-strings-are-isomorphic.py)   
 6. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
 7. [Flatten an object representation. Example {a:1, b:2, c:{d:3}} flattens to {a:1,b:2,c.d:3}](https://github.com/harishvc/challenges/blob/master/flatten-hash.py) :boom: :thumbsup:   
 8. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:   
