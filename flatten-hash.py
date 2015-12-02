@@ -9,6 +9,7 @@ def flattenHash(input,prefix,result):
     kvpairs = []
     prefix_entry = prefix #Important!!!
     #Store key value pair in list
+    #Since there is no guarantee of the order in which keys are stored in hash
     for key in input:
         kvpairs.append([key,input[key]])
     #Iterate through the list and process each value
