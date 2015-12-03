@@ -27,6 +27,18 @@ def TreeBoundry(node,isLeft,isRight):
     if(isRight and not isLeft and  not isLeaf(node)):
         print(node.data,end=' ')
 
+def TreeBoundry2(node,isLeft,isRight):
+    #Left most node and leaf nodes
+    if(isLeft or isLeaf(node)):
+        print(node.data,end=' ')
+    if(isRight and not isLeaf(node) and not isLeft):
+        print(node.data,end=' ')
+    #Next left node
+    TreeBoundry(node.getLeft(), True, False)
+    #Next right node
+    TreeBoundry(node.getRight(), False ,True)
+
+
 def isLeaf(node):
     if (node.getLeft() is None and  node.getRight() is None):
         return True
@@ -47,6 +59,9 @@ root.getLeft().getRight().getRight().insertRight(10)
 root.getLeft().getRight().getRight().getRight().insertRight(11)
 print("Tree 1: ", end="")
 TreeBoundry(root,True,True)
+print("")
+print("Tree 1: ", end="")
+TreeBoundry2(root,True,True)
 print("")
 
 #Tree 2
