@@ -22,7 +22,16 @@ def MaxValue(root,maxvalue):
 	if (root.getRight() is not None):
 		maxRight = MaxValue(root.getRight(),maxvalue)
 	return max(maxLeft,maxRight)
-	
+
+#Find the node with max value
+def MaxValue2(node,maxS):
+	if (node is None):
+		return maxS
+	if (node.data > maxS):
+		maxS = node.data
+	maxl =  MaxValue(node.getLeft(),maxS)
+	maxr = MaxValue(node.getRight(),maxS)
+	return (max(maxS,maxl,maxr))	
 
 #Initialize Binary Tree
 root = Tree.BinaryTree(1)
@@ -33,4 +42,4 @@ root.getLeft().insertRight(5)
 root.getRight().insertLeft(6)
 root.getRight().insertRight(70)
 
-print("Maximum value =",MaxValue(root,root.data))
+print("Maximum value =",MaxValue2(root,root.data))
