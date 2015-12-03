@@ -1,5 +1,5 @@
 '''
-Question: In a BST find first value greater than K or given node K find the next node
+Question: In a BST find first value greater than K or given node K find the next node. Return 1 if None
 
 Observation:
 When root.data > K we have a greater value. We then need to traverse left to first the first greater value.
@@ -12,18 +12,33 @@ import BST
 
 #Create BST
 root = BST.BSTNode(4)
-input = [3,2,1,5,10,7,6,9,15]
+input = [3,2,1,5,10,7,6,9,12,15]
 for x in input:
     BST.insertNode(root, BST.BSTNode(x))
 
-def FirstGreaterValue(root,K,result):
-    if(root is None):
+
+def FirstGreatestValue(node,target,result):
+    #End of recursion
+    if(node is None):
         return result
-    elif (root.data > K): #new result!
-        result = FirstGreaterValue(root.left,K,root.data)
-    elif (root.data <= K):
-        result = FirstGreaterValue(root.right,K,result)
-    return result
     
-for K  in range(0,len(input)-1):
-    print("First value greater than %d = %d" % (input[K],FirstGreaterValue(root,input[K],"None")))
+    #Found value?
+    if(node.data == target):
+        return node.data
+    if (node.data > target and result == 1):
+        #First new value
+        result = node.data
+    elif( node.data > target and (node.data-target) < (result-target)):
+       #found next new value!
+       result = node.data
+    
+    #Next?   
+    if(node.data < target):
+        #go right
+        return(FirstGreatestValue(node.right,target,result))
+    else:
+        #go left
+        return(FirstGreatestValue(node.left,target,result))
+
+target = 11
+print("First value greater than ", target , " = ", FirstGreatestValue(root,target,1))
