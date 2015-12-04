@@ -204,14 +204,14 @@ Collection of interesting questions and solutions that involve data structures, 
 5.  [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-value.py)      
 6.  [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :thumbsup:  
 7.  [In a BST find first value greater than K or given node K find the next node](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
-8.  [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:    
-9.  [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
-10. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
-11. [Given a sorted list create a BST with minimal height] (https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:
-12. 
-12. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:
-13. Find mean of a BST
-14. Find depth of a binary search tree without using recursion
+8.  [In a BST given a target find a value close to the target](https://github.com/harishvc/challenges/blob/master/binary-search-tree-closest-value.py) 
+9.  [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:    
+10. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
+11. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
+12. [Given a sorted list create a BST with minimal height] (https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:
+13. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:
+14. Find mean of a BST
+15. Find depth of a binary search tree without using recursion
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
@@ -248,6 +248,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Longest common substring  
    4.1 Length of the longest common substring  
    4.2 [Find the longest common substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)  
+   4.3 Longest common substring of more than two strings
 5. Given two sequences find the longest palindrome
 6. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 7. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
