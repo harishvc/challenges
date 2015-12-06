@@ -193,7 +193,7 @@ Collection of interesting questions and solutions that involve data structures, 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.8.1 [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.8.2 [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
   4.9 [Serialize and Deserialize a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py) :boom: :thumbsup: :rocket:  
-  4.10 [Given preorder and inorder traversal construct postorder traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-preorder-to-postorder.py) :boom: :thumbsup:
+  4.10 [Given preorder and inorder traversal construct postorder traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-preorder-to-postorder.py) :boom: :thumbsup:  
   4.11 Given a linked list, construct a balanced tree with the same in-order traversal
 
 ### Binary Search Tree (BST)  
