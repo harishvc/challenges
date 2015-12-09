@@ -266,7 +266,7 @@ Collection of interesting questions and solutions that involve data structures, 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py) :memo:
 7. [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
 8. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
-9. [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:
+9. [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
 10.[Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
   
 
