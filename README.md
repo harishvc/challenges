@@ -256,18 +256,18 @@ Collection of interesting questions and solutions that involve data structures, 
 8. Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2 [TODO]
 
 ### Design &amp; Algorithms
-1. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
-2. [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
-3. [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
-4. [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
-5. [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
-6. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
+1.  [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
+2.  [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
+3.  [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
+4.  [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
+5.  [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
+6.  [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py) :memo:
-7. [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
-8. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
-9. [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
-10.[Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
+7.  [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
+8.  [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
+9.  [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
+10. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
   
 
 ### Bitwise Operations
