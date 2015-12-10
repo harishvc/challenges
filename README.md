@@ -66,10 +66,11 @@ Collection of interesting questions and solutions that involve data structures, 
 10. Duplicates  
    10.1 [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
    10.2 Given a sorted list, remove the duplicates in place, return modified list and #unique values
-11. Given a list and sum  
+11. Given a list and condition  
    11.1 Find all possible 2 numbers in the list that add up to the given sum    
-   11.2 [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)     
-   11.3 Find all possible quadruplets in the list that add up to the given sum
+   11.2 [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)       
+   11.3 Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2 (https://github.com/harishvc/challenges/blob/master/find-integers-that-match-expression.py)  :notes: :boom:     
+   11.4 Find all possible quadruplets in the list that add up to the given sum
 12. Rotated list   
    12.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
    12.2 Find minimum in a rotated soted list     
@@ -253,7 +254,6 @@ Collection of interesting questions and solutions that involve data structures, 
 5. Given two sequences find the longest palindrome
 6. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 7. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
-8. Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2 [TODO]
 
 ### Design &amp; Algorithms
 1.  [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
