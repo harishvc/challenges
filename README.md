@@ -69,7 +69,7 @@ Collection of interesting questions and solutions that involve data structures, 
 11. Given a list and condition  
    11.1 Find all possible 2 numbers in the list that add up to the given sum    
    11.2 [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)       
-   11.3 [Given an array of integers, write a functions that returns true if there is a triplet (a,b,c) that satisfies a^2 + b^2 = c^2](https://github.com/harishvc/challenges/blob/master/find-integers-that-match-expression.py)  :notes: :boom:     
+   11.3 [Find all possible triplets in the list that satisfies a^2 + b^2 = c^2](https://github.com/harishvc/challenges/blob/master/find-integers-that-match-expression.py)  :notes: :boom:     
    11.4 Find all possible quadruplets in the list that add up to the given sum
 12. Rotated list   
    12.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
