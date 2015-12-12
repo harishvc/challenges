@@ -118,7 +118,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)  
 7. [Can you create the given word from the dictionary?](https://github.com/harishvc/challenges/blob/master/create-word-from-dictionary.py) :thumbsup:   
 8. [Given a set of characters and a positive integer k, print all possible strings of length k that can be formed](https://github.com/harishvc/challenges/blob/master/string-combinations-length-k.py) :thumbsup:
-
+9. [Given a word and a dictionary. Find all possible words can you make that are found in the dictionary?](https://github.com/harishvc/challenges/blob/master/find-word-combinations.py)
 
 ### Linked Lists
 1. [Linked Lists Introduction](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)
