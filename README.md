@@ -70,8 +70,9 @@ Collection of interesting questions and solutions that involve data structures, 
    11.1 Find all possible 2 numbers in the list that add up to the given sum    
    11.2 [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)       
    11.3 [Find all possible triplets in the list that satisfies a^2 + b^2 = c^2](https://github.com/harishvc/challenges/blob/master/find-integers-that-match-expression.py)  :notes: :boom:     
-   11.4 [There are numbers from 1 to N in an array. One of the number gets duplicated and one is missing. Find out the duplicate number]  (https://github.com/harishvc/challenges/blob/master/find-missing-and-duplicate-number.py) [TODO]  
-   11.5 Find all possible quadruplets in the list that add up to the given sum  
+   11.4 [There are numbers from 1 to N in an array. One of the number gets duplicated and one is missing. Find out the duplicate number]  (https://github.com/harishvc/challenges/blob/master/find-missing-and-duplicate-number.py) :notes: [TODO]    
+   11.5 [Given two arrays of integers, find a pair of values (one from each array) you can swap so that both arrays sum to the same value] (https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)  [TODO]  
+   11.6 Find all possible quadruplets in the list that add up to the given sum  
 12. Rotated list   
    12.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
    12.2 Find minimum in a rotated soted list     
