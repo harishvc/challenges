@@ -250,7 +250,7 @@ Collection of interesting questions and solutions that involve data structures, 
     3.2 [Find all possible combinations to reach a total using lookup] (https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
     3.3. Minimum # coins needs to reach the total   
 4. Longest common substring  
-   4.1 Length of the longest common substring (https://github.com/harishvc/challenges/blob/master/longest-common-substring-length.py)  
+   4.1 [Length of the longest common substring] (https://github.com/harishvc/challenges/blob/master/longest-common-substring-length.py)  
    4.2 [Find the longest common substring] (https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)  
    4.3 Longest common substring of more than two strings
 5. Given two sequences find the longest palindrome
