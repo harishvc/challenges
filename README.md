@@ -50,6 +50,7 @@ Collection of interesting questions and solutions that involve data structures, 
    8.1 [Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
    8.2 [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 9. [Write an "echo" program](https://github.com/harishvc/challenges/blob/master/cmd-line-echo.py) 
+10. [Given a list of size n, find the majority element](https://github.com/harishvc/challenges/blob/master/majority-value.py)
 
 ### Brain Teasers (Moderate)
 1. [Check if a given number is prime](https://github.com/harishvc/challenges/blob/master/prime.py)
