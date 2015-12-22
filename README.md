@@ -51,6 +51,8 @@ Collection of interesting questions and solutions that involve data structures, 
    8.2 [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 9. [Write an "echo" program](https://github.com/harishvc/challenges/blob/master/cmd-line-echo.py) 
 10. [Given a list of size n, find the majority element](https://github.com/harishvc/challenges/blob/master/majority-value.py)
+11. [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:
+
 
 ### Brain Teasers (Moderate)
 1. [Check if a given number is prime](https://github.com/harishvc/challenges/blob/master/prime.py)
@@ -330,4 +332,4 @@ Collection of interesting questions and solutions that involve data structures, 
 ### GitHub Resources
 * [List of emoji for git commits](https://gist.github.com/pocotan001/68f96bf86891db316f20)
 * [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
-* [Github markup preview](http://github-markup.dfilimonov.com/)
+* [Github markup preview](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
