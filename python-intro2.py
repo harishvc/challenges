@@ -1,7 +1,10 @@
 ###QUICK INTRO  
 #Declare, initialize, update, delete
 #
-#LIST - MUTABLE (inexpensive operation to make changes)
+#Immutable - Cannot change value once created
+#Strings - Immutable
+
+#LIST - Mutable (inexpensive operation to make changes)
 a = []
 a = [1]
 print(a.index(1)) #0 , print index position of element 1
@@ -39,6 +42,18 @@ a = "Hello %s" % ("Harish")
 print(a)  #Hello Harish
 
 #FOR LOOP
+a = "Harish"
+for i in a:
+    print(i,end=",")  #H,a,r,i,s,h,
+#
+a = [11,12,13,14,15]
+for i in a:
+    print(i,end=",")  #11,12,13,14,15,
+#
+a = "Harish"
+for i,v in enumerate(a):
+    print(i,v)  # 0, H   1,a
+#    
 for i in range(5):
     print(i)         #0 1 2 3 4
 #    
