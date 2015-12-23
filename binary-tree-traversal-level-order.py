@@ -54,6 +54,7 @@ def levelOrder(root, result):
 		if n.right is not None:
 			#print("traversing right ..",n.right.getData())
 			q.put(n.right)  
+
 			
 #Initialize Binary Tree
 root = BinaryTree(1)
