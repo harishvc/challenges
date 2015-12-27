@@ -1,5 +1,5 @@
 '''
-Question: Print one tree levels each line
+Question: Print one tree level each line
 '''
 
 
