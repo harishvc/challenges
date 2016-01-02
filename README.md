@@ -78,7 +78,7 @@ Collection of interesting questions and solutions that involve data structures, 
    11.6 Find all possible quadruplets in the list that add up to the given sum  
 12. Rotated list   
    12.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
-   12.2 [Find minimum in a rotated soted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:
+   12.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
    12.3 [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
 13. Time intervals  
    13.1 [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
