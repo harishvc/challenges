@@ -309,8 +309,8 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 ### Python Resources
-* [Python Module of the Week]  
-   a. [Python 3](https://pymotw.com/3/) :rocket:
+* Python Module of the Week  
+   a. [Python 3](https://pymotw.com/3/) :rocket:  
    b. [Python 2](http://pymotw.com/2/contents.html)
 * [dis – Python Bytecode Disassembler](https://pymotw.com/2/dis/)
 * [Python debugger cheat sheat](http://www.cheatography.com/ralienpp/cheat-sheets/python-pdb/)
