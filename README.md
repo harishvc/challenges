@@ -52,7 +52,8 @@ Collection of interesting questions and solutions that involve data structures, 
 9. [Write an "echo" program](https://github.com/harishvc/challenges/blob/master/cmd-line-echo.py) 
 10. [Given a list of size n, find the majority element](https://github.com/harishvc/challenges/blob/master/majority-value.py)
 11. [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:
-12. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup: 
+12. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:
+13. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:  
 
 ### Brain Teasers (Moderate)
 1. [Check if a given number is prime](https://github.com/harishvc/challenges/blob/master/prime.py)
