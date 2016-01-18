@@ -111,7 +111,8 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
 8. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:
 9. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
-10. Given a long string seperated by space, find how many occurances of another small string 
+10. Given a long string seperated by space, find how many occurances of another small string   
+11. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
 
 
 ### Permutations and Combinations
