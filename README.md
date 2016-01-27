@@ -312,7 +312,8 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Python Resources
 * Python Module of the Week  
    a. [Python 3](https://pymotw.com/3/) :rocket:  
-   b. [Python 2](http://pymotw.com/2/contents.html)
+   b. [Python 2](http://pymotw.com/2/contents.html)  
+* [Python Interview Questions @ Interview Cake](https://www.interviewcake.com/python-interview-questions)  
 * [Python List Comprehension With Examples](http://www.analyticsvidhya.com/blog/2016/01/python-tutorial-list-comprehension-examples/)
 * [dis – Python Bytecode Disassembler](https://pymotw.com/2/dis/)
 * [Python debugger cheat sheat](http://www.cheatography.com/ralienpp/cheat-sheets/python-pdb/)
