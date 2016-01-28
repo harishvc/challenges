@@ -307,6 +307,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)  
 * [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)  
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
+* [The idea behind big O notation](https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity)  
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 ### Python Resources
