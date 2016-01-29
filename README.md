@@ -250,7 +250,9 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
 
 ### Dynamic Programming
-1. [Find the nth Fibonacci number](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py) 
+1. Find the *nth Fibonacci number* 
+   1.1 [Iterative, Recursive, Bottom-up & Top-down](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py)  
+   1.2 [Recursive with lookup](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth-lookup.py)  
 2. [Longest Common Subsequence (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:   
    2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
    2.2 [Find a LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
