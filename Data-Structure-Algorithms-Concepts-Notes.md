@@ -111,7 +111,7 @@
     * max heap - value of parent node is <strong>greater than or equal to</strong> value of children.  Root of the heap has maximum value
   * At level k (height, k > 0), there are a total of 2^k-1 nodes  
     * A leaf node at depth k (k > 0) can exist only if all nodes at depth k-1 exist 
-    * Nodes at a partially filled level must be added from left to right
+    * Nodes at a partially filled level must be added from left to right  - **left complete binary tree since they are stored in an array**  
   * <strong>Binary Heap is a complete Binary tree where all levels except the lowest are completely full. </strong>
     * Maximum number of elements = 2^h+1 -1 . h is the height of the binary tree.
     * Minimum number of nodes = 2^h . h is the height of the binary tree.
