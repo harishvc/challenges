@@ -33,7 +33,9 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Sort >>> lists, lists of lists and list of dictionaries (part 3/5)](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
 4. [Lambda >>> intro, sort variations (part 4/5)](https://github.com/harishvc/challenges/blob/master/lambda.py)
 5. [Notes: Python 3.x (part 5/5)](https://github.com/harishvc/challenges/blob/master/python-intro4.py)
-6. [Python interview questions and answers](http://www.ilian.io/python-interview-question-and-answers/)
+6. [List Comprehension, lambda, map, filter, generator and error handling](https://github.com/harishvc/quick-references/blob/master/python3/python-intro-6.md)  
+7. [Simple problems to reinforce fundamentals](https://github.com/harishvc/quick-references/blob/master/python3/python-intro-7.md)  
+8. [Python interview questions and answers](http://www.ilian.io/python-interview-question-and-answers/)  
  
 ### Data Structures, Algorithms &amp; Concepts
 * [Notes: Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)  :thumbsup: :notes:
