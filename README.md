@@ -247,7 +247,8 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Sorting
 1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
-2. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)
+2. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)  
+   2.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py)  
 3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)
 4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
 
