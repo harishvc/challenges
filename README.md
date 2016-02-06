@@ -141,6 +141,18 @@ Collection of interesting questions and solutions that involve data structures, 
 7. Find the node at which the intersection of two singly linked lists begins
 8. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) 
 
+
+### Sort
+1. Sorting Algorithms  
+   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py)  
+   1.2 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
+   1.3 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py) :rocket:  
+   1.4 Insertion Sort  
+   1.5 Bucket Sort  
+2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
+3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
+4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)  
+
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
 2. [Implement stack using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
@@ -245,16 +257,6 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)
 5. [In a directed graph find path between two nodes](https://github.com/harishvc/challenges/blob/master/graph-find-path-between-nodes.py) :notes:
 
-### Sorting
-1. Sorting Algorithms
-   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py)  
-   1.2 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
-   1.3 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py) :rocket:  
-   1.4 Insertion Sort  
-   1.5 Bucket Sort  
-2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
-3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
-4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)  
 
 ### Dynamic Programming
 1. Find the *nth Fibonacci number*   
