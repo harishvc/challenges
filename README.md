@@ -246,11 +246,15 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [In a directed graph find path between two nodes](https://github.com/harishvc/challenges/blob/master/graph-find-path-between-nodes.py) :notes:
 
 ### Sorting
-1. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)
-2. [Merge Sort &amp; Quick Sort](https://github.com/harishvc/challenges/blob/master/algorithms-sort.py)  
-   2.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py)  
-3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)
-4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
+1. Sorting Algorithms
+   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py)  
+   1.2 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
+   1.3 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py) :rocket:  
+   1.4 Insertion Sort  
+   1.5 Bucket Sort  
+2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
+3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
+4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)  
 
 ### Dynamic Programming
 1. Find the *nth Fibonacci number*   
