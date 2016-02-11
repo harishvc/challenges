@@ -12,13 +12,13 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Strings](#strings)
 * [Permutations and Combinations](#permutations-and-combinations)
 * [Linked Lists](#linked-lists)
+* [Sort](#sort)
 * [Stacks](#stacks)
 * [Queues](#queues)
 * [Binary Trees](#binary-trees)
 * [Binary Search Tree (BST)](#binary-search-tree-bst)
 * [Heaps](#heaps)
 * [GRAPHS](#graphs)
-* [Sorting](#sorting)
 * [Dynamic Programming](#dynamic-programming)
 * [Design &amp; Algorithms](#design--algorithms)
 * [Bitwise Operations](#bitwise-operations)
@@ -148,7 +148,8 @@ Collection of interesting questions and solutions that involve data structures, 
    1.2 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
    1.3 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py) :rocket:  
    1.4 [Insertion Sort](https://github.com/harishvc/challenges/blob/master/sort-insertion-sort.py)   
-   1.5 Bucket Sort  
+   1.5 Bucket Sort
+   1.6 Radix Sort  
 2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
 3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
 4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)  
