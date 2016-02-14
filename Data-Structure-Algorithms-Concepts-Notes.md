@@ -18,7 +18,7 @@
   * Graph
   
 
-#Sort Alogrithms
+#Sort Algorithms
 * Quick Sort:
    * Divide and conquer
    * Inplace algorithm 
