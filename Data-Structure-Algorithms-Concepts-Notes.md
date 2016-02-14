@@ -17,6 +17,45 @@
   * Tree
   * Graph
   
+
+#Sort Alogrithms
+* Quick Sort:
+   * Divide and conquer
+   * Inplace algorithm 
+   * NO need for extra memory
+   * Not stable
+   * Time Complexity: Average: O(nlogn), Worst Case: O(n^2)
+* Merge Sort
+   * Divide and conquer
+   * STABLE (retains order of same values)
+   * EXTRA space is needed to hold two halves
+   * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn)
+   * Space Complexity: O(n)
+* Insertion Sort
+   * Insertion sort is simple (no recursion)
+   * For small lists, insertion is generally faster than a comparably implemented quicksort or mergesort
+   * In-place sorting
+   * Ideal for input MOSTLY sorted!
+   * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn)   
+* Heap Sort
+   * Build a max or min heap
+   * Swap last value in heap with the root node, reduce heap size and percolate down === Heap Sort
+   * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn), logn is the height of the heap
+* Counting Sort
+   * NOT comparision based
+   * Simple buckets, simple processing, memory overhead
+   * Sorting integers. Buckets for each value (memory overhead), works well for sorting input with several repeated values in small range
+* Radix Sort
+   * NOT comparision based
+   * Simple buckets, sophisticated processing (least significat bit to most significant bit), speed overhead 
+     and still need additional static memory
+   * Works well for a small input with small length 
+* Bucket Sort
+   * NOT comparision based
+   * Sophisticated buckets, simple processing, requires dynamic memory, good in average
+
+
+
 # LINKED LIST & LISTS
 * Linked List advantages :notes:
   * Linked List is Dynamic data Structure, can grow and shrink during run time.
