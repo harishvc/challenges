@@ -143,18 +143,18 @@ Collection of interesting questions and solutions that involve data structures, 
 
 
 ### Sort
-1. Sorting Algorithms  
-   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py)  
+1. Sorting Algorithms & [Notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md#sort-algorithms) 
+   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py) :thumbsup: 
    1.2 [Quick Selection Sort](https://github.com/harishvc/challenges/blob/master/sort-quick-select.py) :rocket:     
    1.3 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
-   1.4 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py) :rocket:  
+   1.4 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort-take2.py) :rocket: :boom:  
    1.5 [Insertion Sort](https://github.com/harishvc/challenges/blob/master/sort-insertion-sort.py)   
-   1.6 Bucket Sort    
-   1.7 Radix Sort  
-   1.8 Count Sort  
+   1.6 [Bucket Sort](https://github.com/harishvc/challenges/blob/master/sort-bucket-sort.py)       
+   1.7 [Radix Sort](https://github.com/harishvc/challenges/blob/master/sort-radix-sort.py)    
 2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
 3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
-4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)  
+4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
+5. [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py)  
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
