@@ -43,29 +43,6 @@ def quick_select(A, k):
     #K found
     else:
         return pivot
-
-def quick_select2(A, k):
-    #pivot value is random
-    pivot = random.choice(A)
-
-    A1 = [] #values < pivot
-    A2 = [] #values > pivot
-
-    for i in A:
-        if i > pivot:
-            A1.append(i)
-        elif i < pivot:
-            A2.append(i)
-        else:
-            pass  # ignore Pivot value!
-
-    if k <= len(A1):
-        return quick_select(A1, k)
-    elif k > len(A) - len(A2):
-        return quick_select(A2, k - (len(A) - len(A2)))
-    else:
-        return pivot
-
 	
 input = [14, 4, 0, 9, 11, 19, 13]
 import random
