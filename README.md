@@ -144,8 +144,8 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Sort
 1. Sorting Algorithms  
-   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py)
-   1.2 [Quick Selection Sort](https://github.com/harishvc/challenges/blob/master/sort-quick-select.py)      
+   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py)  
+   1.2 [Quick Selection Sort](https://github.com/harishvc/challenges/blob/master/sort-quick-select.py) :rocket:     
    1.3 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
    1.4 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py) :rocket:  
    1.5 [Insertion Sort](https://github.com/harishvc/challenges/blob/master/sort-insertion-sort.py)   
