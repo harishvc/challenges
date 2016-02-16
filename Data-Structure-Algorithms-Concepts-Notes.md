@@ -23,12 +23,14 @@
    * Divide and conquer
    * Inplace algorithm 
    * NO need for extra memory
-   * Not stable
+   * NOT stable
+   * **Need to know length of list**
    * Time Complexity: Average: O(nlogn), Worst Case: O(n^2)
 * Merge Sort
    * Divide and conquer
    * STABLE (retains order of same values)
    * EXTRA space is needed to hold two halves
+   * Ideal for processing across multiple processors in parallel
    * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn)
    * Space Complexity: O(n)
 * Insertion Sort
@@ -39,6 +41,8 @@
    * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn)   
 * Heap Sort
    * Build a max or min heap
+   * **Need NOT know length of list**  Ideal for input streams
+   * NOT stable
    * Swap last value in heap with the root node, reduce heap size and percolate down === Heap Sort
    * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn), logn is the height of the heap
 * Counting Sort
