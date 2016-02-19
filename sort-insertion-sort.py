@@ -27,12 +27,12 @@ http://interactivepython.org/runestone/static/pythonds/SortSearch/TheInsertionSo
 import random
 def insertionSort(input):
 	inputLength = len(input)-1  #ignore last value
-	for i in range(inputLength):
-		while i >= 0 and i< inputLength and input[i] > input[i+1]:
+	for next in range(inputLength):
+		i = next
+		#next value < sort again!
+		while i >= 0 and input[i+1] < input[i]:	
 			input[i+1],input[i] = input[i],input[i+1]
 			i -=1
-		#sorted sub-list	
-		#print(">>>", input)
 
 alist = [54,26,93,17,77,31,44,55,20]
 random.shuffle(alist)
