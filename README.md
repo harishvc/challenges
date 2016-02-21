@@ -301,7 +301,8 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [Bitwise addition](https://github.com/harishvc/challenges/blob/master/bit-operation-add.py)
 3. [Bitwise subtraction](https://github.com/harishvc/challenges/blob/master/bit-operation-subtract.py)
 4. [Given a number n, check whether the number is a power of 2](https://github.com/harishvc/challenges/blob/master/bit-operation-check-if-number-is-power-of-2.py)
-5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)
+5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)  
+6. [Compute n^k using bit operations](https://github.com/harishvc/challenges/blob/master/power.py)  :boom: :thumbsup:  
 7. [Swap two variable values without additional space](https://github.com/harishvc/challenges/blob/master/swap-two-variable-values-without-additional-space.py)
 
 ### Algorithms and Data Structures Resources
