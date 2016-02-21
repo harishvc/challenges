@@ -118,7 +118,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 
 ### Permutations and Combinations
-0. [Introduction to Permutation and Combination](https://www.mathsisfun.com/combinatorics/combinations-permutations.html)
+0. [Introduction to Permutation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination) :boom: :thumbsup:
 1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
 2. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
 3. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
