@@ -26,3 +26,17 @@ print("solution 2 >>> %s" % (input), end="")
 for comb in combinations(input):                
     print(comb, end =",")
 print("")    
+
+def combinations3(s):
+    if len(s) == 1:
+        return [s]
+    else:
+        res = []
+        res.append(s[0]) 
+        for c in combinations3(s[1:]): 
+            res.append(c)
+            res.append(s[0] + c)
+        return res
+print("solution 3 >>>>",combinations3(input))
+
+
