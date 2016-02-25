@@ -135,6 +135,11 @@
   elements are greater than root. This property is satisfied at each node.
 * The definition of BST can <strong>vary with respect to equality</strong>. Duplicates are not allowed by some definition. 
   In others, duplicate values will be on right or can be on eith side, <strong>clarify with your interviewer.</strong> 
+* When a BST is created the first value becomes the root of the BST and next values go either on the right (>root) or left(<root). 
+  So **picking the root values in BST plays a critical role in determining the height of the tree**.     
+* BST offers O(log n) for best cases and O(n) for worst case (height of the tree == #nodes)  
+* To **guarantee O(log n) complexity a BST should be fully balanced**  
+* A **fully balanced binary tree** is defined as a tree such that the height of the two subtrees of any node **never differ by more than one**  
 
 
 ### RED AND BLACK TREES
