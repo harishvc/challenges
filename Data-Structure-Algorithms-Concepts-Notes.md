@@ -125,9 +125,12 @@
     * <strong>Structurally identical binary tree</strong> is defined as a tree where left and right sub-nodes have exactly the same number 
      of nodes, arranged in the exactly same way. It is <bold>not necessary that the value of each node should also be the same</bold>.
 * Depth First Traversal (DFT):  
-	* Pre-order-Traversal: current node data ->left subtree -> right subtree
-	* In-order-Traversal: <strong>Ascending order</strong> left subtree > current node data > right subtree
-	* Post-order-Traversal:  left subtree > right subtree > current node data
+	* Preorder   Traversal:  current node data ->left subtree -> right subtree  
+    first node is the root and last node is the right most :notes:  
+	* In-order   Traversal:  left subtree > current node data > right subtree   
+    first node is the left most and last node is the right most. In a BST the values are **sorted** :notes:  
+	* Post-order Traversal:  left subtree > right subtree > current node data   
+    first node is the left most and last node is the root :notes:  
 * Breadth First Traversal (BFT): Visit nodes at each level starting with root.  
 
 ### BINARY SEARCH TREE (BST)
