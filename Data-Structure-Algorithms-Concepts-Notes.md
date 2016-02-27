@@ -126,11 +126,13 @@
      of nodes, arranged in the exactly same way. It is <bold>not necessary that the value of each node should also be the same</bold>.
 * Depth First Traversal (DFT):  
 	* Preorder   Traversal:  current node data ->left subtree -> right subtree  
-    first node is the root and last node is the right most :notes:  
-	* In-order   Traversal:  left subtree > current node data > right subtree   
+    first node is the root and last node is the right most :notes:
+    **going down** from the root to the leaf nodes  
+	* In-order   Traversal:  left subtree -> current node data -> right subtree   
     first node is the left most and last node is the right most. In a BST the values are **sorted** :notes:  
-	* Post-order Traversal:  left subtree > right subtree > current node data   
-    first node is the left most and last node is the root :notes:  
+	* Post-order Traversal:  left subtree -> right subtree -> current node data   
+    first node is the left most and last node is the root :notes:
+    **looking upwards** starting from the leaf nodes to sub-tree to the parent subtree all the way to root 
 * Breadth First Traversal (BFT): Visit nodes at each level starting with root.  
 
 ### BINARY SEARCH TREE (BST)
