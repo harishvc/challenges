@@ -39,6 +39,22 @@ def common_ancestor(n1, n2, head):
 	return ancestor.data
 
 
+#Solution 2 (modified solution 1)
+#Taking advantage of recursion
+def findLCA(node,v1,v2,count,result):
+    if node is None:
+        return count,result
+    count_entry = count
+    if(node.data == v1): count += 1
+    if(node.data == v2): count +=  1
+    count,result = findLCA(node.left,v1,v2,count,result)
+    count,result = findLCA(node.right,v1,v2,count,result)
+    if(count_entry == 0 and count == 2 and result is None):
+        #print(node.data)
+        result = node.data
+    return count,result
+
+
 root = Tree.BinaryTree(1)
 root.insertLeft(2)
 root.insertRight(3)
@@ -51,3 +67,6 @@ root.getRight().insertRight(7)
 n1 = 4
 n2 = 6
 print("Nearest common ancestor to nodes %d and %d = %s" % (n1,n2,common_ancestor(n1, n2, root)))
+
+a,b = findLCA(root,n1,n2,0,None)
+print("LCA(6,4)=",b)
