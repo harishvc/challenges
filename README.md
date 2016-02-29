@@ -228,7 +228,9 @@ Collection of interesting questions and solutions that involve data structures, 
   4.11 Given a linked list, construct a balanced tree with the same in-order traversal
 
 ### Binary Search Tree (BST)  
-1.  [Convert list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)     
+1.  Create BST  
+     1.1 [Convert a unsorted list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)  
+     1.2 [Convert a sorted list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create-sorted-input.py) :notes:     
 2.  [Delete node from BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-delete-node.py) :thumbsup:     
 3.  [Find max value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-max-value.py)     
 4.  [Find min value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-min-value.py)     
@@ -239,10 +241,11 @@ Collection of interesting questions and solutions that involve data structures, 
 9.  [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:    
 10. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
 11. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
-12. [Given a sorted list create a BST with minimal height] (https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:
-13. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:
-14. Find mean of a BST
-15. Find depth of a binary search tree without using recursion
+12. [Given a sorted list create a BST with minimal height] (https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:  
+13. [Given ordered nodes construct a fully balanced BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-fully-balanced.py) :thumbsup:  
+14. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:
+15. Find mean of a BST
+16. Find depth of a binary search tree without using recursion
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
