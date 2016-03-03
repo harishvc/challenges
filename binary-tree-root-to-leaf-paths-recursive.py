@@ -6,7 +6,7 @@ import sys
 sys.path.append("./mylib")
 import Tree
  
-
+#Solution 1
 #Print all root to leaf path and sum
 def Root2Leaf(node,path,sum):
     if (node is None):
@@ -20,6 +20,21 @@ def Root2Leaf(node,path,sum):
     Root2Leaf(node.getLeft(),path,sum)
     Root2Leaf(node.getRight(),path,sum)
     path.pop() #pop non-leaf nodes while leaving
+
+#Solution 2
+#Modified in-order traversal (EASY TO FOLLOW!)
+def Root2Leaf2(node,path,sum):
+    if node is None:
+        return
+    path.append(node.data)
+    sum += node.data    
+    Root2Leaf2(node.left,path,sum)
+    Root2Leaf2(node.right,path,sum)
+    #check if node is leaf    
+    if(node.left is None and node.right is None):
+        print(path,sum)
+    path.pop()
+    sum -= node.data
 
 
      
@@ -35,6 +50,7 @@ root.getRight().insertRight(7)
 
 path = []
 print("root to leaf path & sum:")
-#SumRoot2LeafPathsRecursive(root,0,path)
-Root2Leaf(root,path,0)
+#Root2Leaf(root,path,0)
+#assert len(path) == 0, "Houston we have a problem!"
+Root2Leaf2(root,path,0)
 assert len(path) == 0, "Houston we have a problem!"
