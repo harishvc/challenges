@@ -262,8 +262,10 @@ Collection of interesting questions and solutions that involve data structures, 
    2.1 [DFS traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-dfs.py)    
    2.2 [Modify DFS to keep track vertex state (white, black & gray)] (https://github.com/harishvc/challenges/blob/master/graph-find-path-between-nodes.py) :thumbsup: :notes:  
    2.3 [BFS traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom: 
-3. [Topological sort introduction](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)
-4. [Topological sort using DFS](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-using-DFS.py) :bulb: :thumbsup: :notes: :rocket:
+3. [Topological sort introduction]
+    3.1 [Topological sort (given edges)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
+    3.2 [Topological sort using Kahn's algorithm (given adjacency list)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:  
+    3.3 [Topological sort using DFS](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-using-DFS.py) :bulb: :thumbsup: :notes: :rocket:  
 5. [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)
 
 
