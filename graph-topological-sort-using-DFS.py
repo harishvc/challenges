@@ -26,54 +26,55 @@ Algorithm: http://codeforces.com/blog/entry/4907
 
 #Time complexity: O(v+e)  v=#vertices e=#edges    
 #https://gist.github.com/kachayev/5910538
-from collections import deque
 
-def TopologicalSortDFS(graph):
-    result = deque()   #two sided queue, add and remove from both sides
-    vertices = set(graph)
-    state = {}
-    GRAY = 0
-    BLACK = 1
-    
-    def DFS(vertex):
-        #Step 1: Change state of vertex
-        state[vertex] = GRAY
-        #Step 2: Get all neighbors
-        for neighbour in graph.get(vertex,()):
-            #Step 3: Check state of neighbor
-            neighbour_state = state.get(neighbour,None)
-            if neighbour_state == BLACK:
-                continue
-            elif neighbour_state == GRAY:
-                raise ValueError("cycle")
-                return
-            else:
-                #Step 4: Process neighbor
-                #remove from set
-                vertices.discard(neighbour)
-                DFS(neighbour)
-        #Step 5: Change status and add to result        
-        #dequeue specific! 
-        result.extendleft(vertex)
-        state[vertex] = BLACK
-    
-    while vertices:
-        DFS(vertices.pop())    
-    return result
 
-    
 '''
-a->b
-a->c
-a->d
-c->d
+0 = WHITE, not visited
+1 = Gray, still visiting
+2 = visited
 '''
-graph1 = {
+def topologicalSortDFS(graph,current,visited,result,cycle):
+    #case 2: visiting
+    visited[current] = 1
+    #for v in graph.get(current,()):
+    for v in graph[current]:
+        #case 3: visited
+        if (visited[v] == 2):
+            continue
+        #CYCLE!
+        elif (visited[v] == 1):
+            #print("CYCLE!")
+            cycle[0] = True
+            return
+        else:
+            topologicalSortDFS(graph,v,visited,result,cycle)
+    #change status
+    visited[current] = 2
+    #add to result
+    result.append(current)
+ 
+
+#Adjaceny list
+graph = {
     "a": ["b", "c", "d"],
     "b": [],
     "c": ["d"],
     "d": []
 }
 
-print("input >>>" , graph1)
-print("sorted order >>>", TopologicalSortDFS(graph1))
+
+visited = {v:0 for v in graph}
+result = []
+cycle = [False]
+#nodes in a graph need not be connected
+for v in graph:
+    #case 1: not visited
+    if visited[v] == 0:  #nodes not see before
+        topologicalSortDFS(graph,v,visited,result,cycle)
+
+if (cycle[0]):
+    print("Found cycles!!!")
+else:        
+    #print("NO CYCLES!!!")
+    #Reverse list
+    print(result[::-1])
