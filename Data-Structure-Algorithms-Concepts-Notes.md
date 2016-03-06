@@ -126,20 +126,20 @@
      of nodes, arranged in the exactly same way. It is <bold>not necessary that the value of each node should also be the same</bold>.
 * Depth First Traversal (DFT):  
 	* Preorder   Traversal:  
-    * current node data ->left subtree -> right subtree   
-    * first node is the root and last node is the right most
-    * **going down** from the parent node to child node(s)  
-    * Examples: copy a tree, LCA, build a tree, path from root, depth , height 
+      * current node data ->left subtree -> right subtree   
+      * first node is the root and last node is the right most
+      * **going down** from the parent node to child node(s)  
+      * Examples: copy a tree, LCA, build a tree, path from root, depth , height 
 	* In-order   Traversal:  
-    * left subtree -> current node data -> right subtree   
-    * first node is the left most and last node is the right most. In a BST the values are **sorted**  
-    * **looking upwards** starting from the leaf node(s) to parent nodes    
-    * Examples: sorted values (only in BST), smallest value (only in BST)
+      * left subtree -> current node data -> right subtree   
+      * first node is the left most and last node is the right most. In a BST the values are **sorted**  
+      * **looking upwards** starting from the leaf node(s) to parent nodes    
+      * Examples: sorted values (only in BST), smallest value (only in BST)
 	* Post-order Traversal:  
-    * left subtree -> right subtree -> current node data   
-    * first node is the left most and last node is the root :notes:
-    * **looking upwards** starting from the leaf nodes to sub-tree to the parent subtree all the way to root 
-    * Examples: check is tree is unival, largest value (only in BST) 
+      * left subtree -> right subtree -> current node data   
+      * first node is the left most and last node is the root :notes:
+      * **looking upwards** starting from the leaf nodes to sub-tree to the parent subtree all the way to root 
+      * Examples: check is tree is unival, largest value (only in BST) 
 * Breadth First Traversal (BFT): 
     * Visit nodes at **each level** starting with root. Nodes are stored in a **queue** during traversal    
 
