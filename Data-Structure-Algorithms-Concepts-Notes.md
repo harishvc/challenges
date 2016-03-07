@@ -129,7 +129,7 @@
       * current node data ->left subtree -> right subtree   
       * first node is the root and last node is the right most
       * **going down** from the parent node to child node(s)  
-      * Examples: copy a tree, LCA, build a tree, path from root, depth , height 
+      * Examples: clone a tree, flip the nodes in a tree, LCA, build a tree, path from root, depth , height 
 	* In-order   Traversal:  
       * left subtree -> current node data -> right subtree   
       * first node is the left most and last node is the right most. In a BST the values are **sorted**  
@@ -137,7 +137,7 @@
       * Examples: sorted values (only in BST), smallest value (only in BST)
 	* Post-order Traversal:  
       * left subtree -> right subtree -> current node data   
-      * first node is the left most and last node is the root :notes:
+      * first node is the left most and last node is the root
       * **looking upwards** starting from the leaf nodes to sub-tree to the parent subtree all the way to root 
       * Examples: check is tree is unival, largest value (only in BST) 
 * Breadth First Traversal (BFT): 
