@@ -88,3 +88,45 @@ def mergeLinkedList(t1,t2):
         Insert2End(newNode,Node(t1.val))
         t1 = t1.next
     return newNode
+
+#Find max value
+def findMax(node):
+    maxNode = LinkedListNode(None)
+    while node is not None:
+        print("comparing ,,,,", maxNode.val,node.val)
+        if maxNode.val is None:
+            maxNode = node
+        elif (node.val > maxNode.val):
+                maxNode = node
+        node = node.next
+    return maxNode
+
+
+#pop first node from linked list
+def popFirst(headNode):
+    tmp = headNode.next
+    headNode.next = None
+    return tmp
+
+
+#Remove duplicate values, retain order of existing values
+#input >>>  3 4 3 2 6 1 2 6 
+#output >>> 3 4 2 6 1
+def optimalList(headNode):
+    seen = set()
+    start = headNode
+    behind = headNode #one step behind to handle case #3
+    while start is not None:
+        #case 1: new value
+        if (start.val not in seen):
+            seen.add(start.val)
+            behind = start
+            start = start.next
+        #case 2: seen before and value not at end
+        elif (start.next is not None):
+            start.val = start.next.val
+            start.next = start.next.next  #IMPORTANT!
+        #case 3: seen before and value at end
+        else:
+            behind.next=None
+            start=None #IMPORTANT!
