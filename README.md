@@ -164,8 +164,9 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Implement stack with getMax() that operates in constant time](https://github.com/harishvc/challenges/blob/master/stack-with-maxvalue.py) :memo:
 6. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py) :memo: 
 7. [Check if a string containing parenthesis, square brackets and curly brackets is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis-square-brackets-and-curly-brackets.py)
-8. Implement stack using queue [TODO]
-9. [Design an algorithm for computing the k-th largest element in a sequence of elements.
+8. [Find the length of the longest valid parenthesis sequence in a string, in O(n) time](https://github.com/harishvc/challenges/blob/master/stack-longest-matching-parenthesis.py)  :notes: :thumbsup:  
+9. Implement stack using queue [TODO]
+10. [Design an algorithm for computing the k-th largest element in a sequence of elements.
    It should run in O(n) expected time where n is the length of the sequence, which is not known in advnance.
    The value of K is known in advance. Your algorithm should print the k-th largest element after the sequence has ended.
    It should use O(k) additional storage](https://github.com/harishvc/challenges/blob/master/k-largest-element.py ) [TODO]
