@@ -199,7 +199,7 @@ Collection of interesting questions and solutions that involve data structures, 
   2.5 [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:  
   2.6 [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)  
   2.7 [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:  
-  2.8 [Find all edge nodes (boundary/perimeter) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:
+  2.8 [Find all edge nodes (boundary/perimeter) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:  
   2.9 [Flip a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-flip.py) :thumbsup:    
 3. Path Sum  
   3.1 [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)  
