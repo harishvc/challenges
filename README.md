@@ -132,6 +132,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 
 ### Linked Lists
+1. [Linked List Library](https://github.com/harishvc/challenges/blob/master/mylib/LinkedListLibrary.py)  :thumbsup: :boom:  
 1. Linked List Introduction   
     1.1 [Single Linked Lists](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)  
     1.2 [Double Linked Lists](https://github.com/harishvc/challenges/blob/master/double-linkedlist-intro.py)  
