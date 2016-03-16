@@ -133,16 +133,16 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Linked Lists
 1. [Linked List Library](https://github.com/harishvc/challenges/blob/master/mylib/LinkedListLibrary.py)  :thumbsup: :boom:  
-1. Linked List Introduction   
+2. Linked List Introduction   
     1.1 [Single Linked Lists](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)  
     1.2 [Double Linked Lists](https://github.com/harishvc/challenges/blob/master/double-linkedlist-intro.py)  
-2. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
-3. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
-4. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:
-5. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
-6. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
-7. Find the node at which the intersection of two singly linked lists begins
-8. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) 
+3. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
+4. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
+5. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:
+6. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
+7. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
+8. Find the node at which the intersection of two singly linked lists begins
+9. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) 
 
 
 ### Sort
