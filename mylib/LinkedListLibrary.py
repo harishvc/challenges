@@ -22,6 +22,19 @@ def Insert2End(currentNode,newNode):
         currentNode = currentNode.next
     currentNode.next = newNode
 
+#Deep copy a list
+def deepCopy(current,new):
+    newNodeHead = None
+    while(current is not None):
+        if (new is None):
+            new = Node(current.val)
+            newNodeHead = new
+        else:
+            new.next = Node(current.val)
+            new = new.next
+        current = current.next
+    return newNodeHead
+
 #Find mid node, last node and their index positions
 def findMidLast(headNode):
     start = headNode
