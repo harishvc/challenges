@@ -72,8 +72,11 @@
   * Extra memory space for a pointer is required with each element of the list.
   * Reverse traversing is difficult
   * Memory is allocated to Linked List at run time if and only if there is space available in heap  
-* Lists stores elements in successive order in memory.
-  * Constant time for accessing an element at a specific index and adding new element at end
+* Double Linked List
+  * Traverse in both directions - start to end and as well as from end to start
+    *  If we are at a node, then we can go to any node  
+  * Requires more space per node because one extra field is required to keep track of previous node   
+  * Insertion and deletion take more time than linear linked list   
 
 # STACK 
 * Stack uses LIFO (Last in First Out) ordering
