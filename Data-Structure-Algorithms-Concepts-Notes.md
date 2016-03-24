@@ -21,7 +21,7 @@
 #Sort Algorithms
 * Quick Sort:
    * Divide and conquer
-   * Inplace algorithm 
+   * Inplace algorithm using a pivot (pivot value is the MEDIAN :boom:)
    * NO need for extra memory
    * NOT stable
    * **Need to know length of list**

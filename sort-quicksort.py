@@ -7,6 +7,7 @@ ALGORITHM:
 3. There are many ways to select the pivot value - first , last, random
 4. Index position of the pivot value is commonly called the split point
 5. Split point is used to divide the list for subsequent calls to the quick sort
+6. pivot value is the MEDIAN :boom:
 
 NOTES:
 1. Divide and conquer
