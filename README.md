@@ -39,6 +39,7 @@ Collection of interesting questions and solutions that involve data structures, 
  
 ### Data Structures, Algorithms &amp; Concepts
 * [Notes: Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)  :thumbsup: :notes:
+* [Introduction to Concurrency](https://github.com/harishvc/challenges/blob/master/Introduction-Concurrency-Notes.md)  :thumbsup: :notes:  
 
 ### Brain Teasers (Basic)
 1. [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
