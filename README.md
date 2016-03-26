@@ -106,7 +106,10 @@ Collection of interesting questions and solutions that involve data structures, 
     you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
  
 ### Strings
-1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
+1. [Find #words in a sentance](https://github.com/harishvc/challe
+
+
+nges/blob/master/string-words.py)
 2. [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)
 3. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
 4. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
@@ -118,6 +121,7 @@ Collection of interesting questions and solutions that involve data structures, 
 10. Given a long string, find how many occurances of another small string in O(m+n) time :boom: :rocket:   
 11. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
 12. 
+
 
 
 ### Permutations and Combinations
@@ -252,7 +256,8 @@ Collection of interesting questions and solutions that involve data structures, 
 11. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
 12. [Given a sorted list create a BST with minimal height] (https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:  
 13. [Given ordered nodes construct a fully balanced BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-fully-balanced.py) :thumbsup:  
-14. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:
+14. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:  
+15. [Given a sorted list and a value, find the first and last occurance of the value](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-last-occurance.py) :bulb: :notes:   
 15. Find mean of a BST
 16. Find depth of a binary search tree without using recursion
 
