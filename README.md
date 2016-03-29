@@ -53,10 +53,9 @@ Collection of interesting questions and solutions that involve data structures, 
    8.1 [Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
    8.2 [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 9. [Write an "echo" program](https://github.com/harishvc/challenges/blob/master/cmd-line-echo.py) 
-10. [Given a list of size n, find the majority element](https://github.com/harishvc/challenges/blob/master/majority-value.py)
-11. [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:
-12. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:
-13. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:  
+10. [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:
+11. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:
+12. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:  
 
 ### Brain Teasers (Moderate)
 1. [Check if a given number is prime](https://github.com/harishvc/challenges/blob/master/prime.py)
@@ -98,7 +97,7 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
 2. Find the majority element  :boom:  
-   2.1 From unsorted list in linear time and constant storage     
+   2.1 [From unsorted list in linear time and constant storage](https://github.com/harishvc/challenges/blob/master/list-popular-element-unsorted.py)  :thumbsup:         
    2.2 From sorted list in logrithmic time and constant storage  
 3. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py )
 4. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
@@ -277,8 +276,8 @@ Collection of interesting questions and solutions that involve data structures, 
 3. Topological sort introduction  
     3.1 [Topological sort (given edges)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
     3.2 [Topological sort using Kahn's algorithm (given adjacency list)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:  
-    3.3 [Topological sort using DFS](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-using-DFS.py) :bulb: :thumbsup: :notes: :rocket:  
-5. [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)
+    3.3 [Topological sort using DFS](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-using-DFS.py) :bulb: :thumbsup: :notes: :rocket  
+4. [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)
 
 
 ### Dynamic Programming
