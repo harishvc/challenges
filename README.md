@@ -116,9 +116,10 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:    
 9. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
 10. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
-11. String search (search for a pattern in a given text)  
+11. Search  
     11.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
-    11.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:     
+    11.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket: 
+    11.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
 
 
 ### Permutations and Combinations
