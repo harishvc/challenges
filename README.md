@@ -118,13 +118,13 @@ Collection of interesting questions and solutions that involve data structures, 
 10. Substring  
    10.1 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
    10.2 [Find the longest repeating substring (longest substring of a string that occurs at least twice)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
-   10. 3 [Find the longest subset of a given string with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
+   10.3 [Find the longest subset of a given string with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
 11. Search  
     11.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
     11.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
     11.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
 12. Minium Window  
-    12.14 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
+    12.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
 
 
 ### Permutations and Combinations
