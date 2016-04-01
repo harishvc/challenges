@@ -118,10 +118,13 @@ Collection of interesting questions and solutions that involve data structures, 
 10. Substring  
    10.1 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
    10.2 [Find the longest repeating substring (longest substring of a string that occurs at least twice)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
+   10. 3 [Find the longest subset of a given string with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
 11. Search  
     11.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
-    11.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket: 
+    11.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
     11.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
+12. Minium Window
+    12.14 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
 
 
 ### Permutations and Combinations
@@ -129,13 +132,12 @@ Collection of interesting questions and solutions that involve data structures, 
 1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
 2. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
 3. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
-4. [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)
-5. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
-6. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)  
-7. [Can you create the given word from the dictionary?](https://github.com/harishvc/challenges/blob/master/create-word-from-dictionary.py) :thumbsup:   
-8. [Given a set of characters and a positive integer k, print all possible strings of length k that can be formed](https://github.com/harishvc/challenges/blob/master/string-combinations-length-k.py) :thumbsup:
-9. [Given a word and a dictionary. Find all possible words can you make that are found in the dictionary?](https://github.com/harishvc/challenges/blob/master/find-word-combinations.py)
-10. [Find the longest subset of a given string with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:
+4. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
+5. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)  
+6. [Can you create the given word from the dictionary?](https://github.com/harishvc/challenges/blob/master/create-word-from-dictionary.py) :thumbsup:   
+7. [Given a set of characters and a positive integer k, print all possible strings of length k that can be formed](https://github.com/harishvc/challenges/blob/master/string-combinations-length-k.py) :thumbsup:
+8. [Given a word and a dictionary. Find all possible words can you make that are found in the dictionary?](https://github.com/harishvc/challenges/blob/master/find-word-combinations.py)
+
 
 
 ### Linked Lists
