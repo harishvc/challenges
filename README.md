@@ -123,7 +123,7 @@ Collection of interesting questions and solutions that involve data structures, 
     11.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
     11.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
     11.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
-12. Minium Window
+12. Minium Window  
     12.14 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
 
 
