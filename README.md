@@ -116,7 +116,7 @@ Collection of interesting questions and solutions that involve data structures, 
 8. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
 9. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
 10. Substring   
-    _A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_ 
+    _A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_   
    10.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
    10.2 Generate all the substrings of a string        
    10.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
