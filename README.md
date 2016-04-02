@@ -115,9 +115,12 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:    
 8. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
 9. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
-10. Substring  
-   10.1 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
-   10.2 [Find the longest repeating substring (longest substring of a string that occurs at least twice)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
+10. Substring   
+    _A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_ 
+   10.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
+   10.2 Generate all the substrings of a string        
+   10.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
+   10.4 [Find the longest repeating substring (longest substring of a string that occurs at least twice)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
    10.3 [Find the longest subset of a given string with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
 11. Search  
     11.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
@@ -290,6 +293,7 @@ Collection of interesting questions and solutions that involve data structures, 
    1.1 [Iterative, Recursive, Bottom-up & Top-down](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py)  
    1.2 [Recursive with lookup](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth-lookup.py)  
 2. [Longest Common Subsequence (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:   
+   _subsequence is a **generalization of substring**. For example, "Itwastimes" is a subsequence of "It was the best of times", but not a substring_  
    2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
    2.2 [Find a LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
    2.3 [Find all the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
