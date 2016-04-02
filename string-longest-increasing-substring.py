@@ -11,27 +11,43 @@ References:
 1. http://www.geeksforgeeks.org/suffix-tree-application-3-longest-repeated-substring/
 2.https://www.quora.com/Write-a-program-to-return-the-longest-repeating-substring-in-a-string
 '''
-def findLCP(a):
-	lca = []
-	lca.append(-1)
-	for i in range(1,len(a)):
-		if(a[i-1] in a[i]):
-			lca.append(min(len(a[i-1]),len(a[i]))) 
-		else:
-			lca.append(0)
-	return lca
 
-myinput = ["ABABAB", "BANANA", "GEEKSFORGEEKS", "ABABABA", "ATCGATCGA"]
-#myinput = ["BANANA"] #Incorrect!
+#Length of the Longest Common Prefix
+def MaxLength(a,b):
+	ai = len(a)
+	bi = len(b)
+	ac = 0
+	bc = 0
+	maxLength = 0
+	while(ac < ai and bc < bi and a[ac] == b[bc]):
+			maxLength +=1
+			ac +=1
+			bc +=1
+	return maxLength
+
+def findLCP(a):
+	lcp = []
+	for i in range(0,len(a)):
+		lcp.append(MaxLength(a[i-1],a[i]))
+	return lcp
+
+myinput = ["ABABAB", "BANANA","GEEKSFORGEEKS", "ATCGATCGA"]
 for text in myinput:
-	suffix = [text[i:] for i in range(len(text))]
-	Sortedsuffix = sorted([text[i:] for i in range(len(text))])
+	#Step 1: Generate suffix array
+	suffix = [text[i:] for i in range(0,len(text))]
+	#Step 2: Sort suffix array
+	Sortedsuffix = sorted([text[i:] for i in range(0,len(text))])
+	#Step 3: Generate LCP array based on sorted suffix array
 	LCP = findLCP(Sortedsuffix)
+	#Step 4: Find max value from LCP
 	maxValue = max(LCP)
+	#Step 5: Find index of max value
 	maxIndex = LCP.index(maxValue)
+	#Step 6: Find index in suffix array
 	index = len(suffix[LCP[maxIndex]])
+	#Step 7: Find substring using index and maxValue
 	print(text, ">>>", text[index:index+maxValue])
 	#reset
-	del suffix[::]
-	del Sortedsuffix[::]
-	del LCP[::]
+	del suffix[:]
+	del Sortedsuffix[:]
+	del LCP[:]
