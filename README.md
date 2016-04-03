@@ -102,8 +102,9 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py )
 4. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
 5. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
-6. [Given two arrays of integers, find a pair of values (one from each array) such that
-    you can swap so that both arrays sume to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
+6. Given a list of numbers, return a list of products of all **other** numbers **without using division in O(n) time**   
+7. [Given two arrays of integers, find a pair of values (one from each array) such that
+    you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
  
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
@@ -194,10 +195,11 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
 5. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
 6. [Design an algorithm to sort a stack in descending order] (https://github.com/harishvc/challenges/blob/master/sort-stack-in-descending-order.py)
-7. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
+7. Sliding Window Maximum [TODO]  
+8. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
     same color should change the color to the second color  [TODO]
-8. Implement blocking queue [TODO]
-9. Implement non-blocking queue [TODO]
+9. Implement blocking queue [TODO]
+10. Implement non-blocking queue [TODO]
      
 ### Binary Trees
 1.  [Traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)  
