@@ -98,7 +98,7 @@ Collection of interesting questions and solutions that involve data structures, 
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
 2. Find the majority element  :boom:  
    2.1 [From unsorted list in linear time and constant storage](https://github.com/harishvc/challenges/blob/master/list-popular-element-unsorted.py)  :thumbsup:         
-   2.2 From sorted list in logrithmic time and constant storage  
+   2.2 [From sorted list in logrithmic time and constant storage] (https://github.com/harishvc/challenges/blob/master/list-popular-element-sorted.py)  :thumbsup:  :bulb:             
 3. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py )
 4. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
 5. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
@@ -195,7 +195,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
 5. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
 6. [Design an algorithm to sort a stack in descending order] (https://github.com/harishvc/challenges/blob/master/sort-stack-in-descending-order.py)
-7. Sliding Window Maximum [TODO]  
+7. Sliding Window Maximum [TODO]    
 8. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
     same color should change the color to the second color  [TODO]
 9. Implement blocking queue [TODO]
