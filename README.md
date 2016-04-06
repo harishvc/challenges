@@ -114,7 +114,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:        
 5. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
 6. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
-7. Reverse
+7. Reverse  
    7.1 [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  :thumbsup:  
    7.2 [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)
    7.3 [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
