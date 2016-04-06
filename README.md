@@ -69,30 +69,6 @@ Collection of interesting questions and solutions that involve data structures, 
 9. Matrix    
    9.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
    9.2 [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:     
-10. Duplicates  
-   10.1 [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
-   10.2 Given a sorted list, remove the duplicates in place, return modified list and #unique values
-11. Given a list and condition  
-   11.1 Find all possible 2 numbers in the list that add up to the given sum    
-   11.2 [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)       
-   11.3 [Find all possible triplets in the list that satisfies a^2 + b^2 = c^2](https://github.com/harishvc/challenges/blob/master/find-integers-that-match-expression.py)  :notes: :boom:     
-   11.4 [There are numbers from 1 to N in an array. One of the number gets duplicated and one is missing. Find out the duplicate number]  (https://github.com/harishvc/challenges/blob/master/find-missing-and-duplicate-number.py) :notes: [TODO]    
-   11.5 [Given two arrays of integers, find a pair of values (one from each array) you can swap so that both arrays sum to the same value] (https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)  [TODO]  
-   11.6 [Find three numbers when multipled provide max value from the given input](https://github.com/harishvc/challenges/blob/master/find-three-numbers-when-multipled-provide-max-value.py)  
-   11.7 Find all possible quadruplets in the list that add up to the given sum  
-12. Rotated list   
-   12.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
-   12.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
-   12.3 [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
-13. Time intervals  
-   13.1 [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
-   13.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
-   13.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)  
-14. Median  
-   14.1 [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
-   14.2 [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
-   14.3 [Find median of unsorted list](https://github.com/harishvc/challenges/blob/master/find-median-unsorted-list.py) [TODO]    
-
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
@@ -105,31 +81,60 @@ Collection of interesting questions and solutions that involve data structures, 
 6. Given a list of numbers, return a list of products of all **other** numbers **without using division in O(n) time**   
 7. [Given two arrays of integers, find a pair of values (one from each array) such that
     you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
+8. Duplicates  
+   8.1 [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
+   8.2 Given a sorted list, remove the duplicates in place, return modified list and #unique values
+9. Given a list and condition  
+   9.1 Find all possible 2 numbers in the list that add up to the given sum    
+   9.2 [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)       
+   9.3 [Find all possible triplets in the list that satisfies a^2 + b^2 = c^2](https://github.com/harishvc/challenges/blob/master/find-integers-that-match-expression.py)  :notes: :boom:     
+   9.4 [There are numbers from 1 to N in an array. One of the number gets duplicated and one is missing. Find out the duplicate number]  (https://github.com/harishvc/challenges/blob/master/find-missing-and-duplicate-number.py) :notes: [TODO]    
+   9.5 [Given two arrays of integers, find a pair of values (one from each array) you can swap so that both arrays sum to the same value] (https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)  [TODO]  
+   9.6 [Find three numbers when multipled provide max value from the given input](https://github.com/harishvc/challenges/blob/master/find-three-numbers-when-multipled-provide-max-value.py)  
+   9.7 Find all possible quadruplets in the list that add up to the given sum   
+   9.8 Find a continuous subarray of sum zero  
+10. Rotated list   
+   10.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
+   10.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
+   10.3 [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
+11. Time intervals  
+   11.1 [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
+   11.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
+   11.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)  
+12. Median  
+   12.1 [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
+   12.2 [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
+   12.3 [Find median of unsorted list](https://github.com/harishvc/challenges/blob/master/find-median-unsorted-list.py) [TODO]    
+
  
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
-2. [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)
-3. [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
-4. [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)
-5. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
-6. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
-7. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:    
-8. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
-9. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
-10. Substring (_A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_)   
-   10.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
-   10.2 Generate all the substrings of a string        
-   10.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
-   10.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
-   10.3 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
-   10.4 Find the longest substring with k unique characters    
-   10.5 Find the longest palindromic substring    
-11. Search  
-    11.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
-    11.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
-    11.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
-12. Minimum Window  
-    12.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
+2. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
+3. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
+4. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:        
+5. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
+6. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
+7. Reverse
+   7.1 [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  :thumbsup:  
+   7.2 [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)
+   7.3 [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
+8. Palindrome  
+   8.1 [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)  
+   8.2 Given a number find the next smallest Palindrome   
+9. Substring (_A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_)   
+   9.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
+   9.2 Generate all the substrings of a string        
+   9.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
+   9.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
+   9.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
+   9.6 Find the longest substring with k unique characters    
+   9.7 Find the longest palindromic substring    
+10. Search  
+    10.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
+    10.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
+    10.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
+11. Minimum Window  
+    11.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
 
 
 ### Permutations and Combinations
