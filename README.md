@@ -120,7 +120,7 @@ Collection of interesting questions and solutions that involve data structures, 
    7.3 [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
 8. Palindrome  
    8.1 [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)  
-   8.2 Given a number find the next smallest Palindrome   
+   8.2 [Given a number find the next smallest Palindrome](https://github.com/harishvc/challenges/blob/master/string-next-palindrome.py) :bulb: :notes:     
 9. Substring (_A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_)   
    9.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
    9.2 Generate all the substrings of a string        
