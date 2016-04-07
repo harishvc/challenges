@@ -2,31 +2,34 @@
 Given a list of intervals merge overlapping intervals
 Example: [1,3][4,6][2,9]   ===> [1,9]
 '''
-    
-def MergeInterval(input):
-    
-    #Step 1: Sort the time interval by start time and end time
-    #input = sorted(input,key=lambda x:(x[0],x[1]))
-    input.sort(key=lambda x:(x[0],x[1]))
-    #print("sorted input .....", input)
-    
-    #Step2: Iterate through the sorted list
-    #Initialize with first entry
-    result = [[input[0][0],input[0][1]]]
-    end = input[0][1] 
-    for x in range(1,len(input)):
-        #New start is less than or equal to end
-        if (input[x][0] <= end):
-            #New end is larger than end 
-            if (input[x][1] > result[-1][1]):
-                result[-1][1] = input[x][1] #Merge!
-                end = input[x][1]  #new end
-        #New start is greater than last seen end
-        else:
-            result.append([input[x][0],input[x][1]]) #new time interval
-            end = input[x][1]  #new end
-    return result
+
+def mySort(self):
+	return self[0]
+
+def mergeTimeIntervals(a):
+	result = []
+	endTimeQueue = []
+	endTimeCount = 0
+	endTimeCurrent = 0 #current time interval
+	#step 1: sort by start time 
+	a.sort(key=mySort)
+	#step 2: compare end time of first value with start time of second value
+	for time in a:
+		start,end = time[0],time[1]
+		if endTimeCount == 0:
+			endTimeQueue.append(time)
+			endTimeCount += 1
+		elif start <= endTimeQueue[endTimeCurrent][1]:
+			#merge time
+			endTimeQueue[endTimeCurrent][1] = end
+		else:
+			#new time
+			endTimeQueue.append(time)
+			endTimeCurrent +=1
+			endTimeCount +=1
+	return endTimeQueue
 
 
-input = [[1,3],[4,6],[10,15],[1,2],[2,9]]
-print(input, "merged interval ->>>", MergeInterval(input))
+a = [[1,3],[9,12],[4,8],[3,5]]
+print("time intervals >>> ", a)
+print("merged intervals >>> ", mergeTimeIntervals(a))
