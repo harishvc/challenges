@@ -1,34 +1,50 @@
+#Find min in the rotated sorted list
+
+a = [1,2,3,4,5]
+ra = [3,4,5,1,2] #rotated right 3 times!
+
+#Solution 1: O(n)
+#min in a rotated sorted list
+def minRSL(a):
+	first = 0
+	second = 1
+	while(a[first] < a[second]):
+		print(a[first] < a[second])
+		first = second
+		second +=1
+	return a[second]
+
+
+#Solution 2: O(log n)
 '''
-Find the minimum value in a rotated sorted list.
+OBSERVATION:
+1. Minimum value is the only value with higher values on left and right
+2. Apply BST principles to find min value
 
-Notes :notes:
-1. In a sorted list left most value is less than right more value  [1,2,3,4,5]
-2. In a rotated sorted list the left most value is greater than the right most value [3,4,5,1,2]
-3. If left (L) and right (R) pointers are such that R > L then the section from L to R is SORTED!  
+REFERENCE:
+http://www.geeksforgeeks.org/find-minimum-element-in-a-sorted-and-rotated-array/
 '''
+def minValue(a,start,end):
+	#condition 1: list sorted
+	if (a[start] < a[end]):
+		return a[start]
+	#condition 2: one value 
+	if(start == end):
+		return a[start]
+	mid = start + (end-start)//2
+	#condition 3: mid index is min value!
+	if (a[mid] < a[mid-1] and a[mid] < a[mid+1]):
+		assert a[mid] < a[end], print("Error")
+		return a[mid]
+	#compare value at middle with end (not start) since 
+	#middle value is floor so, middle value can be equal to start in some case (2 values)	
+	if a[mid] > a[end]: #first half sorted
+		#condition 4: min value in second half
+		return minValue(a,mid+1,end)
+	else:
+		#condition 5: min value in first half 	
+		return minValue(a,start,mid-1)
 
-#Solution 1: Visit each value in the list. When the new value is less than the old value you found the minimum
-#Time Complexity: O(n)
-
-#Solution 2: Apply the property of rotated list and BST to search only half of the list at any given time
-def FindMin(input,start,end):
-    #1 value
-    if(start == end):
-        return input[start]
-    # 2 values
-    elif (end-start == 1):
-        print("Min =", min(input[start],input[end]))
-        #return min(input[start],input[end])
-    # 3+ values
-    else:
-        middle = start + int((end-start)/2)
-        #sorted
-        if(input[start] < input[middle]):
-            FindMin(input,middle,end)
-        else:
-            FindMin(input,start,middle)
-
-
-input = [4,5,6,7,0,1,2]
-print("input >>>>", input)
-FindMin(input,0,len(input)-1)
+a = [[2,3,4,5,6,7,8,1],[5,6,1,2,3,4],[4,5,6,7,0,1,2],[0,1,2,3,4,5,6,7],[2,1],[1,2],[3,2,1]]
+for ra in a:
+	print(ra , " >>> " , minValue(ra,0,len(ra)-1))
