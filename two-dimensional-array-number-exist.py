@@ -33,7 +33,7 @@ def index2Value(matrix,middle):
 	return matrix[middle//cols][(middle%cols)]
 
 #Modified BST
-def Search2(matrix,target,start,end):
+def Search2(Matrix,target,start,end):
 	print("### start=%d end=%d" %(start,end))
 	if start == end and index2Value(matrix,start) == target:
 		print("Found")
@@ -54,8 +54,14 @@ def Search2(matrix,target,start,end):
 		#go left
 		return search(matrix,target,start,middle-1)
     
-        
 Matrix = [[init() for x in range(cols)] for y in range(rows)]
 
+#Solution 1        
 print("Is %d there? %s" % (10,Search(Matrix,10)))
 print("Is %d there? %s" % (50,Search(Matrix,50)))
+
+#Solution 2
+rows = len(Matrix)
+cols = len(Matrix[0])
+target = 9
+Search2(Matrix,target,0,rows*cols-1)
