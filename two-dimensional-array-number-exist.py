@@ -12,6 +12,7 @@ def init():
     count += 1
     return count
 
+#Solution 1: start fro top right and start eliminating rows and cols
 def Search(Matrix,input):
     x,y = 0,cols-1  #Top right corner
     while (x >=0 and y >=0 and x < rows and y < cols):
@@ -24,6 +25,34 @@ def Search(Matrix,input):
         elif(input == Matrix[x][y]):
             return True
     return False
+
+#solution 2: Modified BST
+#convert index to matrix coordinates
+def index2Value(matrix,middle):
+	cols = len(matrix[0])
+	return matrix[middle//cols][(middle%cols)]
+
+#Modified BST
+def Search2(matrix,target,start,end):
+	print("### start=%d end=%d" %(start,end))
+	if start == end and index2Value(matrix,start) == target:
+		print("Found")
+		return
+	elif start == end:
+		print("Not Found")
+		return
+	middle = start + (end-start)//2
+	middleValue = index2Value(matrix,middle)
+	print("middle=%d middleValue=%d" % (middle,middleValue))
+	if middleValue == target:
+		print("Found")
+		return
+	elif middleValue < target: 
+		#go right
+		return search(matrix,target,middle+1,end)
+	else:
+		#go left
+		return search(matrix,target,start,middle-1)
     
         
 Matrix = [[init() for x in range(cols)] for y in range(rows)]
