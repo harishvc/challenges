@@ -56,6 +56,8 @@ Collection of interesting questions and solutions that involve data structures, 
 10. [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:
 11. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:
 12. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:  
+13. Number of perfect squares between two given numbers  
+
 
 ### Brain Teasers (Moderate)
 1. [Check if a given number is prime](https://github.com/harishvc/challenges/blob/master/prime.py)
@@ -69,6 +71,7 @@ Collection of interesting questions and solutions that involve data structures, 
 9. Matrix    
    9.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
    9.2 [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:     
+10. Compute largest rectangle area under a histogram  
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
@@ -92,7 +95,8 @@ Collection of interesting questions and solutions that involve data structures, 
    9.5 [Given two arrays of integers, find a pair of values (one from each array) you can swap so that both arrays sum to the same value] (https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)  [TODO]  
    9.6 [Find three numbers when multipled provide max value from the given input](https://github.com/harishvc/challenges/blob/master/find-three-numbers-when-multipled-provide-max-value.py)  
    9.7 Find all possible quadruplets in the list that add up to the given sum   
-   9.8 Find a continuous subarray of sum zero  
+   9.8 Find a continuous subarray of sum zero    
+   9.9 [Print alternate positive and negative values while retaining order](https://github.com/harishvc/challenges/blob/master/list-alternate-positive-negative.py)  :boom:    
 10. Rotated list   
    10.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
    10.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
