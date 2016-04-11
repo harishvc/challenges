@@ -72,6 +72,8 @@ Collection of interesting questions and solutions that involve data structures, 
    9.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
    9.2 [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:     
 10. Compute largest rectangle area under a histogram  
+11. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
+  
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
