@@ -56,8 +56,8 @@ Collection of interesting questions and solutions that involve data structures, 
 10. [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:
 11. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:
 12. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:  
-13. Number of perfect squares between two given numbers  
-
+13. Number of perfect squares between two given numbers    
+14. [Find all possible numbers which multiply to a give number](https://github.com/harishvc/challenges/blob/master/number-factors.py)  
 
 ### Brain Teasers (Moderate)
 1. [Check if a given number is prime](https://github.com/harishvc/challenges/blob/master/prime.py)
