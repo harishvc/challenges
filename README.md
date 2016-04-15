@@ -369,7 +369,8 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
 * [The idea behind big O notation](https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity)  
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
-* [Bucket Sort Visualization](https://www.cs.usfca.edu/~galles/visualization/BucketSort.html)
+* [Bucket Sort Visualization](https://www.cs.usfca.edu/~galles/visualization/BucketSort.html)  
+* [Properties of Pascal’s Triangle](http://www.livescience.com/51238-properties-of-pascals-triangle.html)  
 
 ### Python Resources
 * Python Module of the Week  
