@@ -38,9 +38,11 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Python interview questions and answers](http://www.ilian.io/python-interview-question-and-answers/)  
  
 ### Data Structures, Algorithms &amp; Concepts
-* [Notes: Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)  :thumbsup: :notes:
+* [Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)  :thumbsup: :notes:
 * [Introduction to Concurrency](https://github.com/harishvc/challenges/blob/master/Introduction-Concurrency-Notes.md)  :thumbsup: :notes:  
 * [Introduction to Design Pattern](https://github.com/harishvc/challenges/blob/master/Design-patterns.md)  :notes:   
+* [Introduction to Bit Manipulation](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)  :boom: :notes:  
+* [Fun with Bits & Bytes](https://github.com/harishvc/quick-references/tree/master/bits-bytes)  
 
 ### Brain Teasers (Basic)
 1. [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
