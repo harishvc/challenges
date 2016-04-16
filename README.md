@@ -124,29 +124,29 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
 4. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:        
 5. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
-5. Generate all Numeronyms for a given string   
-6. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
-7. Reverse  
-   7.1 [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  :thumbsup:  
-   7.2 [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)
-   7.3 [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)
-8. Palindrome  
-   8.1 [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)  
-   8.2 [Given a number find the next smallest Palindrome](https://github.com/harishvc/challenges/blob/master/string-next-palindrome.py) :bulb: :notes:     
-9. Substring (_A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_)   
-   9.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
-   9.2 Generate all the substrings of a string        
-   9.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
-   9.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
-   9.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
-   9.6 Find the longest substring with k unique characters    
-   9.7 Find the longest palindromic substring    
-10. Search  
-    10.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
-    10.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
-    10.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
-11. Minimum Window  
-    11.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
+6. Generate all Numeronyms for a given string   
+7. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
+8. Reverse  
+   8.1 [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  :thumbsup:  
+   8.2 [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)   
+   8.3 [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)   
+9. Palindrome  
+   9.1 [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)  
+   9.2 [Given a number find the next smallest Palindrome](https://github.com/harishvc/challenges/blob/master/string-next-palindrome.py) :bulb: :notes:     
+10. Substring (_A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_)   
+   10.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
+   10.2 Generate all the substrings of a string        
+   10.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
+   10.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
+   10.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
+   10.6 Find the longest substring with k unique characters    
+   10.7 Find the longest palindromic substring    
+11. Search  
+    11.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
+    11.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
+    11.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
+12. Minimum Window  
+    12.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
 
 
 ### Permutations and Combinations
