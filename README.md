@@ -38,12 +38,12 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Python interview questions and answers](http://www.ilian.io/python-interview-question-and-answers/)  
  
 ### Data Structures, Algorithms &amp; Concepts
-* [Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)  :thumbsup: :notes:
-* [Introduction to Concurrency](https://github.com/harishvc/challenges/blob/master/Introduction-Concurrency-Notes.md)  :thumbsup: :notes:  
-* [Introduction to Design Pattern](https://github.com/harishvc/challenges/blob/master/Design-patterns.md)  :notes:   
-* [Introduction to Bit Manipulation](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)  :boom: :notes:  
-* [Fun with Bits & Bytes](https://github.com/harishvc/quick-references/tree/master/bits-bytes) :rocket: 
-* [Fun with Permuation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination)   :boom: :notes:    
+1. [Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)  :thumbsup: :notes:
+2. [Introduction to Concurrency](https://github.com/harishvc/challenges/blob/master/Introduction-Concurrency-Notes.md)  :thumbsup: :notes:  
+3. [Introduction to Design Pattern](https://github.com/harishvc/challenges/blob/master/Design-patterns.md)  :notes:   
+4. [Introduction to Bit Manipulation](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)  :boom: :notes:  
+5. [Fun with Bits & Bytes](https://github.com/harishvc/quick-references/tree/master/bits-bytes) :rocket: 
+6. [Fun with Permuation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination)   :boom: :notes:    
 
 
 ### Brain Teasers (Basic)
