@@ -42,7 +42,9 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Introduction to Concurrency](https://github.com/harishvc/challenges/blob/master/Introduction-Concurrency-Notes.md)  :thumbsup: :notes:  
 * [Introduction to Design Pattern](https://github.com/harishvc/challenges/blob/master/Design-patterns.md)  :notes:   
 * [Introduction to Bit Manipulation](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)  :boom: :notes:  
-* [Fun with Bits & Bytes](https://github.com/harishvc/quick-references/tree/master/bits-bytes)  
+* [Fun with Bits & Bytes](https://github.com/harishvc/quick-references/tree/master/bits-bytes) :rocket: 
+* [Fun with Permuation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination)   :boom: :notes:    
+
 
 ### Brain Teasers (Basic)
 1. [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
