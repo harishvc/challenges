@@ -1,4 +1,4 @@
-#Introduction to bitwise operations
+#Introduction to Bit Manipulation
 
 a = 25
 b = 12
