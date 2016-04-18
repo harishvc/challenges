@@ -354,7 +354,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)  
 6. [Compute n^k using bit operations](https://github.com/harishvc/challenges/blob/master/power.py)  :boom: :thumbsup:  
 7. [Swap two variable values without additional space](https://github.com/harishvc/challenges/blob/master/swap-two-variable-values-without-additional-space.py)
-8. Write an efficient program to count number of 1s in binary representation of an integer   
+8. Write an efficient program to count number of 1s in binary representation of an integer(https://github.com/harishvc/challenges/blob/master/bit-count-1s.py)      
 
 
 ### Algorithms and Data Structures Resources
