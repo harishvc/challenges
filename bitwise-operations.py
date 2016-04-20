@@ -1,4 +1,4 @@
-#Introduction to Bit Manipulation
+#Introduction to bitwise operations
 
 a = 25
 b = 12
@@ -16,13 +16,22 @@ print("a=%d,b=%d,a|b=%d" % (a,b,a|b))
 print("a=%d,b=%d,a^b=%d" % (a,b,a^b))
 #COMPLEMENT
 print("a=%d,~a=%d" % (a,~a))
-#Binary Left Shift
-#The left operands value is moved left by the number of bits specified by the right operand.
+# x << y  Left Shift
+# Shift x by y bits to the left. Same as x*2**y
+#Examples: 4<<2=16  5<<2=20
 print("a=%d,a2<<2=%d" % (a,a<<2))
-#Binary Right Shift
-#The left operands value is moved right by the number of bits specified by the right operand.
+# x >> y Right Shift
+# Shift x by y bits to the right. Samw as x//2**y
+#Examples: 5>>2=1 3>>2=0 7>>2=1
 print("a=%d,a>>2=%d" % (a,a>>2))
 
+#set bit N of variable x to 0
+#https://stackoverflow.com/questions/10571822/how-to-remove-the-leftmost-bit-and-add-bit-in-its-rightmost-bit/
+x &= ~(1 << N)
+
+#set bit N of variable x to 1
+#https://stackoverflow.com/questions/10571822/how-to-remove-the-leftmost-bit-and-add-bit-in-its-rightmost-bit/
+x |= 1 << N
 
 #http://www.quora.com/How-would-you-add-two-integers-using-bit-manipulation
 #http://en.wikipedia.org/wiki/Kogge%E2%80%93Stone_adder
