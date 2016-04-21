@@ -23,3 +23,33 @@ for n in sentances:
     for x in reverse(n).split(" "):
         print(reverse(x),end=" ") 
 print(" ")
+
+
+#Solution 3: Convert string to list and then reverse
+def reverse(a,start,end):
+	while start < end:
+		a[start],a[end] = a[end],a[start]
+		start += 1
+		end -= 1
+	return a
+
+#Reference: https://www.interviewcake.com/question/python/reverse-words
+#Time & Space complexity: O(n)
+def reverseSentance(a):
+	#step 1: convert string to list since string is immutable :notes:
+	na = list(a)  #new a
+	size = len(na) -1
+	#step 2: reverse entire list
+	na = reverse(na,0,size)
+	#step 3: reverse each word (when space is encountered)
+	start = 0
+	for i in range(0,size+1):
+		if na[i] == " ":
+			reverse(na,start,i-1)
+			start = i + 1
+		elif i == size:  #last word
+			reverse(na,start,i)
+	return "".join(na) #convert list back to string
+
+a= "Alice likes Bob"
+print(a, "===>", reverseSentance(a))
