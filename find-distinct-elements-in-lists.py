@@ -54,3 +54,30 @@ for x in input:
         tree.insert(x,1)
 #Iterate        
 tree.foreach(PrintUnique2,0)  #0=inorder
+
+
+
+#Solution 3
+'''
+REFERENCE:
+http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/
+
+LIMITATIONS:
+1. n elements with value > 0 and < n
+2. Logic needs to be modified if 0 is one of the values
+'''
+
+def Generator2List(g):
+    return [x for x in g]
+
+def RemoveDuplicates(a):
+    size = len(a)
+    for i in range(0,size):
+        #Have we seen abs(a[i])? 
+        if  a[abs(a[i])] > 0: #not seen
+                yield abs(a[i])
+                a[abs(a[i])] = -a[abs(a[i])] #seen now
+
+a=[1,2,3,1,3,6,6,3,3]
+print("input >>> ", a)
+print("unique values >>> ", Generator2List(RemoveDuplicates(a)))
