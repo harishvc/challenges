@@ -68,3 +68,60 @@ m2,n2 = median(b)
 print("input 1 >>> ",a)
 print("input 2 >>> ",b)
 print("median = ", FindMedian2List(a,b,m1,n1,m2,n2))
+
+
+######
+#Solution 2
+'''
+NOTES: :notes: :rocket:
+1. A given value is median if there are X values greater and Y values lesser
+2. In a sorted list `a` of size 7 where index positions are 0 1 2 3 4 5 6 
+   value at index position 3 (7//2+1) is median if a[3]>a[2] and a[3]<a[4]
+3. In a sorted list `a` of size 3 and sorted list `b` of size 4 value at
+   index position a[2] is median if a[2] > b[0] and a[2] < b[1]
+'''
+
+def findMedian(a,asize,b,bsize,countBelow):
+	start = asize//2
+	count = 0
+	while (start >=0 and start <= asize):
+		count = asize-start  
+		remaining = countBelow - count
+		#print("checking %d remaining=%d" % (a[start],remaining))
+		#case 1:
+		if (remaining == 0 and a[start] > b[bsize]):
+			return a[start]
+		#case 2:
+		elif a[start] > b[bsize-remaining] and a[start] < b[bsize-remaining+1]:
+			return a[start]
+		#case 3:
+		elif a[start] <  b[bsize-remaining] and a[start] <  b[bsize-remaining+1]:
+			start +=1
+		#case 4:
+		else:
+			start -= 1
+	#case 5: No median
+	#print("No Median")
+	return None
+
+def findMedianWrapper(a,asize,b,bsize,countBelow):
+	#check list a
+	median = findMedian(a,asize,b,bsize,countBelow)
+	if median is not None:
+		return median
+	else:
+		#median in list b
+		return findMedian(b,bsize,a,asize,countBelow)
+#test 1
+a = [1,3,5]
+b = [2,6,8,10]
+#test 2
+#a= [1,2,3]
+#b= [5,6,7,8]
+acount = len(a)
+bcount = len(b)
+#Question: How to handle even count?
+medianIndex = (acount+bcount)//2 + 1
+# values below the median
+countBelow = acount+bcount - medianIndex
+print("input >>> %s%s \nmedian >>> %d" % (a,b,findMedianWrapper(a,acount-1,b,bcount-1,countBelow)))
