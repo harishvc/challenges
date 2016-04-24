@@ -90,7 +90,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
 6. Given a list of numbers, return a list of products of all **other** numbers **without using division in O(n) time**   
 7. [Given two arrays of integers, find a pair of values (one from each array) such that
-    you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]
+    you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]`
 8. Duplicates  
    8.1 [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
    8.2 Given a sorted list, remove the duplicates in place, return modified list and #unique values
@@ -174,7 +174,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
 8. Find the node at which the intersection of two singly linked lists begins
 9. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) 
-
+10. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py) [TODO]  
 
 ### Sort
 1. Sorting Algorithms & [Notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md#sort-algorithms)   
