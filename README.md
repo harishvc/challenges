@@ -58,7 +58,6 @@ Collection of interesting questions and solutions that involve data structures, 
    8.1 [Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
    8.2 [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
 9. [Write an "echo" program](https://github.com/harishvc/challenges/blob/master/cmd-line-echo.py) 
-10. [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:
 11. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:
 12. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:  
 13. Number of perfect squares between two given numbers    
@@ -93,18 +92,20 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py) 
 
 
-
 ### Lists & Dictionaries
-1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
+1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)  
+3. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py)  
+4. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo:   
+5. Given a list of numbers, return a list of products of all **other** numbers **without using division in O(n) time**   
 2. Find the majority element  :boom:  
    2.1 [From unsorted list in linear time and constant storage](https://github.com/harishvc/challenges/blob/master/list-popular-element-unsorted.py)  :thumbsup:         
    2.2 [From sorted list in logrithmic time and constant storage] (https://github.com/harishvc/challenges/blob/master/list-popular-element-sorted.py)  :thumbsup:  :bulb:             
-3. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py )
-4. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo: 
-5. [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:
-6. Given a list of numbers, return a list of products of all **other** numbers **without using division in O(n) time**   
-7. [Given two arrays of integers, find a pair of values (one from each array) such that
-    you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]`
+6. Two lists  
+   6.1 [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:  
+   6.2 [Given two lists, find a pair of values (one from each array) such that you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]   
+   6.3 [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)  
+   6.4 [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py)   
+   6.5 [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:  
 8. Duplicates  
    8.1 [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
    8.2 Given a sorted list, remove the duplicates in place, return modified list and #unique values
