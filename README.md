@@ -105,8 +105,8 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Given a list of numbers, return a list of products of all **other** numbers **without using division in O(n) time**   
 5. Design a dictionary that performs insert, lookup and delete in constant time O(1)    
 6. Find the majority element  :boom:  
-   5.1 [From unsorted list in linear time and constant storage](https://github.com/harishvc/challenges/blob/master/list-popular-element-unsorted.py)  :thumbsup:         
-   5.2 [From sorted list in logrithmic time and constant storage] (https://github.com/harishvc/challenges/blob/master/list-popular-element-sorted.py)  :thumbsup:  :bulb:             
+   6.1 [From unsorted list in linear time and constant storage](https://github.com/harishvc/challenges/blob/master/list-popular-element-unsorted.py)  :thumbsup:         
+   6.2 [From sorted list in logrithmic time and constant storage] (https://github.com/harishvc/challenges/blob/master/list-popular-element-sorted.py)  :thumbsup:  :bulb:             
 7. Two lists  
    7.1 [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:  
    7.2 [Given two lists, find a pair of values (one from each array) such that you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]   
@@ -175,8 +175,8 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Linked Lists
 1. [Linked List Library](https://github.com/harishvc/challenges/blob/master/mylib/LinkedListLibrary.py)  :thumbsup: :boom:  
 2. Linked List Introduction   
-    1.1 [Single Linked Lists](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)  
-    1.2 [Double Linked Lists](https://github.com/harishvc/challenges/blob/master/double-linkedlist-intro.py)  
+    2.1 [Single Linked Lists](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)  
+    2.2 [Double Linked Lists](https://github.com/harishvc/challenges/blob/master/double-linkedlist-intro.py)  
 3. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
 4. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
 5. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:
