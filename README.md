@@ -45,38 +45,43 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Fun with Bits & Bytes](https://github.com/harishvc/quick-references/tree/master/bits-bytes) :rocket: 
 6. [Fun with Permuation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination)   :boom: :notes:    
 
-
 ### Brain Teasers (Basic)
 1. [Convert celsius to fahrenheit](https://github.com/harishvc/challenges/blob/master/celsius-fahrenheit.py)
 2. [Find sum of all even numbers for a given range](https://github.com/harishvc/challenges/blob/master/sum-of-numbers.py) 
-3. [Find pairs in an integer array whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py) 
-4. [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
-5. [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-6. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
-7. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
-8. Fibonacci series    
-   8.1 [Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
-   8.2 [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
-9. [Write an "echo" program](https://github.com/harishvc/challenges/blob/master/cmd-line-echo.py) 
-11. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:
-12. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:  
-13. Number of perfect squares between two given numbers    
-14. [Find all possible numbers which multiply to a give number](https://github.com/harishvc/challenges/blob/master/number-factors.py)  
+3. [Find factorial of n](https://github.com/harishvc/challenges/blob/master/factorial.py)
+4. [Find square root of a number](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+5. [Find square root without using sqrt function](https://github.com/harishvc/challenges/blob/master/find-square-root-without-using-sqrt-function.py)
+6. [Find power of a number](https://github.com/harishvc/challenges/blob/master/power.py) 
+7. Fibonacci series    
+   7.1 [Find the Fibonacci numbers between the given range](https://github.com/harishvc/challenges/blob/master/fibonacci.py)    
+   7.2 [Find odd numbers in the Fibonacci series for a given range](https://github.com/harishvc/challenges/blob/master/fibonacci-find-even-odd.py)  
+8. [Write an "echo" program](https://github.com/harishvc/challenges/blob/master/cmd-line-echo.py) 
+9. Number of perfect squares between two given numbers    
+10. [Find all possible numbers which multiply to a give number](https://github.com/harishvc/challenges/blob/master/number-factors.py)  
 
 ### Brain Teasers (Moderate)
 1. [Check if a given number is prime](https://github.com/harishvc/challenges/blob/master/prime.py)
 2. [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
 3. [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  
 4. [Find the Greatest Common Divisior (GCD) of two positive integers](https://github.com/harishvc/challenges/blob/master/find-greatest-common-divisor.py)
-5. [Check if two given strings are Isomorphic](https://github.com/harishvc/challenges/blob/master/check-if-strings-are-isomorphic.py)   
-6. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
-7. [Flatten an object representation. Example {a:1, b:2, c:{d:3}} flattens to {a:1,b:2,c.d:3}](https://github.com/harishvc/challenges/blob/master/flatten-hash.py) :boom: :thumbsup:   
-8. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:   
-9. Matrix    
-   9.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
-   9.2 [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:     
-10. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
+5. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
+6. [Flatten an object representation. Example {a:1, b:2, c:{d:3}} flattens to {a:1,b:2,c.d:3}](https://github.com/harishvc/challenges/blob/master/flatten-hash.py) :boom: :thumbsup:      
+7. Matrix    
+   7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
+   7.2 [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:     
+8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
   
+### Permutations and Combinations
+0. [Introduction to Permutation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination) :boom: :thumbsup:
+1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
+2. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
+3. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
+4. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
+5. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)  
+6. [Can you create the given word from the dictionary?](https://github.com/harishvc/challenges/blob/master/create-word-from-dictionary.py) :thumbsup:   
+7. [Given a set of characters and a positive integer k, print all possible strings of length k that can be formed](https://github.com/harishvc/challenges/blob/master/string-combinations-length-k.py) :thumbsup:
+8. [Given a word and a dictionary. Find all possible words can you make that are found in the dictionary?](https://github.com/harishvc/challenges/blob/master/find-word-combinations.py)
+
 ### Sort
 1. Sorting Algorithms & [Notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md#sort-algorithms)   
    1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py) :thumbsup:    
@@ -90,6 +95,7 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
 4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
 5. [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py) 
+6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:  
 
 
 ### Lists & Dictionaries
@@ -120,6 +126,7 @@ Collection of interesting questions and solutions that involve data structures, 
    9.7 Find all possible quadruplets in the list that add up to the given sum   
    9.8 Find a continuous subarray of sum zero    
    9.9 [Print alternate positive and negative values while retaining order](https://github.com/harishvc/challenges/blob/master/list-alternate-positive-negative.py)  :boom:    
+   9.10 [Find pairs in an integer whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py)   
 10. Rotated list   
    10.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
    10.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
@@ -132,51 +139,38 @@ Collection of interesting questions and solutions that involve data structures, 
    12.1 [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
    12.2 [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
    12.3 [Find median of unsorted list](https://github.com/harishvc/challenges/blob/master/find-median-unsorted-list.py) :bulb:  :notes:     
-
  
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
 2. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
 3. [Write a function which finds a closest pair of equal entries](https://github.com/harishvc/challenges/blob/master/closest-matching-pair.py) :memo: 
 4. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:        
-5. Given two strings find if they are Anagrams (rearranging the letters of a word or phrase to produce a new word or phrase)
-6. Generate all Numeronyms for a given string   
-7. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
-8. Reverse  
-   8.1 [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  :thumbsup:  
-   8.2 [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)   
-   8.3 [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)   
-9. Palindrome  
-   9.1 [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)  
-   9.2 [Given a number find the next smallest Palindrome](https://github.com/harishvc/challenges/blob/master/string-next-palindrome.py) :bulb: :notes:     
-10. Substring (_A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_)   
-   10.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
-   10.2 Generate all the substrings of a string        
-   10.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
-   10.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
-   10.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
-   10.6 Find the longest substring with k unique characters    
-   10.7 Find the longest palindromic substring    
-11. Search  
-    11.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
-    11.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
-    11.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
-12. Minimum Window  
-    12.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
-
-
-### Permutations and Combinations
-0. [Introduction to Permutation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination) :boom: :thumbsup:
-1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
-2. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
-3. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
-4. [Given a string containing only digits, restore it by returning all possible valid IP address combinations](https://github.com/harishvc/challenges/blob/master/find-ip-address-variations.py)
-5. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)  
-6. [Can you create the given word from the dictionary?](https://github.com/harishvc/challenges/blob/master/create-word-from-dictionary.py) :thumbsup:   
-7. [Given a set of characters and a positive integer k, print all possible strings of length k that can be formed](https://github.com/harishvc/challenges/blob/master/string-combinations-length-k.py) :thumbsup:
-8. [Given a word and a dictionary. Find all possible words can you make that are found in the dictionary?](https://github.com/harishvc/challenges/blob/master/find-word-combinations.py)
-
-
+5. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
+6. Properties  
+   6.1 Given two strings find if they are **Anagrams** (rearranging the letters of a word or phrase to produce a new word or phrase)  
+   6.2 [Check if two given strings are **Isomorphic**](https://github.com/harishvc/challenges/blob/master/check-if-strings-are-isomorphic.py)   
+   6.3 Generate all **Numeronyms** for a given string     
+7. Reverse  
+   7.1 [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  :thumbsup:  
+   7.2 [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)   
+   7.3 [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)   
+8. Palindrome  
+   8.1 [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)  
+   8.2 [Given a number find the next smallest Palindrome](https://github.com/harishvc/challenges/blob/master/string-next-palindrome.py) :bulb: :notes:     
+9. Substring (_A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_)   
+   9.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
+   9.2 Generate all the substrings of a string        
+   9.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
+   9.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
+   9.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
+   9.6 Find the longest substring with k unique characters    
+   9.7 Find the longest palindromic substring    
+10. Search  
+    10.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
+    10.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
+    10.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
+11. Minimum Window  
+    11.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  
 
 ### Linked Lists
 1. [Linked List Library](https://github.com/harishvc/challenges/blob/master/mylib/LinkedListLibrary.py)  :thumbsup: :boom:  
@@ -192,7 +186,6 @@ Collection of interesting questions and solutions that involve data structures, 
 9. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) 
 10. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py) [TODO]  
  
-
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
 2. [Implement stack using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
@@ -202,9 +195,11 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py) :memo: 
 7. [Check if a string containing parenthesis, square brackets and curly brackets is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis-square-brackets-and-curly-brackets.py)
 8. [Find the length of the longest valid parenthesis sequence in a string, in O(n) time](https://github.com/harishvc/challenges/blob/master/stack-longest-matching-parenthesis.py)  :notes: :thumbsup:  
-9. Implement stack using queue [TODO]
-10. Compute largest rectangle area under a histogram  
-11. [Design an algorithm for computing the k-th largest element in a sequence of elements.
+9. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:  
+10. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:   
+11. Implement stack using queue [TODO]
+12. Compute largest rectangle area under a histogram  
+13. [Design an algorithm for computing the k-th largest element in a sequence of elements.
    It should run in O(n) expected time where n is the length of the sequence, which is not known in advnance.
    The value of K is known in advance. Your algorithm should print the k-th largest element after the sequence has ended.
    It should use O(k) additional storage](https://github.com/harishvc/challenges/blob/master/k-largest-element.py ) [TODO]
