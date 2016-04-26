@@ -8,17 +8,17 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Data Structures, Algorithms &amp; Concepts](#data-structures-algorithms--concepts)
 * [Brain Teasers (Basic)](#brain-teasers-basic)
 * [Brain Teasers (Moderate)](#brain-teasers-moderate)
+* [Sort](#sort)
 * [Lists &amp; Dictionaries](#lists--dictionaries)
 * [Strings](#strings)
 * [Permutations and Combinations](#permutations-and-combinations)
 * [Linked Lists](#linked-lists)
-* [Sort](#sort)
 * [Stacks](#stacks)
 * [Queues](#queues)
 * [Binary Trees](#binary-trees)
 * [Binary Search Tree (BST)](#binary-search-tree-bst)
 * [Heaps](#heaps)
-* [GRAPHS](#graphs)
+* [Graphs](#graphs)
 * [Dynamic Programming](#dynamic-programming)
 * [Design &amp; Algorithms](#design--algorithms)
 * [Bitwise Operations](#bitwise-operations)
@@ -76,9 +76,23 @@ Collection of interesting questions and solutions that involve data structures, 
 9. Matrix    
    9.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
    9.2 [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:     
-10. Compute largest rectangle area under a histogram  
-11. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
+10. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
   
+### Sort
+1. Sorting Algorithms & [Notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md#sort-algorithms)   
+   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py) :thumbsup:    
+   1.2 [Quick Selection Sort](https://github.com/harishvc/challenges/blob/master/sort-quick-select.py) :rocket:       
+   1.3 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
+   1.4 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort-take2.py) :rocket: :boom:  
+   1.5 [Insertion Sort](https://github.com/harishvc/challenges/blob/master/sort-insertion-sort.py)   
+   1.6 [Bucket Sort](https://github.com/harishvc/challenges/blob/master/sort-bucket-sort.py)       
+   1.7 [Radix Sort](https://github.com/harishvc/challenges/blob/master/sort-radix-sort.py)    
+2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
+3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
+4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
+5. [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py) 
+
+
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)
@@ -175,20 +189,7 @@ Collection of interesting questions and solutions that involve data structures, 
 8. Find the node at which the intersection of two singly linked lists begins
 9. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) 
 10. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py) [TODO]  
-
-### Sort
-1. Sorting Algorithms & [Notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md#sort-algorithms)   
-   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py) :thumbsup:    
-   1.2 [Quick Selection Sort](https://github.com/harishvc/challenges/blob/master/sort-quick-select.py) :rocket:       
-   1.3 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
-   1.4 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort-take2.py) :rocket: :boom:  
-   1.5 [Insertion Sort](https://github.com/harishvc/challenges/blob/master/sort-insertion-sort.py)   
-   1.6 [Bucket Sort](https://github.com/harishvc/challenges/blob/master/sort-bucket-sort.py)       
-   1.7 [Radix Sort](https://github.com/harishvc/challenges/blob/master/sort-radix-sort.py)    
-2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
-3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
-4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
-5. [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py)  
+ 
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
@@ -200,7 +201,8 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Check if a string containing parenthesis, square brackets and curly brackets is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis-square-brackets-and-curly-brackets.py)
 8. [Find the length of the longest valid parenthesis sequence in a string, in O(n) time](https://github.com/harishvc/challenges/blob/master/stack-longest-matching-parenthesis.py)  :notes: :thumbsup:  
 9. Implement stack using queue [TODO]
-10. [Design an algorithm for computing the k-th largest element in a sequence of elements.
+10. Compute largest rectangle area under a histogram  
+11. [Design an algorithm for computing the k-th largest element in a sequence of elements.
    It should run in O(n) expected time where n is the length of the sequence, which is not known in advnance.
    The value of K is known in advance. Your algorithm should print the k-th largest element after the sequence has ended.
    It should use O(k) additional storage](https://github.com/harishvc/challenges/blob/master/k-largest-element.py ) [TODO]
