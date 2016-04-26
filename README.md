@@ -201,7 +201,7 @@ Collection of interesting questions and solutions that involve data structures, 
 12. Compute largest rectangle area under a histogram  
 13. [Design an algorithm for computing the k-th largest element in a sequence of elements.
    It should run in O(n) expected time where n is the length of the sequence, which is not known in advnance.
-   The value of K is known in advance. Your algorithm should print the k-th largest element after the sequence has ended.
+   The value of K is known in advance. Print the k-th largest element after the sequence has ended.
    It should use O(k) additional storage](https://github.com/harishvc/challenges/blob/master/k-largest-element.py ) [TODO]
 
 ### Queues
