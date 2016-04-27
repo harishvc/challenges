@@ -21,15 +21,16 @@ def BST(t2,target,start,end):
         return False
     elif (t2[mid] == target):
         return True
-    #sorted
+    #check if sorted: value at start < value at middle
     elif( t2[start] <= t2[mid]):
         if (target >= t2[start] and target <= t2[mid]):
             return BST(t2,target,start,mid-1)
         else:
             return BST(t2,target,mid+1,end)
-    #unsorted
+    #unsorted: target on the right
     elif (target >= target[mid] and target <= target[end]):
         return BST(t2,target,mid+1,end)
+    #unsorted: target on the left, target > start and target > middle
     else:
         return BST(t2,target,start,mid-1)
     
@@ -40,3 +41,4 @@ target = [4,50]
 for x in target:
     result = BST(t2,x,0,len(t2)-1)    
     print("target=",x, " Found=", result)    
+
