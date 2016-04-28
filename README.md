@@ -126,7 +126,8 @@ Collection of interesting questions and solutions that involve data structures, 
    9.7 Find all possible quadruplets in the list that add up to the given sum   
    9.8 Find a continuous subarray of sum zero    
    9.9 [Print alternate positive and negative values while retaining order](https://github.com/harishvc/challenges/blob/master/list-alternate-positive-negative.py)  :boom:    
-   9.10 [Find pairs in an integer whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py)   
+   9.10 [Find pairs in an integer whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py)  
+   9.11 [Given a list of integers and two target values find the shortest distance between the two target values](https://github.com/harishvc/challenges/blob/master/list-find-shortest-distance.py)  :boom:  :notes:   
 10. Rotated list   
    10.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
    10.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
@@ -263,6 +264,7 @@ Collection of interesting questions and solutions that involve data structures, 
   4.9 [Serialize and Deserialize a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py) :boom: :thumbsup: :rocket:  
   4.10 [Given preorder and inorder traversal construct postorder traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-preorder-to-postorder.py) :boom: :thumbsup:  
   4.11 Given a linked list, construct a balanced tree with the same in-order traversal
+  4.12 Find the longest branch  
 
 ### Binary Search Tree (BST)  
 1.  Create BST  
