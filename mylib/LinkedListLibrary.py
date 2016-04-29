@@ -35,6 +35,32 @@ def deepCopy(current,new):
         current = current.next
     return newNodeHead
 
+#Delete node
+def delete(headNode,value):
+        currentNode = headNode
+        lastNode = None #reference to last node
+        while currentNode is not None and currentNode.data != value:
+            lastNode = currentNode
+            currentNode = currentNode.next
+        #case 1: value not found
+        if (currentNode is None):
+            return headNode
+        #case 2: head node
+        elif(lastNode is None):
+            headNode = currentNode.next
+            currentNode.next = None #remove reference
+            return headNode
+        #case 3: last node
+        elif(currentNode.next is None):
+            lastNode.next = None #remove reference
+            return headNode
+        #case 4: some where between head and tail
+        else:
+            lastNode.next = currentNode.next
+            currentNode.next = None #remove reference
+            return headNode
+
+
 #Find mid node, last node and their index positions
 def findMidLast(headNode):
     start = headNode
