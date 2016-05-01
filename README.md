@@ -179,13 +179,15 @@ Collection of interesting questions and solutions that involve data structures, 
     2.1 [Single Linked Lists](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)  
     2.2 [Double Linked Lists](https://github.com/harishvc/challenges/blob/master/double-linkedlist-intro.py)  
 3. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
-4. [Given a linked list detect if it contains a cycle. If so what is the cycle length and start node?](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)
-5. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:
+4. Cycle & Intersection
+    4.1 Check if a given linked list has a cycle
+    4.2 [Find cycle length and start node](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)  
+    4.3 Find the node at which the intersection of two single linked lists begins  
+5. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
 6. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 7. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
-8. Find the node at which the intersection of two singly linked lists begins
-9. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) :notes: :boom:    
-10. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:  
+8. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) :notes: :boom:    
+9. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:  
  
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
