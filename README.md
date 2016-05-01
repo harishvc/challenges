@@ -124,7 +124,7 @@ Collection of interesting questions and solutions that involve data structures, 
    9.5 [Given two arrays of integers, find a pair of values (one from each array) you can swap so that both arrays sum to the same value] (https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)  [TODO]  
    9.6 [Find three numbers when multipled provide max value from the given input](https://github.com/harishvc/challenges/blob/master/find-three-numbers-when-multipled-provide-max-value.py)  
    9.7 Find all possible quadruplets in the list that add up to the given sum   
-   9.8 Find a continuous subarray of sum zero    
+   9.8 [Find a continuous subarray of sum zero](https://github.com/harishvc/challenges/blob/master/list-find-subset-sumzero.py)  :notes:    
    9.9 [Print alternate positive and negative values while retaining order](https://github.com/harishvc/challenges/blob/master/list-alternate-positive-negative.py)  :boom:    
    9.10 [Find pairs in an integer whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py)  
    9.11 [Given a list of integers and two target values find the shortest distance between the two target values](https://github.com/harishvc/challenges/blob/master/list-find-shortest-distance.py)  :boom:  :notes:   
