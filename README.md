@@ -185,7 +185,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
 8. Find the node at which the intersection of two singly linked lists begins
 9. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) 
-10. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py) [TODO]  
+10. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)
  
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
