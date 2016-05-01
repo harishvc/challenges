@@ -9,11 +9,13 @@ class Node:
 '''
 
 #Print Linked List
-def PrintLinkedList (node):
-    while node is not None:
-        print(node.val,end=" ")
-        node = node.next
-    print("")
+def PrintLinkedList(list):
+	while list is not None:
+		if list.next is not None:
+			print(list.data,end=" -> ")
+		else:
+			print(list.data,end="\n")
+		list = list.next
 
 #Add to end of linked list
 def Insert2End(currentNode,newNode):
