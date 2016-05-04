@@ -190,7 +190,8 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
 8. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) :notes: :boom:    
 9. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:  
- 
+10. Remove duplicate values & retain order of existing values  
+
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
 2. [Implement stack using linked list](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-linked-lists.py)
@@ -209,14 +210,14 @@ Collection of interesting questions and solutions that involve data structures, 
    The value of K is known in advance. Print the k-th largest element after the sequence has ended.
    It should use O(k) additional storage](https://github.com/harishvc/challenges/blob/master/k-largest-element.py ) [TODO]
 
-### Queues
+### Queue & Double-ended Queue
 1. [Implement queue using list](https://github.com/harishvc/challenges/blob/master/queue-implement.py)
 2. [Implement queue using linked list](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-linked-lists.py)
 3. [Implement a queue using two stacks](https://github.com/harishvc/challenges/blob/master/implement-queue-using-two-stacks.py)
 4. [Queue implementation using dynamic array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-dynamic-array.py)
 5. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
 6. [Design an algorithm to sort a stack in descending order] (https://github.com/harishvc/challenges/blob/master/sort-stack-in-descending-order.py)
-7. Sliding Window Maximum [TODO]    
+7. [Sliding Window Maximum](https://github.com/harishvc/challenges/blob/master/dequeue-moving-window.py) :rocket: :notes: :boom:    
 8. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
     same color should change the color to the second color  [TODO]
 9. Implement blocking queue [TODO]
