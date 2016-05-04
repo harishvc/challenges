@@ -26,20 +26,16 @@ def Insert2End(currentNode,newNode):
 #when fast pointer reaches end, slow pointer is in the middle
 #Time complexity O(n/2)
 def FindMiddle(n):
-        slow = n
-        fast = n
-        while(fast is not None):
-            #print(slow.data,fast.data)
-            slow = n
-            if (fast.nextNode is not None and fast.nextNode.nextNode is not None):
-                fast = fast.nextNode.nextNode
-            elif(fast.nextNode is not None):
-                fast = fast.nextNode
-            else:
-                fast = None
-            n = n.nextNode
-        return slow.data
-
+	slow = n
+	fast = n
+	while(fast and fast.nextNode):
+		slow = slow.nextNode
+        #jump 2 or 1 index?
+		if (fast.nextNode.nextNode is not None):
+			fast = fast.nextNode.nextNode
+		else:
+			fast = fast.nextNode
+	return slow.data
 
 #Initialize the Linked List
 inputs = [1,2,3,4,5,6,7]

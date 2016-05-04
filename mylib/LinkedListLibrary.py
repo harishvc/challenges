@@ -63,30 +63,22 @@ def delete(headNode,value):
             return headNode
 
 
-#Find mid node, last node and their index positions
-def findMidLast(headNode):
-    start = headNode
-    slow  = headNode
-    fast  = headNode
-    midIndex = 1
-    lastIndex = 1
-    #edge case: 1 node
-    if(headNode.next is None):
-        return(headNode,1,headNode,1)
-    #edge case: 2 node
-    if(headNode.next.next is None):
-        return(headNode,1,headNode.next,2)
-    while(fast.next is not None):
-        slow = slow.next
-        midIndex += 1
-        if (fast.next.next is not None):
-            fast = fast.next.next
-            lastIndex += 2
+#Find mid node, last node
+#slow pointers -> one hop
+#fast pointer -> two hops
+#when fast pointer reaches end, slow pointer is in the middle
+#Time complexity O(n/2)
+def FindMiddle(n):
+    slow = n
+    fast = n
+    while(fast and fast.nextNode):
+        slow = slow.nextNode
+        #jump 2 or 1 index?
+        if (fast.nextNode.nextNode is not None):
+            fast = fast.nextNode.nextNode
         else:
-            fast = fast.next
-            lastIndex += 1
-    return (slow,midIndex,fast,lastIndex)
-
+            fast = fast.nextNode
+    return slow.data,fast.data
 
 #Reverse linked list
 def reverseLinkedList(next,previous=None):
