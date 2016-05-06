@@ -82,6 +82,19 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Given a set of characters and a positive integer k, print all possible strings of length k that can be formed](https://github.com/harishvc/challenges/blob/master/string-combinations-length-k.py) :thumbsup:
 8. [Given a word and a dictionary. Find all possible words can you make that are found in the dictionary?](https://github.com/harishvc/challenges/blob/master/find-word-combinations.py)
 
+
+### Bitwise Operations
+1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
+2. [Bitwise addition](https://github.com/harishvc/challenges/blob/master/bit-operation-add.py)
+3. [Bitwise subtraction](https://github.com/harishvc/challenges/blob/master/bit-operation-subtract.py)
+4. [Given a number n, check whether the number is a power of 2](https://github.com/harishvc/challenges/blob/master/bit-operation-check-if-number-is-power-of-2.py)
+5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)  
+6. [Compute n^k using bit operations](https://github.com/harishvc/challenges/blob/master/power.py)  :boom: :thumbsup:  
+7. [Swap two variable values without additional space](https://github.com/harishvc/challenges/blob/master/swap-two-variable-values-without-additional-space.py)
+8. [Write an efficient program to unset the right most bit and count number of 1s in binary representation of an integer](https://github.com/harishvc/challenges/blob/master/bit-count-1s.py)    
+9. [Given a list of repeating integers find the lonely integer](https://github.com/harishvc/challenges/blob/master/bit-lonely-integer.py)             
+
+
 ### Sort
 1. Sorting Algorithms & [Notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md#sort-algorithms)   
    1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py) :thumbsup:    
@@ -189,8 +202,10 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 7. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
 8. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) :notes: :boom:    
-9. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:  
-10. Remove duplicate values & retain order of existing values  
+9. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:
+10. Split a link list into odd and even values with no additional space [TODO]  
+11. Remove duplicate values & retain order of existing values  
+12.  [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
@@ -218,10 +233,11 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Queue implementation using fixed size array](https://github.com/harishvc/challenges/blob/master/queue-implementation-using-fixed-sized-array.py)
 6. [Design an algorithm to sort a stack in descending order] (https://github.com/harishvc/challenges/blob/master/sort-stack-in-descending-order.py)
 7. [Sliding Window Maximum](https://github.com/harishvc/challenges/blob/master/dequeue-moving-window.py) :rocket: :notes: :boom:    
-8. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
+8. Implement queue with getMax() that operates in constant time [TODO]
+9. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
     same color should change the color to the second color  [TODO]
-9. Implement blocking queue [TODO]
-10. Implement non-blocking queue [TODO]
+10. Implement blocking queue [TODO]
+11. Implement non-blocking queue [TODO]
      
 ### Binary Trees
 1.  [Traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)  
@@ -338,31 +354,18 @@ Collection of interesting questions and solutions that involve data structures, 
 9. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
 ### Design &amp; Algorithms
-1.  [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:
-2.  [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
-3.  [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
-4.  [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
-5.  [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
-6.  [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
+1.  [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
+2.  [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
+3.  [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
+4.  [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
+5.  [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py) :memo:
-7.  [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
-8.  [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
-9.  [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
-10. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
+6.  [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
+7.  [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
+8.  [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
+9. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
   
-
-### Bitwise Operations
-1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
-2. [Bitwise addition](https://github.com/harishvc/challenges/blob/master/bit-operation-add.py)
-3. [Bitwise subtraction](https://github.com/harishvc/challenges/blob/master/bit-operation-subtract.py)
-4. [Given a number n, check whether the number is a power of 2](https://github.com/harishvc/challenges/blob/master/bit-operation-check-if-number-is-power-of-2.py)
-5. [Given a number n, multiple the number by 2^k](https://github.com/harishvc/challenges/blob/master/bit-operation-multiply-number-by-power-of-2.py)  
-6. [Compute n^k using bit operations](https://github.com/harishvc/challenges/blob/master/power.py)  :boom: :thumbsup:  
-7. [Swap two variable values without additional space](https://github.com/harishvc/challenges/blob/master/swap-two-variable-values-without-additional-space.py)
-8. [Write an efficient program to unset the right most bit and count number of 1s in binary representation of an integer](https://github.com/harishvc/challenges/blob/master/bit-count-1s.py)    
-9. [Given a list of repeating integers find the lonely integer](https://github.com/harishvc/challenges/blob/master/bit-lonely-integer.py)             
-
 
 ### Algorithms and Data Structures Resources
 * [Top 10 Algorithms for Coding Interview](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/) :boom: :thumbsup:
