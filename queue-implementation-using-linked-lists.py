@@ -10,6 +10,7 @@ class LinkedList:
 
 class Queue:
 	def __init__(self):
+		#IMPORTANT - reference to the head of the linked list
 		self.head = None
 
 	#Add new node to the tail of the linked list (queue)
