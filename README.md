@@ -80,8 +80,8 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Given a phone number provide possible letter mnemonics](https://github.com/harishvc/challenges/blob/master/phone-number-mnemonics.py)  
 6. [Can you create the given word from the dictionary?](https://github.com/harishvc/challenges/blob/master/create-word-from-dictionary.py) :thumbsup:   
 7. [Given a set of characters and a positive integer k, print all possible strings of length k that can be formed](https://github.com/harishvc/challenges/blob/master/string-combinations-length-k.py) :thumbsup:
-8. [Given a word and a dictionary. Find all possible words can you make that are found in the dictionary?](https://github.com/harishvc/challenges/blob/master/find-word-combinations.py)
-
+8. [Given a word and a dictionary. Find all possible words can you make that are found in the dictionary?](https://github.com/harishvc/challenges/blob/master/find-word-combinations.py)  
+9. Given a string and pattern with 1's and 0's find the minimum # of turn needed to make sure the pattern does not appear in the string (https://github.com/harishvc/challenges/blob/master/string-pattern-turns.py) :thumbsup:  
 
 ### Bitwise Operations
 1. [Introduction to bitwise operations](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)
