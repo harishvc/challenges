@@ -10,9 +10,16 @@ CONSTRAINTS:
 1. get and set values on constant time
 2. evict (open up space) in < O(n)
 DESIGN:
-1. Hash of Double Linked  List (DLL)
-2. Hash value has reference to the DLL node
-3. DLL has data, prev, next and reference back to hash
+1. Hash can provide constant time for set() and get()
+2. Listing of key-value of based on least recently used needs to be stored in a different data structure
+   2.1. A linked list can be used to store this information. Head node can point to linked list nodes listed by access time
+3. When a key already present get's set again, it needs to move to the head of the linked list
+   3.1  Using a double linked list will help achieve the desired time complexity since we don't need to traverse
+        the linked list to find the prior node
+   3.2 A double linked list can also achieve desired time complexity while removing LRU key value pair
+4. Each node in the link list will contain
+   4.1 data, prev node, next node, reference to the key in the dictionary
+   4.2 reference to the key in the dictionary is critical to remove keys when their values are removed from the linked list
 ALGORITHM:
 1. set(key,value):
    - Create DLL node with key, value
@@ -22,7 +29,7 @@ ALGORITHM:
    - Get DLL node from hash
    - Move DLL node to head (most recently used)
    - return value from DLL node
-3. evict() - remove the least used node
+3. evict() - remove the least used node, called internally by set()
    - remove DLL node
    - update size
    - remove hash key   
@@ -42,6 +49,7 @@ class LRU:
 		self.head = None #pointer to the first DLL (MRU)
 
 	def set(self,key,value):
+		#TODO: Check if key already exists
 		#step 1: create DLL
 		node = DLL(key,value)
 		#step 2: match hash key with DLL (value)
