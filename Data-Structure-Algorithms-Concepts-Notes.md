@@ -242,13 +242,13 @@
 * <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
 * Trail refer to a path where <strong>no edge</strong> is repeated    
 * Circuits refer to the <strong>closed trail</strong>, meaning we start and end at the same vertex    
-##Cycle
+## Cycle  
 * A cycle is a <strong>closed path</strong>. That is, we can _visit a node for the second time before all its decendents have been visited_ 
 * Cycle detection on a graph is different than a tree since **in a graph a node can have  multiple parents**      
 * <strong>Acyclic graph</strong> is one without cycles (example: tree)  
 * <strong>Topological sort</strong> is ordering of the vertex in a directed acyclic graph (DAG), such that if there is a edge from vertex u to 
   vertex v, then v appears after u in the ordering  
-## DFS & BFS Traversal
+## Traversal  
 * DFS makes deep incursions into a graph, retreating only when it runs out of new nodes to visit   
 * DFS can end up taking a long and convoluted route to a vertex that is actually very close by    
 * BFS visits vertices in increasing order of their distance from the starting point  
