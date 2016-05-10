@@ -235,7 +235,7 @@
 * Reference
   * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
-# Graph
+# GRAPH
 * **Descendant** Given vertices _v_ and _w_, if _v_ lies on the **unique path** between _w_ and the **root**, then _w_ is a descendant of _v_        
 * <strong>Path</strong> in a graph is a finite or infinite sequence of edges which connect a sequence of vertices. 
   No <strong>vertices</strong> are repeated in a simple path.
