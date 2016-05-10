@@ -7,9 +7,16 @@ input   = 00101 101 100 101
 pattern = 101
 #occurances of pattern = 3
 #turns = 3
+
+NOTES:
+1. Observe the pattern
+   - Are there pattern inside the pattern?
+   - How long is the pattern?
+   - Is the pattern pre-determined or run-time?
+2. Information about the pattern will determine if we need to go back and check again when there is match
 '''
 
-def flip(a,pattern):
+def turns(a,pattern):
 	turns = 0
 	asize =len(a)
 	psize = len(pattern)
@@ -20,6 +27,7 @@ def flip(a,pattern):
 	return turns
 
 a = "00101101100101"
+#pattern has no sub-patterns, so just keep going forward
 pattern="101"
 print("input >>>", a, " length=",len(a))
-print("# of flips=",flip(a,pattern))
+print("# of turns=",turns(a,pattern))
