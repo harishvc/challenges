@@ -318,18 +318,18 @@ Collection of interesting questions and solutions that involve data structures, 
 7. Running mean
 
 ### Graph
-1. Introduction  
-   1.1 [Directed Acyclic Graph (DAG) introduction](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
-2. Traversal
-   2.1 [DFS traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-dfs.py)    
-   2.2 [BFS traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom:   
+1. Introduction    
+   1.1 [Directed Acyclic Graph (DAG)](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
+2. DAG Traversal  
+   2.1 [Depth First Traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-dfs.py)    
+   2.2 [Breadth First Traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom:   
    2.3 [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)   
    2.4 Dijkstra shortest path algorithm  [TODO]   
-3. Topological Sort
-    3.1 [Topological sort (given edges)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
-    3.2 [Topological sort using Kahn's algorithm (given adjacency list)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:  
-4. Cycle - A cycle is a <strong>closed path</strong> - _visit a node for the second time before all its decendents have been visited_ 
-   4.1 [Detect cycle using DFS](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-DFS.py) :thumbsup: :notes:  
+3. Topological Sort   
+    3.1 [Topological Sort (given edges)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
+    3.2 [Topological Sort using Kahn's algorithm (given adjacency list)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:  
+4. Cycle - A cycle is a <strong>closed path</strong> - _visit a node for the second time before all its decendents have been visited_    
+   4.1 [Detect cycle using Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-DFS.py) :thumbsup: :notes:  
    4.2 [Detect cycle using Topological Sort](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-topological-sort.py)       
 5. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
