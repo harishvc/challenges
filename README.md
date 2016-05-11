@@ -205,7 +205,7 @@ Collection of interesting questions and solutions that involve data structures, 
 9. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:
 10. [Split a link list into odd and even values with no additional space](https://github.com/harishvc/challenges/blob/master/linked-list-split.py) :rocket:   
 11. Remove duplicate values & retain order of existing values  
-12.  [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  
+12.  [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  :notes: :rocket:  
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
@@ -317,17 +317,23 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
 7. Running mean
 
-### Graphs
-1. [Directed Acyclic Graph (DAG) introduction](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
-2. Find all path between two edges & the shortest path   
+### Graph
+1. Introduction  
+   1.1 [Directed Acyclic Graph (DAG) introduction](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
+2. Traversal
    2.1 [DFS traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-dfs.py)    
-   2.2 [Modify DFS to keep track vertex state (white, black & gray)] (https://github.com/harishvc/challenges/blob/master/graph-find-path-between-nodes.py) :thumbsup: :notes:  
-   2.3 [BFS traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom: 
-3. Topological sort introduction  
+   2.2 [BFS traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom:   
+   2.3 [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)   
+   2.4 Dijkstra shortest path algorithm  [TODO]   
+3. Topological Sort
     3.1 [Topological sort (given edges)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
     3.2 [Topological sort using Kahn's algorithm (given adjacency list)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:  
-    3.3 [Topological sort using DFS](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-using-DFS.py) :bulb: :thumbsup: :notes: :rocket  
-4. [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)
+4. Cycle - A cycle is a <strong>closed path</strong> - _visit a node for the second time before all its decendents have been visited_ 
+   4.1 [Detect cycle using DFS](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-DFS.py) :thumbsup: :notes:  
+   4.2 [Detect cycle using Topological Sort](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-topological-sort.py)       
+5. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
+    while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
+    intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) :memo: :thumbsup:  
 
 
 ### Dynamic Programming
@@ -358,13 +364,10 @@ Collection of interesting questions and solutions that involve data structures, 
 2.  [Implement T9](https://github.com/harishvc/challenges/blob/master/t9.py)
 3.  [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
 4.  [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
-5.  [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
-    while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
-    intermediate words](https://github.com/harishvc/challenges/blob/master/transform-word.py) :memo:
-6.  [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
-7.  [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
-8.  [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
-9. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
+5.  [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
+6.  [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
+7.  [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
+8. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
   
 
 ### Algorithms and Data Structures Resources
