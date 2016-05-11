@@ -330,7 +330,7 @@ Collection of interesting questions and solutions that involve data structures, 
     3.2 [Topological Sort using Kahn's algorithm (given adjacency list)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:  
 4. Cycle - A cycle is a <strong>closed path</strong> - _visit a node for the second time before all its decendents have been visited_    
    4.1 [Detect cycle using Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-DFS.py) :thumbsup: :notes:  
-   4.2 [Detect cycle using Topological Sort](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-topological-sort.py)       
+   4.2 [Detect cycle using Topological Sort](https://github.com/harishvc/challenges/blob/master/graph-detect-cycle-topological-sort.py)       
 5. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) :memo: :thumbsup:  
