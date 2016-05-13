@@ -206,6 +206,8 @@ Collection of interesting questions and solutions that involve data structures, 
 10. [Split a link list into odd and even values with no additional space](https://github.com/harishvc/challenges/blob/master/linked-list-split.py) :rocket:   
 11. Remove duplicate values & retain order of existing values  
 12.  [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  :notes: :rocket:  
+13. Implement skip list   
+
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
