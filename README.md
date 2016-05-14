@@ -110,6 +110,14 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py) 
 6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:  
 
+### Search  
+1. Implement skip list
+2. Implement Trie (Prefix Tree)
+3. Implement Bloom Filter
+4. [Implement Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
+5. [Search using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
+6. [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
+7. Implement Z algorithm  
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)  
@@ -179,12 +187,8 @@ Collection of interesting questions and solutions that involve data structures, 
    9.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
    9.6 Find the longest substring with k unique characters    
    9.7 Find the longest palindromic substring    
-10. Search  
-    10.1 [Using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
-    10.2 [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
-    10.3 [Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
-11. Minimum Window  
-    11.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  :notes: :rocket:
+10. Minimum Window  
+    10.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  :notes: :rocket:
 
 ### Linked Lists
 1. [Linked List Library](https://github.com/harishvc/challenges/blob/master/mylib/LinkedListLibrary.py)  :thumbsup: :boom:  
@@ -336,6 +340,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) :memo: :thumbsup:  
+6. Given a graph find the strongly connected components [TODO]
 
 
 ### Dynamic Programming
