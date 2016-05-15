@@ -201,7 +201,7 @@ Collection of interesting questions and solutions that involve data structures, 
     4.2 [Find the length of the cycle](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-length.py)     
     4.3 [Find the node where cycle starts](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-start.py) :notes: :rocket:      
     4.4 [Find cycle length and start node](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)  :notes:      
-    4.5 Find the node at which the intersection of two single linked lists begins
+    4.5 Find the node at which the intersection of two single linked lists begins   
     4.6 [Add a node to a sorted circular linked list](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-insert.py)  :bulb: :notes:      
 5. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
 6. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
