@@ -196,19 +196,20 @@ Collection of interesting questions and solutions that involve data structures, 
     2.1 [Single Linked Lists](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)  
     2.2 [Double Linked Lists](https://github.com/harishvc/challenges/blob/master/double-linkedlist-intro.py)  
 3. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
-4. Cycle & Intersection  
+4. Circular Linked List, Cycle & Intersection  
     4.1 [Check if a given linked list has a cycle](https://github.com/harishvc/challenges/blob/master/linked-list-check-cycle.py)      
     4.2 [Find the length of the cycle](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-length.py)     
-    4.3 [Find the node where cycle starts](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-start.py) :notes:     
+    4.3 [Find the node where cycle starts](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-start.py) :notes: :rocket:      
     4.4 [Find cycle length and start node](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)  :notes:      
-    4.5 Find the node at which the intersection of two single linked lists begins    
+    4.5 Find the node at which the intersection of two single linked lists begins
+    4.6 [Add a node to a sorted circular linked list](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-insert.py)  :bulb: :notes:      
 5. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
 6. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 7. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
 8. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) :notes: :boom:    
 9. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:
 10. [Split a link list into odd and even values with no additional space](https://github.com/harishvc/challenges/blob/master/linked-list-split.py) :rocket:   
-11. [Remove duplicate values & retain order of existing values](https://github.com/harishvc/challenges/blob/master/linked-list-remove-duplicates.py)    
+11. [Remove duplicate values & retain order of existing values](https://github.com/harishvc/challenges/blob/master/linked-list-remove-duplicates.py)  :boom:      
 12. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  :notes: :rocket:  
 13. Implement skip list   
 
