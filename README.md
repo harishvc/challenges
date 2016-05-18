@@ -212,7 +212,7 @@ Collection of interesting questions and solutions that involve data structures, 
 11. [Remove duplicate values & retain order of existing values](https://github.com/harishvc/challenges/blob/master/linked-list-remove-duplicates.py)  :boom:      
 12. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  :notes: :rocket:  
 13. Implement skip list   
-14. Given linked list return max value at any given time in constant time  
+14. [Given linked list return max value at any given time in constant time](https://github.com/harishvc/challenges/blob/master/linked-list-max-queue.py)     
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
@@ -242,7 +242,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Sliding Window Maximum](https://github.com/harishvc/challenges/blob/master/dequeue-moving-window.py) :rocket: :notes: :boom:    
 8. Implement getMax() that operates in constant time  :rocket:  
    8.1 Given a queue return max value at any given time in constant time   
-   8.2 Given linked list return max value at any given time in constant time  
+   8.2 [Given linked list return max value at any given time in constant time](https://github.com/harishvc/challenges/blob/master/linked-list-max-queue.py)       
 9. Given a screen with all pixels having one of two colors. When a random pixel is clicked, then that pixel & all the adjacent pixels with 
     same color should change the color to the second color  [TODO]
 10. Implement blocking queue [TODO]
