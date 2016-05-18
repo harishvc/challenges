@@ -147,7 +147,7 @@ Collection of interesting questions and solutions that involve data structures, 
    9.7 Find all possible quadruplets in the list that add up to the given sum   
    9.8 [Find a continuous subarray of sum zero](https://github.com/harishvc/challenges/blob/master/list-find-subset-sumzero.py)  :notes:  :rocket:  
    9.9  [Find a continuous subarray of sum target given positive values](https://github.com/harishvc/challenges/blob/master/list-find-consecutive-positive-values-target.py)  :notes:  
-   9.10 [Find a continuous subarray of sum target given positive and negative values](https://github.com/harishvc/challenges/blob/master/list-find-consecutive-negative-values-target.py)  :notes: :rocket: 
+   9.10 [Find a continuous subarray of sum target given positive and negative values](https://github.com/harishvc/challenges/blob/master/list-find-consecutive-negative-values-target.py)  :notes: :rocket:   
    9.11 [Print alternate positive and negative values while retaining order](https://github.com/harishvc/challenges/blob/master/list-alternate-positive-negative.py)  :boom:    
    9.12 [Find pairs in an integer whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py)  
    9.13 [Given a list of integers and two target values find the shortest distance between the two target values](https://github.com/harishvc/challenges/blob/master/list-find-shortest-distance.py)  :boom:  :notes:   
