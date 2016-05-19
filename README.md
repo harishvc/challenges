@@ -316,8 +316,9 @@ Collection of interesting questions and solutions that involve data structures, 
 13. [Given ordered nodes construct a fully balanced BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-fully-balanced.py) :thumbsup:  
 14. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:  
 15. [Given a sorted list and a value, find the first and last occurance of the value](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-last-occurance.py) :bulb: :notes:   
-15. Find mean of a BST
-16. Find depth of a binary search tree without using recursion
+16. [Find the square root of an integer without using square root function](https://github.com/harishvc/challenges/blob/master/binary-search-tree-squareroot.py)  :bulb:  
+17. Find mean of a BST  
+18. Find depth of a binary search tree without using recursion  
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
