@@ -242,16 +242,19 @@
 * <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
 * Trail refer to a path where <strong>no edge</strong> is repeated    
 * Circuits refer to the <strong>closed trail</strong>, meaning we start and end at the same vertex    
+
 ## Adjacency List   
   * Hash of list or Hash of Linked List to store vertices and edges  
   * Space: O(n+e)  
   * Lookup if edges exists: O(v), max # of edges any vertex can have is #vertices-1  
   * Ideal for sparse graph   
+
 ## Adjacency Matrix    
   * 2 dimensional list to sore vertices and edges  
   * Space: O(n*m)  
   * Lookup if edge exists: O(1)  
   * Ideal where constant lookup time is needed and graph is dense  
+  
 ## Cycle  
 * A cycle is a <strong>closed path</strong>. That is, we can _visit a node for the second time before all its decendents have been visited_ 
 * Cycle detection on a graph is different than a tree since **in a graph a node can have  multiple parents**      
