@@ -7,6 +7,8 @@ Directed Acyclic Graphs (DAG) have the following properties
 
 
 Adjacency List vs Adjacency Matrix
+http://stackoverflow.com/questions/2218322/what-is-better-adjacency-lists-or-adjacency-matrices-for-graph-problems-in-c
+
 Adjacency List: 
   1. Hash of list or Hash of Linked List to store vertices and edges
   2. Space: O(n+e)
