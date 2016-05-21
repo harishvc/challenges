@@ -4,6 +4,19 @@ Question: Implement a directed acyclic graph
 Directed Acyclic Graphs (DAG) have the following properties
 1. Their edges show direction  
 2. They don't have cycles
+
+
+Adjacency List vs Adjacency Matrix
+Adjacency List: 
+  1. Hash of list or Hash of Linked List to store vertices and edges
+  2. Space: O(n+e)
+  3. Lookup if edges exists: O(v), max # of edges any vertex can have is #vertices-1
+  4. Ideal for sparse graph 
+Adjacency Matrix: 
+  1. 2 dimensional list to sore vertices and edges
+  2. Space: O(n*m)
+  3. Lookup if edge exists: O(1)
+  4. Ideal where constant lookup time is needed and graph is dense  
 '''
 
 class Vertex:
