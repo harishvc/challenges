@@ -254,7 +254,7 @@
   * Space: O(n*m)  
   * Lookup if edge exists: O(1)  
   * Ideal where constant lookup time is needed and graph is dense  
-  
+
 ## Cycle  
 * A cycle is a <strong>closed path</strong>. That is, we can _visit a node for the second time before all its decendents have been visited_ 
 * Cycle detection on a graph is different than a tree since **in a graph a node can have  multiple parents**      
@@ -263,11 +263,17 @@
   vertex v, then v appears after u in the ordering  
 
 ## Traversal  
-* DFS makes deep incursions into a graph, retreating only when it runs out of new nodes to visit   
-* DFS can end up taking a long and convoluted route to a vertex that is actually very close by    
-* BFS visits vertices in increasing order of their distance from the starting point  
-* BFS **always provides the shortest path** between two connected vertices   
-* BFS is a broader, shallower search like the propagation of a wave upon water  
-* Queue is used for BFS implementation
+
+### DFS   
+  * Makes deep incursions into a graph, retreating only when it runs out of new nodes to visit   
+  * Can end up taking a long and convoluted route to a vertex that is actually very close by    
+  * If vertices are deeper time complexity is more  
+  * Application: Finding Connected components, Topological sort  
+###BFS  
+  * Visit vertices in **increasing order of their distance** from the starting point  
+  * BFS **always provides the shortest path** between two connected vertices   
+  * BFS is a broader, shallower search like the propagation of a wave upon water  
+  * Queue is used for BFS implementation (Memory Constraints)  
+  * Applications: Finding Shortest Path, Bipertiteness
 
 
