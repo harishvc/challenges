@@ -267,12 +267,13 @@
 ### DFS   
   * Makes deep incursions into a graph, retreating only when it runs out of new nodes to visit   
   * Can end up taking a long and convoluted route to a vertex that is actually very close by    
-  * If vertices are deeper time complexity is more  
-  * Application: Finding Connected components, Topological sort  
-###BFS  
+  * If vertices are **deeper, time complexity is more**    
+  * Applications: Finding Connected components, Topological sort
+
+### BFS  
   * Visit vertices in **increasing order of their distance** from the starting point  
   * BFS **always provides the shortest path** between two connected vertices   
-  * BFS is a broader, shallower search like the propagation of a wave upon water  
+  * BFS is a **broader, shallower search** like the propagation of a wave upon water  
   * Queue is used for BFS implementation (Memory Constraints)  
   * Applications: Finding Shortest Path, Bipertiteness
 
