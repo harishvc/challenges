@@ -206,34 +206,6 @@
   * [Heaps &amp; Binary Search Tree @Univ of Washington](http://courses.cs.washington.edu/courses/cse373/02au/lectures/lecture11l.pdf)
   * [Heaps Tutorial @Univ of Toronto](http://www.cs.toronto.edu/~krueger/cscB63h/w07/lectures/tut02.txt)
 
-## Compare data structures
-### BST vs Dictionary  :notes:
- * BST finds elements closest to (not necessarily equal to) some arbitrary key value
- * BST iterates through the contents in sorted order (in-order traversal)
- * BST are memory-efficient, reserve more memory than they need to
- * BST allows you to do range searches efficiently 
- * Dictionary provides constant lookup time   
- 
-### BST vs Heap :notes:  
-  * Heap provides constant time lookup for min and max value
-  * BST provides O(logn) time complexity for search,insert,delete & access
-  * BST finds elements closest to (not necessarily equal to) some arbitrary key value
-  * BST allows you to do range searches efficiently 
-
-### Red & Black Trees vs Dictionaries  
-   * Simple memory management - simplifies error handling in concurrent code, less I/O hits,    
-   * Consistent performance because rehashing (expanding the hash table's array) happens on some insertions.  
-     This is important in real-time systems where you want to provide bounds on how long each operation takes  
-   * Keys are sorted  
-
-# TIME COMPLEXITY
-* Dictionary: O(1) for insert, delete and lookup 
-* Linked List: O(1) insert/delete and O(n) lookup
-* List: O(1) insert, O(n) delete, and O(n) lookup
-* BST: O(logN) insert/delete/lookup/max/min
-* Binary Heap: O(1) max/min, O(logN) insert/delete, O(n) lookup
-* Reference
-  * [Know Thy Complexities!](http://bigocheatsheet.com/)
 
 # GRAPH
 * **Descendant** Given vertices _v_ and _w_, if _v_ lies on the **unique path** between _w_ and the **root**, then _w_ is a descendant of _v_        
@@ -277,4 +249,31 @@
   * Queue is used for BFS implementation (Memory Constraints)  
   * Applications: Finding Shortest Path, Bipertiteness
 
+## Compare data structures
+### BST vs Dictionary  :notes:
+ * BST finds elements closest to (not necessarily equal to) some arbitrary key value
+ * BST iterates through the contents in sorted order (in-order traversal)
+ * BST are memory-efficient, reserve more memory than they need to
+ * BST allows you to do range searches efficiently 
+ * Dictionary provides constant lookup time   
+ 
+### BST vs Heap :notes:  
+  * Heap provides constant time lookup for min and max value
+  * BST provides O(logn) time complexity for search,insert,delete & access
+  * BST finds elements closest to (not necessarily equal to) some arbitrary key value
+  * BST allows you to do range searches efficiently 
 
+### Red & Black Trees vs Dictionaries  
+   * Simple memory management - simplifies error handling in concurrent code, less I/O hits,    
+   * Consistent performance because rehashing (expanding the hash table's array) happens on some insertions.  
+     This is important in real-time systems where you want to provide bounds on how long each operation takes  
+   * Keys are sorted  
+
+# TIME COMPLEXITY
+* Dictionary: O(1) for insert, delete and lookup 
+* Linked List: O(1) insert/delete and O(n) lookup
+* List: O(1) insert, O(n) delete, and O(n) lookup
+* BST: O(logN) insert/delete/lookup/max/min
+* Binary Heap: O(1) max/min, O(logN) insert/delete, O(n) lookup
+* Reference
+  * [Know Thy Complexities!](http://bigocheatsheet.com/)
