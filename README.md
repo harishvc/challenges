@@ -14,7 +14,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Permutations and Combinations](#permutations-and-combinations)
 * [Linked Lists](#linked-lists)
 * [Stacks](#stacks)
-* [Queues](#queues)
+* [Queue & Double-ended queue](#queue--double-ended-queue)
 * [Binary Trees](#binary-trees)
 * [Binary Search Tree (BST)](#binary-search-tree-bst)
 * [Heaps](#heaps)
@@ -330,7 +330,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
 7. Running mean
 
-### Graph
+### Graphs
 1. Introduction    
    1.1 [Directed Acyclic Graph (DAG)](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
 2. DAG Traversal  
