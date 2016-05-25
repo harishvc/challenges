@@ -214,6 +214,8 @@
 * <strong>Connected Graph</strong> There is a path between every pair of vertex (nodes)
 * Trail refer to a path where <strong>no edge</strong> is repeated    
 * Circuits refer to the <strong>closed trail</strong>, meaning we start and end at the same vertex    
+* Strongly Connected Components (SSC) of a directed graph are **subsets of nodes** 
+such that **each node within a subset can be reached from each other node**.   
 
 ## Adjacency List   
   * Hash of list or Hash of Linked List to store vertices and edges  
@@ -233,8 +235,7 @@
 * <strong>Acyclic graph</strong> is one without cycles (example: tree)  
 * <strong>Topological sort</strong> is ordering of the vertex in a directed acyclic graph (DAG), such that if there is a edge from vertex u to 
   vertex v, then v appears after u in the ordering  
-* Strongly Connected Components (SSC) of a directed graph are **subsets of nodes** 
-such that **each node within a subset can be reached from each other node**.   
+
 
 ## Traversal  
 
