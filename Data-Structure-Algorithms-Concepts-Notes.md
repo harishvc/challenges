@@ -233,6 +233,8 @@
 * <strong>Acyclic graph</strong> is one without cycles (example: tree)  
 * <strong>Topological sort</strong> is ordering of the vertex in a directed acyclic graph (DAG), such that if there is a edge from vertex u to 
   vertex v, then v appears after u in the ordering  
+* Strongly Connected Components (SSC) of a directed graph are **subsets of nodes** 
+such that **each node within a subset can be reached from each other node**.   
 
 ## Traversal  
 
