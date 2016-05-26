@@ -349,6 +349,7 @@ Collection of interesting questions and solutions that involve data structures, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) :memo: :thumbsup:  
 6. [Given a graph find the Strongly Connected Components (SSC)](https://github.com/harishvc/challenges/blob/master/graph-strongly-connected-components.py)  :notes: :rocket:   
+7. [Given a boolean 2D matrix, find the number of islands](https://github.com/harishvc/challenges/blob/master/graph-find-islands.py)  :notes: :rocket:     
 
 
 ### Dynamic Programming
