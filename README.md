@@ -112,7 +112,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Search  
 1. Implement skip list
-2. Implement Trie (Prefix Tree)
+2. Implement Trie - insert, search, searchWith, delete (Prefix Tree)
 3. Implement Bloom Filter
 4. [Implement Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
 5. [Search using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
@@ -350,6 +350,8 @@ Collection of interesting questions and solutions that involve data structures, 
     intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) :memo: :thumbsup:  
 6. [Given a graph find the Strongly Connected Components (SSC)](https://github.com/harishvc/challenges/blob/master/graph-strongly-connected-components.py)  :notes: :rocket:   
 7. [Given a boolean 2D matrix, find the number of islands](https://github.com/harishvc/challenges/blob/master/graph-find-islands.py)  :notes: :rocket:     
+8. [Find longest path in a Directed Acyclic Graph from a source vertex](https://github.com/harishvc/challenges/blob/master/graph-longest-path.py) :boom:  
+
 
 
 ### Dynamic Programming
