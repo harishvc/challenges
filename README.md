@@ -111,8 +111,8 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:  
 
 ### Search  
-1. Implement skip list
-2. Implement Trie - insert, search, searchWith, delete (Prefix Tree)
+1. Implement skip list   
+2. [Implement Trie - insert, search, searchWith, delete (Prefix Tree)](https://github.com/harishvc/challenges/blob/master/prefix-tree.py) :notes: :bulb:  
 3. Implement Bloom Filter
 4. [Implement Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
 5. [Search using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
@@ -327,8 +327,8 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py):memo:  
 4. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
 5. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
-6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py)[TODO]
-7. Running mean
+6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py) [TODO]
+7. Running mean [TODO]
 
 ### Graphs
 1. Introduction    
