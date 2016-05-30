@@ -23,7 +23,7 @@ def FibonacciIterative(n):
 
     
 #Solution 2: Recursive
-#Time complexity: O(n), Space complexity: O(1)
+#Time complexity: O(n), Space complexity: O(n), recursive calls need a stack size of n
 def FibonacciRecursive(n):
     if (n < 2):
         return n
@@ -31,7 +31,7 @@ def FibonacciRecursive(n):
         return (FibonacciRecursive(n-1) + FibonacciRecursive(n-2))
 
 
-#Solution3: Bottom-up (Dynamic Programming)
+#Solution 3: Bottom-up (Dynamic Programming)
 #Start with the lowest values of the input and keep building the solutions for higher values
 #Time complexity: O(n), Space complexity: O(n)
 def FibonacciBottomUp(n):
@@ -43,8 +43,9 @@ def FibonacciBottomUp(n):
     return fibTable[n]    
 
 
-#Solution4: Top-down (Dynamic Programming)
+#Solution 4: Top-down (Dynamic Programming)
 #Preserve recursive calls and use the values if they are already computed
+#Memoization (Caching): Store values computed, check if already computed before computing
 #Time complexity: O(n), Space complexity: O(n)
 fibTable = {1:1,2:1}  #store values in a global list
 def FibonacciTopDown(n):
@@ -59,8 +60,18 @@ def FibonacciTopDown(n):
         #print ("++++ adding n=",n)
         return fibTable[n]
 
-    
-for x in range(9):
+#Solution 5: Observartion based on bottom-up approach
+# f(n) = f(n-1) + f(n-2)
+# So we need to last two values to calculate the next
+#Time complexity: O(n), Space complexity: O(1)
+def FibonacciSimple(n):
+    a,b = 0,1
+    for i in range (n):
+        a, b = b, a+b
+    return a
+
+
+for x in range(0,9):
     print("%d = %d" % (x,FibonacciIterative(x)))
 y = 9
 print("%d = %d" % (y,FibonacciBottomUp(y)))
