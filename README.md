@@ -206,16 +206,19 @@ Collection of interesting questions and solutions that involve data structures, 
     4.4 [Find cycle length and start node](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)  :notes:      
     4.5 Find the node at which the intersection of two single linked lists begins   
     4.6 [Add a node to a sorted circular linked list](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-insert.py)  :bulb: :notes:      
-5. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
-6. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
-7. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
-8. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) :notes: :boom:    
-9. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:
-10. [Split a link list into odd and even values with no additional space](https://github.com/harishvc/challenges/blob/master/linked-list-split.py) :rocket:   
-11. [Remove duplicate values & retain order of existing values](https://github.com/harishvc/challenges/blob/master/linked-list-remove-duplicates.py)  :boom:      
-12. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  :notes: :rocket:  
-13. Implement skip list   
-14. [Given linked list return max value at any given time in constant time](https://github.com/harishvc/challenges/blob/master/linked-list-max-queue.py)     
+5. Merge 
+   5.1 Merge two sorted linked lists [TODO]  
+   5.2 Merge K sorted linked lists [TODO] :boom:  
+6. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
+7. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
+8. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
+9. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) :notes: :boom:    
+10. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:
+11. [Split a link list into odd and even values with no additional space](https://github.com/harishvc/challenges/blob/master/linked-list-split.py) :rocket:   
+12. [Remove duplicate values & retain order of existing values](https://github.com/harishvc/challenges/blob/master/linked-list-remove-duplicates.py)  :boom:      
+13. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  :notes: :rocket:  
+14. Implement skip list   
+15. [Given linked list return max value at any given time in constant time](https://github.com/harishvc/challenges/blob/master/linked-list-max-queue.py)     
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
@@ -326,7 +329,10 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
 3. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py):memo:  
 4. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
-5. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)  
+5. Kth
+   5.1 [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)    
+   5.2 Find the Kth most popular value in an unsorted list  
+   5.3 Find K popular values in an unsorted list  
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py) [TODO]
 7. Running mean [TODO]
 
@@ -352,8 +358,6 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Given a boolean 2D matrix, find the number of islands](https://github.com/harishvc/challenges/blob/master/graph-find-islands.py)  :notes: :rocket:     
 8. [Find longest path in a Directed Acyclic Graph from a source vertex](https://github.com/harishvc/challenges/blob/master/graph-longest-path.py) :boom:  
 
-
-
 ### Dynamic Programming
 1. Find the *nth Fibonacci number*   
    1.1 [Iterative, Recursive, Bottom-up & Top-down](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py)  
@@ -361,21 +365,24 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [Longest Common Subsequence (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:   
    _subsequence is a **generalization of substring**. For example, "Itwastimes" is a subsequence of "It was the best of times", but not a substring_  
    2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
-   2.2 [Find a LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
-   2.3 [Find all the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
-3. Given denominations and a total   
-    3.1 [Find all possible combinations to reach a total] (https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:    
-    3.2 [Find all possible combinations to reach a total using lookup] (https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
-    3.3. Minimum # coins needs to reach the total   
+   2.2 [Find the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
+   2.3 [Find all the sequences](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
+3. Longest Increasing Subsequence (LIS)
+   3.1 Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS)  
+   3.2 Given a list of random numbers. Find all the increasing subsequences [TODO]  
 4. Longest common substring  
    4.1 [Length of the longest common substring] (https://github.com/harishvc/challenges/blob/master/longest-common-substring-length.py)  
    4.2 [Find the longest common substring] (https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)  
    4.3 Longest common substring of more than two strings  
-5. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
-6. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game] (https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:  
-7. Given two sequences find the longest palindrome
-8. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
-9. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+5. Given denominations and a total   
+    5.1 [Find all possible combinations to reach a total] (https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:    
+    5.2 [Find all possible combinations to reach a total using lookup] (https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
+    5.3. Minimum # coins needs to reach the total   
+6. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
+7. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game] (https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:  
+8. Given two sequences find the longest palindrome
+9. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
+10.[Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
 ### Design &amp; Algorithms
 1.  [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
