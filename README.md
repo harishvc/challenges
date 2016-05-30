@@ -206,7 +206,7 @@ Collection of interesting questions and solutions that involve data structures, 
     4.4 [Find cycle length and start node](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)  :notes:      
     4.5 Find the node at which the intersection of two single linked lists begins   
     4.6 [Add a node to a sorted circular linked list](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-insert.py)  :bulb: :notes:      
-5. Merge 
+5. Merge   
    5.1 Merge two sorted linked lists [TODO]  
    5.2 Merge K sorted linked lists [TODO] :boom:  
 6. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
@@ -329,7 +329,7 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
 3. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py):memo:  
 4. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
-5. Kth
+5. Kth  
    5.1 [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)    
    5.2 Find the Kth most popular value in an unsorted list  
    5.3 Find K popular values in an unsorted list  
@@ -367,7 +367,7 @@ Collection of interesting questions and solutions that involve data structures, 
    2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
    2.2 [Find the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
    2.3 [Find all the sequences](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
-3. Longest Increasing Subsequence (LIS)
+3. Longest Increasing Subsequence (LIS)  
    3.1 Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS)  
    3.2 Given a list of random numbers. Find all the increasing subsequences [TODO]  
 4. Longest common substring  
@@ -382,7 +382,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game] (https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:  
 8. Given two sequences find the longest palindrome
 9. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
-10.[Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+10. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
 ### Design &amp; Algorithms
 1.  [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
