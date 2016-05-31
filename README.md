@@ -368,8 +368,8 @@ Collection of interesting questions and solutions that involve data structures, 
    2.2 [Find the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
    2.3 [Find all the sequences](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
 3. Longest Increasing Subsequence (LIS)  
-   3.1 Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS)  
-   3.2 Given a list of random numbers. Find all the increasing subsequences [TODO]  
+   3.1 [Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS)](https://github.com/harishvc/challenges/blob/master/dp-longest-increasing-subsequence.py)   :notes:    
+   3.2 [Given a list of random numbers. Find all the increasing subsequences](https://github.com/harishvc/challenges/blob/master/dp-find-all-longest-increasing-subsequence.py)[TODO]      
 4. Longest common substring  
    4.1 [Length of the longest common substring] (https://github.com/harishvc/challenges/blob/master/longest-common-substring-length.py)  
    4.2 [Find the longest common substring] (https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)  
