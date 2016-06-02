@@ -377,7 +377,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5. Given denominations and a total   
     5.1 [Find all possible combinations to reach a total] (https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:    
     5.2 [Find all possible combinations to reach a total using lookup] (https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
-    5.3. Minimum # coins needs to reach the total   
+    5.3. [Minimum # coins needs to reach the total](https://github.com/harishvc/challenges/blob/master/dp-minimum-coins.py)  :rocket: :notes:     
 6. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
 7. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game] (https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:  
 8. Given two sequences find the longest palindrome
