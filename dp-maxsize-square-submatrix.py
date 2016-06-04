@@ -1,4 +1,3 @@
-
 #Given a binary matrix, find out the maximum square size sub-matrix with 1's.
 
 '''
@@ -12,12 +11,12 @@ OBSERVATION:
    - Each index can have maximum of only 1 square sub-matrix
 
 DP TECHNIQUE:
-5. If we store the size of the biggest sub-matrix ending at every index in the matrix, 
+1. If we store the size of the biggest sub-matrix ending at every index in the matrix, 
    then addition of row or a column (at k+1 position) can calculated using the values calculated before 
-1. At index position 0,0 if value is 1 then the max size of sub-matrix = 1
-2. At index position 0,1 if value is 1 then the max size of sub-matrix = 1 (since square)
-3. At index position 1,0 if value is 1 (and 1 & 2) then the max size of sub-matrix = 1 (since square)
-4. At index position 1,1 if value is 1 (and 1 & 2) then the max size of sub-matrix = 2 (min of neighbours + 1)
+2. At index position 0,0 if value is 1 then the max size of sub-matrix = 1
+3. At index position 0,1 if value is 1 then the max size of sub-matrix = 1 (since square)
+4. At index position 1,0 if value is 1 (and 1 & 2) then the max size of sub-matrix = 1 (since square)
+5. At index position 1,1 if value is 1 (and 1 & 2) then the max size of sub-matrix = 2 (min of neighbours + 1)
 6. If there are 3 square matrix at positions [k-1][j-1],[k-1][j],[k][j-1] with same size then the size at [k][j] = neighbour size + 1
 7. If there are 3 square matrix at positions [k-1][j-1],[k-1][j],[k][j-1] with different size then the size at [k][j] = smallest neighbour size + 1
    - add +1 to the size since at each index position the is a square sub-matrix of size 1
