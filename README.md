@@ -383,11 +383,12 @@ Collection of interesting questions and solutions that involve data structures, 
    6.1 Can the input word be split using space-separated sequence of dictionary words?    
    6.2 Split the input string into a space-separated sequence of dictionary words if possible  
    6.3 Find all possible space-separated sequence of dictionary words   
-7. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
-8. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game] (https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:  
-9. Given two sequences find the longest palindrome
-10. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
-11. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+7. [Given a binary matrix, find out the maximum square size sub-matrix with 1's](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
+8. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
+9. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game] (https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:  
+10. Given two sequences find the longest palindrome
+11. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
+12. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
 ### Design &amp; Algorithms
 1.  [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
