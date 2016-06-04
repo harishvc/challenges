@@ -113,7 +113,7 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Search  
 1. Implement skip list   
 2. [Implement Trie - insert, search, searchWith, delete (Prefix Tree)](https://github.com/harishvc/challenges/blob/master/prefix-tree.py) :notes: :bulb:  
-3. Implement Bloom Filter
+3. [Implement Bloom Filter](https://github.com/harishvc/challenges/blob/master/bloom-filter.py)  :bulb: :boom:  
 4. [Implement Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
 5. [Search using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
 6. [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
