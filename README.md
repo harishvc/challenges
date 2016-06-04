@@ -447,7 +447,8 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Recent interview questions@Career Cup](http://www.careercup.com/page)
 * [Interview questions on reddit](https://www.reddit.com/r/cscareerquestions/comments/20ahfq/heres_a_pretty_big_list_of_programming_interview/)
 * [JavaScript interview questions](http://rileyh.com/ui-developer-interview-questions-answers/)
-* [Dynamic Programming Introduction](https://prismoskills.appspot.com/lessons/Dynamic_Programming/Chapter_01_-_Introduction.jsp)
+* [Dynamic Programming Introduction](https://prismoskills.appspot.com/lessons/Dynamic_Programming/Chapter_01_-_Introduction.jsp) :rocket:  
+* [Building Systems and Apps @Scale - archived videos on YouTube](https://www.youtube.com/channel/UCd9I8ZkgoR1d7GeSj_wi_LQ/feed)  :bulb:  
 
 ### Amazing Technical Discussions
 * [Why would anyone like to use a red black tree when a hash table can do the job perfectly?](http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly)
