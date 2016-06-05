@@ -68,7 +68,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Flatten an object representation. Example {a:1, b:2, c:{d:3}} flattens to {a:1,b:2,c.d:3}](https://github.com/harishvc/challenges/blob/master/flatten-hash.py) :boom: :thumbsup:      
 7. Matrix    
    7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
-   7.2 [Given a two dimentional matrix where values are in increasing order. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
+   7.2 [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
   
 ### Permutations and Combinations
@@ -111,13 +111,14 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:  
 
 ### Search  
-1. Implement skip list   
-2. [Implement Trie - insert, search, searchWith, delete (Prefix Tree)](https://github.com/harishvc/challenges/blob/master/prefix-tree.py) :notes: :bulb:  
-3. [Implement Bloom Filter](https://github.com/harishvc/challenges/blob/master/bloom-filter.py)  :bulb: :boom:  
-4. [Implement Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
-5. [Search using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
-6. [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
-7. Implement Z algorithm  
+1. [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
+2. Implement skip list   
+3. [Implement Trie - insert, search, searchWith, delete (Prefix Tree)](https://github.com/harishvc/challenges/blob/master/prefix-tree.py) :notes: :bulb:  
+4. [Implement Bloom Filter](https://github.com/harishvc/challenges/blob/master/bloom-filter.py)  :bulb: :boom:  
+5. [Implement Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
+6. [Search using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
+7. [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
+8. Implement Z algorithm  
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)  
@@ -209,7 +210,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5. Merge   
    5.1 Merge two sorted linked lists [TODO]  
    5.2 Merge K sorted linked lists [TODO] :boom:  
-6. Given a single linked list with one digit positive integer value
+6. Given a single linked list with one digit positive integer value  
    6.1 Add 1   
    6.2 Add given value  
 7. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
