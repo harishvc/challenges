@@ -68,7 +68,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Flatten an object representation. Example {a:1, b:2, c:{d:3}} flattens to {a:1,b:2,c.d:3}](https://github.com/harishvc/challenges/blob/master/flatten-hash.py) :boom: :thumbsup:      
 7. Matrix    
    7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
-   7.2 [Given a two dimentional matrix where rows and columns are sorted in increasing order. Design an efficient algorithm that decides whether a number X appears in A](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:     
+   7.2 [Given a two dimentional matrix where rows and columns are in increasing order. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
   
 ### Permutations and Combinations
