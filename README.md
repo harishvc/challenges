@@ -68,7 +68,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. [Flatten an object representation. Example {a:1, b:2, c:{d:3}} flattens to {a:1,b:2,c.d:3}](https://github.com/harishvc/challenges/blob/master/flatten-hash.py) :boom: :thumbsup:      
 7. Matrix    
    7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
-   7.2 [Given a two dimentional matrix where rows and columns are in increasing order. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
+   7.2 [Given a two dimentional matrix where values are in increasing order. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
   
 ### Permutations and Combinations
@@ -209,16 +209,19 @@ Collection of interesting questions and solutions that involve data structures, 
 5. Merge   
    5.1 Merge two sorted linked lists [TODO]  
    5.2 Merge K sorted linked lists [TODO] :boom:  
-6. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
-7. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
-8. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
-9. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) :notes: :boom:    
-10. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:
-11. [Split a link list into odd and even values with no additional space](https://github.com/harishvc/challenges/blob/master/linked-list-split.py) :rocket:   
-12. [Remove duplicate values & retain order of existing values](https://github.com/harishvc/challenges/blob/master/linked-list-remove-duplicates.py)  :boom:      
-13. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  :notes: :rocket:  
-14. Implement skip list   
-15. [Given linked list return max value at any given time in constant time](https://github.com/harishvc/challenges/blob/master/linked-list-max-queue.py)     
+6. Given a single linked list with one digit positive integer value
+   6.1 Add 1   
+   6.2 Add given value  
+7. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
+8. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
+9. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
+10. [Delete a node in the linked list](https://github.com/harishvc/challenges/blob/master/linked-list-delete-node.py) :notes: :boom:    
+11. [Zip a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-zip.py)  :notes: :rocket:
+12. [Split a link list into odd and even values with no additional space](https://github.com/harishvc/challenges/blob/master/linked-list-split.py) :rocket:   
+13. [Remove duplicate values & retain order of existing values](https://github.com/harishvc/challenges/blob/master/linked-list-remove-duplicates.py)  :boom:      
+14. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  :notes: :rocket:  
+15. Implement skip list   
+16. [Given linked list return max value at any given time in constant time](https://github.com/harishvc/challenges/blob/master/linked-list-max-queue.py)     
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
