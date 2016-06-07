@@ -211,8 +211,8 @@ Collection of interesting questions and solutions that involve data structures, 
    5.1 Merge two sorted linked lists [TODO]  
    5.2 Merge K sorted linked lists [TODO] :boom:  
 6. Given a single linked list with one digit positive integer value  
-   6.1 Add 1   
-   6.2 Add given value  
+   6.1 Add 1  [TODO]    
+   6.2 Add given value  [TODO]   
 7. [Reverse a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-reverse.py) :thumbsup: :rocket:  
 8. [Check if a linked list is a Palindrome](https://github.com/harishvc/challenges/blob/master/check-if-linkedlist-is-a-palindrome.py)
 9. [Find the middle element in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-middle-element.py) :bulb:
@@ -387,12 +387,15 @@ Collection of interesting questions and solutions that involve data structures, 
    6.1 Can the input word be split using space-separated sequence of dictionary words?    
    6.2 Split the input string into a space-separated sequence of dictionary words if possible  
    6.3 Find all possible space-separated sequence of dictionary words   
-7. [Given a binary matrix, find out the maximum square size sub-matrix with 1's](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
-8. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
-9. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game] (https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:  
-10. Given two sequences find the longest palindrome
-11. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
-12. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+7. Partition   
+   7.1 Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?  
+   7.2 Given a list, identify two sub-lists with **equal sum** (balanced partition)     
+8. [Given a binary matrix, find out the maximum square size sub-matrix with 1's](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
+9. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
+10. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game] (https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:  
+11. Given two sequences find the longest palindrome
+12. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
+13. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
 ### Design &amp; Algorithms
 1.  [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
