@@ -389,7 +389,8 @@ Collection of interesting questions and solutions that involve data structures, 
    6.3 Find all possible space-separated sequence of dictionary words   
 7. Partition   
    7.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py)  :notes:    
-   7.2 Given a list, identify two sub-lists with **equal sum** (balanced partition)     
+   7.2 Given a list, identify two sub-lists with **equal sum** (balanced partition)
+   7.3 Given a list, identify all sub-lists with **equal sum** (balanced partition)     
 8. [Given a binary matrix, find out the maximum square size sub-matrix with 1's](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
 9. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
 10. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game] (https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:  
