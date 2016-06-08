@@ -28,6 +28,7 @@ def generateSubsets(a,result,asize,rsize,tsum,nodes,target):
 		#return
 	else:
 		for i in range(nodes,asize):
+			#IMPORTANT: insert rather than append
 			result.insert(rsize,a[i])
 			yield from generateSubsets(a,result,asize,rsize+1,tsum+a[i],i+1,target)  
 
