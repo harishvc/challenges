@@ -388,7 +388,7 @@ Collection of interesting questions and solutions that involve data structures, 
    6.2 Split the input string into a space-separated sequence of dictionary words if possible  
    6.3 Find all possible space-separated sequence of dictionary words   
 7. Partition   
-   7.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py)  :notes: 
+   7.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py):notes:    
    7.2 [Given a list, identify two sub-lists with **equal sum** (balanced partition)](https://github.com/harishvc/challenges/blob/master/dp-balanced-partition.py) :rocket: :bulb:    
    7.3 [Given a list, identify all sub-lists with **equal sum** (balanced partition)](https://github.com/harishvc/challenges/blob/master/dp-all-balanced-partition.py)  :notes:           
 8. [Given a binary matrix, find out the maximum square size sub-matrix with 1's](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
