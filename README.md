@@ -392,7 +392,7 @@ Collection of interesting questions and solutions that involve data structures, 
    7.2 [Given a list, identify two sub-lists with **equal sum** (balanced partition, using DP)](https://github.com/harishvc/challenges/blob/master/dp-balanced-partition.py) :rocket: :bulb:    
    7.3 [Given a list, identify all sub-lists with **equal sum** (balanced partition, using back tracking)](https://github.com/harishvc/challenges/blob/master/dp-all-balanced-partition.py)  :notes:           
 8. Given n stairs to reach the top and you can take 1 or 2 steps at each stair  
-   8.1 Find all possible combinations  
+   8.1 [Find all possible combinations](https://github.com/harishvc/challenges/blob/master/dp-find-all-stair-combinations.py)  :bulb:    
    8.2 Find #ways a person can reach the top of the stairs  
 9. [Given a binary matrix, find out the maximum square size sub-matrix with 1's](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
 10. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
