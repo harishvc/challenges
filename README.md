@@ -453,6 +453,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Python Programming.Net](http://pythonprogramming.net/dashboard/)
 * [Popular Python recipes @ ActiveState](http://code.activestate.com/recipes/langs/python/)
 * [Object-oriented concepts in Python](http://zetcode.com/lang/python/oop)
+* [Porting Code to from Python2 to Python3](http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html)  :notes:  
 
 ### Interview Resources
 * [Google interview questions - Product & Software Engineer](https://gist.github.com/amaxwell01/3728155)
