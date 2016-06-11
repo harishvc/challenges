@@ -172,9 +172,12 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Write a function that given an integer returns a formatted number string](https://github.com/harishvc/challenges/blob/master/format-integer.py) :memo: :bulb: :thumbsup:        
 5. [Given a string for a text message and character limit. Break the message without breaking the words and include message count](https://github.com/harishvc/challenges/blob/master/string-split-text-message.py) :notes:
 6. Properties  
-   6.1 Given two strings find if they are **Anagrams** (rearranging the letters of a word or phrase to produce a new word or phrase)  
-   6.2 [Check if two given strings are **Isomorphic**](https://github.com/harishvc/challenges/blob/master/check-if-strings-are-isomorphic.py)   
+   6.1 Given two strings find if they are **Anagrams** (rearranging the letters of a word or phrase to produce a new word or phrase)    
+   6.2 [Check if two given strings are **Isomorphic**](https://github.com/harishvc/challenges/blob/master/check-if-strings-are-isomorphic.py)  
+   _Two strings str1 and str2 are called isomorphic if there is a one to one mapping possible for every character of str1 to every character of str2. And all occurrences of every character in ‘str1′ map to same character in ‘str2′_        
    6.3 [Generate all **Numeronyms** for a given string](https://github.com/harishvc/challenges/blob/master/string-numeronym.py)       
+   _A numeronym is a number-based word. Letters between the first and last are replaced with a number representing the number of letters omitted, 
+   such as "i18n" for "internationalization"_  
 7. Reverse  
    7.1 [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  :thumbsup:  
    7.2 [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)   
