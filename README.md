@@ -174,7 +174,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. Properties  
    6.1 Given two strings find if they are **Anagrams** (rearranging the letters of a word or phrase to produce a new word or phrase)  
    6.2 [Check if two given strings are **Isomorphic**](https://github.com/harishvc/challenges/blob/master/check-if-strings-are-isomorphic.py)   
-   6.3 Generate all **Numeronyms** for a given string     
+   6.3 [Generate all **Numeronyms** for a given string](https://github.com/harishvc/challenges/blob/master/string-numeronym.py)       
 7. Reverse  
    7.1 [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  :thumbsup:  
    7.2 [Reverse a string recursively](https://github.com/harishvc/challenges/blob/master/reverse-string-recursiverly.py)   
