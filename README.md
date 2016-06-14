@@ -401,7 +401,7 @@ Collection of interesting questions and solutions that involve data structures, 
 9. [Given a binary matrix, find out the maximum square size sub-matrix with 1's](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
 10. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
 11. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game](https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:
-12. Given a string and limit provide line breaks based on **even distribution of empty spaces** TODO   
+12. [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
 13. Given two sequences find the longest palindrome
 14. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 15. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
