@@ -152,6 +152,7 @@ Collection of interesting questions and solutions that involve data structures, 
    9.11 [Print alternate positive and negative values while retaining order](https://github.com/harishvc/challenges/blob/master/list-alternate-positive-negative.py)  :boom:    
    9.12 [Find pairs in an integer whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py)  
    9.13 [Given a list of integers and two target values find the shortest distance between the two target values](https://github.com/harishvc/challenges/blob/master/list-find-shortest-distance.py)  :boom:  :notes:   
+   9.14 [Find the **pivot** value that splits the list into balanced partitions](https://github.com/harishvc/challenges/blob/master/list-find-pivot-balanced.py) :notes: :bulb:     
 10. Rotated list   
    10.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
    10.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
