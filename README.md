@@ -403,8 +403,10 @@ Collection of interesting questions and solutions that involve data structures, 
 10. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
 11. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game](https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:
 12. [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
-13. Given two sequences find the longest palindrome
-14. Given a sequence of matrices, find the most efficient way to multiply these matrices together  
+13. Given two sequences find the longest palindrome   
+14. Given a sequence of matrices  
+    14.1 [Find the most efficient way to multiply these matrices](https://github.com/harishvc/challenges/blob/master/dp-matrix-multiplication.py)  :notes: :bulb:  
+    14.2 Find the order in which the matrices need to be multiplied  
 15. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
 16. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
