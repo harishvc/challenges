@@ -404,8 +404,9 @@ Collection of interesting questions and solutions that involve data structures, 
 11. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game](https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:
 12. [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
 13. Given two sequences find the longest palindrome
-14. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
-15. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+14. Given a sequence of matrices, find the most efficient way to multiply these matrices together  
+15. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
+16. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
 ### Design &amp; Algorithms
 1.  [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
