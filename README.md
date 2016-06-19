@@ -311,6 +311,8 @@ Collection of interesting questions and solutions that involve data structures, 
   4.11 Given a linked list, construct a balanced tree with the same in-order traversal    
   4.12 Find the longest branch   
   4.13 [Invert a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-invert.py) :bulb: [TODO]   
+  4.14 Given a binary tree (no special property) and value, delete every node of that value and return the modified binary tree
+
 
 ### Binary Search Tree (BST)  
 1.  Create BST  
@@ -377,7 +379,7 @@ Collection of interesting questions and solutions that involve data structures, 
    2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
    2.2 [Find the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
    2.3 [Find all the sequences](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
-3. Longest Increasing Subsequence (LIS)  
+3. Longest Increasing (non decending) Subsequence (LIS)  
    3.1 [Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS)](https://github.com/harishvc/challenges/blob/master/dp-longest-increasing-subsequence.py)   :notes:    
    3.2 [Given a list of random numbers. Find all the increasing subsequences](https://github.com/harishvc/challenges/blob/master/dp-find-all-longest-increasing-subsequence.py)[TODO]      
 4. Longest common substring  
