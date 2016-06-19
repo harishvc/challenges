@@ -119,8 +119,10 @@
 * Definitions (there a subjective elements, ask for clarification)   
     * <strong>Balanced Binary Tree</strong> is defined as a tree such that the <strong>height</strong> of the two subtrees of 
      any node <strong>never differ by more than one</strong>.
-    * <strong>Complete Binary Tree:</strong> Each level is fully filled except perhaps for the last level.
-      Last level is filled left to right. All child nodes are height h or h-1. Example <strong>Heap</strong>.       
+    * <strong>Complete Binary Tree:</strong> 
+      * Each level is fully filled except perhaps for the last level  
+      * Last level is filled left to right  
+      * All child nodes are height h or h-1. Example <strong>Heap</strong>          
     * <strong>Full Binary Tree:</strong> Each node has <strong>exactly 2 child nodes</strong> or <strong>0</strong> child nodes 
     * <strong>Perfect Binary Tree:</strong> <strong>Full and complete</strong>. Rare in real life and interviews.
     * <strong>Structurally symmetric binary tree</strong> is defined as a tree where if you draw a vertical line passing through 
