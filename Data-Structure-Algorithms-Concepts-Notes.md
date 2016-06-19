@@ -19,13 +19,19 @@
   
 
 #Sort Algorithms
-* Quick Sort:
-   * Divide and conquer
-   * Inplace algorithm using a pivot (pivot value is the MEDIAN :boom:)
-   * NO need for extra memory
-   * NOT stable
-   * **Need to know length of list**
-   * Time Complexity: Average: O(nlogn), Worst Case: O(n^2)
+* Bubble Sort
+   * Simple sort
+   * STABLE (retains order of same values)
+   * Ideal if list is **mostly sorted**  
+   * Time Complexity: Average: O(n^2), Worst Case: O(n^2)  
+   * Space Complexity: O(1)     
+* Insertion Sort
+   * Insertion sort is simple (no recursion)
+   * STABLE (retains order of same values)
+   * For small lists, insertion is generally faster than a comparably implemented quicksort or mergesort
+   * In-place sorting
+   * Ideal for input MOSTLY sorted!
+   * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn)   
 * Merge Sort
    * Divide and conquer
    * STABLE (retains order of same values)
@@ -33,12 +39,13 @@
    * Ideal for processing across multiple processors in parallel
    * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn)
    * Space Complexity: O(n)
-* Insertion Sort
-   * Insertion sort is simple (no recursion)
-   * For small lists, insertion is generally faster than a comparably implemented quicksort or mergesort
-   * In-place sorting
-   * Ideal for input MOSTLY sorted!
-   * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn)   
+* Quick Sort:
+   * Divide and conquer
+   * Inplace algorithm using a pivot (pivot value is the MEDIAN :boom:)
+   * NO need for extra memory
+   * NOT stable
+   * **Need to know length of list**
+   * Time Complexity: Average: O(nlogn), Worst Case: O(n^2)
 * Heap Sort
    * Build a max or min heap
    * **Need NOT know length of list**  Ideal for input streams
