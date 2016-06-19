@@ -58,6 +58,7 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Write an "echo" program](https://github.com/harishvc/challenges/blob/master/cmd-line-echo.py) 
 9. Number of perfect squares between two given numbers    
 10. [Find all possible numbers which multiply to a give number](https://github.com/harishvc/challenges/blob/master/number-factors.py)  
+11. Can you fix an almost sorted list with **one swap** (such that the result is sorted)?    
 
 ### Brain Teasers (Moderate)
 1. [Check if a given number is prime](https://github.com/harishvc/challenges/blob/master/prime.py)
@@ -70,7 +71,8 @@ Collection of interesting questions and solutions that involve data structures, 
    7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
    7.2 [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
-  
+ 
+
 ### Permutations and Combinations
 0. [Introduction to Permutation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination) :boom: :thumbsup:
 1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
