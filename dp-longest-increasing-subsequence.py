@@ -26,23 +26,18 @@ REFERENCE:
 # NOTES
 # 1. Keep track of index positions with value low ... high
 # 2. Data Structure:
-#   T = Temporary LIS calculated so far
+#   T = Temporary LIS calculated so far (sorted from low to high)
 #   R = Result, backtrack to get values
 #   maxLength = max length calculated so far
 # 3. Algorithm: New value can have 3 possibilities: low, high or in between
-#     - High: add to maxLength and T
-#     - Low (lowest):  new T[0]: 
+#     - High:  increment maxLength and add to T
+#     - Low (lowest):  new T[0] 
 #     - In between: Find the next highest value greater than new value
 #       and replace this value with the new value
 
 
 #Time Complexity: O(nlogn)
 #Space Complexity: O(n)
-'''
-1. UNDERSTAND  -> L , R , MAXLENGTH
-2. ADD NOTESSSSSS
-3. REWRITE!!!
-'''
 def LIS(a):
     T = [0]*len(a)   #LIS at each index
     R = [-1]*len(a)
