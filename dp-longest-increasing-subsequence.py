@@ -10,10 +10,6 @@ OBSERVATION:
 3. LIS at each position can be stored in a list
 4. LIS at each position will depend on the NEXT smallest value + 1  
     - Self Balancing BST can be seached and new value inserted
-
-REFERENCE:
-1. http://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/
-2. https://allaboutalgorithms.wordpress.com/2011/10/21/longest-increasing-subsequence/
 '''
 
 #Solution 1: Run two loops
@@ -23,7 +19,11 @@ REFERENCE:
 
 #Solution 2: Use Dynamic Programming to take advantage 
 #of information gathered/analyzed so far by using additional storage
-# NOTES
+#
+# REFERENCE:
+# https://github.com/mission-peace/interview/blob/master/src/com/interview/array/LongestIncreasingSubSequenceOlogNMethod.java
+#
+# NOTES:
 # 1. Keep track of index positions with value low ... high
 # 2. Data Structure:
 #   T = Temporary LIS calculated so far (sorted from low to high)
