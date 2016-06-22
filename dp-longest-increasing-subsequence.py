@@ -16,36 +16,85 @@ REFERENCE:
 2. https://allaboutalgorithms.wordpress.com/2011/10/21/longest-increasing-subsequence/
 '''
 
+#Solution 1: Run two loops
 #http://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/
 #Time complexity: O(n^2)
-def lis(arr):
-    n = len(arr)
- 
-    # Declare the list (array) for LIS and initialize LIS
-    # values for all indexes
-    lis = [1]*n
- 
-    # Compute optimized LIS values in bottom up manner
-    for i in range (1 , n):
-        for j in range(0 , i):
-        	#Important: new value is greater and new subsequence is greater!
-        	#negative values will fail the second condition
-        	#Improve time complexity using BST
-        	#Using a self-balancing BST like AVL insert and search is gaurantee to log N
-            if arr[i] > arr[j] and lis[i]< lis[j] + 1 :
-                lis[i] = lis[j]+1
- 
-    # Initialize maximum to 0 to get the maximum of all
-    # LIS
-    maximum = 0
- 
-    # Pick maximum of all LIS values
-    for i in range(n):
-        maximum = max(maximum , lis[i])
- 
-    print(lis)
-    return maximum
 
-arr = [10, 22, 9, 33, 21, 50, 41, 60, 80]
-#arr = [-1, 4, 5 ,-3, -2, 7, -11, 8, -2]
-print("Length of lis is", lis(arr))    
+
+#Solution 2: Use Dynamic Programming to take advantage 
+#of information gathered/analyzed so far by using additional storage
+# NOTES
+# 1. Keep track of index positions with value low ... high
+# 2. Data Structure:
+#   T = Temporary LIS calculated so far
+#   R = Result, backtrack to get values
+#   maxLength = max length calculated so far
+# 3. Algorithm: New value can have 3 possibilities: low, high or in between
+#     - High: add to maxLength and T
+#     - Low (lowest):  new T[0]: 
+#     - In between: Find the next highest value greater than new value
+#       and replace this value with the new value
+
+
+#Time Complexity: O(nlogn)
+#Space Complexity: O(n)
+'''
+1. UNDERSTAND  -> L , R , MAXLENGTH
+2. ADD NOTESSSSSS
+3. REWRITE!!!
+'''
+def LIS(a):
+    T = [0]*len(a)   #LIS at each index
+    R = [-1]*len(a)
+    maxLength = 0
+    T[0] = 0
+    for i in range(1,len(a)):
+        #case 1: new value is the largest
+        if a[i] > a[T[maxLength]]:
+            maxLength += 1  #increment ONLY when new value is greater
+            T[maxLength]= i
+            R[T[maxLength]] = T[maxLength-1]; #store index to backtrack
+        #case 2: new value is the smallest
+        elif a[i] < a[T[0]]:
+            T[0] = i
+        #case 3: new value in between small and large
+        else:
+            index = findNextLargest(a,T,maxLength,a[i])
+            T[index] = i
+            R[T[index]] = T[index-1];
+    return(T,R,maxLength)
+
+
+#Modified Binary Search to find the next value greater than target O(nlogn)
+def findNextLargest(a,T,end,target):
+    start = 0
+    #IMPORTANT: start <= end , since there is one value!!!
+    while start <= end:
+        mid = start + (end-start)//2
+        if a[T[mid]] < target and a[T[mid+1]] > target:
+            return mid+1
+        elif a[T[mid]] < target :
+            #go right
+            start = mid+1
+        else:
+            #go left
+            end = mid-1
+    return -1 #ERROR
+
+def findLISvalues(a,T,R,maxLength):
+    start = T[maxLength]
+    result = []
+    while start != -1:
+        result.append(a[start])
+        start = R[start]
+    #IMPORTANT:Reverse
+    return result[::-1]
+
+a= [3,4,-1,5,8,2,3,12,7,9,10]
+T,R,maxLength = LIS(a)
+result = findLISvalues(a,T,R,maxLength)
+print("Input >>>", a)
+print("Max LIS Length=", maxLength+1)
+print("LIS = ", result  )
+
+
