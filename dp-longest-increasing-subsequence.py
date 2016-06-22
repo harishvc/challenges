@@ -1,4 +1,4 @@
-#Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS).
+#Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS) and the sequence.
 
 '''
 Subsequence is a generalization of substring. Order of values in retained 
