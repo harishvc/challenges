@@ -21,13 +21,13 @@ OBSERVATION:
 #of information gathered/analyzed so far by using additional storage
 #
 # REFERENCE:
-# https://github.com/mission-peace/interview/blob/master/src/com/interview/array/LongestIncreasingSubSequenceOlogNMethod.java
-#
+# 1. https://github.com/mission-peace/interview/blob/master/src/com/interview/array/LongestIncreasingSubSequenceOlogNMethod.java
+# 2. https://www.youtube.com/watch?v=S9oUiVYEq7E
 # NOTES:
 # 1. Keep track of index positions with value low ... high
 # 2. Data Structure:
-#   T = Temporary LIS calculated so far (sorted from low to high)
-#   R = Result, backtrack to get values
+#   T = Store start and end index of LIS.
+#   R = Store end index of last LIS, backtrack to get values
 #   maxLength = max length calculated so far
 # 3. Algorithm: New value can have 3 possibilities: low, high or in between
 #     - High:  increment maxLength and add to T
@@ -40,24 +40,41 @@ OBSERVATION:
 #Space Complexity: O(n)
 def LIS(a):
     T = [0]*len(a)   #LIS at each index
-    R = [-1]*len(a)
+    R = [-1]*len(a)  #Index positions to backtrack. Default -1
     maxLength = 0
     T[0] = 0
     for i in range(1,len(a)):
+        #Debug
+        #print("i=%s T=%s R=%s maxLength=%d" % (i,T,R,maxLength))
         #case 1: new value is the largest
         if a[i] > a[T[maxLength]]:
             maxLength += 1  #increment ONLY when new value is greater
             T[maxLength]= i
-            R[T[maxLength]] = T[maxLength-1]; #store index to backtrack
+            #R[T[maxLength]] = T[maxLength-1]; #store index to backtrack
+            R[i] = T[maxLength-1]; #store index to backtrack
         #case 2: new value is the smallest
         elif a[i] < a[T[0]]:
             T[0] = i
         #case 3: new value in between small and large
         else:
+            #maxLength not changing since new value in between
+            #get index of next larger value (compared to new value)  
             index = findNextLargest(a,T,maxLength,a[i])
             T[index] = i
-            R[T[index]] = T[index-1];
+            R[i] = T[index-1];
+        #Debug
+        #print(" i=%s T=%s R=%s maxLength=%d\n" % (i,T,R,maxLength))
     return(T,R,maxLength)
+
+
+def findLISvalues(a,T,R,maxLength):
+    start = T[maxLength]
+    result = []
+    while start != -1:
+        result.append(a[start])
+        start = R[start]
+    #IMPORTANT:Reverse
+    return result[::-1]
 
 
 #Modified Binary Search to find the next value greater than target O(nlogn)
@@ -76,14 +93,6 @@ def findNextLargest(a,T,end,target):
             end = mid-1
     return -1 #ERROR
 
-def findLISvalues(a,T,R,maxLength):
-    start = T[maxLength]
-    result = []
-    while start != -1:
-        result.append(a[start])
-        start = R[start]
-    #IMPORTANT:Reverse
-    return result[::-1]
 
 a= [3,4,-1,5,8,2,3,12,7,9,10]
 T,R,maxLength = LIS(a)
