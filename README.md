@@ -140,7 +140,7 @@ Collection of interesting questions and solutions that involve data structures, 
    7.5 [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:  
 8. Duplicates  
    8.1 [Given a list of integers return a list of integers that only occurred once](https://github.com/harishvc/challenges/blob/master/find-distinct-elements-in-lists.py) :bulb: :memo:  
-   8.2 Given a sorted list, remove the duplicates in place, return modified list and #unique values
+   8.2 [Given a sorted list, remove the duplicates in place, return modified list and #unique values](https://github.com/harishvc/challenges/blob/master/sorted-list-remove-duplicates.py)  :notes:  
 9. Given a list and condition  
    9.1 Find all possible 2 numbers in the list that add up to the given sum    
    9.2 [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)       
