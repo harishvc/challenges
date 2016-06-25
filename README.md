@@ -394,7 +394,7 @@ Collection of interesting questions and solutions that involve data structures, 
     5.2 [Find all possible combinations to reach a total using lookup] (https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
     5.3. [Minimum # coins needs to reach the total](https://github.com/harishvc/challenges/blob/master/dp-minimum-coins.py)  :rocket: :notes:     
 6. Input string and dictionary of words     
-   6.1 Can the input word be split using space-separated sequence of dictionary words?    
+   6.1 [Can the input word be split using space-separated sequence of dictionary words?](https://github.com/harishvc/challenges/blob/master/dp-word-split.py) :notes: :bulb:      
    6.2 Split the input string into a space-separated sequence of dictionary words if possible  
    6.3 Find all possible space-separated sequence of dictionary words   
 7. Partition   
