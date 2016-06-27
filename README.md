@@ -398,7 +398,7 @@ Collection of interesting questions and solutions that involve data structures, 
 6. Input string and dictionary of words     
    6.1 [Can the input word be split using space-separated sequence of dictionary words?](https://github.com/harishvc/challenges/blob/master/dp-word-split.py) :notes: :bulb:      
    6.2 Split the input string into a space-separated sequence of dictionary words if possible  
-   6.3 Find all possible space-separated sequence of dictionary words   
+   6.3 [Find all possible space-separated sequence of dictionary words](https://github.com/harishvc/challenges/blob/master/dp-word-split-find-all-sequences.py) :bulb: :rocket:     
 7. Partition   
    7.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py):notes:    
    7.2 [Given a list, identify two sub-lists with **equal sum** (balanced partition, using DP)](https://github.com/harishvc/challenges/blob/master/dp-balanced-partition.py) :rocket: :bulb:    
