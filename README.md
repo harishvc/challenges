@@ -231,6 +231,8 @@ Collection of interesting questions and solutions that involve data structures, 
 14. [Design and implement Least Used Cache (LRU)](https://github.com/harishvc/challenges/blob/master/Design-and-implement-LRU.py) :bulb:  :notes: :rocket:  
 15. Implement skip list   
 16. [Given linked list return max value at any given time in constant time](https://github.com/harishvc/challenges/blob/master/linked-list-max-queue.py)     
+17. [Swap adjacent nodes of a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-swap-adjacent-nodes.py)  [TODO]  
+
 
 ### Stacks
 1. [Implement stack using list](https://github.com/harishvc/challenges/blob/master/stack-implement.py)
