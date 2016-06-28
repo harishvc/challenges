@@ -72,7 +72,8 @@ Collection of interesting questions and solutions that involve data structures, 
    7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
    7.2 [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
- 
+9. Find the coordinates of the rectangle in the 2 dimensional list  [TODO]   
+
 
 ### Permutations and Combinations
 0. [Introduction to Permutation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination) :boom: :thumbsup:
@@ -447,6 +448,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)  
 * [Magic of XOR](http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/xor.html)
 * [The idea behind big O notation](https://www.interviewcake.com/article/python/big-o-notation-time-and-space-complexity)  
+* [A beginner's guide to Big O notation](https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/)  :notes: 
 * [Know Thy Complexities!](http://bigocheatsheet.com/)
 * [Bucket Sort Visualization](https://www.cs.usfca.edu/~galles/visualization/BucketSort.html)  
 * [Properties of Pascal’s Triangle](http://www.livescience.com/51238-properties-of-pascals-triangle.html)  
