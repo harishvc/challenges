@@ -443,6 +443,7 @@ Collection of interesting questions and solutions that involve data structures, 
    a. [Interview Questions Wiki](https://github.com/mission-peace/interview/wiki)   
    b. [YouTube Playlist](https://www.youtube.com/user/tusharroy2525)   
 * [Dynamic Programming Introduction](https://prismoskills.appspot.com/lessons/Dynamic_Programming/Chapter_01_-_Introduction.jsp) :rocket:  
+* [Popular Dynamic Programming Interview Questions](https://www.quora.com/What-are-the-top-10-most-popular-dynamic-programming-problems-among-interviewers)  :rocket:  
 * [The Hitchhiker’s Guide to the Programming Contests (PDF)](http://comscigate.com/Books/contests/icpc.pdf)
 * [Two-phase commit protocol](http://en.wikipedia.org/wiki/Two-phase_commit_protocol)  
 * [Juan Elices Leetcode blog ](http://jelices.blogspot.com/)  
