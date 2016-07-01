@@ -471,6 +471,7 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Porting Code to from Python2 to Python3](http://www.diveinto.org/python3/porting-code-to-python-3-with-2to3.html)  :notes:  
 
 ### Interview Resources
+* [Hacker Rank Warmup!](https://www.hackerrank.com/domains)  :thumbsup:  
 * [Google interview questions - Product & Software Engineer](https://gist.github.com/amaxwell01/3728155)
 * [How to avoid and outlive layoffs as a programmer?](http://www.coderust.com/blog/2014/07/20/avoid_outlive_programmer_layoffs/)
 * [How do I prepare for a software engineering job interview? - Discussion on Quora](http://www.quora.com/How-do-I-prepare-for-a-software-engineering-job-interview)
