@@ -1,25 +1,27 @@
-#Given a list, identify two sub-lists with equal sum (balanced partition)  
+#Given a list, identify two sub-lists with equal sum (balanced partition)
 
-#Solution driven by dynamic programming
-#http://www.skorks.com/2011/02/algorithms-a-dropbox-challenge-and-dynamic-programming/
-def printTable(table):
-	rows = len(table)
-	cols = len(table[0])
-	for i in range(rows):
-		for j in range(cols):
-			print(table[i][j], end="  ")
-		print("")
 
-#Return index position of a value or -1
-def checkIndex(a,i):
-	r = 0
-	try:
-		r = a.index(i)
-	except:
-		r =  -1
-	return r
+import sys
+sys.path.append("../mylib")
+import doless
 
-#Given a list find the smallest and largest range of values
+'''
+NOTES: Using DP to solve
+1. Find the smallest and largest sum possible
+2. Initialize a 2d matrix where rows are range of possible values and cols are given values
+   - Set initial value to "F" (False)
+3. Fill each cell in the 2d maxtrix -> Can I get the sum (col value) using values in row(s)
+4. There are 3 possibilities
+   - if value == sum, result is True
+   - if sum in col before can be calculated, then the result is True
+   - Check if sum-value has already been computed!
+5. Traverse 2d matrix bottom up. If the value is "F" (False) you stop!
+
+REFERENCE:
+1. http://www.skorks.com/2011/02/algorithms-a-dropbox-challenge-and-dynamic-programming/
+'''
+
+#Step 1: find smallest sum and largest sum
 def small_large(a):
 	small = None
 	rangemax = None
@@ -36,56 +38,62 @@ def small_large(a):
 			rangemax = a[i]
 	return small,rangemax
 
-
-def CalculateDPTable(a):
-	#Step 1: Find the range - smallest and largest possible values
-	smallest_sum,largest_sum = small_large(a)
-	#Store the range in a list
-	sum_range = [i for i in range(smallest_sum,largest_sum+1)]
-	cols = len(sum_range)+1
-	rows = len(a) +1
-	#Initialize DP table
-	#rows = given values
-	#columns = range of values
-	table = [['F' for i in range(cols)] for j in range(rows)]
-    #Fill DP table
-	for i in range(1,rows):
-		for j in range(1,cols):
-			#condition 1: row value = sum
-			if (a[i-1] == sum_range[j-1]):
+#Step 2: Fill DP Table
+def PartitionDP(a,prange,table):
+	for i in range(len(a)):  #rows
+		for j in range(len(prange)): #cols
+			#case 1: value == sum
+			if prange[j] == a[i]:
 				table[i][j] = 'T'
-			#condition 2: sum possible with earlier values of the sub-set
-			elif table[i-1][j] == "T":
-				table[i][j] = "T"
-			#condition 3: if sum - new value is already a subset, then new sum is a subset
+			#case 2: sum in col before is True, so new cell is also True	
+			elif  i>=1 and table[i-1][j] == 'T':
+				table[i][j] = 'T'
+			#case 3: Check if the new sum was already calculated before	
+			#IMPORTANT: Handle invalid index value!!!
 			else:
-				t = sum_range[j-1]-a[i-1]
-				r = checkIndex(sum_range,t)
-				if r >= 0 and table[i-1][r+1] == "T":
-					table[i][j] = "T"
-	#printTable(table)
-	return table,sum_range
+				col = -1
+				try:
+					col = prange.index(prange[j]-a[i])
+				except Exception as e:
+					col = -1
+				#IMPORTANT: Go back one row
+				row = i-1
+				#IMPORTANT: Check if index is valid
+				if row >=0 and col >=0:
+					table[i][j] = table[row][col]
+	#DP Table
+	#doless.PrintMatrix(table)
 
-#
-def findBalancedSet(table,sum_range,a):
-	i = len(table)-1
-	j = sum_range.index(0) +1  #balanced sub-set
+#Step 3: Navigate the DP table to find values
+def findValues(a,prange,table,target):
 	result = []
-	while i > 0 or j > 0:
-		if table[i][j] == "T":
-			if i-1 >= 0 and table[i-1][j] =="T":
-				i -= 1
-			else:
-				result.append(a[i-1])
-				j = sum_range.index(sum_range[j-1]-a[i-1]) + 1
+	row = len(a)-1
+	col = prange.index(target)
+	while table[row][col] == "T":
+		if row-1 >=0 and table[row-1][col] == 'T':
+			row -=1
 		else:
-			break
-	return(result[::-1])
-
-
-
+			result.append(a[row])
+			col = prange.index(prange[col]-a[row])
+			row -= 1
+		if row < 0:
+			break	
+	return result
 
 
 a = [1,-3,2,4]
-table,sum_range = CalculateDPTable(a)
-print("input=%s  balanced sub list=%s" % (a,findBalancedSet(table,sum_range,a)))
+#Step 1: find smallest sum and largest sum
+smallValue,maxRange = small_large(a)
+#Important +1 to include largest sum
+maxRange += 1
+#All possible sum ranges
+prange = [i for i in range(smallValue,maxRange)]
+#DP Table cols=sum ranges, rows=#values
+table = [[ 'F' for i in range(abs(smallValue)+abs(maxRange))] for j in range(len(a))]
+#Step 2: Fill DP Table
+PartitionDP(a,prange,table)
+#Step 3: Navigate the DP table to find values
+result = findValues(a,prange,table,sum(a)//2)
+#Find remaining values
+result2 = [i for i in a if i not in result]
+print("input >>> ",a, " can be split into >> ", result,result2)
