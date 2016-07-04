@@ -413,12 +413,13 @@ Collection of interesting questions and solutions that involve data structures, 
 12. Text justification   
     12.1 [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
     12.2 [Pack your words in a **greedy approach**, evenly distribute space](https://github.com/harishvc/challenges/blob/master/dp-text-justification.py) TODO    
-13. Given two sequences find the longest palindrome   
-14. Given a sequence of matrices  
+13. [Determine the maximum possible value from the coin play game](https://github.com/harishvc/challenges/blob/master/dp-coin-play.py) :rocket:   
+14. Given two sequences find the longest palindrome   
+15. Given a sequence of matrices  
     14.1 [Find the most efficient way to multiply these matrices](https://github.com/harishvc/challenges/blob/master/dp-matrix-multiplication.py)  :notes: :bulb:  
     14.2 Find the order in which the matrices need to be multiplied  
-15. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
-16. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+16. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
+17. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 
 ### Design &amp; Algorithms
 1.  [Given a million points (x, y), give an O(n) solution to find the n points closest to (0, 0)](https://github.com/harishvc/challenges/blob/master/nearest-point.py)
@@ -461,6 +462,7 @@ Collection of interesting questions and solutions that involve data structures, 
    a. [Python 3](https://pymotw.com/3/) :rocket:  
    b. [Python 2](http://pymotw.com/2/contents.html)  
 * [Python Interview Questions @ Interview Cake](https://www.interviewcake.com/python-interview-questions)  
+* [Python Interview Questions @ Intellipaat](https://intellipaat.com/interview-question/python-interview-questions/) :notes:  
 * [Python List Comprehension With Examples](http://www.analyticsvidhya.com/blog/2016/01/python-tutorial-list-comprehension-examples/)
 * [dis – Python Bytecode Disassembler](https://pymotw.com/2/dis/)
 * [Python debugger cheat sheat](http://www.cheatography.com/ralienpp/cheat-sheets/python-pdb/)
