@@ -52,7 +52,7 @@ def MaxValueDP(values,size):
 	for l in range(2,size+1):
 		for i in range(size-2):
 			j = i + l - 1
-			print(i,j)
+			#print(i,j)
 			#IMPORTANT: break!
 			if j == size:
 				break
@@ -61,8 +61,8 @@ def MaxValueDP(values,size):
 			p1 = max(values[i]+b , values[j]+y)
 			p2 = min(a,x)
 			table[i][j] = [p1,p2]
-			print("\t",p1,p2)
-	print(table)
+			#print("\t",p1,p2)
+	#print(table)
 	return table[0][size-1]
 
 
@@ -73,4 +73,7 @@ a = [3,9,1,2]
 #print(MaxValue(a,0,len(a)-1))
 
 #Solution 2: DP
-print(MaxValueDP(a,len(a)))
+player1,player2 = MaxValueDP(a,len(a))
+print("values >>>", a)
+print("player1=%d player2=%d" % (player1,player2))
+
