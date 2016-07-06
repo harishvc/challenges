@@ -11,7 +11,7 @@ print(a.index(1)) #0 , print index position of element 1
 a.append(2)
 a.pop()
 a.insert(3,0)   #insert at position 3 or append 
-del a[:]        #remove all values in a list 
+del a[:]        #remove all values in a list, similar to pop() except del has no return 
 #
 #SET - MUTABLE
 ab = set([1,2,3]) #initialize may elements at once

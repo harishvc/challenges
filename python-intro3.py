@@ -27,8 +27,8 @@ print(len(y))      # 1
 x.append(5)        #append 5 at the end
 
 ###LIST & DELETE
-del x[0:1]         #delete elements in index 0
-del x[:]           #delete ALL elements inside x
+del x[0:1]         #delete elements in index 0, similar to pop() except del has no return
+del x[:]           #delete ALL elements inside x, similar to pop() except del has no return
 
 ###SETS
 s = set([1,2,3,4])
