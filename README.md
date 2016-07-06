@@ -413,7 +413,7 @@ Collection of interesting questions and solutions that involve data structures, 
 12. Text justification   
     12.1 [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
     12.2 [Pack your words in a **greedy approach**, evenly distribute space](https://github.com/harishvc/challenges/blob/master/dp-text-justification.py) TODO    
-13. [Determine the maximum possible value from the **coin play game**](https://github.com/harishvc/challenges/blob/master/dp-coin-play.py) :rocket:   
+13. [Determine the maximum possible value from the **coin play game**](https://github.com/harishvc/challenges/blob/master/dp-coin-play.py) :rocket:  :notes: :bulb:   
 14. Given two sequences find the longest palindrome   
 15. Given a sequence of matrices  
     14.1 [Find the most efficient way to multiply these matrices](https://github.com/harishvc/challenges/blob/master/dp-matrix-multiplication.py)  :notes: :bulb:  
