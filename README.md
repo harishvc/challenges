@@ -128,7 +128,7 @@ Collection of interesting questions and solutions that involve data structures, 
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)  
 2. [Given two numbers as list add them and return result as list](https://github.com/harishvc/challenges/blob/master/list-add-two-numbers.py)  
 3. [Say as you see - given an input string of integers print the output](https://github.com/harishvc/challenges/blob/master/say-as-you-see.py) :memo:   
-4. Given a list of numbers, return a list of products of all **other** numbers **without using division in O(n) time**   
+4. [Given a list of numbers, return a list of products of all **other** numbers **without using division in O(n) time**](https://github.com/harishvc/challenges/blob/master/list-find-product-no-division.py)  :bulb: :notes:        
 5. Design a dictionary that performs insert, lookup and delete in constant time O(1)    
 6. Find the majority element  :boom:  
    6.1 [From unsorted list in linear time and constant storage](https://github.com/harishvc/challenges/blob/master/list-popular-element-unsorted.py)  :thumbsup:         
