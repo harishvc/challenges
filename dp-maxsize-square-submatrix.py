@@ -13,25 +13,32 @@ OBSERVATION:
 DP TECHNIQUE:
 1. If we store the size of the biggest sub-matrix ending at every index in the matrix, 
    then addition of row or a column (at k+1 position) can calculated using the values calculated before 
-2. At index position 0,0 if value is 1 then the max size of sub-matrix = 1
+2. At index position 0,0 if value is 1 then the max size of sub-matrix = 1 (since square)
+   - IMPORTANT: add +1 to the size since at each index position the is a square sub-matrix of size 1
 3. At index position 0,1 if value is 1 then the max size of sub-matrix = 1 (since square)
-4. At index position 1,0 if value is 1 (and 1 & 2) then the max size of sub-matrix = 1 (since square)
-5. At index position 1,1 if value is 1 (and 1 & 2) then the max size of sub-matrix = 2 (min of neighbours + 1)
-6. If there are 3 square matrix at positions [k-1][j-1],[k-1][j],[k][j-1] with same size then the size at [k][j] = neighbour size + 1
-7. If there are 3 square matrix at positions [k-1][j-1],[k-1][j],[k][j-1] with different size then the size at [k][j] = smallest neighbour size + 1
-   - add +1 to the size since at each index position the is a square sub-matrix of size 1
+4. At index position 1,0 if value is 1 (and 2 & 3) then the max size of sub-matrix = 1 (since square)
+5. At index position 1,1 if value is 1 (and 2, 3 & 4) then the max size of sub-matrix = 2 (min of neighbours + 1)
+6. IMPORTANT: Size of square sub-matrix increases when there is a value '1' diagnoally at [i-1][j-1]
 '''
 
+#Solve using Dynamic Programming
 def MaxSize(matrix,rows,cols):
+	#Add ONE empty row and ONE col
+	rows += 1
+	cols += 1
+	#Initialize table with 0 (default size is 0)
 	table = [[0 for j in range(cols)] for i in range(rows)]
 	size = 0 #max size
 	for i in range(1,rows):
 		for j in range(1,cols):
-			#Important i-1 j-1
+			#Important i-1 j-1 (since there is +1 rows and cols)
+			#if value==0 (continue)
 			if matrix[i-1][j-1] == 0:
-					table[i][j] = 0
+					continue
 			else: 
-				#DP Formula!!!
+				#Calculate new value from values calculated before
+				#Important: +1 since at each index position the is a square sub-matrix of size 1
+				#minimum of neighbours at index position up, left and top left
 				table[i][j] = 1 + min(table[i-1][j],table[i][j-1],table[i-1][j-1])
 				if table[i][j] > size:
 					size = table[i][j]
@@ -49,4 +56,4 @@ for i in range(rows):
 		print(matrix[i][j], end=" ")
 	print("")
 
-print("Max size of square sub-matrix=",MaxSize(matrix,rows+1,cols+1))
+print("Max size of square sub-matrix=",MaxSize(matrix,rows,cols))
