@@ -317,9 +317,9 @@ Collection of interesting questions and solutions that involve data structures, 
   4.11 Given a linked list, construct a balanced tree with the same in-order traversal    
   4.12 Find the longest branch   
   4.13 [Invert a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-invert.py) :bulb: [TODO]   
-  4.14 Given a binary tree (no special property) and value, delete every node of that value and return the modified binary tree
-  4.15 Add a node to a **balanced binary tree**
-  4.16 Given a **full binary tree**, add a pointer to the next sibling  
+  4.14 Given a binary tree (no special property) and value, delete every node of that value and return the modified binary tree    
+  4.15 Add a node to a **balanced binary tree**     
+  4.16 Given a **full binary tree**, add a pointer to the next sibling    
 
 
 ### Binary Search Tree (BST)  
@@ -344,7 +344,7 @@ Collection of interesting questions and solutions that involve data structures, 
 17. Find mean of a BST  
 18. Find depth of a binary search tree without using recursion  
 19. Given ordered nodes construct a fully balanced BST  
-20. Implement **BST iterator** using memory O(logN) and constant time
+20. Implement **BST iterator**
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
