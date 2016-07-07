@@ -109,10 +109,10 @@ def postorderIterative(root, result):
         else:
             node = stack.pop()
             if node.right and not node.right in visited:  #single visit
+                visited.add(node)
                 stack.append(node)
                 node = node.right #Go all the way to the right!!!!
             else:
-                visited.add(node)
                 result.append(node.data)
                 node = None #no right, so set to none to stop iteration
 
