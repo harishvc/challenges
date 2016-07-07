@@ -22,7 +22,7 @@ def Root2Leaf(node,path,sum):
     path.pop() #pop non-leaf nodes while leaving
 
 #Solution 2
-#Modified in-order traversal (EASY TO FOLLOW!)
+#Modified post order traversal (EASY TO FOLLOW!)
 def Root2Leaf2(node,path,sum):
     if node is None:
         return
@@ -30,7 +30,7 @@ def Root2Leaf2(node,path,sum):
     sum += node.data    
     Root2Leaf2(node.left,path,sum)
     Root2Leaf2(node.right,path,sum)
-    #check if node is leaf    
+    #IMPORTANT: Path ends in a leaf, check if node is leaf    
     if(node.left is None and node.right is None):
         print(path,sum)
     path.pop()
