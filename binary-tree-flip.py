@@ -83,8 +83,8 @@ def flipTree(node):
 def preorder(node,result):
     if node is None:
         return
-    preorder(node.left,result)
     result.append(node.data)
+    preorder(node.left,result)
     preorder(node.right,result)
 
 #Initialize Binary Tree
@@ -109,4 +109,4 @@ del result [:]
 preorder(root,result)
 print("Preorder >>>", result)
 #validation
-assert result == [9, 6, 7, 4, 5, 3, 2], "test failed!"
+assert result == [4, 6, 9, 7, 3, 5, 2], "test failed!"
