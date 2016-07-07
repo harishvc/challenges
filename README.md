@@ -343,7 +343,7 @@ Collection of interesting questions and solutions that involve data structures, 
 16. [Find the square root of an integer without using square root function](https://github.com/harishvc/challenges/blob/master/binary-search-tree-squareroot.py)  :bulb:  
 17. Find mean of a BST  
 18. Find depth of a binary search tree without using recursion  
-19. Given ordered nodes construct a fully balanced BST  
+19. Given ordered nodes construct a **fully balanced BST**  
 20. Implement **BST iterator**
 
 ### Heaps  
