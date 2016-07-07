@@ -292,8 +292,8 @@ Collection of interesting questions and solutions that involve data structures, 
   3.2 [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:  
   3.3 [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:  
   3.4 Print all paths & path sum from root to leaf in a binary Tree :thumbsup:  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.4.1 [Iterative] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.4.2 [Recursive] (https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
+      3.4.1 [Iterative](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
+      3.4.2 [Recursive](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
   3.5 [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path
        represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:  
   3.6 [Clone a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-clone.py) :thumbsup:  
