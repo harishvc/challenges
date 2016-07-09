@@ -2,9 +2,10 @@
 Question: Find the ancestors of a node in a binary tree
 
 Algorithm: :bulb: :rocket:
+0. Pre order traversal - check current node and then traverse left and right!
 1. Detailed explanation with picture http://codereview.stackexchange.com/questions/83567/finding-common-ancestor-in-a-binary-tree
 2. Check count (nonlocal variable) at the entry and exit of the recursive function
-3. Only ancestor nodes have the property where count is 0 on entry and 2 on exit!
+3. Only ancestor nodes have the property where count (a nonlocal variable) is 0 on entry and 1 on exit!
 
 Python3: nonlocal :notes:
 The nonlocal statement causes the listed identifier to refer to previously 
