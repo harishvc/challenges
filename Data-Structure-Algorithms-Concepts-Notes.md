@@ -106,7 +106,7 @@
 * A tree is a <strong>connected graph without the cycles</strong> - acyclic connected graph
 * Terminology  
     * <strong>Depth</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node
-       * Root node has a depth of zero
+       * **Root node has a depth of zero** :boom:  
     * <strong>Height</strong> of a node is the length of the **longest path** (#nodes) from the node to the **
     farthest leaf node** == #nodes on the path  
        * <strong>Leaf nodes have height one</strong> :boom:
