@@ -286,8 +286,8 @@ Collection of interesting questions and solutions that involve data structures, 
   2.5 [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:  
   2.6 [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)  
   2.7 [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:  
-  2.8 [Find all edge nodes (boundary/perimeter) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:  
- 3. Path Sum  
+  2.8 [Find all edge nodes (boundary/perimeter) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:    
+3. Path Sum  
   3.1 [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)  
   3.2 [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:  
   3.3 [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:  
@@ -303,9 +303,9 @@ Collection of interesting questions and solutions that involve data structures, 
   4.4  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)    
   4.5  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
   4.6  Balanced Binary Tree  
-       4.6.1 [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
-       4.6.2  Add a node to a **balanced binary tree**     
-       4.6.3  Given a **full binary tree**, add a pointer to the next sibling    
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.6.1 [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.6.2  Add a node to a **balanced binary tree**     
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.6.3  Given a **full binary tree**, add a pointer to the next sibling    
   4.7  [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:  
   4.8  [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:  
   4.9  Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree    
