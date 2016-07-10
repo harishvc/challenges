@@ -270,7 +270,7 @@ Collection of interesting questions and solutions that involve data structures, 
 11. Implement non-blocking queue [TODO]
      
 ### Binary Trees
-1.  [Traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-introduction.py)  
+1.  [Traversal](https://github.com/harishvc/challenges/blob/master/mylib/BinaryTreeTraversal.py)  
   1.1 [Pre-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-pre-order.py)    
   1.2. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
   1.3. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
@@ -322,7 +322,8 @@ Collection of interesting questions and solutions that involve data structures, 
   4.16 Given a **full binary tree**, add a pointer to the next sibling    
 
 
-### Binary Search Tree (BST)  
+### Binary Search Tree (BST)
+0. [BST Library (add node,delete node, isBST? max, min)](https://github.com/harishvc/challenges/blob/master/mylib/BST.py)  
 1.  Create BST  
      1.1 [Convert a unsorted list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create.py)  
      1.2 [Convert a sorted list to BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-create-sorted-input.py) :notes:     
@@ -342,7 +343,7 @@ Collection of interesting questions and solutions that involve data structures, 
 15. [Given a sorted list and a value, find the first and last occurance of the value](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-last-occurance.py) :bulb: :notes:   
 16. [Find the square root of an integer without using square root function](https://github.com/harishvc/challenges/blob/master/binary-search-tree-squareroot.py)  :bulb:  
 17. Find mean of a BST
-18. Find the LCAS of a BST    
+18. Find the Lowest (nearest/first) Common Ancestor (LCA) of a BST    
 19. Find depth of a binary search tree without using recursion  
 20. Given ordered nodes construct a **fully balanced BST**  
 21. Implement **BST iterator**
