@@ -72,6 +72,13 @@ def postorderRecursive(root,result):
 		
 #Construct Binary tree from pre-order and in-order traversal
 #http://chaoren.is-programmer.com/posts/44859.html
+'''
+NOTES/OBSERVATIONS:
+1. pre order traversal has root of the binary tree as the first value
+2. using order traversal we can identify the values on the left and right of a "given" value
+3. find the values on the left and right of the root and build tree
+   3.1 continue to recurse - for each value in pre order find the left and right values using inorder traversal! 
+'''
 def buildTree(preorder, inorder):
 	if not inorder: return None # inorder is empty
 	root = BinaryTree(preorder[0])
