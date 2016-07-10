@@ -299,29 +299,27 @@ Collection of interesting questions and solutions that involve data structures, 
        represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:  
 4. Moderate Difficulty  
   4.0  [Clone a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-clone.py) :thumbsup:  
-  4.1  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)  
-  4.2  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
-  4.3  [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
-  4.4  [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:  
-  4.5  [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:  
-  4.6  Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree    
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.6.1 [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.6.2 [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)  
-  4.7 Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:    
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.7.1 [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.7.2 [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)  
-  4.8 Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.8.1 [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.8.2 [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
-  4.9 [Serialize and Deserialize a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py) :boom: :thumbsup: :rocket:  
-  4.10 [Given preorder and inorder traversal construct postorder traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-preorder-to-postorder.py) :boom: :thumbsup:  
-  4.11 Given a linked list, construct a balanced tree with the same in-order traversal    
-  4.12 Find the longest branch   
-  4.13 [Invert a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-invert.py) :bulb: [TODO]   
-  4.14 Given a binary tree (no special property) and value, delete every node of that value and return the modified binary tree    
-  4.15 Add a node to a **balanced binary tree**     
-  4.16 Given a **full binary tree**, add a pointer to the next sibling    
-
+  4.1  [Invert a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-invert.py) :bulb: [TODO]   
+  
+  4.2  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)  
+  4.3  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
+  4.4  [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
+  4.5 Add a node to a **balanced binary tree**     
+  4.6 Given a **full binary tree**, add a pointer to the next sibling    
+  4.7  [Given two binary trees T1 and T2, check if T2  is a subset of T1](https://github.com/harishvc/challenges/blob/master/binary-tree-subset.py) :bulb: :notes: :thumbsup:  
+  4.8  [Find the ancestors of a node in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-ancestor.py) :thumbsup: :notes: :rocket:  
+  4.9  Find the Lowest (nearest/first) Common Ancestor (LCA) of two nodes in a binary tree    
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.9.1 [Traverse down - parent node to child node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes.py) :thumbsup: :notes: :rocket:  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.9.2 [Traverse up - child node to parent node](https://github.com/harishvc/challenges/blob/master/binary-tree-first-common-ancestor-of-two-nodes-traverse-up.py)  
+  4.10 Find the shortest path between two nodes in a binary tree :thumbsup: :notes: :rocket:    
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.10.1 [solution 1: Modify LCA](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path.py)   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.10.2 [solution 2: Using root to node path](https://github.com/harishvc/challenges/blob/master/binary-tree-shortest-path2.py)  
+  4.11 Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.11.1 [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.11.2 [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
+  4.12 [Serialize and Deserialize a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py) :boom: :thumbsup: :rocket:  
+  4.13 [Given preorder and inorder traversal construct postorder traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-preorder-to-postorder.py) :boom: :thumbsup:  
+  
 
 ### Binary Search Tree (BST)
 0. [BST Library (add node,delete node, isBST? max, min)](https://github.com/harishvc/challenges/blob/master/mylib/BST.py)  
