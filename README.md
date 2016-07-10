@@ -345,7 +345,6 @@ Collection of interesting questions and solutions that involve data structures, 
 17. Find mean of a BST
 18. Find the Lowest (nearest/first) Common Ancestor (LCA) of a BST    
 19. Find depth of a binary search tree without using recursion  
-20. Given ordered nodes construct a **fully balanced BST**  
 21. Implement **BST iterator**
 
 ### Heaps  
