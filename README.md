@@ -277,8 +277,8 @@ Collection of interesting questions and solutions that involve data structures, 
   1.4. Level-order  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.1 [Print tree level by level](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.2 [Print one tree level each line](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order-each-line.py) :notes:     
-2. Essentials
-  2.1 [Binary Tree Essentials Library](https://github.com/harishvc/challenges/blob/master/mylib/BinaryTreeEssentials.py)  :thumbsup:  :rocket:    
+2. Essentials   
+  2.0 [Binary Tree Essentials Library](https://github.com/harishvc/challenges/blob/master/mylib/BinaryTreeEssentials.py)  :thumbsup:  :rocket:    
   2.1 [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)  
   2.2 [Find the size of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)  
   2.3 [Find the height of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)  
@@ -293,12 +293,12 @@ Collection of interesting questions and solutions that involve data structures, 
   3.2 [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:  
   3.3 [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:  
   3.4 Print all paths & path sum from root to leaf in a binary Tree :thumbsup:  
-      3.4.1 [Iterative](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
-      3.4.2 [Recursive](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
+        3.4.1 [Iterative](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)  
+        3.4.2 [Recursive](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py)  
   3.5 [Find the sum of all root to leaf paths in a binary tree where a node has a binary digit value and each root to leaf path
        represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:  
-  3.6 [Clone a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-clone.py) :thumbsup:  
 4. Moderate Difficulty  
+  4.0  [Clone a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-clone.py) :thumbsup:  
   4.1  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)  
   4.2  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
   4.3  [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
