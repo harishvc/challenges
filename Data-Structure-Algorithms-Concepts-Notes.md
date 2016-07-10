@@ -130,7 +130,7 @@
       * Each level is fully filled except perhaps for the last level  
       * Last level is filled left to right  
       * All child nodes are height h or h-1. Example <strong>Heap</strong>          
-    * <strong>Full Binary Tree:</strong> Each node has <strong>exactly 2 child nodes</strong> or <strong>0</strong> child nodes 
+    * <strong>Full Binary Tree:</strong> Each node has <strong>exactly 2 child nodes</strong> except leaf nodes. This type of tree is also referred to as **proper binary tree, 2-tree or strict binary tree**.       
     * <strong>Perfect Binary Tree:</strong> <strong>Full and complete</strong>. Rare in real life and interviews.
     * <strong>Structurally symmetric binary tree</strong> is defined as a tree where if you draw a vertical line passing through 
      the root node then the left half should be the mirror image of the right half. <strong>Check for data and structure</strong>
