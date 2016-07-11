@@ -40,7 +40,7 @@ class BinaryTree:
 			temp.right = self.right
 			self.right = temp
 
-
+#IMPORTANT: nextright set on the root node!!!
 def populateSibling(node):
     if node is None:
         return None
