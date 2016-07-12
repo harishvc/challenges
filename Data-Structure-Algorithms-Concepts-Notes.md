@@ -107,8 +107,7 @@
 * Terminology  
     * <strong>Depth</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node
        * **Root node has a depth of zero** :boom:  
-    * <strong>Height</strong> of a node is the length of the **longest path** (#nodes) from the node to the **
-    farthest leaf node** == #nodes on the path  
+    * <strong>Height</strong> of a node is the length of the **longest path** (#nodes) from the node to the **farthest leaf node**   
        * <strong>Leaf nodes have height one</strong> :boom:
        * Height of a tree == height of the root  
     * <strong>Size</strong> of binary tree is size of left subtree + 1 + size of right subtree
