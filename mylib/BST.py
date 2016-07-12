@@ -1,11 +1,14 @@
-#Binary Search Tree Library
-#Add, Delete, isBST? max, min
+#BST Library: Add, Delete, isBST? max, min
+
+import sys
+sys.path.append("./mylib")
+import BinaryTreeTraversal
 
 class BSTNode:
-    def __init__(root, data):
-        root.left = None
-        root.right = None
-        root.data = data
+	def __init__(self,data):
+		self.data = data
+		self.left = None
+		self.right = None
 
 #Insert node to BST
 def insert(node,Newnode):
@@ -43,12 +46,21 @@ def delete(node,Newnode):
 				pnode.right = snode.right
 			snode.left = node.left
 			snode.right = node.right
+			#clean up
+			node.left  = None
+			node.right = None
 			#IMPORTANT: return snode
 			return snode
 		#case 5: node to delete has either left or right subtree or leaf	
 		elif node.left:
-			return node.left #promote left subtree
+			#clean up
+			tmp = node.left
+			node.left = None
+			return tmp #promote left subtree
 		else:
+			#clean up
+			tmp = node.right
+			node.right = None
 			return node.right  #promote right subtree; node == leaf
 	#case 2: node to delete in left subtree
 	elif Newnode.data < node.data and node.left:
