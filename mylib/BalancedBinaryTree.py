@@ -22,12 +22,20 @@ def height(node):
 	return max(lheight,rheight)
 
 def isBalancedBinaryTree(node):
-	lheight = height(node.left)
-	rheight = height(node.right)
-	if abs(lheight - rheight) <= 1:
-		return True
-	else:
-		return False
+	return (isBalancedBinaryTreeWrapper(node) >= 0)
+
+#Modified post order traversal		
+#Integrate height 
+def isBalancedBinaryTreeWrapper(node):
+	if node is None:
+		return 0
+	lheight = isBalancedBinaryTreeWrapper(node.left)
+	rheight = isBalancedBinaryTreeWrapper(node.right)
+	#Kill if height of sub-trees > 1
+	if abs(lheight-rheight) > 1:
+		return -1
+	#return height of sub-tree
+	return max(lheight,rheight) + 1
 
 root = BalancedBinaryTree(1)
 t2 = BalancedBinaryTree(2)
