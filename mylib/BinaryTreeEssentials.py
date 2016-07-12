@@ -8,27 +8,24 @@ def findHeight(node):
 	rheight = findHeight(node.right)
 	return max(lheight,rheight) + 1
 
-#Maximum(Diameter of left sub­tree, Diam­e­ter of right sub­tree, Longest path between two nodes which passes through the root.)
-#Naive solution: O(n^2)
+#Maximum(Diameter of left sub­tree, Diam­e­ter of right sub­tree, Longest path between two nodes which passes through the node)
+#Naive solution: O(n^2) (since we are calculating the height seperately)
 def findDiameter1(node):
 	if node is None:
 		return 0
-	lheight = findHeight(node.left)
-	rheight = findHeight(node.right)
-	return max(lheight+rheight+1 , findDiameter1(node.left),findDiameter1(node.right))
+	dleftTree = findDiameter1(node.left)
+	drightTree = findDiameter1(node.right)
+	LongestPath = findHeight(node.left) + findHeight(node.right) + 1
+	return max( dleftTree, drightTree,LongestPath)
 
 #Optimized solution to find diameter and height together
 def findDiameter2(node):
 	if node is None:
 		return 0,0
-	lheight,ldiameter = findDiameter2(node.left)
-	rheight,rdiameter = findDiameter2(node.right)
-	path = lheight + rheight + 1 #longest path via root
-	print("node=%d lh=%d ld=%d rh=%d rd=%d" % (node.data,lheight,ldiameter, rheight,rdiameter))
-	d = max(ldiameter,rdiameter,lheight + rheight + 1 )
-	h = max(lheight,rheight)+1
-	print(node.data,d,h)
-	return d,h
+	dleftTree, hleftTree = findDiameter2(node.left)
+	drightTree,hrightTree = findDiameter2(node.right)
+	LongestPath = hleftTree + hrightTree + 1
+	return  max(dleftTree, drightTree,LongestPath),  max(hleftTree,hrightTree)+1
 
 #Find max value in a Binary Tree
 def findMax(node,nmax):
