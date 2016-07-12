@@ -11,7 +11,27 @@ print(a.index(1)) #0 , print index position of element 1
 a.append(2)
 a.pop()
 a.insert(3,0)   #insert at position 3 or append 
-del a[:]        #remove all values in a list, similar to pop() except del has no return 
+del a[:]        #remove all values in a list 
+#QUEUE
+import queue
+q = queue.Queue()
+q.put(1)  #Add elements to queue
+q.put(2)
+print(q.get()) #Get elements
+print(q.empty()) #Check if queue is empty
+#
+#
+#DEQUE - Double ended queue, add and remove from both ends
+import collections
+dq = collections.deque()
+dq.append(1)
+dq.append(2)
+dq.extendleft([0])  #add elements to left
+print(dq)           #deque([0, 1, 2])
+print(len(dq))      #3
+dq.pop()            #2
+dq.popleft()        #0     
+#
 #
 #SET - MUTABLE
 ab = set([1,2,3]) #initialize may elements at once
@@ -19,7 +39,10 @@ a = set() #declare!
 a.add(1)
 a.add(2)
 a.add(3)
-a.discard(3)
+a.remove(1)   #remove value from set, value needs to be present
+a.discard(3)  #remove  value from set, value NEED NOT be present
+a.pop()       #removes and returns an ARBITRARY set element
+a.clear()     #removes ALL elements from the set
 # 
 #DICTIONARY INTRO - MUTABLE
 a = {}               #initialize
