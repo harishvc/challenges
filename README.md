@@ -346,7 +346,7 @@ Collection of interesting questions and solutions that involve data structures, 
 18. Find mean of a BST
 19. [Find the Lowest (nearest/first) Common Ancestor (LCA) of a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-LCA.py) :bulb: :notes:       
 20. Find depth of a binary search tree without using recursion  
-21. Implement **BST iterator**
+21. [Implement **BST iterator**](https://github.com/harishvc/challenges/blob/master/binary-search-tree-next-iterator.py) :rocket: :bulb:  :notes:   
 
 ### Heaps  
 1. [Heaps Introduction](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)  
