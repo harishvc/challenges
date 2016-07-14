@@ -334,17 +334,18 @@ Collection of interesting questions and solutions that involve data structures, 
 6.  [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :thumbsup:  
 7.  [In a BST find first value greater than K or given node K find the next node](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
 8.  [In a BST given a target find a value close to the target](https://github.com/harishvc/challenges/blob/master/binary-search-tree-closest-value.py) 
-9.  [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:    
-10. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
-11. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
-12. [Given a sorted list create a BST with minimal height] (https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:  
-13. [Given ordered nodes construct a fully balanced BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-fully-balanced.py) :thumbsup:  
-14. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:  
-15. [Given a sorted list and a value, find the first and last occurance of the value](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-last-occurance.py) :bulb: :notes:   
-16. [Find the square root of an integer without using square root function](https://github.com/harishvc/challenges/blob/master/binary-search-tree-squareroot.py)  :bulb:  
-17. Find mean of a BST
-18. [Find the Lowest (nearest/first) Common Ancestor (LCA) of a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-LCA.py) :bulb: :notes:       
-19. Find depth of a binary search tree without using recursion  
+9.  [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:   
+10. [Find largest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-largestK.py) :thumbsup: :bulb: :rocket:  
+11. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
+12. [Search in sorted list X for index i such that X[i] = i](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-index-i-equals-value.py) :bulb: :thumbsup:
+13. [Given a sorted list create a BST with minimal height](https://github.com/harishvc/challenges/blob/master/binary-search-tree-minimal-height.py) :thumbsup: :bulb:  
+14. [Given ordered nodes construct a fully balanced BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-fully-balanced.py) :thumbsup:  
+15. [Find all possible combinations that can generate identical Binary Search Tree (BST)](https://github.com/harishvc/challenges/blob/master/binary-search-tree-input-variations.py) :bulb: :thumbsup: :memo: :art:  
+16. [Given a sorted list and a value, find the first and last occurance of the value](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-last-occurance.py) :bulb: :notes:   
+17. [Find the square root of an integer without using square root function](https://github.com/harishvc/challenges/blob/master/binary-search-tree-squareroot.py)  :bulb:  
+18. Find mean of a BST
+19. [Find the Lowest (nearest/first) Common Ancestor (LCA) of a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-LCA.py) :bulb: :notes:       
+20. Find depth of a binary search tree without using recursion  
 21. Implement **BST iterator**
 
 ### Heaps  
