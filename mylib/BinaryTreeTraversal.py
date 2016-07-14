@@ -72,6 +72,7 @@ def postOrderIterative(root):
 			node = seen.pop()
 			if node not in visited:
 				visited.add(node)
+				#IMPORTANT: Add node back to stack
 				seen.append(node) 
 				node = node.right
 			else:
