@@ -343,7 +343,7 @@ Collection of interesting questions and solutions that involve data structures, 
 15. [Given a sorted list and a value, find the first and last occurance of the value](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-last-occurance.py) :bulb: :notes:   
 16. [Find the square root of an integer without using square root function](https://github.com/harishvc/challenges/blob/master/binary-search-tree-squareroot.py)  :bulb:  
 17. Find mean of a BST
-18. Find the Lowest (nearest/first) Common Ancestor (LCA) of a BST    
+18. [Find the Lowest (nearest/first) Common Ancestor (LCA) of a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-LCA.py) :bulb: :notes:       
 19. Find depth of a binary search tree without using recursion  
 21. Implement **BST iterator**
 
