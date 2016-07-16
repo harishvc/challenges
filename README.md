@@ -71,6 +71,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. Matrix    
    7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
    7.2 [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
+   7.3 Find #rectangles in a binary 2D matrix  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
 9. Find the coordinates of the rectangle in the 2 dimensional list  [TODO]   
 
@@ -247,7 +248,7 @@ Collection of interesting questions and solutions that involve data structures, 
 9. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:  
 10. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:   
 11. Implement stack using queue [TODO]
-12. Compute largest rectangle area under a histogram  
+12. [Compute largest rectangle area under a histogram](https://github.com/harishvc/challenges/blob/master/Histogram.py) :rocket: :notes: :art:    
 13. [Design an algorithm for computing the k-th largest element in a sequence of elements.
    It should run in O(n) expected time where n is the length of the sequence, which is not known in advnance.
    The value of K is known in advance. Print the k-th largest element after the sequence has ended.
