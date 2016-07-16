@@ -34,6 +34,10 @@ dq.popleft()        #0
 #
 #
 #SET - MUTABLE
+#SET PROPERTIES: 
+# 1. unique values
+# 2. no gaurantee on the order of values
+# 3. can't refer values by index 
 ab = set([1,2,3]) #initialize may elements at once
 a = set() #declare!
 a.add(1)
