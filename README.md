@@ -416,7 +416,7 @@ Collection of interesting questions and solutions that involve data structures, 
    8.2 [Find #ways a person can reach the top of the stairs](https://github.com/harishvc/challenges/blob/master/dp-count-stair-combinations.py) :notes:     
 9. Given binary matrix   
    9.1 [Find out the maximum square size sub-matrix](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
-   9.2 Find area of the largest rectangle  
+   9.2 [Find area of the largest rectangle](https://github.com/harishvc/challenges/blob/master/largest-rectangle-in-a-binary-matrix.py) :rocket: :bulb: :notes:  
 10. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
 11. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game](https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:
 12. Text justification   
