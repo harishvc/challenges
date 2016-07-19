@@ -425,7 +425,7 @@ Collection of interesting questions and solutions that involve data structures, 
     12.1 [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
     12.2 [Pack your words in a **greedy approach**, evenly distribute space](https://github.com/harishvc/challenges/blob/master/dp-text-justification.py) TODO    
 13. [Determine the maximum possible value from the **coin play game**](https://github.com/harishvc/challenges/blob/master/dp-coin-play.py) :rocket:  :notes: :bulb:   
-14. Given N floors and K eggs, what is the minimum number #of attempts it will take to find out from which floor egg will break  
+14. [Given N floors and K eggs, what is the **minimum attempts** to find out from which floor egg will break?](https://github.com/harishvc/challenges/blob/master/dp-egg-drop.py)  :notes: :rocket:    
 15. Multiply two numbers without using operators *, / and with minimal operations  
 16. Find the power set
 17. Find string combinations of length K    
