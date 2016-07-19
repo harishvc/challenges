@@ -428,10 +428,10 @@ Collection of interesting questions and solutions that involve data structures, 
 14. Given N floors and K eggs, what is the minimum number #of attempts it will take to find out from which floor egg will break  
 15. Multiply two numbers without using operators *, / and with minimal operations  
 16. Find the power set
-17. Find string combinations of length K  
-18. Find all string permutations 
-      18.1 String with unique values
-      18.2 String with duplicate values   
+17. Find string combinations of length K    
+18. Find all string permutations     
+      18.1 String with unique values  
+      18.2 String with duplicate values     
 19. Given two sequences find the longest palindrome   
 20. Given a sequence of matrices  
     20.1 [Find the most efficient way to multiply these matrices](https://github.com/harishvc/challenges/blob/master/dp-matrix-multiplication.py)  :notes: :bulb:  
