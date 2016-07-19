@@ -415,8 +415,8 @@ Collection of interesting questions and solutions that involve data structures, 
 8. Given n stairs to reach the top and you can take 1 or 2 steps at each stair  
    8.1 [Find all possible combinations](https://github.com/harishvc/challenges/blob/master/dp-find-all-stair-combinations.py)  :bulb:    
    8.2 [Find #ways a person can reach the top of the stairs](https://github.com/harishvc/challenges/blob/master/dp-count-stair-combinations.py) :notes:     
-9. Given binary matrix
-   9.1 Find #path from top left to bottom right     
+9. Given binary matrix     
+   9.1 [Find #path from top left to bottom right](https://github.com/harishvc/challenges/blob/master/dp-matrix-path.py) :bulb:       
    9.2 [Find out the maximum square size sub-matrix](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
    9.3 [Find area of the largest rectangle](https://github.com/harishvc/challenges/blob/master/largest-rectangle-in-a-binary-matrix.py) :rocket: :bulb: :notes:  
 10. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
