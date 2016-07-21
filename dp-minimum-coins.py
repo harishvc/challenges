@@ -11,6 +11,7 @@ def MinCoins(target,denominations):
 		#case 2: invalid path
 		return sys.maxsize
 	else:
+		#depth = minimum #ways to reach target, depth of the recursion tree
 		depth = sys.maxsize
 		for d in denominations:
 			#denominations = 1,2,3
@@ -34,11 +35,12 @@ def MinCoinsDP(target,denominations):
 	#base case: if target =0, valid path!
 	result[0] = 0
 	for partialSum in range(1,target+1):
+		#depth = minimum #ways to reach target, depth of the recursion tree
 		depth = sys.maxsize
 		for d in denominations:
-			#check if result[partialSum-d] <= depth <= is used rather than <
+			#check if result[partialSum-d] < depth 
 			#since result index stores the index value of minium denomination 
-			if partialSum >= d and result[partialSum-d] <= depth:
+			if partialSum >= d and result[partialSum-d] < depth:
 				depth = result[partialSum-d]
 				#result index stores the index value of minium denomination
 				resultIndex[partialSum] = denominations.index(d)
