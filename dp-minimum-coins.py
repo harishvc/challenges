@@ -59,7 +59,7 @@ def FindDenominations(target,denominations,resultIndex):
 	return result
 
 
-
+#OBSERVATION: Order of denominations does not matter
 denominations  = [2,3,1]
 target = 5
 
