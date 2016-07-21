@@ -1,88 +1,70 @@
-#Find minimum number of coins that make a given value
-
-#Solution 1
-#BRUT FORCE Algorithm
-#Time complexity: O(d^t) (UPPER LIMIT), d= # denominations, t = target
-# d choices at each recursion, not symmetric since choices are different
-# d^t/max(d) (LOWER BOUND)
-def findMin(denominations,target):
-	minCount = None
-	for value in denominations:
-		if target-value == 0: return 1
-		if target-value > 0:
-			tmp = findMin(denominations,target-value)
-			if minCount is None or tmp < minCount:
-				minCount = tmp
-	return minCount+1 #IMPORTANT!!!
+#Find minimum number of denominations that make a given value and what are the denominations? 
 
 
-#Solution 2: Add Memoization (cache, for lookup)
-#Time complexity: O(dt) Best case scenario, d= # denominations, t = target
-#OBSERVATION: 'target' hold possible value
-def findMinWithCache(denominations,target,cacheCount):
-	minCount = None
-	#Check cache!!!
-	if target in cacheCount:
-		return cacheCount[target]
-	for value in denominations:
-		if target-value == 0: return 1
-		if target-value > 0:
-			tmp = findMinWithCache(denominations,target-value,cacheCount)
-			if minCount is None or tmp < minCount:
-				minCount = tmp
-	#Update cache
-	cacheCount[target] = minCount+1
-	return minCount+1 #IMPORTANT!!!
-
-#https://github.com/mission-peace/interview/blob/master/python/dynamic/coinchangingmincoins.py
-#https://www.youtube.com/watch?annotation_id=annotation_2195265949&feature=iv&src_vid=Y0ZqKpToTic&v=NJuKJ8sasGk
-#Solution 3:
-def print_coins(R, coins):
-    start = len(R) - 1
-    if R[start] == -1:
-        print("No Solution Possible.")
-        return
-    print("Coins that generate minimum:")
-    while start != 0:
-        coin = coins[R[start]]
-        print("%d " % (coin))
-        start = start - coin
-
-#Time complexity: O(dt) Best case scenario, d= # denominations, t = target
-#OBSERVATION: T holds ALL possible value (what is T is large?, recursive is better)
-def min_coins2(coins, total):
-	cols = total + 1
-	T =[0 if idx == 0 else float("inf") for idx in range(cols)]
-	#print("T >>>", T)
-	R = [-1 for _ in range(total + 1)]
-	#print("R >>>", R)
-
-	for j in range(len(coins)):
-		#print("T intermediate >>>", T)
-		for i in range(1, cols):
-			coin = coins[j]
-			if i >= coin:
-				if T[i] > 1 + T[i - coin]:
-					T[i] = 1 + T[i - coin]
-					R[i] = j
-
-	#print("T >>>", T)
-	#print("R >>>", R)
-	return T[cols - 1],R
+#Solution 1: Recursion
+import sys
+def MinCoins(target,denominations):
+	if target == 0:
+		#case 1: valid path
+		return 0
+	elif target < 0:
+		#case 2: invalid path
+		return sys.maxsize
+	else:
+		depth = sys.maxsize
+		for d in denominations:
+			#denominations = 1,2,3
+			#depth = 1 + min(f(target-1),f(target-2), f(target-3))
+			 depth = min(depth,MinCoins(target-d,denominations))
+		#IMPORTANT: Add +1 	 
+		return 1 + depth 
 
 
-denominations  = [9, 6, 5, 1]
-target = 11
+#Solution 2: DP
+#Time complexity: O(dt) d= # denominations, t = target
+#OBSERVATION: 
+# result holds ALL possible values of target starting 1 .... target(inclusive)
+# if target is large and #denominations are less, more space is taken
+def MinCoinsDP(target,denominations):
+	#start from index=1 for simplicity
+	#result = [0,1,2 ..... target]
+	result = [sys.maxsize] * (target + 1)
+	#result index stores the index value of minium denomination
+	resultIndex = [sys.maxsize] * (target + 1)
+	#base case: if target =0, valid path!
+	result[0] = 0
+	for partialSum in range(1,target+1):
+		depth = sys.maxsize
+		for d in denominations:
+			#check if result[partialSum-d] <= depth <= is used rather than <
+			#since result index stores the index value of minium denomination 
+			if partialSum >= d and result[partialSum-d] <= depth:
+				depth = result[partialSum-d]
+				#result index stores the index value of minium denomination
+				resultIndex[partialSum] = denominations.index(d)
+		result[partialSum] = 1 + depth
+	return result[-1],resultIndex
 
-#Solution #2
-#cacheCount = {}
-#print("Minimum # of coins =",findMinWithCache(denominations,target,cacheCount))
-#for key in cacheCount:
-#	print(key,cacheCount[key])
 
-#DP Iterative solution
+def FindDenominations(target,denominations,resultIndex):
+	result = []
+	while target != 0:
+		#result index stores the index value of minium denomination
+		#find minium denomination
+		d = denominations[resultIndex[target]]
+		result.append(d)
+		#calculate new target based on minimum denomination
+		target = target - d
+	return result
 
-result, R = min_coins2(denominations,target)
-print("Minimum # of coins =",result)
-print_coins(R, denominations)
 
+
+denominations  = [2,3,1]
+target = 5
+
+
+result, resultIndex = MinCoinsDP(target,denominations)
+mindenominations = FindDenominations(target,denominations,resultIndex)
+
+print("Minimum # of coins to make %d=%d" % (target,result))
+print("Coins to make %d=%s" % (target,mindenominations))
