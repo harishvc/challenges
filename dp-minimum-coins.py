@@ -30,7 +30,7 @@ def MinCoinsDP(target,denominations):
 	#start from index=1 for simplicity
 	#result = [0,1,2 ..... target]
 	result = [sys.maxsize] * (target + 1)
-	#result index stores the index value of minium denomination
+	#result index stores the index value of minimum denomination
 	resultIndex = [sys.maxsize] * (target + 1)
 	#base case: if target =0, valid path!
 	result[0] = 0
@@ -39,10 +39,9 @@ def MinCoinsDP(target,denominations):
 		depth = sys.maxsize
 		for d in denominations:
 			#check if result[partialSum-d] < depth 
-			#since result index stores the index value of minium denomination 
 			if partialSum >= d and result[partialSum-d] < depth:
 				depth = result[partialSum-d]
-				#result index stores the index value of minium denomination
+				#update resultIndex - result index stores the index value of minimum denomination
 				resultIndex[partialSum] = denominations.index(d)
 		result[partialSum] = 1 + depth
 	return result[-1],resultIndex
@@ -52,7 +51,7 @@ def FindDenominations(target,denominations,resultIndex):
 	result = []
 	while target != 0:
 		#result index stores the index value of minium denomination
-		#find minium denomination
+		#find minimum denomination
 		d = denominations[resultIndex[target]]
 		result.append(d)
 		#calculate new target based on minimum denomination
