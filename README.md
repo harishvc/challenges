@@ -385,61 +385,61 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Find longest path in a Directed Acyclic Graph from a source vertex](https://github.com/harishvc/challenges/blob/master/graph-longest-path.py) :boom:  
 
 ### Dynamic Programming
-1. Find the *nth Fibonacci number*   
-   1.1 [Iterative, Recursive, Bottom-up & Top-down](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py)  
-   1.2 [Recursive with lookup](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth-lookup.py)  
-2. [Longest Common Subsequence (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:   
+1. Multiply two numbers **without** using operators *, / and with minimal operations  
+2. Find the **power set**
+3. Find string **combinations** of length K    
+4. Find all string **permutations**     
+    4.1 String with unique values  
+    4.2 String with duplicate values     
+5.[Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+6. Partition   
+   6.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py):notes:    
+   6.2 [Given a list, identify two sub-lists with **equal sum** (balanced partition, using DP)](https://github.com/harishvc/challenges/blob/master/dp-balanced-partition.py) :rocket: :bulb:    
+   6.3 [Given a list, identify all sub-lists with **equal sum** (balanced partition, using back tracking)](https://github.com/harishvc/challenges/blob/master/dp-all-balanced-partition.py)  :notes:        
+7. Longest Increasing Subsequence (LIS)  
+   7.1 [Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS) and the sequence](https://github.com/harishvc/challenges/blob/master/dp-longest-increasing-subsequence.py)   :notes:    
+   7.2 [Given a list of random numbers. Find **all** the increasing subsequences](https://github.com/harishvc/challenges/blob/master/dp-find-all-longest-increasing-subsequence.py)   
+   7.3 [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)   
+8. Given target and possible values find #permutations to achieve the target  
+9. Given n stairs to reach the top and you can take 1 or 2 steps at each stair  
+   9.1 [Find all possible combinations](https://github.com/harishvc/challenges/blob/master/dp-find-all-stair-combinations.py)  :bulb:    
+   9.2 [Find #ways a person can reach the top of the stairs](https://github.com/harishvc/challenges/blob/master/dp-count-stair-combinations.py) :notes:     
+10. Given denominations and a total   
+    10.1 [Find all possible combinations to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:    
+    10.2 [Find all possible combinations to reach a total using lookup](https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
+    10.3 [Minimum # coins needs to reach the total and what are the coins?](https://github.com/harishvc/challenges/blob/master/dp-minimum-coins.py)  :rocket: :notes:     
+11. [Determine the maximum possible value from the **coin play game**](https://github.com/harishvc/challenges/blob/master/dp-coin-play.py) :rocket:  :notes: :bulb:   
+12. [Given N floors and K eggs, what is the **minimum attempts** to find out from which floor egg will break?](https://github.com/harishvc/challenges/blob/master/dp-egg-drop.py)  :notes: :rocket:
+13. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game](https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:
+14. Find the *nth Fibonacci number*   
+   14.1 [Iterative, Recursive, Bottom-up & Top-down](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py)  
+   14.2 [Recursive with lookup](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth-lookup.py)  
+15. [Longest Common Subsequence (LCS)](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence.py) :boom: :thumbsup:   
    _subsequence is a **generalization of substring**. For example, "Itwastimes" is a subsequence of "It was the best of times", but not a substring_  
-   2.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
-   2.2 [Find the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
-   2.3 [Find all the sequences](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
-3. Longest Increasing Subsequence (LIS)  
-   3.1 [Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS) and the sequence](https://github.com/harishvc/challenges/blob/master/dp-longest-increasing-subsequence.py)   :notes:    
-   3.2 [Given a list of random numbers. Find **all** the increasing subsequences](https://github.com/harishvc/challenges/blob/master/dp-find-all-longest-increasing-subsequence.py)[TODO]   
-4. Longest Common Substring  
-   4.1 [Length of the Longest Common Substring] (https://github.com/harishvc/challenges/blob/master/longest-common-substring-length.py)  
-   4.2 [Find the Longest Common Substring] (https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)  
-   4.3 Longest common substring of more than two strings  
-5. Given denominations and a total   
-    5.1 [Find all possible combinations to reach a total] (https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:    
-    5.2 [Find all possible combinations to reach a total using lookup] (https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
-    5.3. [Minimum # coins needs to reach the total and what are the coins?](https://github.com/harishvc/challenges/blob/master/dp-minimum-coins.py)  :rocket: :notes:     
-6. Input string and dictionary of words     
-   6.1 [Can the input word be split using space-separated sequence of dictionary words?](https://github.com/harishvc/challenges/blob/master/dp-word-split.py) :notes: :bulb:      
-   6.2 Split the input string into a space-separated sequence of dictionary words if possible  
-   6.3 [Find all possible space-separated sequence of dictionary words](https://github.com/harishvc/challenges/blob/master/dp-word-split-find-all-sequences.py) :bulb: :rocket:     
-7. Partition   
-   7.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py):notes:    
-   7.2 [Given a list, identify two sub-lists with **equal sum** (balanced partition, using DP)](https://github.com/harishvc/challenges/blob/master/dp-balanced-partition.py) :rocket: :bulb:    
-   7.3 [Given a list, identify all sub-lists with **equal sum** (balanced partition, using back tracking)](https://github.com/harishvc/challenges/blob/master/dp-all-balanced-partition.py)  :notes:           
-8. Given n stairs to reach the top and you can take 1 or 2 steps at each stair  
-   8.1 [Find all possible combinations](https://github.com/harishvc/challenges/blob/master/dp-find-all-stair-combinations.py)  :bulb:    
-   8.2 [Find #ways a person can reach the top of the stairs](https://github.com/harishvc/challenges/blob/master/dp-count-stair-combinations.py) :notes:     
-9. Given binary matrix     
-   9.1 [Find #path from top left to bottom right](https://github.com/harishvc/challenges/blob/master/dp-matrix-path.py) :bulb:       
-   9.2 [Find out the maximum square size sub-matrix](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
-   9.3 [Find area of the largest rectangle](https://github.com/harishvc/challenges/blob/master/largest-rectangle-in-a-binary-matrix.py) :rocket: :bulb: :notes:  
-   9.4 [Find #rectangles](https://github.com/harishvc/challenges/blob/master/matrix-count-rectangles.py)     
-10. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
-11. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game](https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:
-12. Text justification   
-    12.1 [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
-    12.2 [Pack your words in a **greedy approach**, evenly distribute space](https://github.com/harishvc/challenges/blob/master/dp-text-justification.py) TODO    
-13. [Determine the maximum possible value from the **coin play game**](https://github.com/harishvc/challenges/blob/master/dp-coin-play.py) :rocket:  :notes: :bulb:   
-14. [Given N floors and K eggs, what is the **minimum attempts** to find out from which floor egg will break?](https://github.com/harishvc/challenges/blob/master/dp-egg-drop.py)  :notes: :rocket:    
-15. Multiply two numbers without using operators *, / and with minimal operations  
-16. Find the power set
-17. Find string combinations of length K    
-18. Find all string permutations     
-      18.1 String with unique values  
-      18.2 String with duplicate values     
+   15.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
+   15.2 [Find the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
+   15.3 [Find all the sequences](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
+16. Longest Common Substring    
+   16.1 [Length of the Longest Common Substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring-length.py)  
+   16.2 [Find the Longest Common Substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)  
+   16.3 Longest common substring of more than two strings  
+17. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
+18. Input string and dictionary of words     
+   18.1 [Can the input word be split using space-separated sequence of dictionary words?](https://github.com/harishvc/challenges/blob/master/dp-word-split.py) :notes: :bulb:      
+   18.2 Split the input string into a space-separated sequence of dictionary words if possible  
+   18.3 [Find all possible space-separated sequence of dictionary words](https://github.com/harishvc/challenges/blob/master/dp-word-split-find-all-sequences.py) :bulb: :rocket:     
 19. Given two sequences find the longest palindrome   
-20. Given a sequence of matrices  
-    20.1 [Find the most efficient way to multiply these matrices](https://github.com/harishvc/challenges/blob/master/dp-matrix-multiplication.py)  :notes: :bulb:  
-    20.2 Find the order in which the matrices need to be multiplied  
-21. [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)
-22. [Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
-
+20. Text justification   
+    20.1 [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
+    20.2 [Pack your words in a **greedy approach**, evenly distribute space](https://github.com/harishvc/challenges/blob/master/dp-text-justification.py) TODO    
+21. Binary matrix     
+   21.1 [Find #path from top left to bottom right](https://github.com/harishvc/challenges/blob/master/dp-matrix-path.py) :bulb:       
+   21.2 [Find out the maximum square size sub-matrix](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
+   21.3 [Find area of the largest rectangle](https://github.com/harishvc/challenges/blob/master/largest-rectangle-in-a-binary-matrix.py) :rocket: :bulb: :notes:  
+   21.4 [Find #rectangles](https://github.com/harishvc/challenges/blob/master/matrix-count-rectangles.py)     
+22. Matrix multiplication  
+    22.1 [Find the most efficient way to multiply these matrices](https://github.com/harishvc/challenges/blob/master/dp-matrix-multiplication.py)  :notes: :bulb:  
+    22.2 Find the order in which the matrices need to be multiplied  
 
 
 ### Design &amp; Algorithms
