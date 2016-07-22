@@ -391,7 +391,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. Find all string **permutations**     
     4.1 String with unique values  
     4.2 String with duplicate values     
-5.[Given stock prices during a time period find the maximum gain that can be made from one purchase followed by one sale of the stock](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+5. [Given stock prices during a time period find the **maximum gain** that can be made from one purchase followed by one sale](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 6. Partition   
    6.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py):notes:    
    6.2 [Given a list, identify two sub-lists with **equal sum** (balanced partition, using DP)](https://github.com/harishvc/challenges/blob/master/dp-balanced-partition.py) :rocket: :bulb:    
@@ -400,10 +400,10 @@ Collection of interesting questions and solutions that involve data structures, 
    7.1 [Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS) and the sequence](https://github.com/harishvc/challenges/blob/master/dp-longest-increasing-subsequence.py)   :notes:    
    7.2 [Given a list of random numbers. Find **all** the increasing subsequences](https://github.com/harishvc/challenges/blob/master/dp-find-all-longest-increasing-subsequence.py)   
    7.3 [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)   
-8. Given target and possible values find #permutations to achieve the target  
-9. Given n stairs to reach the top and you can take 1 or 2 steps at each stair  
-   9.1 [Find all possible combinations](https://github.com/harishvc/challenges/blob/master/dp-find-all-stair-combinations.py)  :bulb:    
-   9.2 [Find #ways a person can reach the top of the stairs](https://github.com/harishvc/challenges/blob/master/dp-count-stair-combinations.py) :notes:     
+8. Given n stairs to reach the top and you can take 1 or 2 steps at each stair  
+   8.1 [Find all possible combinations](https://github.com/harishvc/challenges/blob/master/dp-find-all-stair-combinations.py)  :bulb:    
+   8.2 [Find #ways a person can reach the top of the stairs](https://github.com/harishvc/challenges/blob/master/dp-count-stair-combinations.py) :notes:      
+9. Given target and possible values find #permutations to achieve the target       
 10. Given denominations and a total   
     10.1 [Find all possible combinations to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:    
     10.2 [Find all possible combinations to reach a total using lookup](https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
