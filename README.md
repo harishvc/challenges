@@ -385,13 +385,13 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Find longest path in a Directed Acyclic Graph from a source vertex](https://github.com/harishvc/challenges/blob/master/graph-longest-path.py) :boom:  
 
 ### Dynamic Programming
-1. Multiply two numbers **without** using operators *, / and with minimal operations  
+1. Multiply two numbers **without** using operators *, / and with **minimal operations**  
 2. Find the **power set**
 3. Find string **combinations** of length K    
 4. Find all string **permutations**     
     4.1 String with unique values  
     4.2 String with duplicate values     
-5. [Given stock prices during a time period find the **maximum gain** that can be made from one purchase followed by one sale](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+5. [Given stock prices during a time period find **maximum gain** from one purchase followed by one sale](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 6. Partition   
    6.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py):notes:    
    6.2 [Given a list, identify two sub-lists with **equal sum** (balanced partition, using DP)](https://github.com/harishvc/challenges/blob/master/dp-balanced-partition.py) :rocket: :bulb:    
