@@ -389,7 +389,7 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [Find the **power set**](https://github.com/harishvc/challenges/blob/master/dp-power-set.py) :notes: :rocket:     
 3. [Find string **combinations** of length K](https://github.com/harishvc/challenges/blob/master/dp-string-combinations.py)        
 4. Find all string **permutations**     
-    4.1 String with unique values  
+    4.1 [String with **unique values**](https://github.com/harishvc/challenges/blob/master/dp-string-permutation.py)  
     4.2 String with duplicate values     
 5. [Given stock prices during a time period find **maximum gain** from one purchase followed by one sale](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
 6. Partition   
