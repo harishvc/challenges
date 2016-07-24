@@ -385,7 +385,7 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Find longest path in a Directed Acyclic Graph from a source vertex](https://github.com/harishvc/challenges/blob/master/graph-longest-path.py) :boom:  
 
 ### Dynamic Programming
-1. Multiply two numbers **without** using operators *, / and with **minimal operations**  
+1. [Multiply two numbers **without** using operators *, / and with **minimal operations**](https://github.com/harishvc/challenges/blob/master/dp-multiply-using-addition-subtraction.py) :thumbsup:    
 2. Find the **power set**
 3. Find string **combinations** of length K    
 4. Find all string **permutations**     
@@ -399,7 +399,6 @@ Collection of interesting questions and solutions that involve data structures, 
 7. Longest Increasing Subsequence (LIS)  
    7.1 [Given a list of random numbers. Find length of Longest Increasing Subsequence (LIS) and the sequence](https://github.com/harishvc/challenges/blob/master/dp-longest-increasing-subsequence.py)   :notes:    
    7.2 [Given a list of random numbers. Find **all** the increasing subsequences](https://github.com/harishvc/challenges/blob/master/dp-find-all-longest-increasing-subsequence.py)   
-   7.3 [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)   
 8. Given n stairs to reach the top and you can take 1 or 2 steps at each stair  
    8.1 [Find all possible combinations](https://github.com/harishvc/challenges/blob/master/dp-find-all-stair-combinations.py)  :bulb:    
    8.2 [Find #ways a person can reach the top of the stairs](https://github.com/harishvc/challenges/blob/master/dp-count-stair-combinations.py) :notes:      
@@ -419,6 +418,7 @@ Collection of interesting questions and solutions that involve data structures, 
    15.1 [Length of the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-length.py)  
    15.2 [Find the LCS](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-one.py)  
    15.3 [Find all the sequences](https://github.com/harishvc/challenges/blob/master/longest-common-subsequence-find-all.py) :rocket:   
+   15.4 [Implement Unix diff command](https://github.com/harishvc/challenges/blob/master/unix-diff.py)    
 16. Longest Common Substring    
    16.1 [Length of the Longest Common Substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring-length.py)  
    16.2 [Find the Longest Common Substring](https://github.com/harishvc/challenges/blob/master/longest-common-substring.py)  
