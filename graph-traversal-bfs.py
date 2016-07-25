@@ -6,7 +6,7 @@ REFERENCE:
 2. https://www.cs.berkeley.edu/~vazirani/algorithms/chap4.pdf
 
 NOTES:
-1. Breadth-first search visitS vertices in increasing order 
+1. Breadth-first search visits vertices in increasing order 
    of their distance from the starting point. 
 2. Breadth-first search always provides the shortest path between
    two connected vertices   
@@ -15,37 +15,43 @@ NOTES:
 4. Queue is used for implementation
 '''
 
-#Latency list
-graph = {'A': set(['B', 'C']),
-         'B': set(['A', 'D', 'E']),
-         'C': set(['A', 'F']),
-         'D': set(['B']),
-         'E': set(['B', 'F']),
-         'F': set(['C', 'E'])}
+'''
+Time complexity is O(|V|) where |V| is the number of nodes, you need to traverse all nodes. 
+Space complexity is O(|V|) since at worst case you need to hold all nodes in the queue.
+'''
 
 import queue
-def graphPathBFS(graph,start,end):
+def BFT(graph,start,end):
 	q = queue.Queue()
-	visited = set()
-	#current node and path added to queue
+	#Store node and path
 	q.put([start,start])
+	#Keep track of visited nodes
+	visited = []
 	while not q.empty():
-		next,path = q.get()
-		if next == end:
-				yield path
+		#get node and path from the queue
+		nextNode,path = q.get()
+		#Found path!
+		if nextNode == end:
+			yield path
 		else:
-			visited.add(next)
-			for node in graph[next] - visited:
-				#place node and path in the queue
-				q.put([node,path+node])
+			#Visit all the edges of nextNone
+			visited.append(nextNode)
+			for node in graph[nextNode]:
+				#node has been visited?
+				if node not in visited:
+					#Store node and path
+					q.put([node,path+node])
 
-start = "A"
-end="F"
-paths = graphPathBFS(graph,start,end)
-print("All path between %s & %s (BFS)" % (start,end))
-for path in paths:
+
+#Adjacency list
+graph = {'A': ['B', 'C'],
+         'B': ['A', 'D', 'E'],
+         'C': ['A', 'F'],
+         'D': ['B'],
+         'E': ['B', 'F'],
+         'F': ['C', 'E']}
+
+start = 'A'
+end  = 'F'
+for path in BFT(graph,start,end):
 	print("->".join(path))
-#Shortest path
-t =  list(graphPathBFS(graph,start,end))
-t.sort(key=len)
-print("Shortest path=","->".join(t[0]))

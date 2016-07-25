@@ -12,32 +12,41 @@ NOTES:
    that is actually very close by.
 '''
 
-#Latency list
-graph = {'A': set(['B', 'C']),
-         'B': set(['A', 'D', 'E']),
-         'C': set(['A', 'F']),
-         'D': set(['B']),
-         'E': set(['B', 'F']),
-         'F': set(['C', 'E'])}
+'''
+Time complexity is O(|V|), #nodes. 
+Space complexity in a recursive implementation is O(h) [worst case], where h is the maximal depth of the graph
+'''
+
+#Depth First Traversal
+def DFT(graph,ConnectedNodes,end,visited,path):
+	for ConnectedNode in ConnectedNodes:
+		if ConnectedNode not in visited:
+			#Append current node to visited
+			visited.append(ConnectedNode)
+			#Append current node to path
+			path.append(ConnectedNode) 
+			#Found path! 
+			if ConnectedNode == end:
+				yield path
+			else:
+				#continue
+				yield from DFT(graph,graph[ConnectedNode],end,visited,path)
+			#pop current node from visited
+			visited.pop()
+			#pop current node from path
+			path.pop()
 
 
-def graphPathDFS(graph,start,end,visited,path):
-	if start == end:
-		yield path
-	elif start not in visited:
-		visited.add(start)
-		for node in graph[start]:
-			yield from graphPathDFS(graph,node,end,visited,path+[node])
+#Adjacency list
+graph = {'A': ['B', 'C'],
+         'B': ['A', 'D', 'E'],
+         'C': ['A', 'F'],
+         'D': ['B'],
+         'E': ['B', 'F'],
+         'F': ['C', 'E']}
 
-start = "A"
-end="F"
-paths = graphPathDFS(graph,start,end,set(),[start])
+start = 'A'
+end  = 'F'
 
-print("All path between %s & %s (DFS)" % (start,end))
-for path in paths:
+for path in DFT(graph,graph[start],end,[start],[start]):
 	print("->".join(path))
-#Shortest path
-t =  list(graphPathDFS(graph,start,end,set(),[start]))
-t.sort(key=len)
-print("Shortest path=","->".join(t[0]))
-
