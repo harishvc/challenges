@@ -12,11 +12,11 @@
 
 
 #http://stackoverflow.com/questions/11015320/how-to-create-a-trie-in-python
-from collections import defaultdict
+#from collections import defaultdict
 
-class Trie:
+class TrieNode:
     def __init__(self):
-        self.root = defaultdict()
+        self.root = {} #store Trie as dict of dict
 
     #Space complexity: O(ALPHABET_SIZE * key_length * N)
     #ALPHABET_SIZE  = # unique characters in the input
@@ -25,7 +25,11 @@ class Trie:
     def insert(self, word):
         current = self.root
         for letter in word:
-            current = current.setdefault(letter, {}) #handle keys already existing!
+            #IMPORTANT: 
+            #dict of dict
+            #setdefault handles NO key, returns value
+            #current = current.setdefault ... returns value!
+            current = current.setdefault(letter, {}) 
         #end of current word
         current.setdefault("_end")
 
@@ -53,18 +57,19 @@ class Trie:
             current = current[letter]
         return True
 
-    def print(self):
+    def Tprint(self):
         for key in self.root:
             print("key=%s value=%s" % (key,self.root[key]))
 
 
-test = Trie()
+test = TrieNode()
 a = ["helloworld", "helloa", "hellob", "ilikeapple"]
+
 for i in a:
     print("Inserting ...", i)
     test.insert(i)
 
-test.print()
+#test.Tprint()
 
 print("search(hello) ?" , test.search('hello'))
 print("search(ilikeapple) ?", test.search('ilikeapple'))
