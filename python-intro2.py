@@ -9,9 +9,18 @@ a = []
 a = [1]
 print(a.index(1)) #0 , print index position of element 1
 a.append(2)
-a.pop()
+a.pop()         #2
+a.append(1)
+a.append(2)
+a.append(3)
+a.append(2)
+a.remove(2) #1,2,3  remove first occurance
+#
 a.insert(3,0)   #insert at position 3 or append 
 del a[:]        #remove all values in a list 
+x in a          #check if x is in a, average time complexity O(n)
+#
+#
 #QUEUE
 import queue
 q = queue.Queue()
@@ -40,6 +49,8 @@ dq.popleft()        #0
 # 3. can't refer values by index 
 ab = set([1,2,3]) #initialize may elements at once
 a = set() #declare!
+x in a          #check if x is in a, average time complexity O(1), worst cast O(n)
+                #sets use hash table underneath
 a.add(1)
 a.add(2)
 a.add(3)
@@ -48,6 +59,7 @@ a.discard(3)  #remove  value from set, value NEED NOT be present
 a.pop()       #removes and returns an ARBITRARY set element
 a.clear()     #removes ALL elements from the set
 # 
+#
 #DICTIONARY INTRO - MUTABLE
 a = {}               #initialize
 a[1] = 1             #assign
@@ -55,6 +67,7 @@ a[2] = 2
 print(a[2])          #2
 del a[3]             #delete key 3    
 z = a.get(3,None)    #find key else initialize
+                     #IMPORTANT: get DOES NOT add key to dict
 print(z)             #None
 print(len(a))        #2 , # of keys in dictionary
 print(list(a.keys()))   #ALL keys as list
@@ -63,6 +76,31 @@ if key in a.keys():     #Check if key exists
     print("key exists")
 if value in a.values():  #Check if value exists
     print("value exists")
+#
+#
+#create key automatically and initialize if not present, and return value
+a = {}
+a.setdefault('a',1) #insert key 'a' with value 1 if key 'a' does not exisit and returns the value 1
+a.setdefault('b',2) #returns 2
+a.setdefault('b',5) #returns 2 , since key 'b' already exists
+print(a)            #{'a': 1, 'b': 2}
+#
+#DEFAULTDICT
+import collections
+d = collections.defaultdict(int) #values are of type int;handles non existant keys
+d['abcd'] += 1  #handles non existant keys
+d['abcd'] += 1
+print(d['abcd']) #2
+#
+z = collections.defaultdict(list) #values are of type list; dict of list
+z['a'].append('hello')
+z['a'].append('world')
+print(z['a']) #['hello', 'world']
+#
+s = collections.defaultdict(set) #values are of type set; dict of set
+s['a'].add('world')
+s['a'].add('hello')
+print(s['a']) #{'hello', 'world'} order is NOT retained!
     
 #SPRINTF
 a = "Hello %s" % ("Harish")
