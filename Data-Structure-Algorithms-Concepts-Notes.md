@@ -23,25 +23,25 @@
    * Simple sort
    * STABLE (retains order of same values)
    * Ideal if list is **mostly sorted**  
-   * Time Complexity: Average: O(n^2), Worst Case: O(n^2)  
+   * Time Complexity: Best: O(n), Average: O(n^2), Worst Case: O(n^2)  
    * Space Complexity: O(1)     
 * Insertion Sort
    * Insertion sort is simple (no recursion)
-   * STABLE (retains order of same values)
+   * **STABLE** (retains order of same values)
    * For small lists, insertion is generally faster than a comparably implemented quicksort or mergesort
    * In-place sorting
    * Ideal for input MOSTLY sorted!
-   * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn)   
+   * Time Complexity: Best: O(n), Average: O(n^2), Worst Case: O(n^2)   
 * Merge Sort
    * Divide and conquer
-   * STABLE (retains order of same values)
+   * **STABLE** (retains order of same values)
    * EXTRA space is needed to hold two halves
    * Ideal for processing across multiple processors in parallel
-   * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn)
    * Space Complexity: O(n)
+   * Time Complexity: Best: O(nlogn), Average: O(nlogn), Worst Case: O(nlogn)      
 * Quick Sort:
    * Divide and conquer
-   * Inplace algorithm using a pivot (pivot value is the MEDIAN :boom:)
+   * Inplace algorithm using a **pivot** (pivot value is the MEDIAN :boom:)
    * NO need for extra memory
    * NOT stable
    * **Need to know length of list**
@@ -50,8 +50,8 @@
    * Build a max or min heap
    * **Need NOT know length of list**  Ideal for input streams
    * NOT stable
-   * Swap last value in heap with the root node, reduce heap size and percolate down === Heap Sort
-   * Time Complexity: Average: O(nlogn), Worst Case: O(nlogn), logn is the height of the heap
+   * You can **only delete the root node** by swaping last value in heap with the root node, reduce heap size and percolating down (Heap Sort)
+   * Time Complexity: Best: O(n), Average: O(nlogn), Worst Case: O(nlogn), logn is the height of the heap
 * Counting Sort
    * NOT comparision based
    * Simple buckets, simple processing, memory overhead
@@ -175,7 +175,8 @@
   * Reference: http://www.quora.com/Why-would-anyone-like-to-use-a-red-black-tree-when-a-hash-table-can-do-the-job-perfectly 
 
 ## HEAP
-* Heap is a <strong>complete binary search tree</strong>
+* Heap is a <strong>Complete Binary Tree</strong>
+  * Each level is fully filled except perhaps for the last level
 * Special properties of a heap are
   * Each node can have up to two child nodes
   * Value of the parent node must the >= or <= of child nodes
