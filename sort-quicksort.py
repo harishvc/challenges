@@ -1,13 +1,10 @@
 #Quick Sort
 
-'''
-ALGORITHM:
 1. Quick sort uses divide and conquer
 2. Quick sort first selects a pivot value to split the list. 
 3. There are many ways to select the pivot value - first , last, random
 4. Index position of the pivot value is commonly called the split point
 5. Split point is used to divide the list for subsequent calls to the quick sort
-6. pivot value is the MEDIAN :boom:
 
 NOTES:
 1. Divide and conquer
@@ -23,44 +20,42 @@ NOTES:
    - worst case:  O(n^2)
 '''
 
-#http://interactivepython.org/runestone/static/pythonds/SortSearch/TheQuickSort.html
+def quicksort(a,start,end):
+	if start < end:
+		pivotIndex = partition(a,start,end)
+		quicksort(a,start,pivotIndex)
+		quicksort(a,pivotIndex+1,end)
+
+#Handle duplicates
+def partition(a,start,end):
+	pivotValue = a[start]  #select first value to be pivot
+	left = start + 1
+	right = end
+	done = False
+	while not done:
+		 while left <=right and a[left] < pivotValue:
+		 		left +=1
+		 while right >=left and a[right] >= pivotValue:
+		 		right -=1
+		 #still more values to visit		
+		 if left < right:
+		 	a[left],a[right] = a[right],a[left]
+		 #no more values left to visit
+		 else:
+		 	done = True
+
+	#IMPORTANT: 
+	#a[start] is the pivot value
+	#a[right] partitions the list into into 2 parts
+	#values on the left of a[right] are <= 
+	#values on the right of a[right] are >	 	
+	a[start],a[right] = a[right],a[start]
+	return right #index position
+
+
 import random
-
-def quickSort(alist):
-   quickSortHelper(alist,0,len(alist)-1)
-
-def quickSortHelper(alist,first,last):
-   if first<last:
-       splitpoint = partition(alist,first,last)
-       quickSortHelper(alist,first,splitpoint-1)
-       quickSortHelper(alist,splitpoint+1,last)
-
-
-def partition(alist,first,last):
-   pivotvalue = alist[first] #first value is pivot, many value to select pivot!
-   leftmark = first+1
-   rightmark = last
-   done = False
-   while not done:
-
-       while leftmark <= rightmark and alist[leftmark] <= pivotvalue:
-           leftmark = leftmark + 1
-
-       while alist[rightmark] >= pivotvalue and rightmark >= leftmark:
-           rightmark = rightmark -1
-
-       if rightmark < leftmark:
-           done = True
-       else:
-       	   alist[leftmark],alist[rightmark] = alist[rightmark],alist[leftmark]
-
-   alist[first],alist[rightmark] = alist[rightmark],alist[first]        
-   return rightmark
-
-
-alist = [54,26,93,17,77,31,44,55,20]
-random.shuffle(alist)
-print("input >>>", alist)
-quickSort(alist)
-print("quick sort >>>", alist)
-assert alist == [17, 20, 26, 31, 44, 54, 55, 77, 93], "Quick sort error!"
+a= [1,4,3,4,4,4,4,5]
+random.shuffle(a)
+print("input >>>", a)
+quicksort(a,0,len(a)-1)
+print("sorted input>>>",a)
