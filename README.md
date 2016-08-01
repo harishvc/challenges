@@ -344,7 +344,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Heaps  
 1. Heaps Introduction   
-   1.1 [Max Heap](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)
+   1.1 [Max Heap](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)    
    1.2 [Min Heap](https://github.com/harishvc/challenges/blob/master/mylib/MinHeap.py) :rocket:       
 2. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
 3. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py):memo:  
