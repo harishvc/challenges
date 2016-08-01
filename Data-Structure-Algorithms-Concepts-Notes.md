@@ -50,8 +50,12 @@
    * Build a max or min heap
    * **Need NOT know length of list**  Ideal for input streams
    * NOT stable
-   * You can **only delete the root node** by swaping last value in heap with the root node, reduce heap size and percolating down (Heap Sort)
-   * Time Complexity: Best: O(n), Average: O(nlogn), Worst Case: O(nlogn), logn is the height of the heap
+   * You can **only delete the root node** 
+     * swap last value in heap with the root node
+     * reduce heap size and **percolate down (Heap Sort)**  
+   * You can **only insert** at the end
+     * **percolate up** values to retain heap properties  
+   * Time Complexity: Best: O(nlogn), Average: O(nlogn), Worst Case: O(nlogn), logn is the height of the heap
 * Counting Sort
    * NOT comparision based
    * Simple buckets, simple processing, memory overhead
