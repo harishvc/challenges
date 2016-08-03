@@ -17,12 +17,15 @@ The idea of  Kahn’s algorithm is to repeatedly remove nodes that have zero in-
 
 #Kahn’s algorithm
 #https://algocoding.wordpress.com/2015/04/05/topological-sorting-python/
+#Time complexity: O(V+E)
+#Space complexity: O(V) 
 def TopologicalSort(graph):
     TopologicalSortedList = []  #result
     ZeroInDegreeVertexList = [] #node with 0 in-degree/inbound neighbours
     inDegree = { u : 0 for u in graph } #inDegree/inbound neighbours
 
     #Step 1: Iterate graph and build in-degree for each node
+    #Time complexity: O(V+E) - outer loop goes V times and inner loop goes E times
     for u in graph:
         for v in graph[u]:
             inDegree[v] += 1
