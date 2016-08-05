@@ -165,7 +165,7 @@ Collection of interesting questions and solutions that involve data structures, 
 11. Time intervals  
    11.1 [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
    11.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
-   11.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
+   11.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)   
    11.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
 12. Median  
    12.1 [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
