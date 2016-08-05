@@ -63,7 +63,8 @@ Collection of interesting questions and solutions that involve data structures, 
 7. Matrix    
    7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
    7.2 [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
-   7.3 Find #rectangles in a binary 2D matrix  
+   7.3 Rotate a 2D matrix clockwise 90 degrees   
+   7.4 Rotate a 2D matrix anti-clockwise 90 degrees  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
 9. Find the coordinates of the rectangle in the 2 dimensional list  [TODO]   
 
@@ -109,7 +110,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. Find median in a stream of integers (**running median**)
 8. Merge K sorted list of size N  
 9. Sort a string of printable characters  
-10. Given a list of integers with duplicates (can be more than one) find any integer than appreas more than once  
+10. Given a list of integers with **duplicates** (can be more than one) find any integer than appears more than once  
     10.1 Can modify the input list  
     10.2 Cannot modify the input list  
 
@@ -164,7 +165,8 @@ Collection of interesting questions and solutions that involve data structures, 
 11. Time intervals  
    11.1 [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
    11.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
-   11.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)  
+   11.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)
+   11.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
 12. Median  
    12.1 [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
    12.2 [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
