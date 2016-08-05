@@ -105,7 +105,14 @@ Collection of interesting questions and solutions that involve data structures, 
 3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
 4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
 5. [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py) 
-6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:  
+6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:
+7. Find median in a stream of integers (**running median**)
+8. Merge K sorted list of size N  
+9. Sort a string of printable characters  
+10. Given a list of integers with duplicates (can be more than one) find any integer than appreas more than once  
+    10.1 Can modify the input list  
+    10.2 Cannot modify the input list  
+
 
 ### Search  
 1. [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
@@ -354,7 +361,7 @@ Collection of interesting questions and solutions that involve data structures, 
    5.2 Find the Kth most popular value in an unsorted list  
    5.3 Find K popular values in an unsorted list  
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py) [TODO]
-7. Running mean [TODO]
+7. Merge K sorted list of size N
 
 ### Graphs
 1. Introduction    
