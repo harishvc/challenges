@@ -1,4 +1,4 @@
-#Given a number find the next smallest Palindrome
+#Given a number find the next largest Palindrome
 
 '''
 References:
