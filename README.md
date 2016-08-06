@@ -100,7 +100,7 @@ Collection of interesting questions and solutions that involve data structures, 
     1.3 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
     1.4 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort-take2.py) :rocket: :boom:  
     1.5 [Insertion Sort](https://github.com/harishvc/challenges/blob/master/sort-insertion-sort.py)   
-    1.6 [Bucket Sort](https://github.com/harishvc/challenges/blob/master/sort-bucket-sort.py   
+    1.6 [Bucket Sort](https://github.com/harishvc/challenges/blob/master/sort-bucket-sort.py)     
     1.7 [Radix Sort](https://github.com/harishvc/challenges/blob/master/sort-radix-sort.py)    
 2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
 3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
