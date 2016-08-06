@@ -10,19 +10,27 @@ The trick is to construct a list (for 4 elements)
 [ a[1]*a[2]*a[3],    a[2]*a[3],         a[3],                 1,  ]
 '''
 
+
 #Find products without division
-def FPWD(a):
-	products = [0]*len(a)
+def findPWD(a):
+	size = len(a)
+	#result list initialized to 1
+	result = [1] * size
+	#go forward
 	tmp = 1
-	for i in range(len(a)):
-		products[i] = tmp
-		tmp = tmp * a[i]
+	for i in range(0,size):
+		#IMPORTANT replace with tmp, since no prior value
+		result[i] = tmp
+		tmp = a[i]*tmp  #take value to next index
+	#go backward
 	tmp = 1
-	for i in range(len(a)-1,-1,-1):
-		products[i] = products[i] * tmp
-		tmp =  tmp * a[i]
-	return products 
+	for i in range(size-1,-1,-1):
+		#IMPORTANT * tmp since values are already there
+		result[i] *= tmp 
+		tmp = tmp*a[i]   #take value to previous index
+	return result
 
 
-a = [4,2,3]
-print(a, "  >>>> ", FPWD(a))
+a = [4,2,6]
+print(a, "  >>>> ", findPWD(a))
+
