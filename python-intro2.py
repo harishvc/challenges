@@ -47,19 +47,45 @@ dq.popleft()        #0
 # 1. unique values
 # 2. no gaurantee on the order of values
 # 3. can't refer values by index 
-ab = set([1,2,3]) #initialize may elements at once
-a = set() #declare!
-x in a          #check if x is in a, average time complexity O(1), worst cast O(n)
-                #sets use hash table underneath
-a.add(1)
-a.add(2)
-a.add(3)
-a.remove(1)   #remove value from set, value needs to be present
-a.discard(3)  #remove  value from set, value NEED NOT be present
-a.pop()       #removes and returns an ARBITRARY set element
-a.clear()     #removes ALL elements from the set
+a = set()
+#1. ADD
+a.add(99)
+a.add(20)
+a.add(30)
+a.add(42)
+a.add(56)
+print(a)
+#
+#2. REMOVE VALUE THAT EXIST
+a.remove(42)
+print(a)
+#
+#3. REMOVE VALUE THAT MAY NOT EXIST
+a.discard(7777)
+print(a)
+#
+#4. REMOVE SOME RANDOM VALUE
+z = a.pop()
+print(a,z)
+#
+#5. LENGTH
+print(len(a))
+#
+#6. ITERATE OVER
+for i in a:
+	print(i)
+#
+#7. Check if a value exists
+if 30 in a:
+	print("Found!")
+#
+#8. DELETE ALL VALUES IN A SET
+a.clear()
+print(a)   #set()	
 # 
 #
+
+
 #DICTIONARY INTRO - MUTABLE
 a = {}               #initialize
 a[1] = 1             #assign
