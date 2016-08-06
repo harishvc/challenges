@@ -95,21 +95,25 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Sort
 1. Sorting Algorithms & [Notes](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md#sort-algorithms)   
-   1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py) :thumbsup:    
-   1.2 [Quick Selection Sort](https://github.com/harishvc/challenges/blob/master/sort-quick-select.py) :rocket:       
-   1.3 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
-   1.4 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort-take2.py) :rocket: :boom:  
-   1.5 [Insertion Sort](https://github.com/harishvc/challenges/blob/master/sort-insertion-sort.py)   
-   1.6 [Bucket Sort](https://github.com/harishvc/challenges/blob/master/sort-bucket-sort.py)       
-   1.7 [Radix Sort](https://github.com/harishvc/challenges/blob/master/sort-radix-sort.py)    
+    1.1 [Quick Sort](https://github.com/harishvc/challenges/blob/master/sort-quicksort.py) :thumbsup:    
+    1.2 [Quick Selection Sort](https://github.com/harishvc/challenges/blob/master/sort-quick-select.py) :rocket:       
+    1.3 [Merge Sort](https://github.com/harishvc/challenges/blob/master/sort-merge-sort.py)  
+    1.4 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort-take2.py) :rocket: :boom:  
+    1.5 [Insertion Sort](https://github.com/harishvc/challenges/blob/master/sort-insertion-sort.py)   
+    1.6 [Bucket Sort](https://github.com/harishvc/challenges/blob/master/sort-bucket-sort.py   
+    1.7 [Radix Sort](https://github.com/harishvc/challenges/blob/master/sort-radix-sort.py)    
 2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
 3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
 4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
 5. [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py) 
-6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:
-7. Find median in a stream of integers (**running median**)
+6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:   
+7. Median  
+    7.1 [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
+    7.2 [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
+    7.3 [Find median of unsorted list](https://github.com/harishvc/challenges/blob/master/find-median-unsorted-list.py) :bulb:  :notes:     
+    7.4 Find median in a stream of integers (**running median**)   
 8. Merge K sorted list of size N  
-9. Sort a string of printable characters  
+9. Sort a string  
 10. Given a list of integers with **duplicates** (can be more than one) find any integer than appears more than once  
     10.1 Can modify the input list  
     10.2 Cannot modify the input list  
@@ -167,10 +171,6 @@ Collection of interesting questions and solutions that involve data structures, 
    11.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
    11.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)   
    11.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
-12. Median  
-   12.1 [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
-   12.2 [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
-   12.3 [Find median of unsorted list](https://github.com/harishvc/challenges/blob/master/find-median-unsorted-list.py) :bulb:  :notes:     
  
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
@@ -192,9 +192,9 @@ Collection of interesting questions and solutions that involve data structures, 
    7.3 [Reverse all words in a sentance](https://github.com/harishvc/challenges/blob/master/reverse-sentance.py)   
 8. Palindrome  
    8.1 [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)  
-   8.2 [Given a number find the next smallest Palindrome](https://github.com/harishvc/challenges/blob/master/string-next-palindrome.py) :bulb: :notes:   
+   8.2 [Given a number find the **next largest** Palindrome](https://github.com/harishvc/challenges/blob/master/string-next-palindrome.py) :bulb: :notes:   
    8.3 [Find the longest palindromic substring](https://github.com/harishvc/challenges/blob/master/string-longest-palindrome-substring.py)  :bulb: :notes: :rocket:     
-9. Substring (_A substring of a string is another string that occurs **"in"** . For example, "the best of" is a substring of "It was the best of times"_)   
+9. Substring (_A substring is a prefix or suffix of any string. There are n^2 substrings._)  
    9.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
    9.2 Generate all the substrings of a string        
    9.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
