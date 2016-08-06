@@ -1,41 +1,4 @@
-####LIST INTRO
-x = [1, 2, 3, 4]
-print(x[3])        #index position 3, 4th element
-print(x[-1])       #last index
-print(x[-3])       #3rd index from the end
-print(x[1:3])      #elements in index 1 & 2
-print(x[:2])       #elements in index 0 & 1
-print(x[1:])       #elements in index 1 to end of list
-print(x[-2:4])     #elements in between 2nd index from the end and 3rd index from start
-print(x[::2])      #every other element is skipped
-print(x[:-2])      #elements in index 0,1
-print(x[-2:])      #elements in index 2,3
-print(x[::-1])     #reverse
-print(x[-1:0:-1])  #elements in index position 3 (last, -1) and index position 1 going left
-
-###LIST & INSERT
-a = []             # []
-x.insert(0,0)      #insert 0 in index position 0
-a.insert(0,1)      # [1]
-a.insert(0,2)      # [2,1]
-a.insert(0,3)      # [3,2,1]
-y = []             # []
-y.insert(5,100)    # [100]
-print(len(y))      # 1
-
-###LIST & APPEND
-x.append(5)        #append 5 at the end
-
-###LIST & DELETE
-del x[0:1]         #delete elements in index 0
-del x[:]           #delete ALL elements inside x
-
-###SETS
-s = set([1,2,3,4])
-print(s)   #[1,2,3,4]
-s.discard(3)
-print(s) #[1,2,4]
-
+#DATA STRUCTURE: Sort, Max, Min
 
 #a.sort() Inplace sort
 #sorted() returns a new list, works for lists and dict
@@ -112,6 +75,7 @@ a['hello'] = 5
 a['world'] = 4
 a['aa'] = 1
 a['abc'] = 10
+
 #Question: Sort by key
 for k in sorted(a):
 	print(k,a[k])
@@ -122,7 +86,13 @@ abc 10
 hello 5
 world 4
 '''
+
 #Question: Sort by value
 for k in sorted(a, key=a.get):
 	print(k,a[k])
 
+#Question: Find max value in dictionary
+d= {'a':2,'b':5,'c':3}
+print(d)
+print("Key with max value =", max(d, key=d.get))
+print("~~~")

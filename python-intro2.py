@@ -1,10 +1,14 @@
-###QUICK INTRO  
-#Declare, initialize, update, delete
-#
-#Immutable - Cannot change value once created
-#Strings - Immutable
+#DATA STRUCTURES: QUICK INTRO  
 
-#LIST - Mutable (inexpensive operation to make changes)
+#Immutable - Cannot change value once created
+
+#Strings - Immutable
+#Print each character in a string
+test="Hello"
+for x in test:
+    print(x)
+
+#####LIST - Mutable (inexpensive operation to make changes)
 a = []
 a = [1]
 print(a.index(1)) #0 , print index position of element 1
@@ -18,9 +22,34 @@ a.remove(2) #1,2,3  remove first occurance
 #
 a.insert(3,0)   #insert at position 3 or append 
 del a[:]        #remove all values in a list 
+del a[0:1]      #remove value 0
 x in a          #check if x is in a, average time complexity O(n)
-#
-#
+#LIST SPLIT
+x = [1, 2, 3, 4]
+print(x[3])        #index position 3, 4th element
+print(x[-1])       #last index
+print(x[-3])       #3rd index from the end
+print(x[1:3])      #elements in index 1 & 2
+print(x[:2])       #elements in index 0 & 1
+print(x[1:])       #elements in index 1 to end of list
+print(x[-2:4])     #elements in between 2nd index from the end and 3rd index from start
+print(x[::2])      #every other element is skipped
+print(x[:-2])      #elements in index 0,1
+print(x[-2:])      #elements in index 2,3
+print(x[::-1])     #reverse
+print(x[-1:0:-1])  #elements in index position 3 (last, -1) and index position 1 going left
+
+#Tuple
+#immutable (along with strings)  - value can't be changed after created!
+#take less space in bytes
+#used for structure
+days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+#days[1] += "xxx"  #Error
+for x in days:
+    print(x)
+
+
+
 #QUEUE
 import queue
 q = queue.Queue()
@@ -28,8 +57,8 @@ q.put(1)  #Add elements to queue
 q.put(2)
 print(q.get()) #Get elements
 print(q.empty()) #Check if queue is empty
-#
-#
+
+
 #DEQUE - Double ended queue, add and remove from both ends
 import collections
 dq = collections.deque()
@@ -40,8 +69,8 @@ print(dq)           #deque([0, 1, 2])
 print(len(dq))      #3
 dq.pop()            #2
 dq.popleft()        #0     
-#
-#
+
+
 #SET - MUTABLE
 #SET PROPERTIES: 
 # 1. unique values
@@ -127,134 +156,4 @@ s = collections.defaultdict(set) #values are of type set; dict of set
 s['a'].add('world')
 s['a'].add('hello')
 print(s['a']) #{'hello', 'world'} order is NOT retained!
-    
-#SPRINTF
-a = "Hello %s" % ("Harish")
-print(a)  #Hello Harish
-
-#FOR LOOP
-a = "Harish"
-for i in a:
-    print(i,end=",")  #H,a,r,i,s,h,
-#
-a = [11,12,13,14,15]
-for i in a:
-    print(i,end=",")  #11,12,13,14,15,
-#
-a = "Harish"
-for i,v in enumerate(a):
-    print(i,v)  # 0, H   1,a
-#    
-for i in range(5):
-    print(i)         #0 1 2 3 4
-#    
-for i in range(0,5,2): #increment by 2
-    print(i)         #0 2 4
-#
-for i in range(5,0,-2): #decrement by 2
-    print(i)        #5,3,1
-
-for i in range(0,5)[::-1]:
-    print(i)        #4,3,2,1,0
-
-#convert string to list
-a = input()      #1,2,3,4,5
-print(type(a),a)
-b = list(map(int,a.split(",")))
-print(type(b),b)  #[1,2,3,4,5]
-
-
-#Find max value in dictionary
-d= {'a':2,'b':5,'c':3}
-print(d)
-print("Key with max value =", max(d, key=d.get))
-print("~~~")
-
-###Sorted by Key
-d = {"ZHarish": 22, "Joe": 115, "Moe": 52}
-print("Sorted by key ...")
-for key in sorted(d):
-    print("%s: %s" % (key, d[key]))
-    
-###Sorted by value
-print("Sorted by value ...")
-for key in sorted(d, key=d.get, reverse=False):
-    print("%s: %s" % (key, d[key]))
-
-
-###Use list comprehension to initialize list
-#[<expression> for <element> in <sequence> if <conditional>]
-#Initialize x with all even numbers between 1 ... 11
-x = [i for i in range(11) if i%2 == 0]
-print(x) #[0, 2, 4, 6, 8, 10]
-
-###Tuple
-#immutable (along with strings)  - value can't be changed after created!
-#take less space in bytes
-#used for structure
-days = ("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
-#days[1] += "xxx"  #Error
-for x in days:
-    print(x)
-
-###List
-#mutable   
-days2 = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-days2[1] = "xxx"
-for x in days2:
-    print(x)    
-
-
-###Read from file
-#with keyword is used when working with unmanaged resources (like file streams). 
-# It allows you to ensure that a resource is "cleaned up" when the code that uses it finishes running, even if exceptions are thrown
-#with open("python-intro2111.py") as f:
-#        data = f.read()
-        #do something with data
-#        print(data)
-        
-xyz = "old stuff"            
-def test(x):
-    x[0] = 10
-    print("xxxxxxxxxx")
-    global xyz 
-    xyz = "new stuff"
-    return x
-x= [5]
-print(x)
-print(xyz)
-test(x)
-print(x)  #Value changes since list is mutable - "pass by objects"
-print(xyz)
-
-###Print each character in a string
-test="Hello"
-for x in test:
-    print(x)
-    
-
-#Initialize matrix with random values
-def Initialize(matrix):
-    from random import randint
-    for row in range(0,len(matrix)):
-        for col in range(0,len(matrix[row])):
-            matrix[row][col] = randint(1,26)
-
-#Print Matrix
-def PrintMatrix(matrix): 
-    for row in range(0,len(matrix)):
-        for col in range(0,len(matrix[row])):
-            print("%d" % (matrix[row][col]),end=" ")
-        print("")
-    
-
-# Creates nxm matrix
-n = 5 #rows
-m = 3 #cols
-matrix = [[0 for x in range(n)] for x in range(m)]
-
-print("~~~~~~")
-Initialize(matrix)
-print ("%dx%d matrix >>>" % (m,n))
-PrintMatrix(matrix)
     
