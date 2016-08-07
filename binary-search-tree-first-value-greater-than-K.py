@@ -1,9 +1,13 @@
-'''
-Question: In a BST find first value greater than K or given node K find the next node. Return 1 if None
+#Question: Given BST find inorder successor of node N
 
-Observation:
-When root.data > K we have a greater value. We then need to traverse left to first the first greater value.
-Since left node can be None, we need to store the greatest value found so far before traversing left
+'''
+OBSERVATION:
+1. In inorder traversal, next node value (successor) is > N
+2. Successor is the smallest of the largest value > N 
+
+REFERENCES:
+1. https://discuss.leetcode.com/topic/25698/java-python-solution-o-h-time-and-o-1-space-iterative
+2. http://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/
 '''
 
 import sys
@@ -14,31 +18,21 @@ import BST
 root = BST.BSTNode(4)
 input = [3,2,1,5,10,7,6,9,12,15]
 for x in input:
-    BST.insertNode(root, BST.BSTNode(x))
+    BST.insert(root, BST.BSTNode(x))
 
 
-def FirstGreatestValue(node,target,result):
-    #End of recursion
-    if(node is None):
-        return result
-    
-    #Found value?
-    if(node.data == target):
-        return node.data
-    if (node.data > target and result == 1):
-        #First new value
-        result = node.data
-    elif( node.data > target and (node.data-target) < (result-target)):
-       #found next new value!
-       result = node.data
-    
-    #Next?   
-    if(node.data < target):
-        #go right
-        return(FirstGreatestValue(node.right,target,result))
-    else:
-        #go left
-        return(FirstGreatestValue(node.left,target,result))
+def nextNode(node,target):
+    result = None
+    while node:
+        #if value > target, can be successor!
+        if node.data > target:
+            result = node.data
+            #IMPORTANT: find smallest of the largest!
+            node = node.left
+        else:
+            #go right!
+            node = node.right
+    return result
 
 target = 11
-print("First value greater than ", target , " = ", FirstGreatestValue(root,target,1))
+print("First value greater than ", target , " = ", nextNode(root,target))
