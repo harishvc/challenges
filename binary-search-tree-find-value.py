@@ -16,7 +16,7 @@ for x in input:
 
 
 
-
+#Solution 1: Recursive
 def BSTSearch(root,K):
     if(root is None):
         return False
@@ -27,6 +27,17 @@ def BSTSearch(root,K):
     else:
         return True
     
+#Solution 2: Iterative
+def  BSTSearch2(node,target):
+    while node:
+        if node.data == target:
+            return True
+        elif node.data > target:
+            node = node.left
+        else:
+            node = node.right
+    return False
+
 input2 = [15,3,0]    
 for K in input2:
     print("%d exist: %s" % (K,BSTSearch(root,K)))
