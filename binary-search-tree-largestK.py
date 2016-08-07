@@ -12,18 +12,19 @@ for i in range(1,len(a)):
         node = BST.BSTNode(a[i])
         BST.insert(root,node)
 
-#reverse inorder
-def rinorder(node,k,result):
-	if node is None:
-		return
-	#go right - largest value is on the right	
-	rinorder(node.right,k,result)
-	if len(result) < k:
-		result.append(node.data)
-	if len(result) == k:
-		return
-	#go left - next largest value is on the left node of the right most node	
-	rinorder(node.left,k,result)
+#Reverse in order traversal to get values in descending order
+def largestK(node,K):
+    if node and K > 0:
+        K = largestK(node.right,K)
+        if K > 0:
+            print(node.data)
+            K = K- 1
+        K = largestK(node.left,K)
+        #Important: return K
+        return K
+    else:
+        #Important: return K
+        return K
 
 
 print("In order traversal >>")
@@ -31,7 +32,5 @@ BinaryTreeTraversal.inOrder(root)
 print("")
 
 k= 4
-result=[]
-rinorder(root,k,result)
-#print(result)
-print("%dth largest value=%d" %(k,result[-1]))
+print("Largest ", k)
+largestK(root,k)
