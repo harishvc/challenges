@@ -210,7 +210,7 @@ Collection of interesting questions and solutions that involve data structures, 
 2. Linked List Introduction   
     2.1 [Single Linked Lists](https://github.com/harishvc/challenges/blob/master/linked-list-introduction.py)  
     2.2 [Double Linked Lists](https://github.com/harishvc/challenges/blob/master/double-linkedlist-intro.py)  
-3. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py)
+3. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py) :notes:  :bulb:  
 4. Circular Linked List, Cycle & Intersection  
     4.1 [Check if a given linked list has a cycle](https://github.com/harishvc/challenges/blob/master/linked-list-check-cycle.py)      
     4.2 [Find the length of the cycle](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-length.py)     
@@ -334,7 +334,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4.  [Find min value of BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-min-value.py)     
 5.  [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-value.py)      
 6.  [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :thumbsup:  
-7.  [In a BST find first value greater than K or given node K find the next node](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :memo:     
+7.  [Find **inorder successor of node N**](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :rocket: :art: :memo: :notes:  
 8.  [In a BST given a target find a value close to the target](https://github.com/harishvc/challenges/blob/master/binary-search-tree-closest-value.py) 
 9.  [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:   
 10. [Find largest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-largestK.py) :thumbsup: :bulb: :rocket:  
