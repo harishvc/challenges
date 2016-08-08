@@ -1,5 +1,7 @@
 '''
 Question: Find the middle element in a linked list in one pass
+if N is odd, find the middle. N=5, middle index = 3
+if N is even, you have 2 middle values, N=6, middle index = 4 (second middle)
 '''
 
 class Node:
