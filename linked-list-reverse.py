@@ -22,13 +22,14 @@ def Insert2End(currentNode,newNode):
     currentNode.nextNode = newNode
     
 
-def ReverseRecursive(next, previous):
-    if (next is None):
-        return previous
-    #pass next node and previous node
-    head = ReverseRecursive(next.nextNode,next)
-    next.nextNode = previous
-    return head
+def ReverseRecursive(node,prev):
+	if node:
+		head = ReverseRecursive(node.nextNode,node)
+		node.nextNode = prev
+		return head
+	#node is None and prev is the last node
+	else:
+		return prev
 
 def ReverseIterative(node):
     prev = None
