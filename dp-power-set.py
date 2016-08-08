@@ -1,6 +1,6 @@
 #Print the Power Set
 
-#The power set is the set of all subsets of a given set
+#The power set is the set of all subsets of a given set including the entire set and an empty set
 #Power set is a set of all combinations of lengths from size=0 to set size
 
 
@@ -50,12 +50,12 @@ def PowerSet2(z):
 #Solution 3: Dynamic Programming
 #Time complexity: O(2^n)
 '''
-Observation:
-1. a = ()     result = ()
-2. a = (1)    result = (), (1)
-    - clone result of a=() + add 1
-3. a = (1,2)  result = (2), (2,1), (), (1)
-    - clone result of a=(1) + add result=a(1)
+Observation: 
+1. input = a       result = [[], [a]]
+2. input = a,b     result = [[], [a], [b], [a,b]]
+   >> p(a),p(a)+b
+3. input = a,b,c   result = [[], [a], [b], [a,b], [c], [c,a], [c,b], [c,b,a]]
+   >> p(a,b),p(a,b)+c
 '''
 def PowerSet3(z):
 	result = [[]]
