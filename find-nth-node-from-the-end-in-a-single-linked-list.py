@@ -25,19 +25,19 @@ def PrintLinkedList (node):
         node = node.nextNode
 
 #Find Last N node
-def FindLastN(MyList,N):
-    r = MyList  #reference 
-    m = MyList  #main
-    i = 1
-    move = False
-    while r is not None:
-        r = r.nextNode
-        if(move):
-            m = m.nextNode
-        if(i == N): #Handle array starting at position 0
-            move = True
-        i += 1
-    return m.data
+def findLastN(head,N):
+	fast = head
+	slow = head
+	count = 0
+	#IMPORTANT: Iterator end is fast.next
+	while fast.nextNode is not None:
+		fast = fast.nextNode
+		count +=1
+		#IMPORTANT: >=, spacing N
+		if count >= N:
+			slow = slow.nextNode
+			#print("count=%d slow=%d fast=%d" % (count,slow.data,fast.data))
+	return slow.data
 
 
 #Create a linked list
@@ -56,4 +56,4 @@ for i in range(2,11):
 print("Input ... ", end=" ")
 PrintLinkedList(MyList)
 print("")
-print(N , "element from end of input ===>", FindLastN(MyList,N))
+print(N , "element from end of input ===>", findLastN(MyList,N))
