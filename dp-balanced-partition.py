@@ -2,7 +2,7 @@
 
 
 import sys
-sys.path.append("../mylib")
+sys.path.append("./mylib")
 import doless
 
 '''
