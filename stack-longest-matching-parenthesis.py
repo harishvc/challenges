@@ -1,41 +1,34 @@
-'''
-Find the length of the longest valid parenthesis sequence in a string, in O(n) time
-
-#http://stackoverflow.com/questions/25952326/find-the-length-of-the-longest-valid-parenthesis-sequence-in-a-string-in-on-t/35954710#35954710
-'''
+#Find the length of the longest valid parenthesis sequence in a string, in O(n) time
 
 '''
-ALGORITHM:
-1. Add ( to (imaginary) stack and keep track of stack size
-2. When you see ) either you have a match or no match
-   a. if stack size > 0 (match), pop from stack, increment current max length by 2
-   b. if stack size <= 0 (no match), check current max length with result and reset current max length
+REFERENCES:
+1. http://stackoverflow.com/questions/25952326/find-the-length-of-the-longest-valid-parenthesis-sequence-in-a-string-in-on-t/35954710#35954710
+2. http://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
 '''
-def longestMatchingParenthesis(a,size):
-	current = 0
-	currentMaxlength = 0
+
+
+def longestMatchingParenthesis(a):
+	pstack = []        #index position of left parenthesis
+	pstack.append(-1)  #default value; handles ) without ( and when match adds up to 2!
+	stack_size = 1 
 	result = 0
-	mystack = []
-	mystacksize = 0
-	while (current < size):
-		if (a[current] == "("):
-			#mystack.append(a[current])
-			mystacksize += 1
-		else:
-			#case 1: matching right
-			if (mystacksize > 0):
-				#mystack.pop()
-				mystacksize -= 1
-				currentMaxlength +=  2
-			#case 2: no match!
+	for i in range(0,len(a)):
+		if a[i] == '(':
+			pstack.append(i) #Append current index
+			stack_size += 1
+		else:    # handle )
+			pstack.pop()
+			stack_size -= 1
+			#determine length of longest match!
+			if stack_size > 0:
+				#difference of current index - index at top of the stack (yet to be matched)
+				result = max(result, i - pstack[-1])
 			else:
-				if (currentMaxlength > result):
-					result = currentMaxlength
-				currentMaxlength = 0 #IMPORTANT!!!
-		current += 1
-	return max(result,currentMaxlength)
+				#stack size == 0, append current index
+				pstack.append(i)
+				stack_size += 1 
+	return result
 
-
-a = ["()()()", "", "((((", "(((()", "(((())("]
+a = ["()()()", "", "((((", "(((()", "(((())(", "()(()" ,"()(())"]
 for x in a:
-	print(x, "=",longestMatchingParenthesis(x,len(x)))
+	print("%s = %s" % (x,longestMatchingParenthesis(x)))
