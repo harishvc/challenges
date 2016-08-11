@@ -70,7 +70,9 @@ Collection of interesting questions and solutions that involve data structures, 
 
 
 ### Permutations and Combinations
-0. [Introduction to Permutation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination) :boom: :thumbsup:
+0. References
+    1. [Introduction to Permutation and Combination](https://github.com/harishvc/quick-references/tree/master/permutation-combination) :boom: :thumbsup:   
+    2. [Power set, Permutation, Combination](http://www.martinbroadhurst.com/combinatorial-algorithms.html)  :rocket:  
 1. [Compute all permutations of a string](https://github.com/harishvc/challenges/blob/master/string-permutations.py)
 2. [Find all possible combinations for a given string](https://github.com/harishvc/challenges/blob/master/string-combinations.py)
 3. [Compute all possible string combinations that can be made my placing spaces (zero or one) between them](https://github.com/harishvc/challenges/blob/master/string-combinations-by-placing-spaces.py)
@@ -111,7 +113,7 @@ Collection of interesting questions and solutions that involve data structures, 
     7.1 [Find median of a sorted list](https://github.com/harishvc/challenges/blob/master/find-median-sorted-list.py)  
     7.2 [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
     7.3 [Find median of unsorted list](https://github.com/harishvc/challenges/blob/master/find-median-unsorted-list.py) :bulb:  :notes:     
-    7.4 Find median in a stream of integers (**running median**)   
+    7.4 [Find median in a stream of integers (**running median**)](https://github.com/harishvc/challenges/blob/master/sort-running-median.py)  :rocket: :notes: :art:     
 8. Merge K sorted list of size N  
 9. Sort a string  
 10. Given a list of integers with **duplicates** (can be more than one) find any integer than appears more than once  
@@ -335,7 +337,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5.  [Find if an element exists in BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-find-value.py)      
 6.  [Check if valid BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-check.py) :thumbsup:  
 7.  [Find **inorder successor of node N**](https://github.com/harishvc/challenges/blob/master/binary-search-tree-first-value-greater-than-K.py) :rocket: :art: :memo: :notes:  
-8.  [In a BST given a target find a value close to the target](https://github.com/harishvc/challenges/blob/master/binary-search-tree-closest-value.py) 
+8.  [In a BST given a target find a value **close to the target**](https://github.com/harishvc/challenges/blob/master/binary-search-tree-closest-value.py) 
 9.  [Find smallest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-smallestK.py) :thumbsup: :bulb:   
 10. [Find largest K in a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-largestK.py) :thumbsup: :bulb: :rocket:  
 11. [Given a BST find # nodes that lie in the given range](https://github.com/harishvc/challenges/blob/master/binary-search-tree-range.py) 
@@ -391,7 +393,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Dynamic Programming
 1. [Multiply two numbers without using operators *, / and with **minimal operations**](https://github.com/harishvc/challenges/blob/master/dp-multiply-using-addition-subtraction.py) :thumbsup:    
-2. [Find the **power set**](https://github.com/harishvc/challenges/blob/master/dp-power-set.py) :notes: :bulb:        
+2. [Find the **power set**](https://github.com/harishvc/challenges/blob/master/dp-power-set.py) :notes: :bulb:  _Power Set is a set that includes all the subsets including an empty set and the set itself. 2^N subsets for a set of size N_      
 3. [Generate all possible N pairs of **balanced parentheses**](https://github.com/harishvc/challenges/blob/master/dp-balanced-parentheses.py)  :rocket: :bulb:      
 4. [Find string **combinations** of length K](https://github.com/harishvc/challenges/blob/master/dp-string-combinations.py)        
 5. Find all string **permutations**     
