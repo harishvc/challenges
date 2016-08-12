@@ -410,7 +410,7 @@ Collection of interesting questions and solutions that involve data structures, 
 9. Given n stairs to reach the top and you can take 1 or 2 steps at each stair  
    9.1 [Find all possible combinations](https://github.com/harishvc/challenges/blob/master/dp-find-all-stair-combinations.py)  :bulb:    
    9.2 [Find #ways a person can reach the top of the stairs](https://github.com/harishvc/challenges/blob/master/dp-count-stair-combinations.py) :notes:      
-10. Given target and possible values find #permutations to achieve the target       
+10. [Given target and possible values find #permutations to achieve the target](https://github.com/harishvc/challenges/blob/master/dp-target-permutations.py)  :art:         
 11. Given denominations and a total   
     11.1 [Find all possible combinations to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:    
     11.2 [Find all possible combinations to reach a total using lookup](https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
