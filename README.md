@@ -64,7 +64,7 @@ Collection of interesting questions and solutions that involve data structures, 
    7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
    7.2 [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
    7.3 Rotate a 2D matrix clockwise 90 degrees   
-   7.4 Rotate a 2D matrix anti-clockwise 90 degrees  
+   7.4 [Rotate a 2D matrix anti-clockwise 90 degrees](https://github.com/harishvc/challenges/blob/master/rotate-matrix-anti-clockwise.py)  :thumbsup:  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
 9. Find the coordinates of the rectangle in the 2 dimensional list  [TODO]   
 
@@ -441,12 +441,10 @@ Collection of interesting questions and solutions that involve data structures, 
     21.1 [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
     21.2 [Pack your words in a **greedy approach**, evenly distribute space](https://github.com/harishvc/challenges/blob/master/dp-text-justification.py) TODO    
 22. Binary matrix 
-   22.1 Rotate matrix clockwise by 90  
-   22.2 [Rotate matrix anti-clockwise by 90](https://github.com/harishvc/challenges/blob/master/rotate-matrix-anti-clockwise.py)  :thumbsup:        
-   22.3 [Find #path from top left to bottom right](https://github.com/harishvc/challenges/blob/master/dp-matrix-path.py) :bulb:       
-   22.4 [Find out the maximum square size sub-matrix](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
-   22.5 [Find area of the largest rectangle](https://github.com/harishvc/challenges/blob/master/largest-rectangle-in-a-binary-matrix.py) :rocket: :bulb: :notes:  
-   22.6 [Find #rectangles](https://github.com/harishvc/challenges/blob/master/matrix-count-rectangles.py)     
+   22.1 [Find #path from top left to bottom right](https://github.com/harishvc/challenges/blob/master/dp-matrix-path.py) :bulb:       
+   22.2 [Find out the maximum square size sub-matrix](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
+   22.3 [Find area of the largest rectangle](https://github.com/harishvc/challenges/blob/master/largest-rectangle-in-a-binary-matrix.py) :rocket: :bulb: :notes:  
+   22.4 [Find #rectangles](https://github.com/harishvc/challenges/blob/master/matrix-count-rectangles.py)     
 23. Matrix multiplication  
     23.1 [Find the most efficient way to multiply these matrices](https://github.com/harishvc/challenges/blob/master/dp-matrix-multiplication.py)  :notes: :bulb:  
     23.2 Find the order in which the matrices need to be multiplied  
