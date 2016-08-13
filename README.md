@@ -505,6 +505,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Interview Resources
 * [Hacker Rank Warmup!](https://www.hackerrank.com/domains)  :thumbsup:  
+* [I DESERVE TO LEARN](http://www.ideserve.co.in/#strings)  :rocket: :thumbsup:  
 * [Google interview questions - Product & Software Engineer](https://gist.github.com/amaxwell01/3728155)
 * [How to avoid and outlive layoffs as a programmer?](http://www.coderust.com/blog/2014/07/20/avoid_outlive_programmer_layoffs/)
 * [How do I prepare for a software engineering job interview? - Discussion on Quora](http://www.quora.com/How-do-I-prepare-for-a-software-engineering-job-interview)
