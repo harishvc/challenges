@@ -114,12 +114,15 @@ Collection of interesting questions and solutions that involve data structures, 
     7.2 [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
     7.3 [Find median of unsorted list](https://github.com/harishvc/challenges/blob/master/find-median-unsorted-list.py) :bulb:  :notes:     
     7.4 [Find median in a stream of integers (**running median**)](https://github.com/harishvc/challenges/blob/master/sort-running-median.py)  :rocket: :notes: :art:     
-8. Merge K sorted list of size N  
-9. Sort a string  
-10. Given a list of integers with **duplicates** (can be more than one) find any integer than appears more than once  
-    10.1 Can modify the input list  
-    10.2 Cannot modify the input list  
-
+8. Unsorted list of values
+     8.1 Find the smallest K
+     8.2 Find the largest K
+9. Merge K sorted list of size N  
+10. Sort a string  
+11. Given a list of integers with **duplicates** (can be more than one) find any integer than appears more than once  
+    11.1 Can modify the input list  
+    11.2 Cannot modify the input list  
+12. [Given unsorted values with several duplicates and **one value that occurs once** find the value](https://github.com/harishvc/challenges/blob/master/search-find-unique-in-duplicates.py) TODO  
 
 ### Search  
 1. [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
