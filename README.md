@@ -117,7 +117,7 @@ Collection of interesting questions and solutions that involve data structures, 
 8. Unsorted list of values
      8.1 Find the smallest K
      8.2 Find the largest K
-9. Merge K sorted list of size N  
+9. [Merge K sorted list of size N](https://github.com/harishvc/challenges/blob/master/sort-heap-mergeK-lists.py) :art: :bulb:    
 10. Sort a string  
 11. Given a list of integers with **duplicates** (can be more than one) find any integer than appears more than once  
     11.1 Can modify the input list  
