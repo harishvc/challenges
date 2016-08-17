@@ -217,12 +217,9 @@ Collection of interesting questions and solutions that involve data structures, 
     2.2 [Double Linked Lists](https://github.com/harishvc/challenges/blob/master/double-linkedlist-intro.py)  
 3. [Find the nth node from the end of a linked list](https://github.com/harishvc/challenges/blob/master/find-nth-node-from-the-end-in-a-single-linked-list.py) :notes:  :bulb:  
 4. Circular Linked List, Cycle & Intersection  
-    4.1 [Check if a given linked list has a cycle](https://github.com/harishvc/challenges/blob/master/linked-list-check-cycle.py)      
-    4.2 [Find the length of the cycle](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-length.py)     
-    4.3 [Find the node where cycle starts](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-start.py) :notes: :rocket:      
-    4.4 [Find cycle length and start node](https://github.com/harishvc/challenges/blob/master/detect-cycles-in-linked-list.py)  :notes:      
-    4.5 Find the node at which the intersection of two single linked lists begins   
-    4.6 [Add a node to a sorted circular linked list](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-insert.py)  :bulb: :notes:      
+    4.1 [Find the length and start node for the cycle in a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-cycle.py)  :bulb: :notes:      
+    4.2 Find the node at which the intersection of two single linked lists begins   
+    4.3 [Add a node to a sorted circular linked list](https://github.com/harishvc/challenges/blob/master/linked-list-cycle-insert.py)  :bulb: :notes:      
 5. Merge   
    5.1 Merge two sorted linked lists [TODO]  
    5.2 Merge K sorted linked lists [TODO] :boom:  
