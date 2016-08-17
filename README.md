@@ -176,6 +176,8 @@ Collection of interesting questions and solutions that involve data structures, 
    11.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
    11.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)   
    11.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
+12. 6.  [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
+
  
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
@@ -456,9 +458,8 @@ Collection of interesting questions and solutions that involve data structures, 
 3.  [How to find list of possible words from a letter matrix (Boggle)](https://github.com/harishvc/challenges/blob/master/boggle.py)
 4.  [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
 5.  [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
-6.  [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:
-7.  [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
-8. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
+6.  [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
+7. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
   
 
 ### Algorithms and Data Structures Resources

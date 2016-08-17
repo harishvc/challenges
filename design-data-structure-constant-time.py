@@ -3,6 +3,7 @@ Question: Design a data structure that provides insert, remove, contains and get
 
 Reference: 
 1. http://stackoverflow.com/questions/196017/unique-non-repeating-random-numbers-in-o1
+2. http://blog.gainlo.co/index.php/2016/08/14/uber-interview-question-map-implementation/
 
 Follow up questions:
 1. unique values - dictionary keys collision
