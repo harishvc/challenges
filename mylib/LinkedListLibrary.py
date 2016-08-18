@@ -1,10 +1,10 @@
 '''
 Linked List Libraries
 
-class Node:
+class LLNode:
   def __init__(self,data):
-    self.val = data # contains the data
-    self.next = None # contains the reference to the next node
+    self.data = data
+    self.next = None
 
 '''
 
@@ -67,18 +67,23 @@ def delete(headNode,value):
 #slow pointers -> one hop
 #fast pointer -> two hops
 #when fast pointer reaches end, slow pointer is in the middle
-#Time complexity O(n/2)
-def FindMiddle(n):
-    slow = n
-    fast = n
-    while(fast and fast.nextNode):
-        slow = slow.nextNode
-        #jump 2 or 1 index?
-        if (fast.nextNode.nextNode is not None):
-            fast = fast.nextNode.nextNode
-        else:
-            fast = fast.nextNode
-    return slow.data,fast.data
+#Time complexity O(n)
+def FindMiddle(node):
+	slow = node
+	fast = node
+	#until valid next node 
+	while fast.next:
+		#2 jump?
+		if fast.next.next:
+			fast = fast.next.next #reaches end
+			slow = slow.next      #reaches middle
+		#1 jump - find second middle if #nodes is even
+		else:
+			fast = fast.next  #reaches end
+			slow = slow.next  #reaches middle
+	return slow.data
+
+
 
 #Reverse linked list
 def reverseLinkedList(next,previous=None):
@@ -151,13 +156,13 @@ def optimalList(headNode):
     behind = headNode #one step behind to handle case #3
     while start is not None:
         #case 1: new value
-        if (start.val not in seen):
-            seen.add(start.val)
+        if (start.data not in seen):
+            seen.add(start.data)
             behind = start
             start = start.next
         #case 2: seen before and value not at end
         elif (start.next is not None):
-            start.val = start.next.val
+            start.data = start.next.data
             start.next = start.next.next  #IMPORTANT!
         #case 3: seen before and value at end
         else:
