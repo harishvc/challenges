@@ -1,50 +1,51 @@
+#Question: Find the middle element in a linked list in one pass
+
 '''
-Question: Find the middle element in a linked list in one pass
-if N is odd, find the middle. N=5, middle index = 3
-if N is even, you have 2 middle values, N=6, middle index = 4 (second middle)
+OBSERVATION:
+1. If there are even #nodes then there would be two middle nodes. We need the second middle.
+2. By checking node.next we know there is a valid next node (can make 1 hop)
+    - 2.1 Then node.next.next will either return True or False without error!
+    - 2.2 Simple logic
+3. By checking node we need to check if there is a node.next node and node.next.next
+    - 3.1 More checking, logic is more complex    
+
+ALGORITHM:
+1. Two pointers fast and slow
+2. Initialize fast and slow to the head of the link list
+3. Fast pointer hops by 2 nodes and slow pointer hops by 1 node
 '''
 
-class Node:
-  def __init__(self,data):
-    self.data = data # contains the data
-    self.nextNode = None # contains the reference to the next node
+import sys
+sys.path.append("./mylib/")
+import LinkedListLibrary
 
-#Print Linked List
-def PrintLinkedList (node):
-    while node is not None:
-        print(node.data,end=" ")
-        node = node.nextNode
-    print("")
-    
-#Add to end of linked list
-def Insert2End(currentNode,newNode):
-    #Traverse linked list until end
-    while(currentNode.nextNode is not None):
-        currentNode = currentNode.nextNode
-    currentNode.nextNode = newNode
+class LLNode:
+	def __init__(self,data):
+		self.data = data
+		self.next = None
 
-#slow pointers -> one hop
-#fast pointer -> two hops
-#when fast pointer reaches end, slow pointer is in the middle
-#Time complexity O(n/2)
-def FindMiddle(n):
-	slow = n
-	fast = n
-	while(fast and fast.nextNode):
-		slow = slow.nextNode
-        #jump 2 or 1 index?
-		if (fast.nextNode.nextNode is not None):
-			fast = fast.nextNode.nextNode
+def FindMiddle(node):
+	slow = node
+	fast = node
+	#until valid next node 
+	while fast.next:
+		#2 jump?
+		if fast.next.next:
+			fast = fast.next.next #reaches end
+			slow = slow.next      #reaches middle
+		#1 jump - find second middle if #nodes is even
 		else:
-			fast = fast.nextNode
+			fast = fast.next  #reaches end
+			slow = slow.next  #reaches middle
 	return slow.data
 
-#Initialize the Linked List
-inputs = [1,2,3,4,5,6,7]
-head = Node(inputs[0])
-for x in range(1,len(inputs)):
-    Insert2End(head,Node(inputs[x]))
 
-print("Linked List:", end="")
-PrintLinkedList(head)
-print("Middle value =",FindMiddle(head))
+head = LLNode(1)
+for i in range(2,7):
+	newNode = LLNode(i)
+	LinkedListLibrary.Insert2End(head,newNode)
+
+
+
+LinkedListLibrary.PrintLinkedList(head)
+print("Middle Node = ", FindMiddle(head))
