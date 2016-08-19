@@ -7,38 +7,35 @@ NOTES:
    2.1 When both the target values are found, calculate distance, 
    2.2 Move the pointer with LOW index value
 '''
-def ShortestDistance(a,num1,num2):
-	count = len(a)
-	l = 0
-	r = 0
-	result = None
-	while True:
-		#num1 first index position
-		while l < count and a[l] != num1:
-			l += 1
-		#num2 first index position:
-		while r < count and a[r] != num2:
-			r += 1
-		#result
-		if (l < count and r < count):
-			if result is None:
-				result = abs(l-r)
-			elif abs(l-r) < result:
-				result = abs(l-r)
-			#determine while pointer moves next
-			if (l < r):
-				l+=1
-			else:
-				r+=1
+
+import sys
+def shortestDistance(a,target1,target2):
+	size = len(a)
+	findNext = True
+	itarget1 = 0
+	itarget2 = 0
+	result = sys.maxsize #default 
+	while findNext:
+		while itarget1 < size and a[itarget1] != target1:
+			itarget1 +=1
+		while itarget2 < size and a[itarget2] != target2:
+			itarget2 +=1
+		#IMPORTANT: or
+		if itarget1 == size or itarget2 == size:
+			findNext = False
 		else:
-			assert l == count or r == count, "Error"
-			break
-	return result
+			#print("match ....", abs(itarget1-itarget2))
+			result = min(result, abs(itarget1-itarget2))
+			#IMPORTANT: Which pointer to move next?
+			#move ponter with low index
+			if itarget1 < itarget2:
+				itarget1 +=1
+			else:
+				itarget2 +=1
+	return result	
 
-
-a = [0,4,3,2,4,5,6,7]
+a = [0,4,3,2,4,5,6,7,9]
 num1 = 4
 num2 = 7
 print("input >>>", a)
-print("ShortestDistance(%d,%d)=%d" % (num1,num2,ShortestDistance(a,num1,num2)))
-
+print("ShortestDistance(%d,%d)=%d" % (num1,num2,shortestDistance(a,num1,num2)))
