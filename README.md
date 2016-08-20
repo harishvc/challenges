@@ -142,7 +142,7 @@ Collection of interesting questions and solutions that involve data structures, 
 5. Design a dictionary that performs insert, lookup and delete in constant time O(1)    
 6. Find the majority element  :boom:  
    6.1 [From unsorted list in linear time and constant storage](https://github.com/harishvc/challenges/blob/master/list-popular-element-unsorted.py)  :thumbsup:         
-   6.2 [From sorted list in logrithmic time and constant storage] (https://github.com/harishvc/challenges/blob/master/list-popular-element-sorted.py)  :thumbsup:  :bulb:             
+   6.2 [From sorted list in logrithmic time and constant storage] (https://github.com/harishvc/challenges/blob/master/list-popular-element-sorted.py)  :thumbsup:  :bulb:                
 7. Two lists  
    7.1 [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:  
    7.2 [Given two lists, find a pair of values (one from each array) such that you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]   
@@ -200,7 +200,7 @@ Collection of interesting questions and solutions that involve data structures, 
 8. Palindrome  
    8.1 [Test if a string is a Palindrome. Ignore all non-alphanumeric characters](https://github.com/harishvc/challenges/blob/master/palindrome.py)  
    8.2 [Given a number find the **next largest** Palindrome](https://github.com/harishvc/challenges/blob/master/string-next-palindrome.py) :bulb: :notes:   
-   8.3 [Find the longest palindromic substring](https://github.com/harishvc/challenges/blob/master/string-longest-palindrome-substring.py)  :bulb: :notes: :rocket:     
+   8.3 [Find the longest palindromic substring - **Manacher's algorithm**](https://github.com/harishvc/challenges/blob/master/string-longest-palindrome-substring.py)  :bulb: :notes: :rocket:     
 9. Substring (_A substring is a prefix or suffix of any string. There are n^2 substrings._)  
    9.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
    9.2 Generate all the substrings of a string        
