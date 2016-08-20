@@ -18,8 +18,9 @@ def pad(a,mypad):
 	result = mypad
 	for x in a:
 		result += x + mypad
-	#start $ end @ for code simplicity	
+	#start $ end @ for code simplicity (Line 55)	
 	return "$"+result+"@"
+
 
 '''
 Whenever a palindrome centered at i expands past the right bound of the palindrome 
@@ -51,6 +52,7 @@ def ManacherAlgorithm(a,mypad):
 			#IMPORTANT: min length of palindrome at index i
 			maxLength[i] = min(maxLength[mirror],R-i)
 		#Step 2: Expand with i as the center of both sides
+		#T has start $ end @  - while loop will break, no need to check both ends	 
 		while T[i + (maxLength[i]+ 1)] == T[i - (maxLength[i]+1)]:
 			maxLength[i] +=1
 		#Step 3: Find new C and R
