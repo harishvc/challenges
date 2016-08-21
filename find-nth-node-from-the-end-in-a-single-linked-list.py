@@ -1,59 +1,47 @@
-#Question: Given a linked list. Find the nth node from the end.
+#Question: Given a linked list. Find the Nth node from the end
 
-#Reference:http://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
-#Algorithm:
-#"Maintain two pointers – reference pointer and main pointer. Initialize both reference and main pointers to head. 
-# First move reference pointer to n nodes from head. Now move both pointers one by one until reference pointer reaches end. 
-# Now main pointer will point to nth node from the end. Return main pointer."
-#
-#1. Two pointers (reference,main) initialized to start
-#2. Iterate (i) the list
-#    - when i=N , reference = i
-#       - continue to move reference and main for each iteration 
-#       - when reference reaches the end, main will have the nth element from the end
-        
-#Solution
-class Node:
-  def __init__(self):
-    self.data = None # contains the data
-    self.nextNode = None # contains the reference to the next node
-                    
-#Print linked list
-def PrintLinkedList (node):
-    while node is not None:
-        print(node.data,end=" ")
-        node = node.nextNode
+'''
+ALGORITHM:
+1. Maintain two pointers (fast and slow) and initialize them to head
+2. Keep the distance between both pointers == N
+3. When fast reaches the end, slow will have the nth element from the end
 
-#Find Last N node
-def findLastN(head,N):
-	fast = head
-	slow = head
-	count = 0
-	#IMPORTANT: Iterator end is fast.next
-	while fast.nextNode is not None:
-		fast = fast.nextNode
-		count +=1
-		#IMPORTANT: >=, spacing N
-		if count >= N:
-			slow = slow.nextNode
-			#print("count=%d slow=%d fast=%d" % (count,slow.data,fast.data))
+REFERENCE:
+1. http://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
+'''
+
+import sys
+sys.path.append("./mylib/")
+import LinkedListLibrary
+
+class LLNode:
+	def __init__(self,data):
+		self.data = data
+		self.next = None
+
+
+def lastN(node,N):
+	fast = node
+	slow = node
+	fastIndex = 1 #first node
+	slowIndex = 1 #first node
+	while fast:
+		fast = fast.next
+		fastIndex +=1
+		if fastIndex - slowIndex > N:
+			slow = slow.next
+			slowIndex +=1
+			#difference in index between fast and slow is N
+			assert fastIndex-slowIndex == N, "logic error"
 	return slow.data
 
 
-#Create a linked list
-MyList = Node()
-MyList.data = 1
-N = 3    #location from end
+head = LLNode(1)
+for i in range(2,6):
+	newNode = LLNode(i)
+	LinkedListLibrary.Insert2End(head,newNode)
 
-#Initialize a linked list with 9 elements
-current = MyList
-for i in range(2,11):
-  new_node = Node()
-  new_node.data = i
-  current.nextNode = new_node
-  current = new_node  
-
-print("Input ... ", end=" ")
-PrintLinkedList(MyList)
-print("")
-print(N , "element from end of input ===>", findLastN(MyList,N))
+print("input >>>>")
+LinkedListLibrary.PrintLinkedList(head)
+for N in range(1,6):
+	print("Last K (K=%d) = %d" % (N,lastN(head,N)))
