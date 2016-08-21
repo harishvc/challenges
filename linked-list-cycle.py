@@ -4,7 +4,7 @@
 Length of cycle: 
 	1. Anchor one pointer and move other pointer until both pointers are at the same node
 
-Find start of cycle: 
+Start of cycle: 
     1. Move one pointer to the head
 	2. Move both pointers one node at a time until they meet		
 '''
@@ -42,7 +42,7 @@ def cycleLengthStart(node):
 
 
 import sys
-sys.path.append("../mylib/")
+sys.path.append("./mylib/")
 import LinkedListLibrary
 
 class LLNode:
