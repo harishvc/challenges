@@ -42,9 +42,18 @@ print("~~~~~~~~~")
 #Question: Sort by key1 and key2
 print(input)
 input = [[1,3],[4,6],[10,15],[1,2],[2,9]]
-#sort by key1 and then key2
+#Solution 1: sort by key1 and then key2
 input.sort(key=lambda x:(x[0],x[1]))
 print("sorted input ===>", input)
+#Solution 2: sorted
+import operator.itemgetter
+b= sorted(input, key=itemgetter(0,1))
+print(b)
+#Solution 3: sort
+input.sort(key=itemgetter(0,1))
+print(input)
+#
+#
 #
 ###List of dictionaries
 #Question: sort by last name
