@@ -1,89 +1,80 @@
 #Zip a linked list
 #1->2->3->4>5->6 = 1->6->2->5->3->4 
 
-#NOTES
-#1. Find length
-#2. Reverse second half
-#3. Zip now!
+'''
+ALGORITHM
+1. Split the list in the middle (first middle if even)
+2. Reverse second half
+3. Merge nodes from both list 
+'''
 
-class LinkedList:
+import sys
+sys.path.append("./mylib/")
+import LinkedListLibrary
+
+class LLNode:
 	def __init__(self,data):
 		self.data = data
 		self.next = None
 
-	def insert(self,node):
-		current = self
-		while(current.next is not None):
-			current = current.next
-		current.next = node
 
-def PrintLinkedList(list):
-	while list is not None:
-		if list.next is not None:
-			print(list.data,end=" -> ")
+#1. split input into 2 at the first middle
+#2. return head to the second list
+def splitInMiddle(node):
+	slow = node
+	fast = node
+	#until valid next node 
+	while fast.next:
+		#jump 2hops?
+		if fast.next.next:
+			fast = fast.next.next 
+			slow = slow.next      #reaches first middle for even
 		else:
-			print(list.data,end="\n")
-		list = list.next
+			break
+	#split input into 2
+	tmp = slow.next
+	#end first list
+	slow.next = None
+	#return start of second list 		
+	return tmp
 
-#find last and mid
-def MiddleEnd(headNode):
-	slow = headNode
-	fast = headNode
-	#step1: find middle and end
-	while fast.next is not None:
-		slow = slow.next
-		if fast.next.next is not None:
-			fast = fast.next.next
-		else:
-			fast = fast.next
-	return slow,fast
-
-
-def ReverseLinkedListIterative(node):
+def reverse(node):
 	prev=None
-	while node is not None:
-		tmp = node
-		node = node.next
-		tmp.next = prev
-		prev = tmp
+	while node:
+		tmp = node.next
+		node.next = prev
+		prev = node
+		node = tmp
 	return prev
 
 
-def zipLinkedList(headNode):
-	#step 1: get mid and last
-	mid,last =MiddleEnd(headNode)		
-	#step2: reverse second half
-	mid.next = ReverseLinkedListIterative(mid.next)
-	#step3: alternate values between first half and second half
-	start = headNode
-	#IMPORTANT: mid node becomes the last node!!!!
-	while mid.next is not None:
-		#remove last node 
-		last = mid.next 
-		#re-arrange mid node `next`
-		if last.next is not None:
-			mid.next = last.next
-		else:
-			mid.next = None
-		#pointer to the second node	
-		start2 = start.next
-		start.next = last
-		last.next = start2
-		start = start2
-	return headNode 
+def merge(a,b):
+	head = a
+	while b:
+		at = a.next
+		bt = b.next
+		a.next = b
+		b.next = at
+		a = at
+		b = bt
+	return head
 
-#create
-head = LinkedList(1)
-#insert
-head.insert(LinkedList(2))
-head.insert(LinkedList(3))
-head.insert(LinkedList(4))
-head.insert(LinkedList(5))
-head.insert(LinkedList(6))
-print("Input >>> ",end="")
-PrintLinkedList(head)
-#
-head = zipLinkedList(head)
-print("zipped result >>> ",end="")
-PrintLinkedList(head)
+head1 = LLNode(1)
+for i in range(2,6):
+	newNode = LLNode(i)
+	LinkedListLibrary.Insert2End(head1,newNode)
+
+
+
+print("input >>>")
+LinkedListLibrary.PrintLinkedList(head1)
+#step 1: split into two
+head2 = splitInMiddle(head1)
+#step 2: reverse the second list
+head2 = reverse(head2)
+#step 3: merge both the list
+head3 = merge(head1,head2)
+
+print("zipped result >>>")
+LinkedListLibrary.PrintLinkedList(head3)
 
