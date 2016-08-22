@@ -1,9 +1,23 @@
 #Quick sort
 
+'''
+NOTES:
+1. Recursive
+2. NOT stable  (duplicates retain their relative order)
+3. Time Complexity: Best: O(n), Average: O(nlogn), Worst: O(n^2)
+4. Average time complexity is O(n log n) since the pivot splits the input into
+   two sub-list of idential length until length ==1
+5. Choosing the pivot is critical (pivot is the largest or smallest), that leads 
+   to worst cast time complexity of O(n^2)
+6. Performance highly depends upon selection of the pivot (key)   
+
+'''
+
 def quicksort(a,start,end):
+	#IMPORTANT: exit condition
 	if start < end:
 		pivotIndex = partition(a,start,end)
-		quicksort(a,start,pivotIndex)
+		quicksort(a,start,pivotIndex-1)
 		quicksort(a,pivotIndex+1,end)
 
 #Handle duplicates
@@ -15,6 +29,7 @@ def partition(a,start,end):
 	while not end:
 		 while left <=right and a[left] < pivotValue:
 		 		left +=1
+		 #a[right] >= pivotValue , handle duplicates		
 		 while right >=left and a[right] >= pivotValue:
 		 		right -=1
 		 #check if there are values to swap?		
