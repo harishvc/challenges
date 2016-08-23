@@ -4,16 +4,16 @@
 NOTES:
 1. Insertion sort is simple (no recursion)
 2. For small lists, insertion is generally faster than a comparably implemented quicksort or mergesort
-3. In-place sort & STABLE
+3. In-place sort & STABLE (does not change the relative order of duplicate values)
 4. Insertion sort maintains a sorted sub-list
 5. Each new value is inserted inside a sorted sublist
 6. Shift operation requires approximately a third of the processing work of an exchange since only one assignment is performed
-7. Time complexity: O(nlogn) - consistent, NO assumptions are made here!!!
-8. Space complexity: Best: O(n), Average O(n^2)
+7. Time complexity: Best: O(n), Average: O(n^2), Worst: O(n^2)
+   - NO assumptions are made here!!!
 
 ALGORITHM OBESERVATION:
 1. Values are sorted from left to right
-2. At iteration i, all values from 0 ... i+1 are sorted
+2. At END of iteration i, all values from 0 ... i+1 are sorted
 3. Inner while loop will not get executed if i+1 > i (already sorted)
 4. Insertion sort makes less comparisons if list is sorted!
 '''
@@ -29,6 +29,7 @@ def insertionSort(a):
 		while left >= 0 and a[left] > a[left+1]:
 			a[left],a[left+1] = a[left+1],a[left]
 			left -= 1
+		#print("%d >>> %s" % (right+1,a))
 
 
 import random
