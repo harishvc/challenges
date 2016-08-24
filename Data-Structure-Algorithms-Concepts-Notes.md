@@ -22,11 +22,11 @@
 
 | Algorithm | Time Complexity | Space Complexity | Stable | Recursive/Iterative | Notes
 | --- | --- | --- | --- | --- | --- |
-|Insertion Sort| Best: O(n) Average: O(n^2) Worst: O(n^2) | O(1) | Stable | Iterative | Ideal if n is small. Values sorted left -> right
-|Bubble Sort| Best: O(n) Average: O(n^2) Worst: O(n^2) | O(1) | Stable | Iterative | Ideal if n is small. Values sorted right <- left
-|Quick Sort | Best: O(nlogn) Average: O(nlogn) Worst: O(n^2) | O(1) | NOT stable | Recursive | Default sort
-|Merge Sort | Best: O(nlogn) Average: O(nlogn) Worst: O(nlogn) | O(n) | Stable | Recursive | Ideal for parallel processing
-|Heap Sort | Best: O(nlogn) Average: O(nlogn) Worst: O(nlogn) | O(1) | NOT stable | Iterative | Ideal for max, min values
+|Insertion Sort| Best: O(n)<br/>  Average: O(n^2)<br/>  Worst: O(n^2)<br/>  | O(1) | Stable | Iterative | Ideal if n is small. Values sorted left -> right
+|Bubble Sort| Best: O(n)<br/> Average: O(n^2)<br/> Worst: O(n^2)<br/> | O(1) | Stable | Iterative | Ideal if n is small. Values sorted right <- left
+|Quick Sort | Best: O(nlogn)<br/>  Average: O(nlogn)<br/>  Worst: O(n^2)<br/>  | O(1) | NOT stable | Recursive | Default sort
+|Merge Sort | Best: O(nlogn)<br/>  Average: O(nlogn)<br/>  Worst: O(nlogn)<br/>  | O(n) | Stable | Recursive | Ideal for parallel processing
+|Heap Sort | Best: O(nlogn)<br/>  Average: O(nlogn)<br/>  Worst: O(nlogn)<br/>  | O(1) | NOT stable | Iterative | Ideal for max, min values
 
 
 * Bubble Sort
