@@ -20,13 +20,13 @@
 
 #Sort Algorithms
 
-| Algorithm | Time Complexity | Space Complexity | Stable | Recursive/Iterative | Notes
-| --- | --- | --- | --- | --- | --- |
-|Insertion Sort| Best: O(n)<br/>  Average: O(n^2)<br/>  Worst: O(n^2)<br/>  | O(1) | Stable | Iterative | Ideal if n is small. Values sorted left -> right
-|Bubble Sort| Best: O(n)<br/> Average: O(n^2)<br/> Worst: O(n^2)<br/> | O(1) | Stable | Iterative | Ideal if n is small. Values sorted right <- left
-|Quick Sort | Best: O(nlogn)<br/>  Average: O(nlogn)<br/>  Worst: O(n^2)<br/>  | O(1) | NOT stable | Recursive | Default sort
-|Merge Sort | Best: O(nlogn)<br/>  Average: O(nlogn)<br/>  Worst: O(nlogn)<br/>  | O(n) | Stable | Recursive | Ideal for parallel processing
-|Heap Sort | Best: O(nlogn)<br/>  Average: O(nlogn)<br/>  Worst: O(nlogn)<br/>  | O(1) | NOT stable | Iterative | Ideal for max, min values
+| Algorithm | Best Time Complexity | Average Time Complexity| Worst Time Complexity | Space Complexity | Stable | Recursive/Iterative | Notes
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|Insertion Sort| O(n)  | O(n^2) | O(n^2) | O(1) | Stable | Iterative | Ideal if n is small. Values sorted left -> right
+|Bubble Sort|    O(n)  | O(n^2) | O(n^2) | O(1) | Stable | Iterative | Ideal if n is small. Values sorted right <- left
+|Quick Sort | O(nlogn) | O(nlogn) | O(n^2) | O(1) | NOT stable | Recursive | Default sort
+|Merge Sort | O(nlogn) | O(nlogn) | O(nlogn)| O(n) | Stable | Recursive | Ideal for parallel processing
+|Heap Sort |  O(nlogn) | O(nlogn) | O(nlogn)| O(1) | NOT stable | Iterative | Ideal for max, min values
 
 
 * Bubble Sort
