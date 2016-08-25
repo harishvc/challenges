@@ -114,25 +114,30 @@ Collection of interesting questions and solutions that involve data structures, 
     7.2 [Find median of two sorted list](https://github.com/harishvc/challenges/blob/master/find-median-of-two-sorted-lists.py) :bulb: :thumbsup: :rocket:  
     7.3 [Find median of unsorted list](https://github.com/harishvc/challenges/blob/master/find-median-unsorted-list.py) :bulb:  :notes:     
     7.4 [Find median in a stream of integers (**running median**)](https://github.com/harishvc/challenges/blob/master/sort-running-median.py)  :rocket: :notes: :art:     
-8. Unsorted list of values
-     8.1 Find the smallest K
-     8.2 Find the largest K
+8. Unsorted list of values   
+     8.1 Find the smallest K  
+     8.2 Find the largest K  
 9. [Merge K sorted list of size N](https://github.com/harishvc/challenges/blob/master/sort-heap-mergeK-lists.py) :art: :bulb:    
 10. Sort a string  
-11. Given a list of integers with **duplicates** (can be more than one) find any integer than appears more than once  
-    11.1 Can modify the input list  
-    11.2 Cannot modify the input list  
-12. [Given unsorted values with several duplicates and **one value that occurs once** find the value](https://github.com/harishvc/challenges/blob/master/search-find-unique-in-duplicates.py) TODO  
+
 
 ### Search  
-1. [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
-2. Implement skip list   
-3. [Implement Trie - insert, search, searchWith, delete (Prefix Tree)](https://github.com/harishvc/challenges/blob/master/prefix-tree.py) :notes: :bulb:  
-4. [Implement Bloom Filter](https://github.com/harishvc/challenges/blob/master/bloom-filter.py)  :bulb: :boom:  
-5. [Implement Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
-6. [Search using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
-7. [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
-8. Implement Z algorithm  
+1. Implement skip list   
+2. [Implement Trie - insert, search, searchWith, delete (Prefix Tree)](https://github.com/harishvc/challenges/blob/master/prefix-tree.py) :notes: :bulb:  
+3. [Implement Bloom Filter](https://github.com/harishvc/challenges/blob/master/bloom-filter.py)  :bulb: :boom:  
+4. [Implement Suffix Array](https://github.com/harishvc/challenges/blob/master/string-search-suffix-array.py) :notes: :bulb:   
+5. [Search using Regular Expression](https://github.com/harishvc/challenges/blob/master/string-search.py)  
+6. [KMP (Knuth Morris Pratt) algorithm](https://github.com/harishvc/challenges/blob/master/string-search-KMP.py) :boom: :rocket:    
+7. Implement Z algorithm  
+8. [Find the missing number in an increasing sequence (1 ...N)](https://github.com/harishvc/challenges/blob/master/search-missing-value.py) :bulb:     
+9. Given a list of integers with **duplicates** (can be more than one) find any integer than appears more than once  
+    9.1 Can modify the input list  
+    9.2 Cannot modify the input list  
+10. [Given unsorted values with several duplicates and **one value that occurs once** find the value](https://github.com/harishvc/challenges/blob/master/search-find-unique-in-duplicates.py) TODO  
+11. Given a list of unordered positive and negative integers, find the **maximum subarray sum** in the array  
+12. Given a list and a number K, print the **maximum sum subarray** of size K  
+13. [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
+
 
 ### Lists & Dictionaries
 1. [Randomize list elements](https://github.com/harishvc/challenges/blob/master/randomize-array-elements.py)  
@@ -207,9 +212,11 @@ Collection of interesting questions and solutions that involve data structures, 
    9.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
    9.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
    9.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
-   9.6 Find the longest substring with k unique characters    
-10. Minimum Window  
-    10.1 [Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  :notes: :rocket:
+   9.6 Find the longest substring with k unique characters  
+   9.7 Find the longest substring with non-repeating characters        
+10.[Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  :notes: :rocket:    
+11. Find the **first non repeating character** in string   
+
 
 ### Linked Lists
 1. [Linked List Library](https://github.com/harishvc/challenges/blob/master/mylib/LinkedListLibrary.py)  :thumbsup: :boom:  
