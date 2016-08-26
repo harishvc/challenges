@@ -15,51 +15,61 @@ Partial Match Table (length of the longest proper prefix that matches a proper s
 The length of the longest proper prefix in the (sub)pattern that matches a proper suffix in the same (sub)pattern
 pattern = snape , longest proper prefix = s,sn,sna, snap
 pattern = snape , longest proper suffix = nape,ape,pe,e
+
+1. Idea behind the Partial Match Table is to identify an index position > 0  in the pattern such that
+  if current character in the text and current character in the pattern don't match, so we don't have to start over!
+
+2. Partial Match Table ONLY adds value of the pattern contains duplicate characters. If characters are UNIQUE, then
+the values will be 0 - start from beginning if there is no match
 '''
+
+#O(m) - m is the length of the pattern
 def MaxShift(pattern):
     size = len(pattern)
     maxShift = [0]*size
-    maxLength = 0
-    currentIndex = 1
-    while (currentIndex < size):
-        #print(currentIndex,maxLength)
-        if (pattern[currentIndex] == pattern[maxLength]):
-            maxLength += 1
-            maxShift[currentIndex] = maxLength
-            currentIndex += 1
-        elif(maxLength != 0):
-            #IMPORTANT: New maxLength
-            maxLength = maxShift[maxLength-1]
+    j = 0
+    i = 1
+    while i < size:
+        if (pattern[i] == pattern[j]):
+            #IMPORTANT: Increment
+            maxShift[i] = j + 1
+            j += 1
+            i += 1
+        elif(j != 0):
+            #IMPORTANT: move back j
+            j = maxShift[j-1]
         else:
-            maxShift[currentIndex] = 0
-            assert maxLength ==0, "Error"
-            currentIndex +=1
+            #j == 0
+            i += 1    
+    #print(maxShift)        
     return maxShift
 
-
+#0(n) - n is the length of the text document
 def KMP(text,pattern):
     maxShift = MaxShift(pattern)
     p = 0 #index for pattern
     t = 0 #index for text
-    for c in text:
-        #print("comparing,,,,", pattern[p],c)
-        if(pattern[p] == c):
+    while t < len(text):
+        #CHARACTER MATCH
+        if(pattern[p] == text[t]):
             p +=1
             t +=1
-            if(p == len(pattern)):
+            #ENTIRE PATTERN MATCH!!!
+            if(p >= len(pattern)):
                 yield t-p
+                #IMPORTANT: p is NOT reset to 0 to find next occurance 
                 p = maxShift[p-1] #shift pattern index
         elif p != 0:
-            #maxShift[0] .... maxShift[p-1] with match!
+            #IMPORTANT: Get shift position based on last character 
+            # so we don't start from index positon == 0 if there is a proper prefix in the pattern 
             p = maxShift[p-1]
-            t += 1
-        elif p == 0:
-            t += 1
+        else:
+            #first index in pattern does not match, read next character from text document
+            t +=1
 
-text = "hello 123 world 123"
-pattern = "123"
-#text = "ABABDABACDABABCABAB"
-#pattern = "ABABCABAB"
+
+text = "abcxabcdabcdabcyqeeabcdabcy"
+pattern = "abcdabcy"
 print("input >>>", text)
 print("pattern >>>", pattern)
 result = KMP(text,pattern)
