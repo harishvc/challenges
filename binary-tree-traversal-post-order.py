@@ -60,10 +60,10 @@ def postorderIterative(root, result):
             stack.append(node)
             node = node.left  #Go all the way to the left!!!!
         else:
-            node = stack.pop()
-            if node.right and not node.right in visited:  #single visit
+            node = stack.pop() #no more nodes on left. get parent node
+            if node.right and not node in visited:  #single visit
+                visited.add(node) 
                 stack.append(node)
-                visited.add(node)
                 node = node.right #Go all the way to the right!!!!
             else:
                 result.append(node.data)
@@ -85,5 +85,6 @@ result = []
 postorderRecursive(root, result)
 print("PostOrder traversal (recursive): %s" % (result))
 
+del result[::]
 postorderIterative(root, result)
 print("PostOrder traversal (Iterative): %s" % (result))
