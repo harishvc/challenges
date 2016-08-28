@@ -1,11 +1,12 @@
 '''
 Question: Find the height of the binary tree
 
-Height is the number of nodes along the longest path from the root node down 
-to the farthest leaf node
-
-Leaf nodes have height 1
-http://stackoverflow.com/questions/13322616/how-to-find-the-height-of-a-node-in-binary-tree-recursively/
+1. Height is the number of nodes along the longest path from the root node down 
+   to the farthest leaf node
+2. Leaf nodes have height 1
+  http://stackoverflow.com/questions/13322616/how-to-find-the-height-of-a-node-in-binary-tree-recursively/
+3. Height of a binary tree is at the root
+4. Height of a binary tree is also referred to maximum depth 
 '''
 
 import sys
