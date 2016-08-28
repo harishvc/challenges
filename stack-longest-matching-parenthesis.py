@@ -17,6 +17,7 @@ def longestMatchingParenthesis(a):
 			pstack.append(i) #Append current index
 			stack_size += 1
 		else:    # handle )
+			#IMPORTANT: pop the first value, since stack size >= 1
 			pstack.pop()
 			stack_size -= 1
 			#determine length of longest match!
