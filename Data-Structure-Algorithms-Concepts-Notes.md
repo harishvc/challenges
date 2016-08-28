@@ -120,10 +120,13 @@
 * A tree is a <strong>connected graph without the cycles</strong> - acyclic connected graph
 * Terminology  
     * <strong>Depth</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node
-       * **Root node has a depth of zero** :boom:  
-    * <strong>Height</strong> of a node is the length of the **longest path** (#nodes) from the node to the **farthest leaf node**   
+       * **Root node has a depth of zero** :boom:
+       * Height of a tree is also referred as **maximum depth** :bulb:    
+    * <strong>Height</strong> of a node is #nodes on the **longest path** (#nodes) from the node to the **farthest leaf node**   
        * <strong>Leaf nodes have height one</strong> :boom:
-       * Height of a tree == height of the root  
+       * Height of a tree is at the root 
+       * Height of a tree == height at the root
+       * Height of a tree is also referred as **maximum depth**  
     * <strong>Size</strong> of binary tree is size of left subtree + 1 + size of right subtree
     * <strong>Diameter/width</strong>The diameter of a tree (sometimes called the width) is the number of nodes on the <strong>longest path</strong> between two leaves in the tree. The longest path may not be through the root.   
     * <strong>Leaf</strong> is a node with no children.
