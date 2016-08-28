@@ -287,10 +287,10 @@ Collection of interesting questions and solutions that involve data structures, 
   1.2. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
   1.3. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
   1.4. Level-order  
-        1.4.1 [Print tree level by level](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)  
+          1.4.1 [Print tree level by level](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.2 [Print one tree level each line](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order-each-line.py) :notes:     
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.4.3 [Add nextRight attribute to each node] (https://github.com/harishvc/challenges/blob/master/binary-tree-next-right.py) :notes: :rocket: :art:      
-        1.4.4 [Print nodes in **spiral order**] :bulb:  TODO
+          1.4.4 [Print nodes in **spiral order**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-spiral-order.py) :bulb:  TODO
 2. Essentials   
   2.0 [Binary Tree Essentials Library](https://github.com/harishvc/challenges/blob/master/mylib/BinaryTreeEssentials.py)  :thumbsup:  :rocket:    
   2.1 [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)  
