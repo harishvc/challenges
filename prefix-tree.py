@@ -35,18 +35,18 @@ class TrieNode:
 
     #Time complexity: O(m)
     # m = #of characters in the search string
-    def search(self, word):
+    def search(self,target):
         current = self.root
-        for letter in word:
-            #print("letter=%s current=%s" % (letter,current))
-            #case 1: current is smaller than word
-            if letter not in current:
+        for c in target:
+            #Check if key is present
+            if c in current.keys():
+                current = current[c]
+            else:
+                #word not there!
                 return False
-            current = current[letter]
-        #case 2: exact match
+        #check if the word ends!        
         if "_end" in current:
             return True
-        #case 3: word is smaller than current
         return False
 
     def startsWith(self, prefix):
@@ -56,6 +56,23 @@ class TrieNode:
                 return False
             current = current[letter]
         return True
+
+    #Assumption: word exists in Tie    
+    def delete(self,target):
+        self.delete2(self.root,target,0)
+
+
+    def delete2(self,current,target,index):
+        #reached end of word since word ends with _end
+        if len(target) == index+1:
+            #print(">>> deleting ", target[index], current[target[index]])
+            del current[target[index]]["_end"]
+            #print(">> new trie ", target[index], current[target[index]])
+        else:
+            ctmp = current
+            r = self.delete2(current[target[index]],target,index+1)            
+            ctmp = r
+            return ctmp
 
     def Tprint(self):
         for key in self.root:
@@ -69,8 +86,12 @@ for i in a:
     print("Inserting ...", i)
     test.insert(i)
 
-#test.Tprint()
 
 print("search(hello) ?" , test.search('hello'))
 print("search(ilikeapple) ?", test.search('ilikeapple'))
 print("searchwith(hello) ?", test.startsWith('hello'))
+print("deleting helloa")
+test.delete('helloa')
+print("search(hellob) ?", test.search('hellob'))
+
+
