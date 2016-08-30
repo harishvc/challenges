@@ -19,6 +19,7 @@ def MaxLength(a,b):
 	ac = 0
 	bc = 0
 	maxLength = 0
+	#compare 1 character from a and b
 	while(ac < ai and bc < bi and a[ac] == b[bc]):
 			maxLength +=1
 			ac +=1
@@ -26,12 +27,15 @@ def MaxLength(a,b):
 	return maxLength
 
 def findLCP(a):
+	#Longest Common Prefix (LCP) contains the maximum length prefix match between 
+    #two consecutive suffixes, after they are sorted lexicographically 
 	lcp = []
 	for i in range(0,len(a)):
+		#find LCP between current suffix and it left neighbor
 		lcp.append(MaxLength(a[i-1],a[i]))
 	return lcp
 
-myinput = ["ABABAB", "BANANA","GEEKSFORGEEKS", "ATCGATCGA"]
+myinput = ["ABABABA", "BANANA","GEEKSFORGEEKS", "ATCGATCGA"]
 for text in myinput:
 	#Step 1: Generate suffix array
 	suffix = [text[i:] for i in range(0,len(text))]
@@ -43,10 +47,8 @@ for text in myinput:
 	maxValue = max(LCP)
 	#Step 5: Find index of max value
 	maxIndex = LCP.index(maxValue)
-	#Step 6: Find index in suffix array
-	index = len(suffix[LCP[maxIndex]])
-	#Step 7: Find substring using index and maxValue
-	print(text, ">>>", text[index:index+maxValue])
+	#Generate longest repeating substring
+	print(text, ">>>", Sortedsuffix[maxIndex][:maxValue])
 	#reset
 	del suffix[:]
 	del Sortedsuffix[:]
