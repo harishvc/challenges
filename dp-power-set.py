@@ -1,6 +1,6 @@
 #Print the Power Set
 
-#The power set is the set of all subsets of a given set including the entire set and an empty set
+#The power set is the set of all subsets of a given set
 #Power set is a set of all combinations of lengths from size=0 to set size
 
 
@@ -58,11 +58,11 @@ Observation:
    >> p(a,b),p(a,b)+c
 '''
 def PowerSet3(z):
+	#IMPORTANT: [[]]
 	result = [[]]
-	for i in range(0,len(z)):
-		t2 = [ [z[i]] + t1 for t1 in result]
-		result += t2
-		#print(result)
+	for i in a:
+		tmp= [r+[i] for r in result]
+		result += tmp
 	return result
 
 z = ['a','b','c']
