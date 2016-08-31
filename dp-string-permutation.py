@@ -46,26 +46,22 @@ This logic works with unique and duplicate values
 '''
 #Time complexity: O(n!)
 def PermutationsDP(a):
-	result = []
-	if len (a) == 0:
-		#IMPORTANT: return []
-		result.append([])
-		return result
-	for i in range(len(a)):
-		before = a[0:i]
-		after  = a[i+1:]
-		partial = PermutationsDP(before+after)
-		for p in partial:
-			#IMPORTANT: convert to list
-			result.append([a[i]]+p)
-	return result
+	if len(a) == 1:
+		#IMPORTANT: Return as list, simplify operations
+		return [a] 
+	else:
+		t = []
+		for i in range(len(a)):
+			t1 = a[0:i] + a[i+1:]
+			#IMPORTANT: unpack result from list, concatenate and store result in list
+			t2 = [a[i]+t2 for t2 in PermutationsDP(t1)]
+			t += t2
+		return t
 
 a = "abc"  
 print("Permutations of %s >>>" % (a))
 
 #findPermutations1(a,len(a),[],0,{})
 
-result = PermutationsDP(a)
-#print(len(result))
-for p in result:
-	print("".join(p))
+print(PermutationsDP(a))
+
