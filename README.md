@@ -208,7 +208,7 @@ Collection of interesting questions and solutions that involve data structures, 
    8.3 [Find the longest palindromic substring - **Manacher's algorithm**](https://github.com/harishvc/challenges/blob/master/string-longest-palindrome-substring.py)  :bulb: :notes: :rocket:     
 9. Substring (_A substring is a prefix or suffix of any string. There are n^2 substrings._)  
    9.1 [Find the **number** of distinct substrings of a given string](https://github.com/harishvc/challenges/blob/master/string-count-distinct-substrings.py) :bulb:   
-   9.2 Generate all the substrings of a string        
+   9.2 [Generate all the substrings of a string](https://github.com/harishvc/challenges/blob/master/strings-find-all-substrings.py)           
    9.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
    9.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
    9.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
