@@ -333,6 +333,7 @@ Collection of interesting questions and solutions that involve data structures, 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.11.2 [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
   4.12 [Serialize and Deserialize a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py) :boom: :thumbsup: :rocket:  
   4.13 [Given preorder and inorder traversal construct postorder traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-preorder-to-postorder.py) :boom: :thumbsup:  
+  4.14 Construct a binary tree from per-order traversal where leaf nodes are marked :bulb: :notes:  
   
 
 ### Binary Search Tree (BST)
@@ -449,7 +450,7 @@ Collection of interesting questions and solutions that involve data structures, 
 21. Text justification   
     21.1 [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
     21.2 [Pack your words in a **greedy approach**, evenly distribute space](https://github.com/harishvc/challenges/blob/master/dp-text-justification.py) TODO    
-22. Binary matrix 
+22. Binary matrix    
    22.1 [Find #path from top left to bottom right](https://github.com/harishvc/challenges/blob/master/dp-matrix-path.py) :bulb:       
    22.2 [Find out the maximum square size sub-matrix](https://github.com/harishvc/challenges/blob/master/dp-maxsize-square-submatrix.py)  :rocket: :notes:  
    22.3 [Find area of the largest rectangle](https://github.com/harishvc/challenges/blob/master/largest-rectangle-in-a-binary-matrix.py) :rocket: :bulb: :notes:  
