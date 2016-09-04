@@ -1,3 +1,4 @@
+
 #Given a sorted list find if a value exists
 
 '''
@@ -10,6 +11,10 @@ NOTES:
 #Time complexity: O(logn)
 def findTarget(a,start,end,target):
 	while start <= end:
+		#mid = start + (end-start)//2 since
+		#end-start//2 gives the mid VALUE
+		#adding start to the mid VALUE gives the index from start!
+		#example: if start=3 and end=4, mid = 3 + (4-3)//2  ~ 3rd index starting from 0
 		mid = start + (end-start)//2
 		if a[mid] == target:
 			return True
