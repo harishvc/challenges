@@ -8,6 +8,11 @@ test="Hello"
 for x in test:
     print(x)
 
+test = "Hello    World"
+a = test.split() #SPLIT with no arguments uses ONE or MANY spaces as delimiter
+print(a)  #Hello, World
+
+
 #####LIST - Mutable (inexpensive operation to make changes)
 a = []
 a = [1]
