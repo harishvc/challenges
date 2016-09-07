@@ -45,23 +45,19 @@ abc  = [a +p(bc)] + [b +p(ca)] + [c + p(ab)]
 This logic works with unique and duplicate values
 '''
 #Time complexity: O(n!)
+#n! Permutations
 def PermutationsDP(a):
-	if len(a) == 1:
+	if len(a) ==  1:
 		#IMPORTANT: Return as list, simplify operations
-		return [a] 
-	else:
-		t = []
-		for i in range(len(a)):
-			t1 = a[0:i] + a[i+1:]
-			#IMPORTANT: unpack result from list, concatenate and store result in list
-			t2 = [a[i]+t2 for t2 in PermutationsDP(t1)]
-			t += t2
-		return t
+		return [a]
+	result = []
+	for i in range(0,len(a)):
+		#IMPORTANT: unpack result from list, concatenate to string and store result in list
+		result += [a[i]+z for z in PermutationsDP(a[:i]+a[i+1:])]
+	return result
+
 
 a = "abc"  
 print("Permutations of %s >>>" % (a))
-
-#findPermutations1(a,len(a),[],0,{})
-
 print(PermutationsDP(a))
 
