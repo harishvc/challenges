@@ -11,11 +11,18 @@ NOTES:
 7. Time complexity: Best: O(n), Average: O(n^2), Worst: O(n^2)
    - NO assumptions are made here!!!
 
-ALGORITHM OBESERVATION:
+ALGORITHM OBSERVATION:
 1. Values are sorted from left to right
 2. At END of iteration i, all values from 0 ... i+1 are sorted
 3. Inner while loop will not get executed if i+1 > i (already sorted)
 4. Insertion sort makes less comparisons if list is sorted!
+
+TIME COMPLEXITY OBSERVATION:
+Average and worst cast time complexity is N^2 why?
+1. if 2nd element out of order. 2-1 operations
+2. if Nth element is out of order N-1 operations
+2. if N+1 element is out of order N operations
+3  total iterations  : 2+3 ...+N-1 operations  ... N*(N+1)/2 ~ N^2
 '''
 
 def insertionSort(a):
