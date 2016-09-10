@@ -3,36 +3,27 @@
 
 '''
 OBSERVATION:
+
+N = 0 , result = None
 N = 1 , result = ()
 N = 2 , result = () + () = N1 + () = (()), ()() 
+
+1. New values are generated from prior value
+
 '''
 
-def deep_copy(s,d):
-	for x in s:
-		d.append(x)
-
-
-def balancedParentheisVariations(N):
-	result = [['(',')']] #N=1
-	new    = ['(',')']   #add  new
-	new_result = []
-	count = 1
-	while count < N:
-		count += 1
+def findVariations(n):
+	base = ['(',')']
+	result = [['(',')']]
+	for i in range(2, n+1):
+		new_result = []
 		for r in result:
-			for i in range(len(r)):
-				t = r[0:i+1] + new + r[i+1:]
-				if t not in new_result:
-					new_result.append(t)
-		#store values from prior computation
-		del result[:]
-		deep_copy(new_result,result)
-		del new_result[:]
+			new_result += [r[:p+1]+base+r[p+1:] for p in range(0,len(r))]
+		result = new_result
 	return result
 
-N=3
-result = balancedParentheisVariations(N)
-print("All possible pairs of balanced parentheses for N=%d" %(N))
-for r in result:
-	print("".join(r))
 
+n = 3
+print("Variations of balanced parenthesis when n =%d" % (n))
+for r in findVariations(n):
+	print("".join(r))
