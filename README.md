@@ -363,6 +363,8 @@ Collection of interesting questions and solutions that involve data structures, 
 20. Find depth of a binary search tree without using recursion  
 21. [Implement **BST iterator**](https://github.com/harishvc/challenges/blob/master/binary-search-tree-next-iterator.py) :rocket: :bulb:  :notes:   
 22. [Find size of BST tree in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-bst-size.py)  :notes: :rocket:  
+23. [Delete nodes outside the given range in BST](https://github.com/harishvc/challenges/blob/master/bst-delete-nodes-outside-range.py) :bulb: notes:  
+
 
 ### Heaps  
 1. Heaps Introduction   
