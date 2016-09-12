@@ -333,9 +333,9 @@ Collection of interesting questions and solutions that involve data structures, 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.11.1 [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.11.2 [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
   4.12 Serialize and Deserialize a Binary tree   :boom: :thumbsup: :rocket:   
-       4.12.1 [From pre-order with leaves and half-nodes marked](https://github.com/harishvc/challenges/blob/master/construct-binary-tree-from-preorderX.py)  :bulb:   
-       4.12.2 [From pre-order & in-order](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py#L82)     
-       4.12.3 [From post-order & in-order](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py#L91)   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.12.1 [From pre-order with leaves and half-nodes marked](https://github.com/harishvc/challenges/blob/master/construct-binary-tree-from-preorderX.py)  :bulb:   
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.12.2 [From pre-order & in-order](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py#L82)     
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.12.3 [From post-order & in-order](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py#L91)   
   4.13 [Given preorder and inorder traversal construct postorder traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-preorder-to-postorder.py) :boom: :thumbsup:  
   4.14 Construct a binary tree from per-order traversal where leaf nodes are marked :bulb: :notes:  
   
