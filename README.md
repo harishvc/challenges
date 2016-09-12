@@ -332,7 +332,10 @@ Collection of interesting questions and solutions that involve data structures, 
   4.11 Given a binary tree where path are from parent node to child node, root and leaf can be excluded in the path  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.11.1 [Count # path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum.py) :bulb: :thumbsup:  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.11.2 [List all the path that add up to a given value](https://github.com/harishvc/challenges/blob/master/binary-tree-count-path-sum-with-path.py) :thumbsup:  
-  4.12 [Serialize and Deserialize a Binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py) :boom: :thumbsup: :rocket:  
+  4.12 Serialize and Deserialize a Binary tree   :boom: :thumbsup: :rocket:   
+       4.12.1 [From pre-order with leaves and half-nodes marked](https://github.com/harishvc/challenges/blob/master/construct-binary-tree-from-preorderX.py)  :bulb:   
+       4.12.2 [From pre-order & in-order](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py#L82)     
+       4.12.3 [From post-order & in-order](https://github.com/harishvc/challenges/blob/master/binary-tree-construct.py#L91)   
   4.13 [Given preorder and inorder traversal construct postorder traversal](https://github.com/harishvc/challenges/blob/master/binary-tree-preorder-to-postorder.py) :boom: :thumbsup:  
   4.14 Construct a binary tree from per-order traversal where leaf nodes are marked :bulb: :notes:  
   
@@ -362,8 +365,8 @@ Collection of interesting questions and solutions that involve data structures, 
 19. [Find the Lowest (nearest/first) Common Ancestor (LCA) of a BST](https://github.com/harishvc/challenges/blob/master/binary-search-tree-LCA.py) :bulb: :notes:       
 20. Find depth of a binary search tree without using recursion  
 21. [Implement **BST iterator**](https://github.com/harishvc/challenges/blob/master/binary-search-tree-next-iterator.py) :rocket: :bulb:  :notes:   
-22. [Find size of BST tree in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-bst-size.py)  :notes: :rocket:  
-23. [Delete nodes outside the given range in BST](https://github.com/harishvc/challenges/blob/master/bst-delete-nodes-outside-range.py) :bulb: notes:  
+22. [Find size of BST tree in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-bst-size.py)  :notes: :rocket:    
+23. [Delete nodes outside the given range in BST](https://github.com/harishvc/challenges/blob/master/bst-delete-nodes-outside-range.py) :bulb: :notes:     
 
 
 ### Heaps  
