@@ -119,6 +119,7 @@ Collection of interesting questions and solutions that involve data structures, 
      8.2 Find the largest K  
 9. [Merge K sorted list of size N](https://github.com/harishvc/challenges/blob/master/sort-heap-mergeK-lists.py) :art: :bulb:    
 10. Sort a string  
+11. Find the **first and second largest** value in an unsorted list
 
 
 ### Search  
