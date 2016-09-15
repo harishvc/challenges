@@ -120,7 +120,7 @@ Collection of interesting questions and solutions that involve data structures, 
 9. [Merge K sorted list of size N](https://github.com/harishvc/challenges/blob/master/sort-heap-mergeK-lists.py) :art: :bulb:    
 10. Sort a string  
 11. Find the **first and second largest** value in an unsorted list
-
+12. [Given a sequence of words, print all **anagrams** together](https://github.com/harishvc/challenges/blob/master/string-anagram.py) :bulb:  
 
 ### Search  
 1. Implement skip list   
