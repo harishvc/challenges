@@ -121,6 +121,8 @@ Collection of interesting questions and solutions that involve data structures, 
 10. Sort a string  
 11. Find the **first and second largest** value in an unsorted list
 12. [Given a sequence of words, print all **anagrams** together](https://github.com/harishvc/challenges/blob/master/string-anagram.py) :bulb:  
+13. [Sort a string of printable characters](https://github.com/harishvc/challenges/blob/master/sort-bucketsort-string.py) :rocket:  
+
 
 ### Search  
 1. Implement skip list   
