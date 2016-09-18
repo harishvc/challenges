@@ -137,10 +137,13 @@ Collection of interesting questions and solutions that involve data structures, 
     9.1 Can modify the input list  
     9.2 Cannot modify the input list  
 10. [Given unsorted values with several duplicates and **one value that occurs once** find the value](https://github.com/harishvc/challenges/blob/master/search-find-unique-in-duplicates.py) TODO  
-11. Given a list of unordered positive and negative integers, find the **maximum subarray sum** in the array  
-12. Given a list and a number K, print the **maximum sum subarray** of size K  
-13. [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
-14. [Given a sorted list find if a value exists](https://github.com/harishvc/challenges/blob/master/bst-check-if-value-exists.py) :boom:  
+11. Find duplicates given 2 sorted lists  
+    11.1 both list of same size  
+    11.2 one list is >> other  
+12. Given a list of unordered positive and negative integers, find the **maximum subarray sum** in the array  
+13. Given a list and a number K, print the **maximum sum subarray** of size K  
+14. [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
+15. [Given a sorted list find if a value exists](https://github.com/harishvc/challenges/blob/master/bst-check-if-value-exists.py) :boom:  
 
 
 ### Lists & Dictionaries
