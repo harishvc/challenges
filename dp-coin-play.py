@@ -24,30 +24,59 @@ REFERENCE:
 2. https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/NPotGold.java
 3. http://stackoverflow.com/questions/22195300/understanding-solution-to-finding-optimal-strategy-for-game-involving-picking-po
 4. http://ideone.com/ug1DOx
+5. https://github.com/harishvc/challenges/blob/master/images/dp-game-play.jpg
 '''
 
 
 #Solution 1: recursive
-def MaxValue(values,start,end):
+def MaxScore(a,start,end):
+	#IMPORTANT: exit condition, start > end (not start == end)
 	if start > end:
 		return 0
-	#IMPORTANT: Min since each player leaves the minimum value	
-	t1 = min(MaxValue(values, start+2, end), MaxValue(values, start+1, end-1))
-	t2 = min(MaxValue(values, start+1, end-1), MaxValue(values, start,  end-2))
-	#option 1: pick start
-	path1 = values[start] + t1
-	#option 2: pick end
-	path2 = values[end] + t2
-	return (max(path1,path2))
+	else:
+		#Each player leaves the minimum value
+		path1 = a[start] + min(MaxScore(a,start+2,end), MaxScore(a,start+1,end-1))
+		path2 = a[end]   + min(MaxScore(a,start+1,end-1), MaxScore(a,start,end-2))
+		return max(path1,path2)
+
+#Solution 2: recursive with path
+def MaxScoreP(a,start,end,path):
+	#IMPORTANT: exit condition
+	if start > end:
+		return 0,path
+	else:
+		#1st branch
+		path1Value,path1Path = MaxScoreP(a,start+2,end,path+[a[start]])
+		path2Value,path2Path = MaxScoreP(a,start+1,end-1,path+[a[start]])
+		if path1Value < path2Value:
+			b1v,b1p = a[start]+path1Value,path1Path
+		else:
+			b1v,b1p = a[start]+path2Value,path2Path
 
 
-#Solution 2: Dynamic Programming
+		#2nd branch	
+		path3Value,path3Path = MaxScoreP(a,start+1,end-1,path+[a[end]])
+		path4Value,path4Path = MaxScoreP(a,start,end-2,path+[a[end]])
+		if path3Value < path4Value:
+			b2v,b2p = a[end]+path3Value,path3Path
+		else:
+			b2v,b2p = a[end]+path4Value,path4Path
+
+		#return max of branch1, baranch2
+		if b1v >  b2v:
+			return b1v,b1p
+		else:
+			return b2v,b2p
+
+
+#Solution 3: Dynamic Programming
 def MaxValueDP(values,size):
 	table = [[0 for x in range(size)] for y in range(size)]
 	#Initialize for length=1
 	for start in range(size):
 		table[start][start] = values[start]
-	#Generate values for length=2,3 ....	
+	#Generate values for length=2,3 ....
+	#size+1 to include all values!	
 	for l in range(2,size+1):
 		#start value range 0  & 1
 		for start in range(size-2):
@@ -55,7 +84,7 @@ def MaxValueDP(values,size):
 			#size =2  -> [0,1] [1,2],[2,3]
 			#size =3  -> [0,2], [1,3]
 			end = start + l - 1
-			#IMPORTANT: break!
+			#IMPORTANT: break to handle size+1
 			if end == size:
 				break
 			#option 1: pick start	
