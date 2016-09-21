@@ -79,13 +79,13 @@ def MaxValueDP(values,size):
 	#size+1 to include all values!	
 	for l in range(2,size+1):
 		#start value range 0  & 1
-		for start in range(size-2):
+		for start in range(0,size):
 			#end values changes based on start and length(l)
 			#size =2  -> [0,1] [1,2],[2,3]
 			#size =3  -> [0,2], [1,3]
 			end = start + l - 1
-			#IMPORTANT: break to handle size+1
-			if end == size:
+			#IMPORTANT: break when start or end index is not valid
+			if start >= size or start+1 >= size or start+2 >= size or end >= size:
 				break
 			#option 1: pick start	
 			path1 = values[start] + min(table[start+2][end],table[start+1][end-1])
