@@ -93,6 +93,7 @@ Collection of interesting questions and solutions that involve data structures, 
 7. [Swap two variable values without additional space](https://github.com/harishvc/challenges/blob/master/swap-two-variable-values-without-additional-space.py)
 8. [Write an efficient program to unset the right most bit and count number of 1s in binary representation of an integer](https://github.com/harishvc/challenges/blob/master/bit-count-1s.py)    
 9. [Given a list of repeating integers find the lonely integer](https://github.com/harishvc/challenges/blob/master/bit-lonely-integer.py)             
+10. [Design rand7 using rand5](https://github.com/harishvc/challenges/blob/master/generate-rand7.py) :bulb:    
 
 
 ### Sort
