@@ -1,4 +1,4 @@
-#Design rand7() using rand5()
+#Generate rand7() using rand5()
 
 '''
 OBSERVATION:
