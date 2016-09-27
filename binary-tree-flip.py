@@ -1,6 +1,9 @@
 '''
-Question: Flip a binary tree. right -> left nodes
-                                    <-
+Question: Flip (Invert) a binary tree. right -> left nodes
+                                             <-
+References:
+1. https://www.quora.com/Is-invert-a-binary-tree-a-good-question-for-Google-to-ask-in-a-technical-interview
+2. http://buttercola.blogspot.com/2015/09/leetcode-invert-binary-tree.html?m=1
 '''
 
 
