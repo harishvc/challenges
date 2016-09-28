@@ -324,7 +324,7 @@ Collection of interesting questions and solutions that involve data structures, 
   4.3  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)    
   4.4  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
   4.5  Complete Binary Tree  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.1 Find # nodes in a Complete Binary Tree
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.1 Find # nodes in a Complete Binary Tree    
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.3 Check if a Binary Tree is Complete Binary tree?      
   4.6  Balanced Binary Tree  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.6.1 [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
@@ -424,7 +424,9 @@ Collection of interesting questions and solutions that involve data structures, 
 5. Find all string **permutations**     
     5.1 [String with **unique values**](https://github.com/harishvc/challenges/blob/master/dp-string-permutation.py)  
     5.2 [String with **duplicate values**](https://github.com/harishvc/challenges/blob/master/dp-string-permutation.py#L38) :rocket: :bulb:     
-6. [Given stock prices during a time period find **maximum gain** from one purchase followed by one sale](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:
+6. Given stock prices during a time period find **maximum gain** 
+    6.1 [** singe purchase and sale**](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:  
+    6.2  multiple single purchases and sales without overlaps   
 7. Partition   
    7.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py):notes:    
    7.2 [Given a list, identify two sub-lists with **equal sum** (balanced partition, using DP)](https://github.com/harishvc/challenges/blob/master/dp-balanced-partition.py) :rocket: :bulb:    
