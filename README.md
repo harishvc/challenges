@@ -319,11 +319,13 @@ Collection of interesting questions and solutions that involve data structures, 
    * 3.7 [Find sum of all **leaf nodes**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-leaf-sum.py)            
    * 3.8 [Find the sum of all **left leaves**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-left-leaf-sum.py)       
 4. Moderate Difficulty    
-  4.1  [Flip a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-flip.py) :thumbsup:    
+  4.1  [Flip/Invert a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-flip.py) :thumbsup:    
   4.2  [Clone a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-clone.py) :thumbsup:    
-  4.3  [Invert a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-invert.py) :bulb: [TODO]     
-  4.4  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)    
-  4.5  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
+  4.3  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)    
+  4.4  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
+  4.5  Complete Binary Tree  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.1 Find # nodes in a Complete Binary Tree
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.3 Check if a Binary Tree is Complete Binary tree?      
   4.6  Balanced Binary Tree  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.6.1 [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.6.2  Add a node to a **balanced binary tree**     
@@ -439,9 +441,9 @@ Collection of interesting questions and solutions that involve data structures, 
     11.2 [Find all possible combinations to reach a total using lookup](https://github.com/harishvc/challenges/blob/master/coin-change-with-lookup.py) :bulb: :boom:  
     11.3 [Minimum # coins needs to reach the total and what are the coins?](https://github.com/harishvc/challenges/blob/master/dp-minimum-coins.py)  :rocket: :notes:     
 12. [Determine the maximum possible value from the **coin play game**](https://github.com/harishvc/challenges/blob/master/dp-coin-play.py) :rocket:  :notes: :bulb:   
-13. What is the **minimum attempts** to find out from which floor egg will break?
-    13.1 2 Eggs (https://github.com/harishvc/challenges/blob/master/dp-egg-drop.py)  :notes: :rocket:  
-    13.2 N eggs    
+13. What is the **minimum attempts** to find out from which floor egg will break?   
+    13.1 2 Eggs   
+    13.2 [N eggs](https://github.com/harishvc/challenges/blob/master/dp-egg-drop.py)  :notes: :rocket:      
 14. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game](https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:
 15. Find the *nth Fibonacci number*   
    15.1 [Iterative, Recursive, Bottom-up & Top-down](https://github.com/harishvc/challenges/blob/master/fibonacci-find-nth.py)  
