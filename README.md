@@ -444,7 +444,7 @@ Collection of interesting questions and solutions that involve data structures, 
     11.3 [Minimum # coins needs to reach the total and what are the coins?](https://github.com/harishvc/challenges/blob/master/dp-minimum-coins.py)  :rocket: :notes:     
 12. [Determine the maximum possible value from the **coin play game**](https://github.com/harishvc/challenges/blob/master/dp-coin-play.py) :rocket:  :notes: :bulb:   
 13. What is the **minimum attempts** to find out from which floor egg will break?   
-    13.1 2 Eggs   
+    13.1 [2 Eggs](https://github.com/harishvc/challenges/blob/master/dp-egg-drop-2eggs.py)  :art: :rocket: :bulb:     
     13.2 [N eggs](https://github.com/harishvc/challenges/blob/master/dp-egg-drop.py)  :notes: :rocket:      
 14. [How many different 10-digit numbers can be formed starting from 1? movement from 1 digit to the next is similar to the movement of the Knight in a chess game](https://github.com/harishvc/challenges/blob/master/dp-knight-chess-movement.py) :bulb: :rocket:
 15. Find the *nth Fibonacci number*   
