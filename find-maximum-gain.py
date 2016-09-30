@@ -5,47 +5,51 @@ from one purchase followed by one sale of the stock
 Reference: 
   1. http://stackoverflow.com/questions/7086464/maximum-single-sell-profit
   2. http://keithschwarz.com/interesting/code/?dir=single-sell-profit
-
-Observation:
-Each data point we need to make a decision - buy or sell?
-1. Time to Sell? 
-   a. New data point > buy
-   b. Profit from new data point is > profit
-       b1. profit = sell-buy
-       b2. profit = sell-maybebuy  
-2. Time to buy?
-   a. if new data point is < buy, perhaps "maybebuy" since we don't know about the following data points    
-
-Complexity:
-Time Complexity: O(n) , Space Complexity: O(1) 
-
-Output: 
-[5, 10, 4, 6, 7] ->>>> Buy=5 Sell=10 Gain=5
-[5, 10, 4, 6, 12] ->>>> Buy=4 Sell=12 Gain=8
-[1, 2, 3, 4, 5] ->>>> Buy=1 Sell=5 Gain=4
-
-Dynamic Programming: (Bottom-up)
-Start with the first value of the input and keep building the solution for higher values
+  3. http://www.ideserve.co.in/learn/buy-and-sell-stock-part-one
 '''
 
-input = [5,10,4,6,7,2,7]
-#input = [1,2,3,4,5]
-#input = [5,1]
 
-buy = input[0]
-sell = None
-profit = None
-maybenewbuy = None
+#Solution 1:
+'''
+Run two loops to find max profit
+Time complexity: O(n^2)
+'''
 
-for x in range(1,len(input)):
-	#Scenario 1: Sell
-	if(input[x] > buy or (profit is not None and profit < input[x]-buy) or (maybenewbuy is not None and profit < input[x]-maybenewbuy)):
-		sell = input[x]
-		if (maybenewbuy is not None):
-			buy = maybenewbuy
-			maybenewbuy = None
-		profit = sell - buy
-	#Scenario 2: Buy
-	elif(input[x] < buy):
-		maybenewbuy = input[x]
-print("Buy=%d Sell=%d Profit=%d" % (buy,sell,profit))
+#Solution 2: Use queue
+'''
+Keep track of the increasing subsequence in a queue
+If new value is greater than last seen value
+   - add to queue,
+   - calculate new profit, check if max profit
+If new value is less than last seen value
+    - pop all the values from queue
+    - add the value to queue
+In the end subtract the first and last values from queue to find profit, check if max profit
+Time Complexity: O(n)
+Space Complexity: O(n)
+'''
+
+#Solution 3: Modified solution #2, using two pointers
+'''
+Modify solution 2 to keeping track of lowest price and profit (no need for queue)
+1. if new value is < lowest value
+    - update new lowest value
+2. if new value is > lowest value
+    - update profit
+Time Complexity: O(n)
+Space Complexity: O(1)
+'''
+def maxProfit(a):
+	profit = 0
+	lowest_stock_price = a[0]
+	for i in range(1, len(a)):
+		if a[i] > lowest_stock_price:
+			profit = a[i] - lowest_stock_price
+		else:
+			lowest_stock_price = a[i]  #new lowest!
+	return profit 
+
+
+stock_prices = [[5,10,4,6,7,2,7], [5, 10, 4, 6, 12],[1,2,3,4,5], [5,1]]
+for s in stock_prices:
+	print("input >>> %s  max profit=%d" % (s,maxProfit(s)))
