@@ -179,8 +179,9 @@ Collection of interesting questions and solutions that involve data structures, 
    10.5 [Find pairs in an integer whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py)  
    10.6 [Given a list of integers and two target values find the shortest distance between the two target values](https://github.com/harishvc/challenges/blob/master/list-find-shortest-distance.py)  :boom:  :notes:   
    10.7 [Find the **pivot** value that splits the list into balanced partitions](https://github.com/harishvc/challenges/blob/master/list-find-pivot-balanced.py) :notes: :bulb:     
-   10.8 [Given a list of unordered positive and negative integers, find the **maximum subarray sum** in the array - Kadane Algorithm](https://github.com/harishvc/challenges/blob/master/dp-largest-sum-sublist.py) :notes: :bulb:     
-   10.9 Given a list and a number K, print the **maximum sum subarray** of size K  
+   10.8 [Find the **maximum subarray sum** - Kadane Algorithm](https://github.com/harishvc/challenges/blob/master/dp-largest-sum-sublist.py) :notes: :bulb:
+   10.9 [Find #occurances of the largest sum contiguous subarray of modulo K](https://github.com/harishvc/challenges/blob/master/dp-largest-sum-sublist-modulo.py) :art: :bulb:  
+   10.10 Given a list and a number K, print the **maximum sum subarray** of size K  
 11. Rotated list   
    11.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
    11.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
