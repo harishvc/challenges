@@ -141,10 +141,8 @@ Collection of interesting questions and solutions that involve data structures, 
 11. Find duplicates given 2 sorted lists  
     11.1 both list of same size  
     11.2 one list is >> other  
-12. Given a list of unordered positive and negative integers, find the **maximum subarray sum** in the array  
-13. Given a list and a number K, print the **maximum sum subarray** of size K  
-14. [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
-15. [Given a sorted list find if a value exists](https://github.com/harishvc/challenges/blob/master/bst-check-if-value-exists.py) :boom:  
+12. [Given a two dimentional matrix where values are increasing. Search for a target value](https://github.com/harishvc/challenges/blob/master/two-dimensional-array-number-exist.py) :thumbsup:  :notes:  
+13. [Given a sorted list find if a value exists](https://github.com/harishvc/challenges/blob/master/bst-check-if-value-exists.py) :boom:  
 
 
 ### Lists & Dictionaries
@@ -170,26 +168,29 @@ Collection of interesting questions and solutions that involve data structures, 
    9.2 [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)       
    9.3 [Find all possible triplets in the list that satisfies a^2 + b^2 = c^2](https://github.com/harishvc/challenges/blob/master/find-integers-that-match-expression.py)  :notes: :boom:     
    9.4 [There are numbers from 1 to N in an array. One of the number gets duplicated and one is missing. Find out the duplicate number]  (https://github.com/harishvc/challenges/blob/master/find-missing-and-duplicate-number.py) :notes: [TODO]    
-   9.5 [Given two arrays of integers, find a pair of values (one from each array) you can swap so that both arrays sum to the same value] (https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)  [TODO]  
+   9.5 [Given two arrays of integers, find a pair of values (one from each array) you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)  [TODO]  
    9.6 [Find three numbers when multipled provide max value from the given input](https://github.com/harishvc/challenges/blob/master/find-three-numbers-when-multipled-provide-max-value.py)  
    9.7 Find all possible quadruplets in the list that add up to the given sum   
-   9.8 [Find a continuous subarray of sum zero](https://github.com/harishvc/challenges/blob/master/list-find-subset-sumzero.py)  :notes:  :rocket:  
-   9.9  [Find a continuous subarray of sum target given positive values](https://github.com/harishvc/challenges/blob/master/list-find-consecutive-positive-values-target.py)  :notes:  
-   9.10 [Find a continuous subarray of sum target given positive and negative values](https://github.com/harishvc/challenges/blob/master/list-find-consecutive-negative-values-target.py)  :notes: :rocket:   
-   9.11 [Print alternate positive and negative values while retaining order](https://github.com/harishvc/challenges/blob/master/list-alternate-positive-negative.py)  :boom:    
-   9.12 [Find pairs in an integer whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py)  
-   9.13 [Given a list of integers and two target values find the shortest distance between the two target values](https://github.com/harishvc/challenges/blob/master/list-find-shortest-distance.py)  :boom:  :notes:   
-   9.14 [Find the **pivot** value that splits the list into balanced partitions](https://github.com/harishvc/challenges/blob/master/list-find-pivot-balanced.py) :notes: :bulb:     
-10. Rotated list   
-   10.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
-   10.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
-   10.3 [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
-11. Time intervals  
-   11.1 [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
-   11.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
-   11.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)   
-   11.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
-12. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
+10. Subarray and condition
+   10.1 [Find a continuous subarray of sum zero](https://github.com/harishvc/challenges/blob/master/list-find-subset-sumzero.py)  :notes:  :rocket:  
+   10.2 [Find a continuous subarray of sum target given positive values](https://github.com/harishvc/challenges/blob/master/list-find-consecutive-positive-values-target.py)  :notes:  
+   10.3 [Find a continuous subarray of sum target given positive and negative values](https://github.com/harishvc/challenges/blob/master/list-find-consecutive-negative-values-target.py)  :notes: :rocket:   
+   10.4 [Print alternate positive and negative values while retaining order](https://github.com/harishvc/challenges/blob/master/list-alternate-positive-negative.py)  :boom:    
+   10.5 [Find pairs in an integer whose sum is equal to a given value](https://github.com/harishvc/challenges/blob/master/find-integer-pairs-equal-to-sum.py)  
+   10.6 [Given a list of integers and two target values find the shortest distance between the two target values](https://github.com/harishvc/challenges/blob/master/list-find-shortest-distance.py)  :boom:  :notes:   
+   10.7 [Find the **pivot** value that splits the list into balanced partitions](https://github.com/harishvc/challenges/blob/master/list-find-pivot-balanced.py) :notes: :bulb:     
+   10.8 Given a list of unordered positive and negative integers, find the **maximum subarray sum** in the array   
+   10.9 Given a list and a number K, print the **maximum sum subarray** of size K  
+11. Rotated list   
+   11.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
+   11.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
+   11.3 [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
+12. Time intervals  
+   12.1 [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
+   12.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
+   12.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)   
+   12.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
+13. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
 
  
 ### Strings
