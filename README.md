@@ -180,7 +180,7 @@ Collection of interesting questions and solutions that involve data structures, 
    10.6 [Given a list of integers and two target values find the shortest distance between the two target values](https://github.com/harishvc/challenges/blob/master/list-find-shortest-distance.py)  :boom:  :notes:   
    10.7 [Find the **pivot** value that splits the list into balanced partitions](https://github.com/harishvc/challenges/blob/master/list-find-pivot-balanced.py) :notes: :bulb:     
    10.8 [Find the **maximum subarray sum** - Kadane Algorithm](https://github.com/harishvc/challenges/blob/master/dp-largest-sum-sublist.py) :notes: :bulb:  
-   10.9 [Find **#occurances** of the largest sum **contiguous subarray of modulo K**](https://github.com/harishvc/challenges/blob/master/dp-largest-sum-sublist-modulo.py) :art: :bulb:  
+   10.9 [Find **#occurrences** of the largest sum **contiguous subarray of modulo K**](https://github.com/harishvc/challenges/blob/master/dp-largest-sum-sublist-modulo.py) :art: :bulb:  
    10.10 Given a list and a number K, print the **maximum sum subarray** of size K  
 11. Rotated list   
    11.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
@@ -465,7 +465,7 @@ Collection of interesting questions and solutions that involve data structures, 
 18. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
 19. Input string and dictionary of words     
    19.1 [Can the input word be split using space-separated sequence of dictionary words?](https://github.com/harishvc/challenges/blob/master/dp-word-split.py) :notes: :art:        
-   19.2 Construct all possible sentences where each word is a valid dictionary word :bulb: :rocket:     
+   19.2 Construct **all possible sentences** where each word is a valid dictionary word :bulb: :rocket:     
 20. Given two sequences find the longest palindrome   
 21. Text justification   
     21.1 [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
