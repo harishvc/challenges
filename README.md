@@ -464,9 +464,8 @@ Collection of interesting questions and solutions that involve data structures, 
    17.3 Longest common substring of more than two strings  
 18. [Find #steps to convert string1 to string 2 using operations insert,remove,replace](https://github.com/harishvc/challenges/blob/master/dp-string-distance.py)  :thumbsup:  :rocket:
 19. Input string and dictionary of words     
-   19.1 [Can the input word be split using space-separated sequence of dictionary words?](https://github.com/harishvc/challenges/blob/master/dp-word-split.py) :notes: :bulb:      
-   19.2 Split the input string into a space-separated sequence of dictionary words if possible  
-   19.3 [Find all possible space-separated sequence of dictionary words](https://github.com/harishvc/challenges/blob/master/dp-word-split-find-all-sequences.py) :bulb: :rocket:     
+   19.1 [Can the input word be split using space-separated sequence of dictionary words?](https://github.com/harishvc/challenges/blob/master/dp-word-split.py) :notes: :art:        
+   19.2 Construct all possible sentences where each word is a valid dictionary word :bulb: :rocket:     
 20. Given two sequences find the longest palindrome   
 21. Text justification   
     21.1 [Given a string and limit provide line breaks based on **even distribution of empty spaces**](https://github.com/harishvc/challenges/blob/master/dp-word-wrap.py) :bulb: :notes:   
