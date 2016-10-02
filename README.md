@@ -421,7 +421,8 @@ Collection of interesting questions and solutions that involve data structures, 
 ### Dynamic Programming
 1. [Multiply two numbers without using operators *, / and with **minimal operations**](https://github.com/harishvc/challenges/blob/master/dp-multiply-using-addition-subtraction.py) :thumbsup:    
 2. [Find the **power set**](https://github.com/harishvc/challenges/blob/master/dp-power-set.py) :notes: :bulb:  
-   _Power Set is a set that includes all the subsets including an empty set and the set itself. 2^N subsets for a set of size N_      
+   _Power Set is a set that includes all the subsets including an empty set and the set itself.   
+   2^N subsets for a set of size N_       
 3. [Generate all possible N pairs of **balanced parentheses**](https://github.com/harishvc/challenges/blob/master/dp-balanced-parentheses.py)  :rocket: :bulb:      
 4. [Find string **combinations** of length K](https://github.com/harishvc/challenges/blob/master/dp-string-combinations.py)        
 5. Find all string **permutations**     
