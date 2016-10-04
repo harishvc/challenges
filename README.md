@@ -26,8 +26,13 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Interview Resources](#interview-resources)
 * [Amazing Technical Discussions](#amazing-technical-discussions)
 
-### Python Reference
-1. [Python3 Quick Reference](https://github.com/harishvc/quick-references/tree/master/python3)  :thumbsup: 
+### Quick References
+1. [Command Line Tools](https://github.com/harishvc/tools/tree/master/cmd)   
+2. [AWK](https://github.com/harishvc/tools/tree/master/awk)   
+3. [Python3](https://github.com/harishvc/quick-references/tree/master/python3)  :thumbsup: 
+4. [MySQL](https://github.com/harishvc/quick-references/tree/master/mysql)  
+5. [JavaScript](https://github.com/harishvc/quick-references/tree/master/javascript)      
+ 
 
 ### Data Structures, Algorithms &amp; Concepts
 1. [Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)  :thumbsup: :notes:
