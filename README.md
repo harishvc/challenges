@@ -36,7 +36,7 @@ Collection of interesting questions and solutions that involve data structures, 
 
 ### Data Structures, Algorithms &amp; Concepts
 1. [Data structures, algorithms, time complexity and concepts](https://github.com/harishvc/challenges/blob/master/Data-Structure-Algorithms-Concepts-Notes.md)  :thumbsup: :notes:
-2. [Introduction to Concurrency](https://github.com/harishvc/challenges/blob/master/Introduction-Concurrency-Notes.md)  :thumbsup: :notes:  
+2. [Introduction to Concurrency](https://github.com/harishvc/quick-references/blob/master/python3/python-intro4c.md)  :thumbsup: :notes:  
 3. [Introduction to Design Pattern](https://github.com/harishvc/challenges/blob/master/Design-patterns.md)  :notes:   
 4. [Introduction to Bit Manipulation](https://github.com/harishvc/challenges/blob/master/bitwise-operations.py)  :boom: :notes:  
 5. [Fun with Bits & Bytes](https://github.com/harishvc/quick-references/tree/master/bits-bytes) :rocket: 
@@ -559,4 +559,5 @@ Collection of interesting questions and solutions that involve data structures, 
 ### GitHub Resources
 * [List of emoji for git commits](https://gist.github.com/pocotan001/68f96bf86891db316f20)
 * [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/)
-* [Github markup preview](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Github markup cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Github markup preview](https://jbt.github.io/markdown-editor)
