@@ -24,39 +24,33 @@ def PrintLinkedList(list):
 		list = list.next
 
 
-def add2List(reference,node):
-	#IMPORTANT: keep copy of head node
-	head = reference
-	if reference:
-		while reference.next:
-			reference = reference.next
-		reference.next = node
-		#IMPORTANT: update next
-		reference.next.next = None
-		return head #send head node
-	else:
-		reference = node
-		#IMPORTANT: update next
-		reference.next = None
-		return reference #send head node
-
-#split node by odd or even value
 def splitLL(node):
-	odd = None
-	even = None
-	while node:
-		current = node
-		#IMPORTANT: Get next node to process!!!
-		node = node.next
-		if current.data%2 ==0:
-			tmp = even
-			#IMPORTANT: Get reference to head node
-			even = add2List(tmp,current)
-		else:
-			tmp = odd
-			#IMPORTANT: Get reference to head node
-			odd = add2List(tmp,current)
-	return odd,even
+    oddHead = None
+    evenHead = None
+    odd = None
+    even = None
+    while node:
+        #IMPORTANT: get next
+        tmp = node.next 
+        if node.data%2 == 0:  #even
+            if evenHead is None:
+                evenHead = node
+                even = node
+            else:
+                even.next = node
+                even = node
+        else: #odd
+            if oddHead is None:
+                oddHead = node
+                odd = node
+            else:
+                odd.next = node
+                odd = node
+        #IMPORTANT: end each node        
+        node.next = None
+        #IMPORTANT: next node
+        node = tmp
+    return oddHead,evenHead
 
 #create linked list
 head = LinkedList(1)
