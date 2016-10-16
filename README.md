@@ -229,7 +229,7 @@ Collection of interesting questions and solutions that involve data structures, 
    9.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
    9.6 Find the longest substring with k unique characters  
    9.7 Find the longest substring with non-repeating characters   
-   9.8 Longest Substring with At Most K Distinct Characters        
+   9.8 [Longest Substring with At Most K Distinct Characters](https://github.com/harishvc/challenges/blob/master/string-Kmost-distinct-substring.py) :art: :thumbsup:         
 10.[Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  :notes: :rocket:    
 11. Find the **first non repeating character** in string   
 
