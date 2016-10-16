@@ -228,7 +228,8 @@ Collection of interesting questions and solutions that involve data structures, 
    9.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
    9.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
    9.6 Find the longest substring with k unique characters  
-   9.7 Find the longest substring with non-repeating characters        
+   9.7 Find the longest substring with non-repeating characters   
+   9.8 Longest Substring with At Most K Distinct Characters        
 10.[Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  :notes: :rocket:    
 11. Find the **first non repeating character** in string   
 
@@ -260,6 +261,7 @@ Collection of interesting questions and solutions that involve data structures, 
 15. Implement skip list   
 16. [Given linked list return max value at any given time in constant time](https://github.com/harishvc/challenges/blob/master/linked-list-max-queue.py)     
 17. [Swap adjacent nodes of a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-swap-adjacent-nodes.py)  [TODO]  
+18. Return a linked list that contains the **intersection** of two linked lists
 
 
 ### Stacks
@@ -269,7 +271,7 @@ Collection of interesting questions and solutions that involve data structures, 
 4. [Implement stack using fixed size array](https://github.com/harishvc/challenges/blob/master/stack-implementation-using-fixed-sized-array.py)
 5. [Implement stack with getMax() that operates in constant time](https://github.com/harishvc/challenges/blob/master/stack-with-maxvalue.py) :memo:
 6. [Check if a string containing parenthesis'()' is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis.py) :memo: 
-7. [Check if a string containing parenthesis, square brackets and curly brackets is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis-square-brackets-and-curly-brackets.py)
+7. [Check if a string containing just the characters '(', ')', '{', '}', '[' and ']'is balanced](https://github.com/harishvc/challenges/blob/master/stack-check-matching-parenthesis-square-brackets-and-curly-brackets.py)
 8. [Find the length of the longest valid parenthesis sequence in a string, in O(n) time](https://github.com/harishvc/challenges/blob/master/stack-longest-matching-parenthesis.py)  :notes: :thumbsup:  
 9. [Given a string where each character can be [0-9] or [+-*] find the result](https://github.com/harishvc/challenges/blob/master/stack-calculator.py) :thumbsup:  
 10. [Find top 3 and bottom 2 values from the list in O(n)](https://github.com/harishvc/challenges/blob/master/find-top-3-bottom-3-values-in-a-list.py) :thumbsup:   
