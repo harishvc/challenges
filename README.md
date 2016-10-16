@@ -261,7 +261,7 @@ Collection of interesting questions and solutions that involve data structures, 
 15. Implement skip list   
 16. [Given linked list return max value at any given time in constant time](https://github.com/harishvc/challenges/blob/master/linked-list-max-queue.py)     
 17. [Swap adjacent nodes of a linked list](https://github.com/harishvc/challenges/blob/master/linked-list-swap-adjacent-nodes.py)  [TODO]  
-18. Return a linked list that contains the **intersection** of two linked lists
+18. [Return a linked list that contains the **intersection** of two linked lists](https://github.com/harishvc/challenges/blob/master/linked-list-merge-duplicates.py) :notes:  
 
 
 ### Stacks
