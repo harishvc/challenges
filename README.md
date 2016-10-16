@@ -437,7 +437,7 @@ Collection of interesting questions and solutions that involve data structures, 
     5.2 [String with **duplicate values**](https://github.com/harishvc/challenges/blob/master/dp-string-permutation.py#L38) :rocket: :bulb:     
 6. Given stock prices during a time period find **maximum gain**    
     6.1 [singe purchase and sale](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:  
-    6.2  multiple single purchases and sales without overlaps   
+    6.2  [Multiple single purchases and sales without overlaps](https://github.com/harishvc/challenges/blob/master/find-maximum-gain-multiple.py) :art: :thumbsup:     
 7. Partition   
    7.1 [Can the given list be partitioned into two sub-lists with **equal sum** (balanced partition)?](https://github.com/harishvc/challenges/blob/master/dp-check-balanced-partition.py):notes:    
    7.2 [Given a list, identify two sub-lists with **equal sum** (balanced partition, using DP)](https://github.com/harishvc/challenges/blob/master/dp-balanced-partition.py) :rocket: :bulb:    
