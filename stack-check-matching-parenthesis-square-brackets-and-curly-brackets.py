@@ -1,54 +1,31 @@
-'''
-Question: Check if a string contains matching parenthesis, square brackets and curly brackets is balanced
-'''
+#Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+#The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+
+#Reference: 
+#1. https://leetcode.com/problems/valid-parentheses/
+#2. http://blog.gainlo.co/index.php/2016/09/30/uber-interview-question-delimiter-matching/
+
+#Assumtion
+#1. Input ONLY contains '(', ')', '{', '}', '[' and ']'
+
+#Time & Space complexity: O(n)
+def valid(a):
+	match = {'(':')' , '{':'}' , '[':']'}
+	mystack = []
+	size = 0
+	for i in a:
+		if i in ["(" , "{", "["]:
+			mystack.append(i)
+			size += 1
+		else:
+			if size == 0: return False 
+			p = mystack.pop()
+			if i != match[p]: return False
+			size -= 1
+	return True if size == 0 else False
 
 
-'''
-Solution 1: Iterate and keep count
-Time complexity: O(n)
-Space complexity: O(1)
-'''
+a = ["()" ,"()[]{}" ,"(]" , "([)]", "(((("]
+for a2 in a:
+	print("%s = %s" % (a2,valid(a2)))
 
-    
-'''
-Solution: Iterate, store left tags in stack, pop stack on right tags
-
-Algorithm:
-1. Push left parenthesis '(' in stack
-2. Pop when right parenthesis '(' is found
-3. Pop error - unbalanced
-4. Size of stack after iteration is > 0 then unbalanced
-
-Time complexity: O(n)
-Space complexity: O(n)
-'''
-def CheckMatchingTags(input):
-    import sys
-    sys.path.append("./mylib")
-    import Stack
-    demoStack = Stack.Stack()
-    match = {'}':'{', ')':'(', ']':'['}
-    for entry in input:
-        if (entry == '('):
-            demoStack.push(entry)
-        elif (entry == '{'):
-            demoStack.push(entry)
-        elif (entry == '['):
-            demoStack.push(entry)
-        elif (demoStack.peek() == match[entry]):
-            if (demoStack.pop() == -1):
-                return ("unbalanced")
-                exit
-    #Check is stack is empty - more left parenthesis
-    if (demoStack.mysize() == 0):
-        return ("balanced")
-    else:
-        return ("unbalanced")
-
-
-input = [ '([]){}', '([])}{', '([]{}']
-for s in input:
-    print(s, CheckMatchingTags(s))
-    print("~~~~")  
-    
-     
