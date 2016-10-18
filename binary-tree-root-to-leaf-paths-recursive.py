@@ -6,33 +6,22 @@ import sys
 sys.path.append("./mylib")
 import Tree
  
-#Solution 1
-#Print all root to leaf path and sum
-def Root2Leaf(node,path,sum):
-    if (node is None):
-        return
-    sum += node.data
-    path.append(node.data)    
-    if(node.getRight() is None and node.getLeft() is None):
-        print(path, sum)
-        path.pop()
-        return
-    Root2Leaf(node.getLeft(),path,sum)
-    Root2Leaf(node.getRight(),path,sum)
-    path.pop() #pop non-leaf nodes while leaving
-
-#Solution 2
-#Modified post order traversal (EASY TO FOLLOW!)
+#Modified post order traversal
 def Root2Leaf2(node,path,sum):
     if node is None:
         return
+    #step 1: update sum and path
     path.append(node.data)
     sum += node.data    
+    #step 2: visit sub-tree on left
     Root2Leaf2(node.left,path,sum)
+    #step 3: visit sub-tree on right
     Root2Leaf2(node.right,path,sum)
-    #IMPORTANT: Path ends in a leaf, check if node is leaf    
+    #step 4: If you are here, you have visited all nodes in the left and right sub-tree!!!
+    #check if node is leaf?    
     if(node.left is None and node.right is None):
         print(path,sum)
+    #step 5: update sum and path (go up the tree to the parent node)
     path.pop()
     sum -= node.data
 
