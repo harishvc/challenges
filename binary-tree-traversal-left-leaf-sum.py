@@ -1,7 +1,7 @@
 #Find sum of all left left nodes
 
 #Pass if node is on the left or right of the parent node
-def leftLeafSum(node,left):
+def leftLeafSum(node,left=None):
 	if node is None:
 		return 0
 	elif node.left is None and node.right is None:
@@ -32,4 +32,4 @@ root.getRight().insertLeft(6)
 root.getRight().insertRight(7)
 
 
-print(leftLeafSum(root,True))
+print(leftLeafSum(root))
