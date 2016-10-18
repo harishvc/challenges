@@ -6,6 +6,19 @@ References:
 2. http://buttercola.blogspot.com/2015/09/leetcode-invert-binary-tree.html?m=1
 '''
 
+'''
+       Before                   After
+         4                       4
+       /   \                   /   \
+      3     6                 6     3
+    /  \   / \              /  \   /  \
+   2    5 7   9            9   7  5    2
+
+before pre-order traversal:  4,3,2,5,6,7,9
+after  pre-order traversal:   4,6,9,7,3,5,2
+
+'''
+
 
 '''Binary Tree Class and its methods'''
 class BinaryTree:
