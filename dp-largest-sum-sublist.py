@@ -2,22 +2,20 @@
 
 '''
 Kadane Algorithm:
-
-Iterate values
-    - find sum so far
-    - if sum so far > max sum, update max sum
-    - else sum so far is NEGATIVE, reset to 0
-
-Limitation:
- - Only works if there are +ve and -ve values
+  - keep track of sum_so_far  (max of sum_so_far + new_value or new_value)
+  - keep track of max_sum
+  - working with all -ve values
+    - Logic above works if there are +ve and -ve values
+    - If all input values are -ve return the smallest negative value!
 
 Reference:
 1. http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
 2. http://www.programcreek.com/2013/02/leetcode-maximum-subarray-java/
 '''
 
-#Handle list of all negative values
-#Check if values are negative and return the smallest negative value!
+#Handle input with  
+#  - +ve & -ve values
+#  - all negative values
 import sys
 def maxContiguousSum(a):
 	sum_so_far =0
@@ -30,7 +28,7 @@ def maxContiguousSum(a):
 				nmax_sum = a[i]
 		else:
 			hasAllNegativeValues  = False #+ve value found!
-			sum_so_far = max (a[i], sum_so_far+a[i])
+			sum_so_far = max(a[i], sum_so_far+a[i])
 			max_sum = max(max_sum,sum_so_far)
 	if hasAllNegativeValues:
 		return nmax_sum
