@@ -1,6 +1,5 @@
 #Largest Sum Contiguous Subarray
 
-
 '''
 Kadane Algorithm:
 
@@ -14,20 +13,8 @@ Limitation:
 
 Reference:
 1. http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+2. http://www.programcreek.com/2013/02/leetcode-maximum-subarray-java/
 '''
-def maxContiguousSum1(a):
-	sum_so_far =0
-	max_sum = 0
-	for i in range(0,len(a)):
-		sum_so_far += a[i]
-		if sum_so_far > 0:
-			max_sum = max(max_sum,sum_so_far)
-		else:
-			assert sum_so_far < 0 , "Logic error"
-			#IMPORTANT: reset sum_so_far
-			sum_so_far = 0
-	return max_sum
-
 
 #Handle list of all negative values
 #Check if values are negative and return the smallest negative value!
@@ -43,11 +30,8 @@ def maxContiguousSum(a):
 				nmax_sum = a[i]
 		else:
 			hasAllNegativeValues  = False #+ve value found!
-			sum_so_far += a[i]
-			if sum_so_far > 0:
-				max_sum = max(max_sum,sum_so_far)
-			else:
-				sum_so_far = 0
+			sum_so_far = max (a[i], sum_so_far+a[i])
+			max_sum = max(max_sum,sum_so_far)
 	if hasAllNegativeValues:
 		return nmax_sum
 	else:
