@@ -487,6 +487,7 @@ Collection of interesting questions and solutions that involve data structures, 
 23. Matrix multiplication  
     23.1 [Find the most efficient way to multiply these matrices](https://github.com/harishvc/challenges/blob/master/dp-matrix-multiplication.py)  :notes: :bulb:  
     23.2 Find the order in which the matrices need to be multiplied  
+24. [Given the weight and a value of cakes and a duffel bag with max capacity, find the max value that can be filled in the duffel bag](https://github.com/harishvc/challenges/blob/master/dp-cake-thief.py)  :bulb: :art:  
 
 
 ### Design &amp; Algorithms
