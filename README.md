@@ -230,6 +230,7 @@ Collection of interesting questions and solutions that involve data structures, 
    9.6 Find the longest substring with k unique characters  
    9.7 [Find the longest substring with non-repeating characters](https://github.com/harishvc/challenges/blob/master/string-longest-substring-unique-character.py)      
    9.8 [Longest Substring with At Most K Distinct Characters](https://github.com/harishvc/challenges/blob/master/string-Kmost-distinct-substring.py) :art: :thumbsup:         
+   9.9 Find the minimum length of the substring that contains all characters in a given input :rocket:   
 10.[Given an input string and pattern find the minimum window in the input string that will contain all the characters in the pattern](https://github.com/harishvc/challenges/blob/master/minimum-window-matching-pattern.py)  :notes: :rocket:    
 11. Find the **first non repeating character** in string   
 
@@ -281,6 +282,10 @@ Collection of interesting questions and solutions that involve data structures, 
    It should run in O(n) expected time where n is the length of the sequence, which is not known in advnance.
    The value of K is known in advance. Print the k-th largest element after the sequence has ended.
    It should use O(k) additional storage](https://github.com/harishvc/challenges/blob/master/k-largest-element.py ) [TODO]
+14. Expression evaluator :rocket:    
+    14.1 Single digit  
+    14.2 Multiple digits  
+
 
 ### Queue & Double-ended Queue
 1. [Implement queue using list](https://github.com/harishvc/challenges/blob/master/queue-implement.py)
