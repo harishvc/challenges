@@ -338,7 +338,7 @@ Collection of interesting questions and solutions that involve data structures, 
   4.3  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)    
   4.4  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
   4.5  Complete Binary Tree  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.1 Find # nodes in a Complete Binary Tree    
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.1 [Find # nodes in a Complete Binary Tree](https://github.com/harishvc/challenges/blob/master/complete-binary-tree-count-nodes.py) :bulb: :rocket:      
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.3 Check if a Binary Tree is Complete Binary tree?      
   4.6  Balanced Binary Tree  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.6.1 [Check if a binary tree is fully balanced](https://github.com/harishvc/challenges/blob/master/binary-tree-balanced.py) :thumbsup: :bulb:  
