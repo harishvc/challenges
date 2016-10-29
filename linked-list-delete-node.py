@@ -1,64 +1,58 @@
-'''
-Delete a node from linked list
 
-Notes :notes:
-There is no such idea as destroying an object in Python. The garbage collection process does this 
-automatically where the object is not longer referenced.
-'''
-class Node:
-  def __init__(self,data):
-    self.data = data # contains the data
-    self.nextNode = None # contains the reference to the next node
+#Delete node from link list
 
-#Print Linked List
-def PrintLinkedList (node):
-    while node is not None:
-        print(node.data,end=" ")
-        node = node.nextNode
-    print("")
-    
-#Add to end of linked list
-def Insert2End(currentNode,newNode):
-    #Traverse linked list until end
-    while(currentNode.nextNode is not None):
-        currentNode = currentNode.nextNode
-    currentNode.nextNode = newNode
+import sys
+sys.path.append("../mylib/")
+import LinkedListLibrary
 
-#
+class LLNode:
+	def __init__(self,data):
+		self.data = data
+		self.next = None
 
-def DeleteNode(headNode,data):
-    n = headNode
-    #Scenario 1: head node
-    if (n.data == data):
-        return(n.nextNode)
-    #Scenario 2: middle or end 
-    while(n.nextNode is not None):
-        if (n.data == data):
-            #First get data
-            n.data = n.nextNode.data
-            #Next get location of next node
-            n.nextNode = n.nextNode.nextNode
-            return(headNode)    
-        else:
-            n = n.nextNode
-    #Scenario 3: Not found
-    print(data," Not found!")
-    return headNode
-    
-#Initialize the Linked List
-inputs = [1,2,3,4,5]
-head = Node(inputs[0])
-for x in range(1,len(inputs)):
-    #create reference to head node
-    currentNode = head
-    Insert2End(currentNode,Node(inputs[x]))
 
-#Print Linked List
-print("Linked List:")
-PrintLinkedList(head)
+#Solution 1
+def deleteNode1(node,target):
+	prev = None
+	keepGoing = True
+	head = node
+	while node and keepGoing:
+		if node == target:
+			keepGoing = False
+			if node == head:
+				head = node.next
+			else:
+				prev.next = node.next
+		else:
+			prev = node
+			node = node.next
+	return head
 
-#Delete from Linked List
-remove = 3
-head = DeleteNode(head, remove)
-print("Linked List (after deleting %d):" %(remove))
-PrintLinkedList(head)
+#Solution 2:
+#https://medium.com/@bartobri/applying-the-linus-tarvolds-good-taste-coding-requirement-99749f37684a#.ne8bqover
+#Not working for end node
+def deleteNode(node,target):
+	head = node
+	while node != target:
+		node = node.next
+	node = target.next
+	if head != target:
+		return head
+	else:
+		return node
+
+
+head1 = LLNode(1)
+head2 = head1
+for i in range(2,6):
+	newNode = LLNode(i)
+	if i == 3:
+		head2 = newNode
+	LinkedListLibrary.Insert2End(head1,newNode)       
+
+LinkedListLibrary.PrintLinkedList(head1)
+
+print("node to delete >>>", head2.data)
+
+head2 = deleteNode(head1,head2)
+LinkedListLibrary.PrintLinkedList(head2)
