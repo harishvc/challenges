@@ -285,6 +285,7 @@ Collection of interesting questions and solutions that involve data structures, 
 14. Expression evaluator :rocket:    
     14.1 [Single digit](https://github.com/harishvc/challenges/blob/master/expression-evaluator.py)    
     14.2 Multiple digits  
+15. [Find longest file path](https://github.com/harishvc/challenges/blob/master/longest-file-path.py) :art:  
 
 
 ### Queue & Double-ended Queue
