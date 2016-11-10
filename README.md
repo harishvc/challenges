@@ -197,8 +197,9 @@ Collection of interesting questions and solutions that involve data structures, 
    12.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)   
    12.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
 13. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
-
+14. [Implement a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes: :rocket:    
  
+
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
 2. [Find most and least frequently used words in a sentance](https://github.com/harishvc/challenges/blob/master/sort-by-word-frequency.py)
