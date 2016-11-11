@@ -119,10 +119,10 @@
   A tree is a hierarchy (non-linear) data structure made up of nodes and edges where all nodes are connected without having any cycle
 * A tree is a <strong>connected graph without the cycles</strong> - acyclic connected graph
 * Terminology  
-    * <strong>Depth (Top Down)</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node  
+    * <strong>Depth (AKA Level, Top Down)</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node  
        * **Root node has a depth of ONE** :boom:
        * Height of a tree is also referred as **maximum depth** :bulb:    
-    * <strong>Height (Bottom Up)</strong> of a node is #nodes on the **longest path** (#nodes) from the node to the **farthest leaf node**     
+    * <strong>Height (AKA Max Depth, Bottom Up)</strong> of a node is #nodes on the **longest path** (#nodes) from the node to the **farthest leaf node**     
        * <strong>Leaf nodes have height ONE</strong> :boom:
        * Height of a tree is at the root 
        * Height of a tree == height at the root
