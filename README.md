@@ -198,7 +198,7 @@ Collection of interesting questions and solutions that involve data structures, 
    12.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
 13. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
 14. [Implement a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes: :rocket:    
- 
+15. [Implement a function that inserts, deletes and getrandom in O(1)](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:    
 
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
