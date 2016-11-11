@@ -119,16 +119,17 @@
   A tree is a hierarchy (non-linear) data structure made up of nodes and edges where all nodes are connected without having any cycle
 * A tree is a <strong>connected graph without the cycles</strong> - acyclic connected graph
 * Terminology  
-    * <strong>Depth</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node - **top down**
+    * <strong>Depth (Top Down)</strong> of a node is the length of the path (#nodes) from the <strong>root</strong> to the node  
        * **Root node has a depth of ONE** :boom:
        * Height of a tree is also referred as **maximum depth** :bulb:    
-    * <strong>Height</strong> of a node is #nodes on the **longest path** (#nodes) from the node to the **farthest leaf node**  - **bottom up**   
+    * <strong>Height (Bottom Up)</strong> of a node is #nodes on the **longest path** (#nodes) from the node to the **farthest leaf node**     
        * <strong>Leaf nodes have height ONE</strong> :boom:
        * Height of a tree is at the root 
        * Height of a tree == height at the root
        * Height of a tree is also referred as **maximum depth**  
+    * <strong>Diameter (AKA Width)</strong>The diameter of a tree (sometimes called the width) is 
+      <bold>max</bold>(diameter of left sub-tree,diameter of right sub-tree,longest path between two leaves going through the root). Diameter of a tree <strong>may not</strong> be throught the root.
     * <strong>Size</strong> of binary tree is size of left subtree + 1 + size of right subtree
-    * <strong>Diameter/width</strong>The diameter of a tree (sometimes called the width) is the number of nodes on the <strong>longest path</strong> between two leaves in the tree. The longest path may not be through the root.   
     * <strong>Leaf</strong> is a node with no children.
 
 ## TRIES (Prefix trees)
