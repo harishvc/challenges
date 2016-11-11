@@ -308,33 +308,33 @@ Collection of interesting questions and solutions that involve data structures, 
 11. Implement non-blocking queue [TODO]
      
 ### Binary Trees
-1.  [Binary Tree Traversal Library](https://github.com/harishvc/challenges/blob/master/mylib/BinaryTreeTraversal.py)  :thumbsup: :rocket:   
+1. [Binary Tree Traversal Library](https://github.com/harishvc/challenges/blob/master/mylib/BinaryTreeTraversal.py)  :thumbsup: :rocket:   
   1.1 [Pre-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-pre-order.py)    
   1.2. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
   1.3. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
   1.4 Level-order    
-  * 1.4.1 [Print tree level by level](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)  
-  * 1.4.2  [Print one tree level each line](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order-each-line.py) :notes:     
-  * 1.4.3 [Add nextRight attribute to each node](https://github.com/harishvc/challenges/blob/master/binary-tree-next-right.py) :notes: :rocket: :art:      
-  * 1.4.4 [Print nodes in **spiral order**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-spiral-order.py) :bulb:  TODO 
+    1.4.1 [Print tree level by level](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)  
+    1.4.2  [Print one tree level each line](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order-each-line.py) :notes:     
+    1.4.3 [Add nextRight attribute to each node](https://github.com/harishvc/challenges/blob/master/binary-tree-next-right.py) :notes: :rocket: :art:      
+    1.4.4 [Print nodes in **spiral order**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-spiral-order.py) :bulb:  TODO 
 2. Essentials   
   2.0 [Binary Tree Essentials Library](https://github.com/harishvc/challenges/blob/master/mylib/BinaryTreeEssentials.py)  :thumbsup:  :rocket:    
   2.1 [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)  
   2.2 [Find the size of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)  
   2.3 [Find the height (max depth) of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)  :notes: :thumbsup:   
-  2.4 [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:  
+  2.4 [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py)  
   2.5 [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)  
   2.6 [Find diameter (width) of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup: :notes: :bulb:  
   2.8 [Find all edge nodes (boundary/perimeter) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:    
 3. Path Sum  
-   * 3.1 [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)  
-   * 3.2 [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:  
-   * 3.3 [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:  
-   * 3.4 [Root to leaf path (Iterative)](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)    
-   * 3.5 [Root to leaf path (Recursive)](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py) :notes:     
-   * 3.6 [Find the sum of all root to leaf paths in a binary tree where a node has a **binary digit value** and each root to leaf path represents a binary number. Sum all such numbers.](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:  
-   * 3.7 [Find sum of all **leaf nodes**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-leaf-sum.py)            
-   * 3.8 [Find the sum of all **left leaves**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-left-leaf-sum.py)       
+  3.1 [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)  
+  3.2 [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:  
+  3.3 [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:  
+  3.4 [Root to leaf path (Iterative)](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)    
+  3.5 [Root to leaf path (Recursive)](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py) :notes:     
+  3.6 [Find the sum of all root to leaf paths where each path represents a **binary number**](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:  
+  3.7 [Find sum of all **leaf nodes**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-leaf-sum.py)  
+  3.8 [Find the sum of all **left leaves**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-left-leaf-sum.py)       
 4. Moderate Difficulty    
   4.1  [Flip/Invert a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-flip.py) :thumbsup:    
   4.2  [Clone a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-clone.py) :thumbsup:    
