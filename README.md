@@ -198,7 +198,9 @@ Collection of interesting questions and solutions that involve data structures, 
    12.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
 13. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
 14. [Implement a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes: :rocket:    
-15. [Implement a function that inserts, deletes and getrandom in O(1)](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:    
+15. [Implement a function that inserts, deletes and getrandom in O(1)](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:   
+16. Write a function that returns values randomly, according to their weight [TODO]
+
 
 ### Strings
 1. [Find #words in a sentance](https://github.com/harishvc/challenges/blob/master/string-words.py)
@@ -319,11 +321,10 @@ Collection of interesting questions and solutions that involve data structures, 
   2.0 [Binary Tree Essentials Library](https://github.com/harishvc/challenges/blob/master/mylib/BinaryTreeEssentials.py)  :thumbsup:  :rocket:    
   2.1 [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)  
   2.2 [Find the size of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-size.py)  
-  2.3 [Find the height of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)  
-  2.4 [Find maximum depth of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-depth.py)  
-  2.5 [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:  
-  2.6 [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)  
-  2.7 [Find maximum diameter (width) and height of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup:  
+  2.3 [Find the height (max depth) of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-height.py)  :notes: :thumbsup:   
+  2.4 [Find the depth (level) of a node and the path from the root](https://github.com/harishvc/challenges/blob/master/binary-tree-node-depth-path.py) :thumbsdown:  
+  2.5 [Find the deepest node in binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-deepest-node.py)  
+  2.6 [Find diameter (width) of a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-diameter-height.py) :thumbsup: :notes: :bulb:  
   2.8 [Find all edge nodes (boundary/perimeter) in the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-edge-nodes.py) :thumbsup:    
 3. Path Sum  
    * 3.1 [Find the max value of the binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-value.py)  
