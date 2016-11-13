@@ -331,7 +331,7 @@ Collection of interesting questions and solutions that involve data structures, 
   3.2 [Find level than has maximum sum](https://github.com/harishvc/challenges/blob/master/binary-tree-find-level-with-max-pathsum.py) :thumbsup:  
   3.3 [Given path sum check if the path exists](https://github.com/harishvc/challenges/blob/master/binary-tree-check-if-path-exists.py) :thumbsup:  
   3.4 [Root to leaf path (Iterative)](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths.py)    
-  3.5 [Root to leaf path (Recursive)](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py) :notes:     
+  3.5 [Root to leaf path (Recursive)](https://github.com/harishvc/challenges/blob/master/binary-tree-root-to-leaf-paths-recursive.py) :art: :bulb:       
   3.6 [Find the sum of all root to leaf paths where each path represents a **binary number**](https://github.com/harishvc/challenges/blob/master/binary-tree-sum-of-all-root-to-leaf-paths.py) :thumbsup:  :memo: :bulb:  
   3.7 [Find sum of all **leaf nodes**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-leaf-sum.py)  
   3.8 [Find the sum of all **left leaves**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-left-leaf-sum.py)       
@@ -339,7 +339,7 @@ Collection of interesting questions and solutions that involve data structures, 
   4.1  [Flip/Invert a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-flip.py) :thumbsup:    
   4.2  [Clone a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-clone.py) :thumbsup:    
   4.3  [Check if a binary tree is symmetric (mirror)](https://github.com/harishvc/challenges/blob/master/binary-tree-check-symmetric.py)    
-  4.4  [Are two binary trees structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
+  4.4  [Check if two binary trees are structurally identical?](https://github.com/harishvc/challenges/blob/master/binary-tree-structurally-identical.py) :thumbsup:  
   4.5  Complete Binary Tree  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.1 [Find # nodes in a Complete Binary Tree](https://github.com/harishvc/challenges/blob/master/complete-binary-tree-count-nodes.py) :bulb: :rocket:      
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.5.3 Check if a Binary Tree is Complete Binary tree?      
