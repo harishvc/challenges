@@ -49,8 +49,6 @@ def preorderRecursive(root, result):
 
 # Pre-order iterative traversal. The nodes' values are appended to the result list in traversal order
 def preorderIterative(root, result):
-	if not root:
-		return
 	stack = []
 	stack.append(root)
 	while stack:
@@ -59,7 +57,16 @@ def preorderIterative(root, result):
 		if node.right: stack.append(node.right) #right first - stack pop!
 		if node.left:  stack.append(node.left)	
 		
-			
+'''
+                     1
+                   /  \ 
+                  2     3 
+                /  \   / \
+               4    5  6  7
+
+pre order traversal = 1,2,4,5,3,6,7               
+'''
+
 #Initialize Binary Tree
 root = BinaryTree(1)
 root.insertLeft(2)
@@ -71,5 +78,5 @@ root.getRight().insertRight(7)
 
 #Traverse
 result = []
-preorderRecursive(root, result)
-print("PreOrder traversal (recursive): %s" % (result))
+preorderIterative(root, result)
+print("PreOrder traversal (iterative): %s" % (result))
