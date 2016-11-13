@@ -1,5 +1,5 @@
 '''
-Question: Print one tree level each line
+Question: Print one tree levels each line
 '''
 
 
@@ -47,29 +47,41 @@ class BinaryTree:
 import queue
 def LevelOrderPrintEachLevel(node):
 	q = queue.Queue()
-	q.put(node)
-	level = 0 #current level
-	q.put(level)
-	lastPrintlevel = 0 #current print level
-	result = []
-	while (not q.empty()):
-		new = q.get()      #get data
-		newlevel = q.get() #get level
-		#NEW LEVEL!!!
-		if (newlevel != lastPrintlevel):
-			print(result)
-			del result[:]
-			lastPrintlevel += 1
-		result.append(new.data)
-		if new.left is not None:
-			q.put(new.left)
-			q.put(newlevel +1)
-		if new.right is not None:
-			q.put(new.right)
-			q.put(newlevel +1)
-	print(result)  #child nodes
+	current_depth = 0
+	q.put(node)          #store node and depth
+	q.put(current_depth) #store node and depth
+	nodes_at_same_depth = []
+	while not q.empty():
+		new_node = q.get()  #get node and depth
+		new_depth = q.get() #get node and depth
+		if new_depth != current_depth:
+			print(nodes_at_same_depth)
+			del nodes_at_same_depth[:] #flush all values
+			current_depth = new_depth #new depth
+		nodes_at_same_depth.append(new_node.data)
+		if new_node.left:
+			q.put(new_node.left)
+			q.put(current_depth+1)
+		if new_node.right:
+			q.put(new_node.right)
+			q.put(current_depth+1)
+	#print leaf nodes!
+	print(nodes_at_same_depth)
 
-			
+
+'''
+                     1
+                   /  \ 
+                  2     3 
+                /  \   / \
+               4    5  6  7
+
+level order traversal by depth -               
+[1]
+[2, 3]
+[4, 5, 6, 7]
+'''			
+
 #Initialize Binary Tree
 root = BinaryTree(1)
 root.insertLeft(2)
