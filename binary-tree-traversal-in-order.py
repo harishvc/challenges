@@ -42,7 +42,6 @@ class BinaryTree:
 def inorderRecursive(root, result):
 	if not root:
 		return
-
 	inorderRecursive(root.left, result)
 	result.append(root.data)
 	inorderRecursive(root.right, result)
@@ -50,8 +49,6 @@ def inorderRecursive(root, result):
 		
 # In-order iterative traversal. The nodes' values are appended to the result list in traversal order
 def inorderIterative(root, result):
-	if not root:
-		return
 	stack = []
 	node = root
 	while stack or node:
@@ -63,7 +60,15 @@ def inorderIterative(root, result):
 			result.append(node.data)
 			node = node.right
 
-			
+'''
+                     1
+                   /  \ 
+                  2     3 
+                /  \   / \
+               4    5  6  7
+
+in order traversal = 4,2,5,1,6,3,7               
+'''			
 #Initialize Binary Tree
 root = BinaryTree(1)
 root.insertLeft(2)
@@ -75,5 +80,5 @@ root.getRight().insertRight(7)
 
 #Traverse
 result = []
-inorderRecursive(root, result)
-print("InOrder traversal (recursive): %s" % (result))
+inorderIterative(root, result)
+print("InOrder traversal (iterative): %s" % (result))
