@@ -49,28 +49,34 @@ def postorderRecursive(root, result):
 
 
 # Post-order iterative traversal. The nodes' values are appended to the result list in traversal order
-def postorderIterative(root, result):
-    if not root:
-        return
-    visited = set() #keep track  of visited nodes
-    stack = []
-    node = root
-    while stack or node:
-        if node: #node first then stack
-            stack.append(node)
-            node = node.left  #Go all the way to the left!!!!
-        else:
-            node = stack.pop() #no more nodes on left. get parent node
-            if node.right and not node in visited:  #single visit
-                visited.add(node) 
-                stack.append(node)
-                node = node.right #Go all the way to the right!!!!
-            else:
-                result.append(node.data)
-                node = None #no right, so set to none to stop iteration
+def postorderIterative(root,result):
+	visited = set()
+	mystack = []
+	#IMPORTANT: append None , trigger for end
+	mystack.append(None)
+	node = root
+	while node:
+		if node.left and node.left not in visited:
+			mystack.append(node)
+			node = node.left
+		elif node.right and node.right not in visited:
+			mystack.append(node)
+			node = node.right
+		else:  #left and right nodes have beeen processed
+			result.append(node.data)
+			visited.add(node)
+			node = mystack.pop()
 
 
-			
+'''
+                     1
+                   /  \ 
+                  2     3 
+                /  \   / \
+               4    5  6  7
+
+post order traversal = 4,5,2,6,7,3,1               
+'''			
 #Initialize Binary Tree
 root = BinaryTree(1)
 root.insertLeft(2)
@@ -82,9 +88,9 @@ root.getRight().insertRight(7)
 
 #Traverse
 result = []
-postorderRecursive(root, result)
-print("PostOrder traversal (recursive): %s" % (result))
+#postorderRecursive(root, result)
+#print("PostOrder traversal (recursive): %s" % (result))
 
-del result[::]
+#del result[::]
 postorderIterative(root, result)
 print("PostOrder traversal (Iterative): %s" % (result))
