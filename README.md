@@ -63,7 +63,7 @@ Collection of interesting questions and solutions that involve data structures, 
 2. [How many trailing zeros are in n! (n factorial)](https://github.com/harishvc/challenges/blob/master/factorial-trailingzero.py) :memo: 
 3. [Reverse an integer](https://github.com/harishvc/challenges/blob/master/reverse-integer.py)  
 4. [Find the Greatest Common Divisior (GCD) of two positive integers](https://github.com/harishvc/challenges/blob/master/find-greatest-common-divisor.py)
-5. [Validate Sudoku](https://github.com/harishvc/challenges/blob/validate-sudoku.py) [TODO]    
+5. [Validate Sudoku](https://github.com/harishvc/challenges/blob/master/validate-sudoku.py) :art:   
 6. [Flatten an object representation. Example {a:1, b:2, c:{d:3}} flattens to {a:1,b:2,c.d:3}](https://github.com/harishvc/challenges/blob/master/flatten-hash.py) :boom: :thumbsup:      
 7. Matrix    
    7.1 [Print the matrix from outside to inside (Spiral)](https://github.com/harishvc/challenges/blob/master/matrix-spiral-print.py) :boom:   
