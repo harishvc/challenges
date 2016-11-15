@@ -63,10 +63,6 @@ def wordBreak(s,mydict):
 	return True if i == size else False
 
 
-#s = "leetcode"
-#mydict = ["leet", "code"]
-#print("%s split? %s" % (s,wordBreak(s,mydict)))
-
 a = "leetcode"
 d2 = [["leet", "code"], ["le","code","leet","etco","ode"]]
 for d in d2:
