@@ -72,6 +72,9 @@ Collection of interesting questions and solutions that involve data structures, 
    7.4 [Rotate a 2D matrix anti-clockwise 90 degrees](https://github.com/harishvc/challenges/blob/master/rotate-matrix-anti-clockwise.py)  :thumbsup:  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
 9. Find the coordinates of the rectangle in the 2 dimensional list  [TODO]   
+10. Check if a number is a happy number
+11. Given an integer and returns all possible combinations of its factors
+12. Given a digit string (from phone keypad), return all possible letter combinations that the number could represent
 
 
 ### Permutations and Combinations
@@ -196,10 +199,11 @@ Collection of interesting questions and solutions that involve data structures, 
    12.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
    12.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)   
    12.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
-13. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
-14. [Implement a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes: :rocket:    
-15. [Implement a function that inserts, deletes and getrandom in O(1)](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:   
-16. Write a function that returns values randomly, according to their weight [TODO]
+ 13. Design :bulb:   
+    13.1 [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
+    13.2 [Implement a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes: :rocket:    
+    13.3 [Implement a function that inserts, deletes and getrandom in O(1)](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:   
+    13.4 Write a function that returns values randomly, according to their weight [TODO]   
 
 
 ### Strings
@@ -506,6 +510,10 @@ Collection of interesting questions and solutions that involve data structures, 
 5.  [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
 6.  [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
 7. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
+8. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
+9. [Implement a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes: :rocket:    
+10. [Implement a function that inserts, deletes and getrandom in O(1)](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:   
+11. Write a function that returns values randomly, according to their weight [TODO]  
   
 
 ### Algorithms and Data Structures Resources
