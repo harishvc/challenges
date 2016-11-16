@@ -199,7 +199,7 @@ Collection of interesting questions and solutions that involve data structures, 
    12.2 [Find #conflicting appointments](https://github.com/harishvc/challenges/blob/master/interval-scheduler.py) :memo:  
    12.3 [Find conflicting appointments](https://github.com/harishvc/challenges/blob/master/find-conflicting-appointments.py)   
    12.4 [Find the next earliest availability given availability and meeting duration](https://github.com/harishvc/challenges/blob/master/time-availability.py)  :rocket: :notes:      
- 13. Design :bulb:   
+13. Design :bulb:   
     13.1 [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
     13.2 [Implement a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes: :rocket:    
     13.3 [Implement a function that inserts, deletes and getrandom in O(1)](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:   
