@@ -509,11 +509,11 @@ Collection of interesting questions and solutions that involve data structures, 
 4.  [Given a family tree, find oldest sisters of the given person, oldest sister in the family tree and the oldest ancestor](https://github.com/harishvc/challenges/blob/master/people-tree.py)
 5.  [Design a command line alarm clock](https://github.com/harishvc/challenges/blob/master/alarm-clock.py)
 6.  [Design a rate limiting web service](https://github.com/harishvc/challenges/blob/master/rate-limiting-webservice.py)  :boom: :bulb: :notes:  
-7. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:
-8. [Design a data structure that provides insert, remove, contains and get random operations in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
-9. [Implement a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes: :rocket:    
-10. [Implement a function that inserts, deletes and getrandom in O(1)](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:   
-11. Write a function that returns values randomly, according to their weight [TODO]  
+7. [Using OOP design a elevator](https://github.com/harishvc/challenges/blob/master/elevator.py)  :notes:   
+8. [Design a data structure that implements insert, remove, contains and get random in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
+9. [Design a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes:  :rocket:    
+10. [Implement a function that inserts, deletes and getrandom in O(1) time](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:   
+11. Write a function that returns values randomly, according to their weight [TODO]   
   
 
 ### Algorithms and Data Structures Resources
