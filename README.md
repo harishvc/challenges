@@ -203,7 +203,8 @@ Collection of interesting questions and solutions that involve data structures, 
     13.1 [Design a data structure that implements insert, remove, contains and get random in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
     13.2 [Design a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes: :rocket:    
     13.3 [Implement a function that inserts, deletes and getrandom in O(1) time](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:   
-    13.4 Write a function that returns values randomly, according to their weight [TODO]   
+    13.4 [Write a function that returns values randomly, according to their weight](https://github.com/harishvc/challenges/blob/master/weighted-random-numbers.py)  :bulb: :notes:     
+
 
 
 ### Strings
@@ -513,7 +514,7 @@ Collection of interesting questions and solutions that involve data structures, 
 8. [Design a data structure that implements insert, remove, contains and get random in O(1) time](https://github.com/harishvc/challenges/blob/master/design-data-structure-constant-time.py) :bulb: :rocket: :thumbsup:  
 9. [Design a data structure that implements increment, decrement, max and min in constant time](https://github.com/harishvc/challenges/blob/master/inc-dec-max-min.py)  :art: :notes:  :rocket:    
 10. [Implement a function that inserts, deletes and getrandom in O(1) time](https://github.com/harishvc/challenges/blob/master/insert-delete-getrandom.py)  :notes: :bulb:   
-11. Write a function that returns values randomly, according to their weight [TODO]   
+11. [Write a function that returns values randomly, according to their weight](https://github.com/harishvc/challenges/blob/master/weighted-random-numbers.py)  :bulb: :notes:     
   
 
 ### Algorithms and Data Structures Resources
