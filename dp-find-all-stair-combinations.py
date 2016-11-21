@@ -3,20 +3,17 @@
 #http://www.geeksforgeeks.org/count-ways-reach-nth-stair/
 
 #Find all possible combinations
+def stairCombinations(total_steps,path):
+	if total_steps == 0:
+		yield path
+	elif total_steps == 1:
+		yield path + [1]
+	else:
+		yield from stairCombinations(total_steps-1,path+[1])  #1 step
+		yield from stairCombinations(total_steps-2,path+[2])  #2 step
 
-def stairCombinations(n,path,steps=None):
-	if n ==0:
-		yield path+[steps]
-	elif n > 0:
-		if steps is not None:
-			yield from stairCombinations(n-1,path+[steps],1)
-			yield from stairCombinations(n-2,path+[steps],2) 
-		else:
-			yield from stairCombinations(n-1,path,1)
-			yield from stairCombinations(n-2,path,2) 
-
-n = 4
-print("Total #stairs=", n)
-print("All possible combinations ...")
+n=4
+print("stairs=%d" %(n))
+print("all possible combinations")
 for i in stairCombinations(n,[]):
 	print(i)
