@@ -1,23 +1,21 @@
 #Find all coin denominations that make a given value
 
-#Solution: Similar to tree traversal 
-#Keep reducing the target value until the value == 0 or negative!
-def AllCoinPermutations(target,denominations,path,level,result):
+'''
+OBSERVATION
+1. Keep reducing the target value until the value == 0 or negative!
+2. if value == 0 then permutation is valid!
+3. If we start bottom up, we can compute #permutations from earlier computed values
+'''
+
+#Solution: Dynamic Programming (bottom up)
+def AllCoinPermutations(target,denominations,path):
 	if target == 0:
-		#case 1: valid path
-		result.append(path[:level])
-		return 0
-	elif target < 0:
-		#case 2: invalid path
-		return 
+		yield path
 	else:
-		#case 3: continue to go further
 		for d in denominations:
-			#IMPORTANT: insert current value to path at level
-			path.insert(level,d)
-			#IMPORTANT: level+1
-			AllCoinPermutations(target-d,denominations,path,level+1,result)
-		return  
+			if target >= d:
+				yield from AllCoinPermutations(target-d,denominations,path+[d])
+
 
 #Print ONLY permutations with distinct combinations
 def PrintUnique(result):
@@ -40,10 +38,9 @@ denominations  = [2,3,1]
 target = 5
 result = []
 print("All coin denominations that add up to %d" % (target))
-AllCoinPermutations(target,denominations,[],0,result)
+for r in AllCoinPermutations(target,denominations,[]):
+	print(r)	
 
 #Print ONLY permutations with distinct combinations
+#print("unique combinations ...")
 #PrintUnique(result)
-
-for r in result:
-	print(r)
