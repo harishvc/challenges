@@ -1,71 +1,39 @@
 #Find minimum number of denominations that make a given value and what are the denominations? 
 
+'''
+OBSERVATION
+1. Keep reducing the target value until the value == 0 or negative!
+2. if value == 0 then permutation is valid!
+3. If we start bottom up, we can compute #permutations from earlier computed values
+'''
 
-#Solution 1: Recursion
+
 import sys
-def MinCoins(target,denominations):
-	if target == 0:
-		#case 1: valid path
-		return 0
-	elif target < 0:
-		#case 2: invalid path
-		return sys.maxsize
-	else:
-		#depth = minimum #ways to reach target, depth of the recursion tree
-		depth = sys.maxsize
+def minCoinsDenominations(target,denominations):
+	table = [sys.maxsize] * (target+1)   #range from 1 .... target
+	dtable = [sys.maxsize] * (target+1)  #min denomination index 
+	table[0] = 0 #important: valid permutation
+	for i in range(1,len(table)):
 		for d in denominations:
-			#denominations = 1,2,3
-			#depth = 1 + min(f(target-1),f(target-2), f(target-3))
-			 depth = min(depth,MinCoins(target-d,denominations))
-		#IMPORTANT: Add +1 	 
-		return 1 + depth 
+			if i>=d:
+				count = 1+table[i-d]
+				if count < table[i]:
+					table[i] = count
+					dtable[i] = denominations.index(d)
+	#print(table)
+	#print(dtable)
 
-
-#Solution 2: DP
-#Time complexity: O(dt) d= # denominations, t = target
-#OBSERVATION: 
-# result holds ALL possible values of target starting 1 .... target(inclusive)
-# if target is large and #denominations are less, more space is taken
-def MinCoinsDP(target,denominations):
-	#start from index=1 for simplicity
-	#result = [0,1,2 ..... target]
-	result = [sys.maxsize] * (target + 1)
-	#result index stores the index value of minimum denomination
-	resultIndex = [sys.maxsize] * (target + 1)
-	#base case: if target =0, valid path!
-	result[0] = 0
-	for partialSum in range(1,target+1):
-		#depth = minimum #ways to reach target, depth of the recursion tree
-		depth = sys.maxsize
-		for d in denominations:
-			#check if result[partialSum-d] < depth 
-			if partialSum >= d and result[partialSum-d] < depth:
-				depth = result[partialSum-d]
-				#update resultIndex - result index stores the index value of minimum denomination
-				resultIndex[partialSum] = denominations.index(d)
-		result[partialSum] = 1 + depth
-	return result[-1],resultIndex
-
-
-def FindDenominations(target,denominations,resultIndex):
+	#Traverse the dtable to find min values
 	result = []
-	while target != 0:
-		#result index stores the index value of minium denomination
-		#find minimum denomination
-		d = denominations[resultIndex[target]]
-		result.append(d)
-		#calculate new target based on minimum denomination
-		target = target - d
-	return result
+	while target > 0:
+		result.append(denominations[dtable[target]])
+		target = target - denominations[dtable[target]]
 
+	return table[-1],result	
 
-#OBSERVATION: Order of denominations does not matter
-denominations  = [2,3,1]
+denominations  = [1,2,3]
 target = 5
-
-
-result, resultIndex = MinCoinsDP(target,denominations)
-mindenominations = FindDenominations(target,denominations,resultIndex)
-
-print("Minimum # of coins to make %d=%d" % (target,result))
-print("Coins to make %d=%s" % (target,mindenominations))
+result = []
+min_coins, result = minCoinsDenominations(target,denominations)
+print("min coins to make %d = %d" % (target,min_coins))
+print("denominations to make %d = %s" %(target,result))
