@@ -7,26 +7,32 @@ import Tree
 #Time complexity: O(n)
 #Space complexity: O(n)
 #Design: Iterate the binary tree level by level and store node, path and path sum in a stack
-def Root2LeafPaths(root):
-    nodes = []
-    nodes.append(root)         #node
-    nodes.append(root.data)    #path
-    nodes.append(root.data)    #pathsum
-    while (len(nodes) > 0):
-        pathsum = nodes.pop()
-        path = nodes.pop()
-        next = nodes.pop()
-        if(next.getRight() is not None):
-            nodes.append(next.getRight())
-            nodes.append(str(path) + "->" + str(next.getRight().data))
-            nodes.append((pathsum + next.getRight().data))
-        if(next.getLeft() is not None):    
-            nodes.append(next.getLeft())
-            nodes.append(str(path) + "->" + str(next.getLeft().data))
-            nodes.append((pathsum + next.getLeft().data))
-        if(next.getLeft() is None and next.getRight() is None):
-            print("path:%s path sum:%d" % (path,pathsum))
-            
+def Root2LeafPaths(node,path=[],path_sum=0):
+    path_sum += node.data
+    path.append(node.data)
+    if node.left is None and node.right is None:
+        print("%s sum=%d" % (path,path_sum))
+    else:
+        Root2LeafPaths(node.left,path,path_sum) if node.left else None
+        Root2LeafPaths(node.right,path,path_sum) if node.right else None
+    path.pop()
+    path_sum -= node.data
+
+
+'''
+
+                         1
+                       /    \ 
+                      2       3
+                    /   \    /  \
+                  4      5  6    7
+                 /        \
+                8          9
+                            \
+                            10
+                             \
+                             11
+'''
 
 #Build binary tree 
 root = Tree.BinaryTree(1)
