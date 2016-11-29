@@ -72,7 +72,7 @@ Collection of interesting questions and solutions that involve data structures, 
    7.4 [Rotate a 2D matrix anti-clockwise 90 degrees](https://github.com/harishvc/challenges/blob/master/rotate-matrix-anti-clockwise.py)  :thumbsup:  
 8. [Number of perfect squares between two given numbers](https://github.com/harishvc/challenges/blob/master/count-perfect-squares.py)    
 9. Find the coordinates of the rectangle in the 2 dimensional list  [TODO]   
-10. Check if a number is a happy number
+10. [Check if a number is a happy number](https://github.com/harishvc/challenges/blob/master/happy-number.py)
 11. Given an integer and returns all possible combinations of its factors
 12. Given a digit string (from phone keypad), return all possible letter combinations that the number could represent
 
