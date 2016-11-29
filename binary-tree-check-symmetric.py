@@ -56,7 +56,16 @@ def levelOrder(root, result):
 		if n.right is not None:
 			#print("traversing right ..",n.right.getData())
 			q.put(n.right)  
-					
+
+'''
+
+             1
+           /    \
+          2      2
+        /   \   /  \ 
+       4    5  5    4
+
+'''					
 #Initialize Binary Tree
 root = BinaryTree(1)
 root.insertLeft(2)
