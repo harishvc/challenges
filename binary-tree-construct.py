@@ -80,24 +80,39 @@ NOTES/OBSERVATIONS:
    3.1 continue to recurse - for each value in pre order find the left and right values using inorder traversal! 
 '''
 def buildTree(preorder, inorder):
-	if not inorder: return None # inorder is empty
-	root = BinaryTree(preorder[0])
-	rootPos = inorder.index(preorder[0])
-	root.left = buildTree(preorder[1:1+rootPos], inorder[:rootPos])
-	root.right = buildTree(preorder[rootPos+1:], inorder[rootPos+1:])
-	return root	
+	if inorder: 
+		root = BinaryTree(preorder[0])
+		rootPos = inorder.index(preorder[0])
+		root.left = buildTree(preorder[1:1+rootPos], inorder[:rootPos])
+		root.right = buildTree(preorder[rootPos+1:], inorder[rootPos+1:])
+		return root
+	else:
+		return None	
 	
 #Construct Binary tree from post-order and in-order traversal
 def buildTree2(postorder, inorder):
-	if not inorder: return None # inorder is empty
-	root = BinaryTree(postorder[-1])
-	rootPos = inorder.index(postorder[-1])
-	root.left = buildTree2(postorder[:rootPos], inorder[:rootPos])
-	root.right = buildTree2(postorder[rootPos:-1], inorder[rootPos+1:])
-	return root	
+	if inorder: 
+		root = BinaryTree(postorder[-1])
+		rootPos = inorder.index(postorder[-1])
+		root.left = buildTree2(postorder[:rootPos], inorder[:rootPos])
+		root.right = buildTree2(postorder[rootPos:-1], inorder[rootPos+1:])
+		return root	
+	else:
+		return None # inorder is empty
 
 
-			
+'''
+             1
+           /   \
+          2     3
+        /  \    /  \ 
+       4    5   6   7 
+
+pre-order   = [1, 2, 4, 5, 3, 6, 7]
+in-order    = [4, 2, 5, 1, 6, 3, 7]
+post-order  = [4, 5, 2, 6, 7, 3, 1]
+'''			
+
 #Initialize Binary Tree
 root = BinaryTree(1)
 root.insertLeft(2)
