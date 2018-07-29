@@ -20,23 +20,22 @@ class LLNode:
 
 #1. split input into 2 at the first middle
 #2. return head to the second list
+#3. length of both linked list are equal when even
+#4. length of 2nd linked list is > length of first when odd
 def splitInMiddle(node):
 	slow = node
 	fast = node
-	#until valid next node 
 	while fast.next:
-		#jump 2hops?
+		#2 hop?
 		if fast.next.next:
-			fast = fast.next.next 
-			slow = slow.next      #reaches first middle for even
-		else:
-			break
-	#split input into 2
-	tmp = slow.next
-	#end first list
-	slow.next = None
-	#return start of second list 		
-	return tmp
+			fast = fast.next.next
+			slow = slow.next	
+		else:  #ending
+			fast = fast.next
+			tmp = slow
+			slow = slow.next
+			tmp.next = None #IMPORTANT: end first list
+	return slow
 
 def reverse(node):
 	prev=None
