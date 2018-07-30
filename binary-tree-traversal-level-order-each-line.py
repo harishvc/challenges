@@ -45,28 +45,33 @@ class BinaryTree:
 #Add level for each node in the queue
 #When levels change print node(s)				    
 import queue
-def LevelOrderPrintEachLevel(node):
-	q = queue.Queue()
-	current_depth = 0
-	q.put(node)          #store node and depth
-	q.put(current_depth) #store node and depth
-	nodes_at_same_depth = []
-	while not q.empty():
-		new_node = q.get()  #get node and depth
-		new_depth = q.get() #get node and depth
-		if new_depth != current_depth:
-			print(nodes_at_same_depth)
-			del nodes_at_same_depth[:] #flush all values
-			current_depth = new_depth #new depth
-		nodes_at_same_depth.append(new_node.data)
-		if new_node.left:
-			q.put(new_node.left)
-			q.put(current_depth+1)
-		if new_node.right:
-			q.put(new_node.right)
-			q.put(current_depth+1)
-	#print leaf nodes!
-	print(nodes_at_same_depth)
+def LevelOrderPrintEachLevel(root):
+	next_node = queue.Queue()   #[1,"END",2,3,"END",4,5,6,7,"END"]
+	result = []                 #[1,"END",2,3,"END",4,5,6,7,"END"]
+	depth = 1
+	next_node.put(root)
+	next_node.put("END")           #Delimited between levels
+	while not next_node.empty():   #until queue is not empty
+		node = next_node.get()
+		if node != "END":
+			result.append(node.data)
+			if node.left:
+				next_node.put(node.left)
+			if node.right:
+				next_node.put(node.right)
+		else:
+			if not next_node.empty():  #IMPORTANT! avoid infinite loop
+				next_node.put("END")
+			result.append("END")
+
+	#print(result)  #[1,"END",2,3,"END",4,5,6,7,"END"]
+	level_nodes = []
+	for node_value in result:
+		if node_value != "END":
+			level_nodes.append(node_value)
+		else:
+			print(level_nodes)
+			del level_nodes[::]
 
 
 '''
