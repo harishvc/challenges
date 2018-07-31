@@ -418,13 +418,13 @@ Collection of interesting questions and solutions that involve data structures, 
 1. Introduction    
    1.1 [Directed Acyclic Graph (DAG)](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
 2. DAG Traversal  
-   2.1 [Depth First Traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-dfs.py)    
-   2.2 [Breadth First Traversal] (https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom:   
+   2.1 [Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-traversal-dfs.py)    
+   2.2 [Breadth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom:   
    2.3 [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)   
    2.4 Dijkstra shortest path algorithm  [TODO]   
 3. Topological Sort   
-    3.1 [Topological Sort (given edges)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
-    3.2 [Topological Sort using Kahn's algorithm (given adjacency list)] (https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:   
+    3.1 [Topological Sort (given edges)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
+    3.2 [Topological Sort using Kahn's algorithm (given adjacency list)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:   
     3.3 [Given a sorted dictionary (array of words) of an alien language, find order of characters in the language](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-alien-dictionary.py)   
     3.4 Given a trip start and destination print the itenary         
 4. Cycle   
