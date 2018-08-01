@@ -14,9 +14,9 @@ def BuildMaxHeap(A):
 # Modified percolateDown to skip branch already heapified
 def percolateDownMax(A, ParentIndex, Size):
   MaxChildIndex = 2 * ParentIndex + 1  #child on left
-  while MaxChildIndex <= Size:
+  while MaxChildIndex < Size:
     # right child exists and is value of right child larger than left child
-    if (MaxChildIndex < Size) and (A[MaxChildIndex] < A[MaxChildIndex + 1]):
+    if (A[MaxChildIndex] < A[MaxChildIndex + 1]):
         MaxChildIndex += 1
     # child node has value larger than parent
     if A[MaxChildIndex] > A[ParentIndex]:
