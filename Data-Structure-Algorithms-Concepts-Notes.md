@@ -18,7 +18,7 @@
   * Graph
   
 
-#Sort Algorithms
+# Sort Algorithms
 
 | Algorithm | Best Time Complexity | Average Time Complexity| Worst Time Complexity | Space Complexity | Stable | Recursive/Iterative | Notes
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -138,17 +138,26 @@
 
 ## BINARY TREES
 * A tree is a binary tree if <strong>each node has zero,one or two child nodes</strong>
-* #Nodes at level h is 2^h
-* #Total nodes is 2^h+1 - 1
+* #Nodes at level h is 2^(h-1)
+  * height = 1, nodes at this height = 1
+  * height = 2, nodes at this height = 2
+  * height = 3, nodes at this height = 4 
+* #Total nodes is (2^h) - 1
+  * Node in a Binary Tree with height =1  is 1
+  * Node in a Binary Tree with height =2  is 3
+  * Node in a Binary Tree with height =3  is 7
+  * Node in a Binary Tree with height =4  is 15
 * Definitions (there a subjective elements, ask for clarification)   
-    * <strong>Balanced Binary Tree</strong> is defined as a tree such that the <strong>height</strong> of the two subtrees of 
-     any node <strong>never differ by more than one</strong>.
-    * <strong>Complete Binary Tree:</strong> 
+    * <strong>Balanced Binary Tree</strong>
+      * <strong>height</strong> of the two subtrees of any node <strong>never differ by more than one</strong>
+    * <strong>Complete Binary Tree (example: Heap):</strong> 
       * Each level is fully filled except perhaps for the last level  
       * Last level is filled left to right  
-      * All child nodes are height h or h-1. Example <strong>Heap</strong>          
-    * <strong>Full Binary Tree:</strong> Each node has <strong>exactly 2 child nodes</strong> except leaf nodes. This type of tree is also referred to as **proper binary tree, 2-tree or strict binary tree**.       
-    * <strong>Perfect Binary Tree:</strong> <strong>Full and complete</strong>. Rare in real life and interviews.
+      * All child nodes are height h or h-1          
+    * <strong>Full Binary Tree (AKA: Proper Binary Tree, 2-tree or Strict Binary Tree):</strong> 
+      * Each node has <strong>exactly 2 child nodes</strong> except leaf nodes.       
+    * <strong>Perfect Binary Tree:</strong> 
+      * <strong>Full and complete</strong>. Rare in real life and interviews.
     * <strong>Structurally symmetric binary tree</strong> is defined as a tree where if you draw a vertical line passing through 
      the root node then the left half should be the mirror image of the right half. <strong>Check for data and structure</strong>
     * <strong>Structurally identical binary tree</strong> is defined as a tree where left and right sub-nodes have exactly the same number 
@@ -299,7 +308,19 @@ such that **each node within a subset can be reached from each other node**.
      This is important in real-time systems where you want to provide bounds on how long each operation takes  
    * Keys are sorted  
 
-# TIME COMPLEXITY
+# TIME COMPLEXITY 
+
+## Fundamentals
+* O(1): Constant
+* O(log N): Logrithmic
+* O(n): Linear
+* O(n!): Factorial
+* O(n)^2: Quadratic
+* O(n)^3: Cubic
+* O(2^n): Exponential base 2
+* O(n^n): Exponential base n
+
+## Data Structures
 * Dictionary: O(1) for insert, delete and lookup 
 * Linked List: O(1) insert/delete and O(n) lookup
 * List: O(1) insert, O(n) delete, and O(n) lookup
