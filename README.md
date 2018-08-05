@@ -115,7 +115,7 @@ Collection of interesting questions and solutions that involve data structures, 
     1.7 [Radix Sort](https://github.com/harishvc/challenges/blob/master/sort-radix-sort.py)    
 2. [Sort lists,lists of lists and list of dictionaries](https://github.com/harishvc/challenges/blob/master/python-intro3.py)  
 3. [Sort a list of ones, twos and threes](https://github.com/harishvc/challenges/blob/master/sort-array-containing-zeros-ones-twos.py)  
-4. [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)
+4. [Given two sorted list merge them](https://github.com/harishvc/challenges/blob/master/sort-merge.py)
 5. [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py) 
 6. [Sort version numbers](https://github.com/harishvc/challenges/blob/master/sort-version-numbers.py) :memo: :boom:   
 7. Median  
@@ -161,11 +161,11 @@ Collection of interesting questions and solutions that involve data structures, 
 5. Design a dictionary that performs insert, lookup and delete in constant time O(1)    
 6. Find the majority element  :boom:  
    6.1 [From unsorted list in linear time and constant storage](https://github.com/harishvc/challenges/blob/master/list-popular-element-unsorted.py)  :thumbsup:         
-   6.2 [From sorted list in logrithmic time and constant storage] (https://github.com/harishvc/challenges/blob/master/list-popular-element-sorted.py)  :thumbsup:  :bulb:                
+   6.2 [From sorted list in logrithmic time and constant storage](https://github.com/harishvc/challenges/blob/master/list-popular-element-sorted.py)  :thumbsup:  :bulb:                
 7. Two lists  
    7.1 [Find the intersection of two sorted lists](https://github.com/harishvc/challenges/blob/master/find-intersection-of-sorted-lists.py) :memo:  
    7.2 [Given two lists, find a pair of values (one from each array) such that you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py) [TODO]   
-   7.3 [Given two sorted list merge them] (https://github.com/harishvc/challenges/blob/master/sort-merge.py)  
+   7.3 [Given two sorted list merge them](https://github.com/harishvc/challenges/blob/master/sort-merge.py)  
    7.4 [Merge sorted lists](https://github.com/harishvc/challenges/blob/master/merge-sorted-list.py)   
    7.5 [Find min value of two unsorted lists](https://github.com/harishvc/challenges/blob/master/min-value-two-unsorted-lists.py) :bulb: :thumbsup:  
 8. Duplicates  
@@ -175,7 +175,7 @@ Collection of interesting questions and solutions that involve data structures, 
    9.1 Find all possible 2 numbers in the list that add up to the given sum    
    9.2 [Find all possible triplets in the list that add up to the given sum](https://github.com/harishvc/challenges/blob/master/find-three-numbers-that-add-to-a-given-input.py)       
    9.3 [Find all possible triplets in the list that satisfies a^2 + b^2 = c^2](https://github.com/harishvc/challenges/blob/master/find-integers-that-match-expression.py)  :notes: :boom:     
-   9.4 [There are numbers from 1 to N in an array. One of the number gets duplicated and one is missing. Find out the duplicate number]  (https://github.com/harishvc/challenges/blob/master/find-missing-and-duplicate-number.py) :notes: [TODO]    
+   9.4 [There are numbers from 1 to N in an array. One of the number gets duplicated and one is missing. Find out the duplicate number](https://github.com/harishvc/challenges/blob/master/find-missing-and-duplicate-number.py) :notes: [TODO]    
    9.5 [Given two arrays of integers, find a pair of values (one from each array) you can swap so that both arrays sum to the same value](https://github.com/harishvc/challenges/blob/master/lists-swap-same-sum.py)  [TODO]  
    9.6 [Find three numbers when multipled provide max value from the given input](https://github.com/harishvc/challenges/blob/master/find-three-numbers-when-multipled-provide-max-value.py)  
    9.7 Find all possible quadruplets in the list that add up to the given sum   
@@ -234,7 +234,7 @@ Collection of interesting questions and solutions that involve data structures, 
    9.2 [Generate all the substrings of a string](https://github.com/harishvc/challenges/blob/master/strings-find-all-substrings.py)           
    9.3 [Find first occurance of substring](https://github.com/harishvc/challenges/blob/master/first-occurance-of-substring.py)   
    9.4 [Find the longest repeating substring (_longest substring of a string that occurs at least twice_)](https://github.com/harishvc/challenges/blob/master/string-longest-increasing-substring.py)  :boom: :bulb: :notes:  
-   9.5 [Find the longest substring with two unique characters] (https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
+   9.5 [Find the longest substring with two unique characters](https://github.com/harishvc/challenges/blob/master/longest-subset-of-string-with-two-characters.py) :notes: :thumbsup:  
    9.6 Find the longest substring with k unique characters  
    9.7 [Find the longest substring with non-repeating characters](https://github.com/harishvc/challenges/blob/master/string-longest-substring-unique-character.py)      
    9.8 [Longest Substring with At Most K Distinct Characters](https://github.com/harishvc/challenges/blob/master/string-Kmost-distinct-substring.py) :art: :thumbsup:         
