@@ -413,6 +413,8 @@ Collection of interesting questions and solutions that involve data structures, 
    5.3 Find K popular values in an unsorted list  
 6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py) [TODO]
 7. Merge K sorted list of size N
+8. Maintain a Max Heap of size K
+9. Check if a Binary tree is a Complete Binary Tree?
 
 ### Graphs
 1. Introduction    
