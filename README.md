@@ -403,8 +403,8 @@ Collection of interesting questions and solutions that involve data structures, 
 1. Fundamentals  
   1.1 [Convert unsorted list to max heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py) :memo: :rocket:  
   1.2 [Insert value into a heap](https://github.com/harishvc/challenges/blob/master/heap-add-value.py) :rocket:  
-  1.3 [Check if a Binary tree is a Complete Binary Tree](https://github.com/harishvc/challenges/blob/master/heap-valid.py) [TODO]
-  1.4 [Heap Sort][https://github.com/harishvc/challenges/blob/master/heapsort.py]   
+  1.3 [Check if a Binary tree is a Complete Binary Tree](https://github.com/harishvc/challenges/blob/master/heap-valid.py) [TODO]  
+  1.4 [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)   
 2. Moderate  
   2.1. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)    
   2.2. Find the Kth most popular value in an unsorted list  
