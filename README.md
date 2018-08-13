@@ -399,22 +399,20 @@ Collection of interesting questions and solutions that involve data structures, 
 22. [Find size of BST tree in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-bst-size.py)  :notes: :rocket:    
 23. [Delete nodes outside the given range in BST](https://github.com/harishvc/challenges/blob/master/bst-delete-nodes-outside-range.py) :bulb: :notes:     
 
-
 ### Heaps  
-1. Heaps Introduction   
-   1.1 [Max Heap](https://github.com/harishvc/challenges/blob/master/heaps-introduction.py)    
-   1.2 [Min Heap](https://github.com/harishvc/challenges/blob/master/mylib/MinHeap.py) :rocket:       
-2. [heapq Python library introduction](https://github.com/harishvc/challenges/blob/master/heapq-library.py)  
-3. [Convert unsorted list to heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py):memo:  
-4. [Heap Sort](https://github.com/harishvc/challenges/blob/master/heapsort.py)  
-5. Kth  
-   5.1 [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)    
-   5.2 Find the Kth most popular value in an unsorted list  
-   5.3 Find K popular values in an unsorted list  
-6. [Design an algorithm to compute the k elements closest to the median of an list](https://github.com/harishvc/challenges/blob/master/heap-k-elements-close-to-array-median.py) [TODO]
-7. Merge K sorted list of size N
-8. Maintain a Max Heap of size K
-9. Check if a Binary tree is a Complete Binary Tree?
+1. Fundamentals  
+  1.1 [Convert unsorted list to max heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py) :memo: :rocket:  
+  1.2 [Insert value into a heap](https://github.com/harishvc/challenges/blob/master/heap-add-value.py) :rocket:  
+  1.3 [Check if a Binary tree is a Complete Binary Tree](https://github.com/harishvc/challenges/blob/master/heap-valid.py) [TODO]
+  1.4 [Heap Sort][https://github.com/harishvc/challenges/blob/master/heapsort.py]   
+2. Moderate  
+  2.1. [Find Kth maximum in an unsorted list](https://github.com/harishvc/challenges/blob/master/find-k-maximum.py)    
+  2.2. Find the Kth most popular value in an unsorted list  
+  2.3. Find K popular values in an unsorted list  
+3. Advanced  
+  3.1 Merge K sorted list of size N   
+  3.2 Maintain a Max Heap of size K
+
 
 ### Graphs
 1. Introduction    
