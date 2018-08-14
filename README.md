@@ -16,8 +16,8 @@ Collection of interesting questions and solutions that involve data structures, 
 * [Queue & Double-ended queue](#queue--double-ended-queue)
 * [Binary Trees](#binary-trees)
 * [Binary Search Tree (BST)](#binary-search-tree-bst)
-* [Heaps](#heaps)
-* [Graphs](#graphs)
+* [Heap](#heap)
+* [Graph](#graph)
 * [Dynamic Programming](#dynamic-programming)
 * [Design &amp; Algorithms](#design--algorithms)
 * [Bitwise Operations](#bitwise-operations)
@@ -399,7 +399,7 @@ Collection of interesting questions and solutions that involve data structures, 
 22. [Find size of BST tree in a Binary Tree](https://github.com/harishvc/challenges/blob/master/binary-tree-max-bst-size.py)  :notes: :rocket:    
 23. [Delete nodes outside the given range in BST](https://github.com/harishvc/challenges/blob/master/bst-delete-nodes-outside-range.py) :bulb: :notes:     
 
-### Heaps  
+### Heap
 1. Fundamentals  
   1.1 [Convert unsorted list to max heap in linear time](https://github.com/harishvc/challenges/blob/master/convert-list-to-heap.py) :memo: :rocket:  
   1.2 [Insert value into a heap](https://github.com/harishvc/challenges/blob/master/heap-add-value.py) :rocket:  
@@ -414,30 +414,30 @@ Collection of interesting questions and solutions that involve data structures, 
   3.2 Maintain a Max Heap of size K
 
 
-### Graphs
-1. Introduction    
-   1.1 [Directed Acyclic Graph (DAG)](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py) 
-2. DAG Traversal  
-   2.1 [Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-traversal-dfs.py)    
-   2.2 [Breadth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom:   
-   2.3 [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)   
-   2.4 Dijkstra shortest path algorithm  [TODO]   
-3. Topological Sort   
-    3.1 [Topological Sort (given edges)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
-    3.2 [Topological Sort using Kahn's algorithm (given adjacency list)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:   
-    3.3 [Given a sorted dictionary (array of words) of an alien language, find order of characters in the language](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-alien-dictionary.py)   
-    3.4 Given a trip start and destination print the itenary         
-4. Cycle   
-   _A cycle is a **closed path** - visit a node for the **second time** before all its decendents have been visited_    
-   4.1 [Detect cycle using Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-DFS.py) :thumbsup: :notes:  
-   4.2 [Detect cycle using Topological Sort](https://github.com/harishvc/challenges/blob/master/graph-detect-cycle-topological-sort.py)       
-5. [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
+### Graph
+1. Fundamentals  
+   1.1 [Directed Acyclic Graph (DAG)](https://github.com/harishvc/challenges/blob/master/graph-dag-introduction.py)     
+   1.2 [Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-traversal-dfs.py)    
+   1.3 [Breadth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom:   
+   1.4 [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)  
+   1.5 Dijkstra shortest path algorithm  [TODO]   
+   1.6 [Topological Sort (given edges)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
+   1.7 [Topological Sort using Kahn's algorithm (given adjacency list)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:   
+      _A cycle is a **closed path** - visit a node for the **second time** before all its decendents have been visited_    
+   1.8 [Detect cycle using Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-DFS.py) :thumbsup: :notes:  
+   1.9 [Detect cycle using Topological Sort](https://github.com/harishvc/challenges/blob/master/graph-detect-cycle-topological-sort.py)       
+2. Moderate  
+   2.1 [Given a sorted dictionary (array of words) of an alien language, find order of characters in the language](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-alien-dictionary.py)   
+   2.2 Given a trip start and destination print the itenary         
+   2.3 [Given a boolean 2D matrix, find the number of islands](https://github.com/harishvc/challenges/blob/master/graph-find-islands.py)  :notes: :rocket:     
+   2.4 [Find longest path in a Directed Acyclic Graph from a source vertex](https://github.com/harishvc/challenges/blob/master/graph-longest-path.py) :boom:     
+3. Advanced  
+    3.1 [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
     while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
     intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) :memo: :thumbsup:  
-6. [Given a graph find the Strongly Connected Components (SSC)](https://github.com/harishvc/challenges/blob/master/graph-strongly-connected-components.py)  :notes: :rocket:   
-7. [Given a boolean 2D matrix, find the number of islands](https://github.com/harishvc/challenges/blob/master/graph-find-islands.py)  :notes: :rocket:     
-8. [Find longest path in a Directed Acyclic Graph from a source vertex](https://github.com/harishvc/challenges/blob/master/graph-longest-path.py) :boom:  
+    3.2 [Given a graph find the Strongly Connected Components (SSC)](https://github.com/harishvc/challenges/blob/master/graph-strongly-connected-components.py)  :notes: :rocket:   
 
+  
 ### Dynamic Programming
 1. [Multiply two numbers without using operators *, / and with **minimal operations**](https://github.com/harishvc/challenges/blob/master/dp-multiply-using-addition-subtraction.py) :thumbsup:    
 2. [Find the **power set**](https://github.com/harishvc/challenges/blob/master/dp-power-set.py) :notes: :bulb:  
