@@ -420,22 +420,22 @@ Collection of interesting questions and solutions that involve data structures, 
    1.2 [Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-traversal-dfs.py)    
    1.3 [Breadth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-traversal-bfs.py)  :thumbsup: :boom:   
    1.4 [In a directed graph given two nodes find out whether if a path exists](https://github.com/harishvc/challenges/blob/master/graph-check-if-path-exists.py)  
-   1.5 Dijkstra shortest path algorithm  [TODO]   
-   1.6 [Topological Sort (given edges)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
-   1.7 [Topological Sort using Kahn's algorithm (given adjacency list)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:   
-      _A cycle is a **closed path** - visit a node for the **second time** before all its decendents have been visited_    
-   1.8 [Detect cycle using Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-DFS.py) :thumbsup: :notes:  
-   1.9 [Detect cycle using Topological Sort](https://github.com/harishvc/challenges/blob/master/graph-detect-cycle-topological-sort.py)       
+   1.5 [Topological Sort (given edges)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort.py)   
+   1.6 [Topological Sort using Kahn's algorithm (given adjacency list)](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-kahn.py) :notes: :rocket:   
 2. Moderate  
-   2.1 [Given a sorted dictionary (array of words) of an alien language, find order of characters in the language](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-alien-dictionary.py)   
-   2.2 Given a trip start and destination print the itenary         
-   2.3 [Given a boolean 2D matrix, find the number of islands](https://github.com/harishvc/challenges/blob/master/graph-find-islands.py)  :notes: :rocket:     
-   2.4 [Find longest path in a Directed Acyclic Graph from a source vertex](https://github.com/harishvc/challenges/blob/master/graph-longest-path.py) :boom:     
+      _A cycle is a **closed path** - visit a node for the **second time** before all its decendents have been visited_    
+   2.1 [Detect cycle using Depth First Traversal](https://github.com/harishvc/challenges/blob/master/graph-detect-cycles-DFS.py) :thumbsup: :notes:  
+   2.2 [Detect cycle using Topological Sort](https://github.com/harishvc/challenges/blob/master/graph-detect-cycle-topological-sort.py)       
+   2.3 [Given a sorted dictionary (array of words) of an alien language, find order of characters in the language](https://github.com/harishvc/challenges/blob/master/graph-topological-sort-alien-dictionary.py)   
+   2.4 Given a trip start and destination print the itenary         
+   2.5 [Find longest path in a Directed Acyclic Graph from a source vertex](https://github.com/harishvc/challenges/blob/master/graph-longest-path.py) :boom:     
 3. Advanced  
-    3.1 [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
-    while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
-    intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) :memo: :thumbsup:  
-    3.2 [Given a graph find the Strongly Connected Components (SSC)](https://github.com/harishvc/challenges/blob/master/graph-strongly-connected-components.py)  :notes: :rocket:   
+   3.1 Dijkstra shortest path algorithm  [TODO]   
+   3.2 [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
+        while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
+        intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) :memo: :thumbsup:  
+   3.3 [Given a boolean 2D matrix, find the number of islands](https://github.com/harishvc/challenges/blob/master/graph-find-islands.py)  :notes: :rocket:     
+   3.4 [Given a graph find the Strongly Connected Components (SSC)](https://github.com/harishvc/challenges/blob/master/graph-strongly-connected-components.py)  :notes: :rocket:   
 
   
 ### Dynamic Programming
