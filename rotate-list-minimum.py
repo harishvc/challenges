@@ -45,6 +45,30 @@ def minValue(a,start,end):
 		#condition 5: min value in first half 	
 		return minValue(a,start,mid-1)
 
+
+#Solution 3: O(log n)
+#Credit:
+#Inspired by https://www.interviewcake.com/question/python/find-rotation-point
+def find_rotation_point(ginput):
+	#assertion #1: value at index 0 is always > value at rotation point
+	guess = 0
+	#
+	start = 0
+	end = len(ginput) - 1
+	while start <  end:
+		mid = start + (end-start)//2
+		if ginput[mid] >=  ginput[guess]:
+			#go right
+			start = mid
+		else:
+			#go left
+			end=mid
+		if start+1 == end:
+			#assertion #2: 
+			  #start point at the end of sorted list
+			  #end points at the start of sorted list
+			return end
+
 a = [[2,3,4,5,6,7,8,1],[5,6,1,2,3,4],[4,5,6,7,0,1,2],[0,1,2,3,4,5,6,7],[2,1],[1,2],[3,2,1]]
 for ra in a:
 	print(ra , " >>> " , minValue(ra,0,len(ra)-1))
