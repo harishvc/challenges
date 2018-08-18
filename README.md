@@ -192,7 +192,7 @@ Collection of interesting questions and solutions that involve data structures, 
    10.10 Given a list and a number K, print the **maximum sum subarray** of size K  
 11. Rotated list   
    11.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
-   11.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) :thumbsup:  
+   11.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) #RotationPoint :thumbsup: :cake: 
    11.3 [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
 12. Time intervals  
    12.1 [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
@@ -433,7 +433,7 @@ Collection of interesting questions and solutions that involve data structures, 
    3.1 Dijkstra shortest path algorithm  [TODO]   
    3.2 [Given a source word, target word and dictionary, transform the source word to target by changing/adding/removing 1 character at a time, 
         while all intermediate words being valid words in the dictionary. Return the transformation chain which has the smallest number of 
-        intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) :memo: :thumbsup:  
+        intermediate words](https://github.com/harishvc/challenges/blob/master/graph-transform-word.py) #WordLadder :memo: :thumbsup:  
    3.3 [Given a boolean 2D matrix, find the number of islands](https://github.com/harishvc/challenges/blob/master/graph-find-islands.py)  :notes: :rocket:     
    3.4 [Given a graph find the Strongly Connected Components (SSC)](https://github.com/harishvc/challenges/blob/master/graph-strongly-connected-components.py)  :notes: :rocket:   
 
