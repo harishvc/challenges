@@ -192,7 +192,7 @@ Collection of interesting questions and solutions that involve data structures, 
    10.10 Given a list and a number K, print the **maximum sum subarray** of size K  
 11. Rotated list   
    11.1 [Rotate a list to the right or left by n places](https://github.com/harishvc/challenges/blob/master/rotate-array.py)    
-   11.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) #RotationPoint :thumbsup: :cake: 
+   11.2 [Find minimum in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/rotate-list-minimum.py) #RotationPoint :thumbsup: :cake:    
    11.3 [Search a target number in a rotated sorted list](https://github.com/harishvc/challenges/blob/master/binary-search-tree-search-sorted-rotated-list.py) :bulb:     
 12. Time intervals  
    12.1 [Merge overlapping time intervals](https://github.com/harishvc/challenges/blob/master/merge-overlapping-intervals.py) :notes:   
