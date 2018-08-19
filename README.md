@@ -445,9 +445,7 @@ Collection of interesting questions and solutions that involve data structures, 
    2^N subsets for a set of size N_       
 3. [Generate all possible N pairs of **balanced parentheses**](https://github.com/harishvc/challenges/blob/master/dp-balanced-parentheses.py)  :rocket: :bulb:      
 4. [Find string **combinations** of length K](https://github.com/harishvc/challenges/blob/master/dp-string-combinations.py)        
-5. Find all string **permutations**     
-    5.1 [String with **unique values**](https://github.com/harishvc/challenges/blob/master/dp-string-permutation.py)  
-    5.2 [String with **duplicate values**](https://github.com/harishvc/challenges/blob/master/dp-string-permutation.py#L38) :rocket: :bulb:     
+5. [Find all permutations of a string in sorted (lexicographic) order - should handle duplicate values](https://github.com/harishvc/challenges/blob/master/dp-string-permutation.py) :notes: :rocket: :bulb:      
 6. Given stock prices during a time period find **maximum gain**    
     6.1 [singe purchase and sale](https://github.com/harishvc/challenges/blob/master/find-maximum-gain.py) :memo:  
     6.2  [Multiple single purchases and sales without overlaps](https://github.com/harishvc/challenges/blob/master/find-maximum-gain-multiple.py) :art: :thumbsup:     
