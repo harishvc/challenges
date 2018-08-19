@@ -41,6 +41,7 @@ def pre_processing(linput):
 	#character_count = [2,1,1]
 	characters = []
 	character_count = []
+	#sorting 
 	for key in sorted(c_dict):
 		characters.append(key)
 		character_count.append(c_dict[key])
@@ -57,11 +58,16 @@ def find_permutations(characters,character_count,level,path):
 		if character_count[i] == 0:
 			continue
 		else:
+			#insert new character in current level
 			path[level] = characters[i]
+			#reduce # occurance of current character
 			character_count[i] = character_count[i] - 1
+			#increase level
 			level = level + 1
 			find_permutations(characters, character_count, level, path)
+			#decrease level
 			level = level - 1
+			#increase #occurance
 			character_count[i] = character_count[i] + 1
 
 
