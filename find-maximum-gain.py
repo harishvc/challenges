@@ -44,12 +44,12 @@ def maxProfit(a):
 	lowest_stock_price = a[0]
 	for i in range(1, len(a)):
 		if a[i] > lowest_stock_price:
-			profit = a[i] - lowest_stock_price
+			profit = max(profit,a[i] - lowest_stock_price)
 		else:
 			lowest_stock_price = a[i]  #new lowest!
 	return profit 
 
 
-stock_prices = [[5,10,4,6,7,2,7], [5, 10, 4, 6, 12],[1,2,3,4,5], [5,1]]
+stock_prices = [[5,10,4,6,7,2,7], [5, 10, 4, 6, 12],[1,2,3,4,5], [1,6,5]]
 for s in stock_prices:
 	print("input >>> %s  max profit=%d" % (s,maxProfit(s)))
