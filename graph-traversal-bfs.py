@@ -21,26 +21,17 @@ Space complexity is O(|V|) since at worst case you need to hold all nodes in the
 '''
 
 import queue
-def BFT(graph,start,end):
-	q = queue.Queue()
-	#Store node and path
-	q.put([start,start])
-	#Keep track of visited nodes
-	visited = []
-	while not q.empty():
-		#get node and path from the queue
-		nextNode,path = q.get()
-		#Found path!
-		if nextNode == end:
-			yield path
-		else:
-			#Visit all the edges of nextNone
-			visited.append(nextNode)
-			for node in graph[nextNode]:
-				#node has been visited?
-				if node not in visited:
-					#Store node and path
-					q.put([node,path+node])
+def BFT(graph,traversed_nodes,visited,target):
+	while not traversed_nodes.empty():
+		current = traversed_nodes.get()
+		current_node,current_path = current[0],current[1]
+		if current_node == target:
+			yield current_path
+		elif current_node not in visited:
+			visited.append(current_node)
+			for node in graph[current_node]:
+				traversed_nodes.put([node,current_path+node])	
+
 
 
 #Adjacency list
@@ -53,5 +44,8 @@ graph = {'A': ['B', 'C'],
 
 start = 'A'
 end  = 'F'
-for path in BFT(graph,start,end):
+q = queue.Queue()
+q.put([start,start])
+for path in BFT(graph,q,[],end):
 	print("->".join(path))
+

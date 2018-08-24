@@ -18,24 +18,18 @@ Space complexity in a recursive implementation is O(h) [worst case], where h is 
 '''
 
 #Depth First Traversal
-def DFT(graph,ConnectedNodes,end,visited,path):
-	for ConnectedNode in ConnectedNodes:
-		if ConnectedNode not in visited:
-			#Append current node to visited
-			visited.append(ConnectedNode)
-			#Append current node to path
-			path.append(ConnectedNode) 
-			#Found path! 
-			if ConnectedNode == end:
-				yield path
-			else:
-				#continue
-				yield from DFT(graph,graph[ConnectedNode],end,visited,path)
-			#pop current node from visited
-			visited.pop()
-			#pop current node from path
+def DFT(graph,current,visited,target,path):
+	for node in graph[current]:
+		if node == target:
+			path.append(node)
+			yield path
 			path.pop()
-
+		elif node not in visited:
+			visited.append(node)
+			path.append(node)
+			yield from DFT(graph,node,visited,target,path)
+			path.pop()
+			visited.pop()
 
 #Adjacency list
 graph = {'A': ['B', 'C'],
@@ -48,5 +42,5 @@ graph = {'A': ['B', 'C'],
 start = 'A'
 end  = 'F'
 
-for path in DFT(graph,graph[start],end,[start],[start]):
+for path in DFT(graph,start,[start],end,[start]):
 	print("->".join(path))
