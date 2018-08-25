@@ -8,7 +8,7 @@ Reference: https://github.com/harishvc/challenges/blob/master/images/word-break.
 s = "leetcode"
 mydict = ["leet", "code"]
 
-          3   -1   -1    7   -1   -1  -1    -1
+          3   -1   -1    -1   7   -1  -1    -1
 lookup = [0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]
           l    e    e    t    c    o    d    e
 
@@ -42,7 +42,9 @@ i = 5, x=0,1,2,3,4,5
     >>> o
 '''
 
-
+'''
+`lookup` contains the end index of a word or -1
+'''
 def wordBreak(s,mydict):
 	lookup = [-1] * len(s)
 	size = len(s)
