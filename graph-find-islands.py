@@ -1,7 +1,11 @@
 #Given a boolean 2D matrix, find the number of islands.
 
-#http://www.geeksforgeeks.org/find-number-of-islands/
-#http://i.imgur.com/9vxrKNw.png
+'''
+References
+1.http://www.geeksforgeeks.org/find-number-of-islands/
+2. http://i.imgur.com/9vxrKNw.png
+3. https://www.youtube.com/watch?v=CGMNePwovA0
+'''
 
 def isValid(a,row,col,visited,rowmax,colmax):
 	if row >= 0 and row <rowmax and col >=0 and col< colmax and a[row][col] == 1 and visited[row][col] == 0:
