@@ -31,5 +31,7 @@ root.insertLeft(2)
 root.insertRight(10)
 root.getLeft().insertLeft(1)
 root.getLeft().insertRight(3)
+root.getLeft().getLeft().insertLeft(25)
+root.getLeft().getLeft().getLeft().insertLeft(60)
 
 print("Is this tree balanced? %s" % (isBalancedBinaryTree(root)))
