@@ -16,7 +16,7 @@ OBSERVATION:
 #Solution: Dynamic Programming (bottom up)
 def totalPermutations(target,values):
 	table = [0]*(target+1)
-	#IMPORTANT: table[0] = 0 , valid path!!!
+	#IMPORTANT: table[0] = 1 , valid path!!!
 	table[0] = 1
 	for t in range(1,target+1):
 		for s in values:
