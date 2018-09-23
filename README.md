@@ -318,10 +318,10 @@ Collection of interesting questions and solutions that involve data structures, 
   1.2. [In-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-in-order.py)    
   1.3. [Post-order](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-post-order.py)    
   1.4 Level-order    
-    1.4.1 [Print tree level by level](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)  
-    1.4.2  [Print one tree level each line](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order-each-line.py) :notes:     
-    1.4.3 [Add nextRight attribute to each node](https://github.com/harishvc/challenges/blob/master/binary-tree-next-right.py) :notes: :rocket: :art:      
-    1.4.4 [Print nodes in **spiral order**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-spiral-order.py) :bulb:  TODO 
+   * 1.4.1 [Print tree level by level](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order.py)  
+   * 1.4.2  [Print one tree level each line](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-level-order-each-line.py) :notes:     
+   * 1.4.3 [Add nextRight attribute to each node](https://github.com/harishvc/challenges/blob/master/binary-tree-next-right.py) :notes: :rocket: :art:      
+   * 1.4.4 [Print nodes in **spiral order**](https://github.com/harishvc/challenges/blob/master/binary-tree-traversal-spiral-order.py) :bulb:  TODO 
 2. Essentials   
   2.0 [Binary Tree Essentials Library](https://github.com/harishvc/challenges/blob/master/mylib/BinaryTreeEssentials.py)  :thumbsup:  :rocket:    
   2.1 [Find # of leaves, half nodes and nodes in a binary tree](https://github.com/harishvc/challenges/blob/master/binary-tree-leaves-nodes.py)  
@@ -460,8 +460,8 @@ Collection of interesting questions and solutions that involve data structures, 
    9.1 [Find #ways a person can reach the top of the stairs](https://github.com/harishvc/challenges/blob/master/dp-count-stair-combinations.py) :notes:      
    9.2 [Find all possible combinations](https://github.com/harishvc/challenges/blob/master/dp-find-all-stair-combinations.py)  :bulb:    
 10. Given target and possible values    
-    10.1 [Find #permutations to achieve the target](https://github.com/harishvc/challenges/blob/master/dp-target-permutations.py#L17)   
-    10.2 [Find all permutations to achieve the target](https://github.com/harishvc/challenges/blob/master/dp-target-permutations.py#L29)  :art:         
+    10.1 [Find #combinations to achieve the target](https://github.com/harishvc/challenges/blob/master/dp-target-combinations.py#L23) :notes: :rocket:     
+    10.2 [Find all unique combinations to achieve the target](https://github.com/harishvc/challenges/blob/master/dp-target-combinations.py#L38)  :art:         
 11. Given denominations and a total   
     11.1 [Minimum # coins needs to reach the total and what are the coins?](https://github.com/harishvc/challenges/blob/master/dp-minimum-coins.py)  :rocket: :notes:     
     11.2 [Find all possible combinations to reach a total](https://github.com/harishvc/challenges/blob/master/coin-change.py) :bulb: :boom:    
