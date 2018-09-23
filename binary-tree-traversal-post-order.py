@@ -50,23 +50,25 @@ def postorderRecursive(root, result):
 
 # Post-order iterative traversal. The nodes' values are appended to the result list in traversal order
 def postorderIterative(root,result):
-	visited = set()
-	mystack = []
-	#IMPORTANT: append None , trigger for end
-	mystack.append(None)
+	seen = []
 	node = root
-	while node:
-		if node.left and node.left not in visited:
-			mystack.append(node)
+	visited = set() #keep track of nodes visited
+	while seen or node:
+		if node:
+			seen.append(node) 
 			node = node.left
-		elif node.right and node.right not in visited:
-			mystack.append(node)
-			node = node.right
-		else:  #left and right nodes have beeen processed
-			result.append(node.data)
-			visited.add(node)
-			node = mystack.pop()
-
+		else:
+			node = seen.pop()
+			if node not in visited:
+				visited.add(node)
+				#IMPORTANT: Add node back to stack
+				seen.append(node) 
+				node = node.right
+			else:
+				#complete visting the left and right node
+				result.append(node.data)
+				#IMPORTANT: change node to None so next node can get processed
+				node = None
 
 '''
                      1
